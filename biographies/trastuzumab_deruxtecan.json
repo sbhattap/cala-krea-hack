@@ -1,0 +1,235 @@
+{
+  "id": "trastuzumab_deruxtecan",
+  "name": "Trastuzumab deruxtecan",
+  "brands": [
+    "Enhertu"
+  ],
+  "hero": {
+    "label": "Drug biography · No. 002",
+    "line": "Herceptin's antibody, given a chemotherapy payload to carry, and a new chance for people with very little HER2. Told in dated, sourced chapters.",
+    "spec": "HER2-directed antibody-drug conjugate · first FDA approval Dec 20, 2019 · brand: Enhertu"
+  },
+  "chapters": [
+    {
+      "id": "origin",
+      "date": "1998",
+      "title": "Built on Herceptin",
+      "scene": "family",
+      "line": "Enhertu starts with Herceptin's antibody, then gives it a chemotherapy payload to carry.",
+      "body": [
+        "Enhertu's antibody has the same amino-acid sequence as trastuzumab, the antibody Genentech created and the FDA first approved as Herceptin in 1998. Daiichi Sankyo designed Enhertu and later developed it together with AstraZeneca.",
+        "Daiichi Sankyo attached a chemotherapy drug, deruxtecan (DXd), through a linker that is cut once the drug is inside the cell. Each antibody carries about 8 drug molecules, compared with about 3.5 for Kadcyla, the earlier trastuzumab-based conjugate, and the released drug can also reach neighboring cancer cells."
+      ],
+      "stat": [
+        "≈8",
+        "drug molecules carried by each antibody, vs about 3.5 for Kadcyla"
+      ],
+      "source": {
+        "label": "eCancerMD: fam-trastuzumab deruxtecan (Enhertu)",
+        "url": "https://www.ecancermd.com/drugs/trastuzumab-deruxtecan"
+      },
+      "extra_sources": [
+        {
+          "label": "ADC Review: the rise of HER2-targeting ADCs",
+          "url": "https://www.adcreview.com/editorial/the-rise-of-her2-targeting-adcs-and-the-journey-from-breakthrough-therapy-to-biosimilars-and-biobetters"
+        },
+        {
+          "label": "Drugs.com: Herceptin FDA approval history",
+          "url": "https://www.drugs.com/history/herceptin.html"
+        }
+      ],
+      "link": {
+        "drug": "trastuzumab",
+        "label": "Read Herceptin's biography"
+      },
+      "cala": "data/raw/trastuzumab_deruxtecan/origin.json",
+      "krea_prompt": "a glass Y-shaped antibody carrying a small glowing amber lantern, flat ink illustration, navy and cream, no text"
+    },
+    {
+      "id": "deal",
+      "date": "Mar 28, 2019",
+      "title": "A $6.9 billion partner",
+      "scene": "abandoned",
+      "line": "AstraZeneca paid $1.35 billion up front to co-develop the drug with Daiichi Sankyo.",
+      "body": [
+        "On March 28, 2019, Daiichi Sankyo and AstraZeneca announced a global agreement to develop and sell trastuzumab deruxtecan, then called DS-8201. AstraZeneca paid $1.35 billion up front, with milestone payments that could bring the total to $6.9 billion.",
+        "The two companies agreed to share costs and profits equally worldwide, with Daiichi Sankyo keeping exclusive rights in Japan."
+      ],
+      "stat": [
+        "$6.9B",
+        "potential value of the AstraZeneca agreement"
+      ],
+      "source": {
+        "label": "Daiichi Sankyo press release (Mar 2019)",
+        "url": "https://daiichisankyo.us/press-releases/-/article/daiichi-sankyo-and-astrazeneca-announce-global-development-and-commercialization-collaboration-for-daiichi-sankyo-s-her2-targeting-antibody-drug-conju"
+      },
+      "extra_sources": [],
+      "cala": "data/raw/trastuzumab_deruxtecan/deal.json"
+    },
+    {
+      "id": "approval",
+      "date": "Dec 20, 2019",
+      "title": "Approved, nine months later",
+      "scene": "approval",
+      "line": "The FDA granted accelerated approval for metastatic HER2-positive breast cancer.",
+      "body": [
+        "On December 20, 2019, the FDA granted Enhertu accelerated approval for HER2-positive breast cancer that could not be removed by surgery or had spread, in people who had already received at least two HER2-targeted treatments.",
+        "That was about nine months after the AstraZeneca agreement."
+      ],
+      "stat": [
+        "2",
+        "earlier HER2 treatments needed before Enhertu, under the first approval"
+      ],
+      "source": {
+        "label": "Drugs.com: Enhertu FDA approval history",
+        "url": "https://www.drugs.com/history/enhertu.html"
+      },
+      "extra_sources": [
+        {
+          "label": "Cancer Health: FDA approves Enhertu",
+          "url": "https://www.cancerhealth.com/article/fda-approves-enhertu-her2positive-advanced-breast-cancer"
+        }
+      ],
+      "cala": "data/raw/trastuzumab_deruxtecan/approval.json"
+    },
+    {
+      "id": "destiny_breast03",
+      "date": "2022",
+      "title": "Head to head with Kadcyla",
+      "scene": "biosimilar",
+      "line": "In DESTINY-Breast03, Enhertu kept the cancer from growing far longer than Kadcyla, with a cost to the lungs.",
+      "body": [
+        "DESTINY-Breast03 randomly assigned 524 people with metastatic HER2-positive breast cancer to Enhertu or Kadcyla. After 12 months, 75.8% on Enhertu were alive without their cancer growing, compared with 34.1% on Kadcyla, and Enhertu became the standard second treatment.",
+        "There was a cost. Drug-related lung inflammation (interstitial lung disease) affected about 10.5% of people on Enhertu and 1.9% on Kadcyla, mostly mild. Across nine trials, most cases were low grade, but some were severe and a small number were fatal."
+      ],
+      "stat": [
+        "75.8% vs 34.1%",
+        "alive without cancer growth at 12 months, Enhertu vs Kadcyla"
+      ],
+      "source": {
+        "label": "OnCo: DESTINY-Breast03 key paper (NEJM 2022)",
+        "url": "https://onco.cc/key-papers/paper-destiny-breast03-nejm-2022"
+      },
+      "extra_sources": [
+        {
+          "label": "PubMed: pooled analysis of lung disease in nine trials",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35963179"
+        },
+        {
+          "label": "ACTR: promise and challenges of trastuzumab deruxtecan",
+          "url": "https://actr.amegroups.org/article/view/10871/html"
+        }
+      ],
+      "cala": "data/raw/trastuzumab_deruxtecan/destiny_breast03.json"
+    },
+    {
+      "id": "her2_low",
+      "date": "Aug 6, 2022",
+      "title": "A new group of patients",
+      "scene": "aggressive",
+      "line": "Enhertu worked even in tumors with only a little HER2, a group called HER2-low.",
+      "body": [
+        "Until then, HER2 drugs were only for HER2-positive cancer. DESTINY-Breast04 tested Enhertu in 557 people whose metastatic cancer had low levels of HER2. Median survival was 23.4 months with Enhertu and 16.8 months with chemotherapy.",
+        "On August 6, 2022 the FDA approved Enhertu for HER2-low breast cancer, the first HER2-directed treatment for this group."
+      ],
+      "stat": [
+        "23.4 vs 16.8",
+        "median months of survival, Enhertu vs chemotherapy (HER2-low)"
+      ],
+      "source": {
+        "label": "ASCO Post: DESTINY-Breast04 improves survival in HER2-low",
+        "url": "https://ascopost.com/issues/june-25-2022/destiny-breast04-trial-t-dxd-significantly-improves-survival-in-patients-with-her2-low-metastatic-breast-cancer"
+      },
+      "extra_sources": [
+        {
+          "label": "Drugs.com: Enhertu FDA approval history",
+          "url": "https://www.drugs.com/history/enhertu.html"
+        },
+        {
+          "label": "OncLive: a new era of HER2 classification",
+          "url": "https://www.onclive.com/view/metastatic-breast-cancer-enters-a-new-era-of-her2-classification"
+        }
+      ],
+      "cala": "data/raw/trastuzumab_deruxtecan/her2_low.json"
+    },
+    {
+      "id": "tumor_agnostic",
+      "date": "Apr 5, 2024",
+      "title": "Beyond the breast",
+      "scene": "patients",
+      "line": "The FDA approved Enhertu for HER2-positive solid tumors of any type.",
+      "body": [
+        "On April 5, 2024 the FDA granted accelerated approval for adults with HER2-positive (IHC 3+) solid tumors that had spread or could not be removed, after earlier treatment, and with no good alternatives.",
+        "It was the first antibody-drug conjugate, and the first HER2-directed treatment, approved by tumor marker rather than by where the cancer started."
+      ],
+      "stat": [
+        "1st",
+        "antibody-drug conjugate approved for any HER2-positive solid tumor"
+      ],
+      "source": {
+        "label": "OncLive: tumor-agnostic approval of trastuzumab deruxtecan",
+        "url": "https://www.onclive.com/view/agnostic-approval-of-trastuzumab-deruxtecan-ushers-in-new-option-for-advanced-her2-solid-tumors"
+      },
+      "extra_sources": [
+        {
+          "label": "ONS Voice: FDA grants accelerated approval",
+          "url": "https://store.ons.org/publications-research/voice/news-views/04-2024/fda-grants-accelerated-approval-fam-trastuzumab"
+        }
+      ],
+      "cala": "data/raw/trastuzumab_deruxtecan/tumor_agnostic.json"
+    },
+    {
+      "id": "ultralow",
+      "date": "Jan 2025",
+      "title": "Even less HER2",
+      "scene": "aggressive",
+      "line": "Approval widened again, to tumors with barely detectable HER2.",
+      "body": [
+        "DESTINY-Breast06 enrolled 866 people with hormone receptor-positive metastatic breast cancer whose tumors were HER2-low or HER2-ultralow. Median time without the cancer growing was 13.2 months with Enhertu and 8.1 months with chemotherapy, and the benefit held for HER2-ultralow tumors.",
+        "In January 2025 the FDA approved Enhertu for HER2-low or HER2-ultralow metastatic breast cancer."
+      ],
+      "stat": [
+        "13.2 vs 8.1",
+        "median months without cancer growth, Enhertu vs chemotherapy"
+      ],
+      "source": {
+        "label": "CancerNetwork: FDA approves T-DXd in HER2-low/ultralow",
+        "url": "https://www.cancernetwork.com/view/fda-approves-t-dxd-in-her2-low-ultralow-breast-cancer"
+      },
+      "extra_sources": [
+        {
+          "label": "Cancer Health: FDA approves Enhertu for HER2-ultralow",
+          "url": "https://cancerhealth.com/article/fda-approves-enhertu-her2ultralow-metastatic-breast-cancer"
+        }
+      ],
+      "cala": "data/raw/trastuzumab_deruxtecan/ultralow.json"
+    },
+    {
+      "id": "today",
+      "date": "May 2026",
+      "year": 2026,
+      "title": "Moving earlier",
+      "scene": "early",
+      "line": "Enhertu was approved for early-stage HER2-positive breast cancer, before and after surgery.",
+      "body": [
+        "In DESTINY-Breast05, 1,635 people with HER2-positive early breast cancer that remained after initial treatment got Enhertu or Kadcyla after surgery. At three years, 92.4% on Enhertu were free of invasive disease, compared with 83.7% on Kadcyla. Lung inflammation affected 9.6% on Enhertu.",
+        "In May 2026 the FDA approved Enhertu for two new uses in HER2-positive early breast cancer, before and after surgery."
+      ],
+      "stat": [
+        "92.4%",
+        "free of invasive disease at 3 years after surgery (DESTINY-Breast05)"
+      ],
+      "source": {
+        "label": "Enhertu approved in the US for two new early breast cancer uses (Barchart)",
+        "url": "https://www.barchart.com/story/news/1968967/enhertu-fam-trastuzumab-deruxtecan-nxki-approved-in-the-us-for-two-new-indications-for-patients-with-her2-positive-early-breast-cancer"
+      },
+      "extra_sources": [
+        {
+          "label": "OncLive: adjuvant T-DXd for residual disease",
+          "url": "https://www.onclive.com/view/china-s-nmpa-approves-adjuvant-t-dxd-for-her2-early-breast-cancer-with-residual-invasive-disease"
+        }
+      ],
+      "cala": "data/raw/trastuzumab_deruxtecan/latest.json"
+    }
+  ]
+}

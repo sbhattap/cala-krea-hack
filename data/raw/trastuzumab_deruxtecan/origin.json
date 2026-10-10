@@ -1,0 +1,353 @@
+{
+  "content": "## Trastuzumab Deruxtecan (Enhertu) — Developer and Structure\n\n### Who developed it?\n\nTrastuzumab deruxtecan (brand name **Enhertu**; also known as T-DXd or DS-8201) was **designed by Daiichi Sankyo** and is **co-developed and co-commercialized with AstraZeneca**. Daiichi Sankyo is also the manufacturer. The underlying antibody component — trastuzumab — was originally created by **Genentech** and first launched in 1998 as an anti-HER2 monoclonal antibody for HER2-positive breast cancer.\n\n### How it is built from the trastuzumab antibody\n\nEnhertu is an **antibody-drug conjugate (ADC)** with three key components:\n\n1. **Antibody — Trastuzumab backbone:** The ADC uses a humanized anti-HER2 IgG1 monoclonal antibody with the **same amino-acid sequence as trastuzumab**. This antibody specifically targets the HER2 receptor on the surface of certain cancer cells.\n\n2. **Linker — Cleavable tetrapeptide:** A tetrapeptide-based **cleavable linker** connects the antibody to the cytotoxic payload. This linker is stable in the bloodstream but is cleaved inside cancer cells by lysosomal cathepsin enzymes after the ADC is internalized.\n\n3. **Payload — Deruxtecan (DXd):** The cytotoxic payload is **DXd**, a potent **topoisomerase I inhibitor** and derivative of exatecan. It causes DNA damage and apoptotic cell death in cancer cells.\n\n### Key distinguishing features\n\n- **High drug-to-antibody ratio (DAR ≈ 8):** Approximately eight linker-payload molecules are attached to each antibody — significantly higher than the earlier ADC trastuzumab emtansine (T-DM1), which has a DAR of roughly 3.5.\n- **Bystander killing effect:** Because DXd is highly membrane-permeable, once released inside a HER2-expressing cell it can diffuse into neighboring tumor cells — including those with low or no HER2 expression — extending the drug's anti-tumor activity.\n- **Mechanism of action:** After the trastuzumab antibody binds HER2 on the cell surface, the entire ADC complex is internalized. Inside the cell, lysosomal enzymes cleave the tetrapeptide linker, releasing DXd, which then inhibits topoisomerase I and triggers DNA damage and cell death.\n\nEnhertu is approved for multiple indications including HER2-positive and HER2-low breast cancer, HER2-positive gastric cancer, and HER2-mutant non-small cell lung cancer.",
+  "explainability": [
+    {
+      "content": "Trastuzumab deruxtecan (Enhertu) was designed by Daiichi Sankyo and co‑developed/co‑commercialized with AstraZeneca, as indicated by its DESIGNED_BY relationships.",
+      "references": [
+        "94c43bd5-27b3-438a-9b79-36671521f908"
+      ]
+    },
+    {
+      "content": "The underlying antibody component, trastuzumab, was originally created by Genentech, which is recorded in the CREATED_BY relationship for trastuzumab.",
+      "references": [
+        "761154b3-9412-43f9-9a76-a31b7296af0b"
+      ]
+    },
+    {
+      "content": "Enhertu uses a humanized anti‑HER2 IgG1 antibody that has the same amino‑acid sequence as trastuzumab, confirming it is built from the trastuzumab antibody backbone.",
+      "references": [
+        "9d3e6dd9-20ca-4363-b54b-2ece31e94cdc",
+        "f15a2271-7649-4740-a5bd-77b5fbfc4956",
+        "47272010-5a05-492d-b66a-9609480d799e"
+      ]
+    },
+    {
+      "content": "The ADC links this trastuzumab‑derived antibody to the cytotoxic payload deruxtecan (DXd) via a cleavable tetrapeptide linker, as described in the mechanism of action details.",
+      "references": [
+        "9d3e6dd9-20ca-4363-b54b-2ece31e94cdc",
+        "f15a2271-7649-4740-a5bd-77b5fbfc4956",
+        "47272010-5a05-492d-b66a-9609480d799e"
+      ]
+    }
+  ],
+  "context": [
+    {
+      "id": "94c43bd5-27b3-438a-9b79-36671521f908",
+      "content": "Entity: trastuzumab deruxtecan (type: Product, ID: 3d77f5e2-b38f-4e2e-8de1-5006005296b6). Properties: name = trastuzumab deruxtecan; description = An antibody‑drug conjugate approved for the treatment of HER2‑positive cancers.; launch_date = 2024-04-05; category = antibody-drug conjugate. Outgoing relationship types CREATED_BY: GENENTECH, INC.. Outgoing relationship types DESIGNED_BY: Daiichi Sankyo, ASTRAZENECA PLC. Outgoing relationship types MANUFACTURED_BY: Daiichi Sankyo.",
+      "origins": [
+        {
+          "source": {
+            "name": "Nature",
+            "url": "https://www.nature.com/"
+          },
+          "document": {
+            "name": "Nature",
+            "url": "https://www.nature.com/articles/s41591-026-04543-y"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "onclive.com",
+            "url": "https://www.onclive.com/"
+          },
+          "document": {
+            "name": "onclive.com",
+            "url": "https://www.onclive.com/view/agnostic-approval-of-trastuzumab-deruxtecan-ushers-in-new-option-for-advanced-her2-solid-tumors"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "ONCOLife Issues",
+            "url": "https://healthandpharma.net/"
+          },
+          "document": {
+            "name": "ONCOLife Issues",
+            "url": "https://healthandpharma.net/fda-approval-enhertut-her2-solid-tumors-treatment"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "braintumor.org",
+            "url": "https://braintumor.org/"
+          },
+          "document": {
+            "name": "braintumor.org",
+            "url": "https://braintumor.org/news/can-newly-approved-tissue-agnostic-drugs-benefit-pediatric-high-grade-glioma-patients"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "761154b3-9412-43f9-9a76-a31b7296af0b",
+      "content": "Entity: trastuzumab (type: Product, ID: 56c512a4-94a8-4ba7-842e-a91442ef82a9). Properties: name = trastuzumab; description = An anti‑HER2 monoclonal antibody medication for HER2‑positive breast cancer, developed by Genentech and launched in 1998.; launch_date = 1998-09-25; category = anti-HER2 monoclonal antibody. Outgoing relationship types CREATED_BY: GENENTECH, INC.. Outgoing relationship types DESIGNED_BY: Gail Lewis, GENENTECH, INC., VHIO FUNDACIO PRIVADA INSTITUT D'INVESTIGACIO ONCOLOGICA VALL-HEBRON.",
+      "origins": [
+        {
+          "source": {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/"
+          },
+          "document": {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Trastuzumab"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "Twenty-five years with HER2 targeted therapy",
+            "url": "https://pmc.ncbi.nlm.nih.gov/"
+          },
+          "document": {
+            "name": "Twenty-five years with HER2 targeted therapy",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11193558"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "Alcohol and Breast Cancer: What’s the Risk?",
+            "url": "https://blog.dana-farber.org/"
+          },
+          "document": {
+            "name": "Alcohol and Breast Cancer: What’s the Risk?",
+            "url": "https://blog.dana-farber.org/insight/2021/10/what-are-the-molecular-subtypes-of-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "www.criver.com",
+            "url": "https://www.criver.com/"
+          },
+          "document": {
+            "name": "www.criver.com",
+            "url": "https://www.criver.com/eureka/brief-history-her2herceptin"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "galenia.net",
+            "url": "https://www.galenia.net/"
+          },
+          "document": {
+            "name": "galenia.net",
+            "url": "https://www.galenia.net/el-vhio-avanza-en-el-estudio-de-terapias-personalizadas-para-diferentes-subgrupos-de-cancer-de-mama"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "www.drugs.com",
+            "url": "https://www.drugs.com/"
+          },
+          "document": {
+            "name": "www.drugs.com",
+            "url": "https://www.drugs.com/history/herceptin.html"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9d3e6dd9-20ca-4363-b54b-2ece31e94cdc",
+      "content": "## What is the action mechanism of ENHERTU®? ENHERTU®, trastuzumab deruxtecan, is an antibody-drug conjugate (ADC) specifically designed to target the HER2 receptor. The antibody is a humanized anti-HER2 IgG1, linked to deruxtecan, a topoisomerase I inhibitor, connected by a cleavable tetrapeptide linker. ### ENHERTU® is a specifically engineered antibody-drug conjugate (ADC)4​. 1. Yver A, et al. The art of innovation: clinical development of trastuzumab deruxtecan and redefining how [...] and redefining how antibody-drug conjugates target HER2-positive cancers . Ann Oncol 2020;31:430–34. Résumé des caractéristiques du produit. 3. Ogitani Y, et al. DS-8201a, A Novel HER2-Targeting ADC with a Novel DNA Topoisomerase I Inhibitor, Demonstrates a Promising Antitumor Efficacy with Differentiation from T- DM1 Clin Cancer Res. 2016;22(20):5097–5108. 4. Nakada T, et al. The Latest Research and Development into the Antibody–Drug Conjugate, [fam-] Trastuzumab Deruxtecan (DS-8201a), for",
+      "origins": [
+        {
+          "source": {
+            "name": "myastrazeneca.be",
+            "url": "https://www.myastrazeneca.be/fr/medicines/enhertu/breast-cancer/mode-of-action.html"
+          },
+          "document": {
+            "name": "Mode of Action",
+            "url": "https://www.myastrazeneca.be/fr/medicines/enhertu/breast-cancer/mode-of-action.html"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2a0df57d-d981-44f1-87bf-896fee74128d",
+      "content": "These tests are now approved to help identify HER2-positive metastatic breast cancer (mBC) patients who may be eligible for treatment with trastuzumab deruxtecan (Enhertu®; Daiichi Sankyo and AstraZeneca), an engineered HER2-directed antibody drug conjugate (ADC) composed of a humanized immunoglobulin G1 monoclonal antibody specifically targeting HER2, a tetrapeptide-based cleavable linker, and a potent topoisomerase I inhibitor payload. Compared with capecitabine-based regimens, trastuzumab [...] (Enhertu®; Daiichi Sankyo and AstraZeneca), a HER2 directed antibody-drug conjugate (ADC), Breakthrough Therapy Designation for the treatment of adult patients with unresectable or metastatic HER2 positive breast cancer who have received one or more prior anti-HER2-based regimens. In the study, the investigators evaluated the safety and efficacy of trastuzumab deruxtecan (5.4 mg/kg) versus ado-trastuzumab emtansine (T-DM1; Kadcyla™, Genentech/Roche), an antibody-drug conjugate that is effective [...] either in the metastatic setting. p=16114 The U.S. Food and Drug Administration (FDA) has granted trastuzumab deruxtecan\\ (Enhertu®; Daiichi Sankyo and AstraZeneca), a HER2 directed antibody-drug conjugate (ADC), Breakthrough Therapy Designation for the treatment of adult patients with unresectable or metastatic HER2 positive breast cancer who have received one or more prior anti-HER2-based regimens. ]]> The U.S. Food and Drug Administration (FDA) has granted trastuzumab deruxtecan\\ (Enhertu®;",
+      "origins": [
+        {
+          "source": {
+            "name": "ADC Review, Journal of Antibody-drug Conjugates",
+            "url": "https://www.adcreview.com/tag/kadcyla/feed"
+          },
+          "document": {
+            "name": "Kadcyla Archives » ADC Review",
+            "url": "https://www.adcreview.com/tag/kadcyla/feed"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f15a2271-7649-4740-a5bd-77b5fbfc4956",
+      "content": "HER2-directed antibody-drug conjugate (ADC) consisting of a humanized anti-HER2 IgG1 monoclonal antibody (same as trastuzumab) conjugated to a cleavable tetrapeptide linker attached to a topoisomerase I inhibitor payload (deruxtecan, DXd — an exatecan derivative). Drug-to-antibody ratio (DAR) = ~8 (high payload compared to T-DM1's DAR of ~3.5). Upon internalization, lysosomal cathepsins cleave the linker and release DXd intracellularly. DXd is highly membrane-permeable, enabling a potent [...] Fam-trastuzumab deruxtecan (Enhertu; T-DXd) is a HER2-directed antibody-drug conjugate (ADC) linking an anti-HER2 antibody to the topoisomerase I inhibitor DXd. Its high drug-to-antibody ratio and membrane-permeable payload produce a bystander killing effect, giving activity across HER2-positive, HER2-low, and even HER2-ultralow breast cancer, as well as HER2-positive gastric and HER2-mutant lung cancer. This monograph covers trastuzumab deruxtecan dosing (5.4 mg/kg IV every 3 weeks), [...] ### Monitoring\n\n Pulmonary symptoms and O2 saturation at each visit — ILD is a class effect\n Chest CT for any new/worsening cough, dyspnea, or fever\n Grade 1 ILD: interrupt; Grade ≥2: permanently discontinue + high-dose steroids\n CBC (neutropenia), LVEF, and HER2 status per indication\n\nBrand names: Enhertu, T-DXd, DS-8201\n\nDrug class: Antibody-Drug Conjugate\n\n## Mechanism of Action",
+      "origins": [
+        {
+          "source": {
+            "name": "ecancermd.com",
+            "url": "https://www.ecancermd.com/drugs/trastuzumab-deruxtecan"
+          },
+          "document": {
+            "name": "Fam-Trastuzumab Deruxtecan (Enhertu) | eCancerMD",
+            "url": "https://www.ecancermd.com/drugs/trastuzumab-deruxtecan"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "47272010-5a05-492d-b66a-9609480d799e",
+      "content": "Trastuzumab deruxtecan is a HER2-directed antibody-drug conjugate marketed as Enhertu®. It combines a trastuzumab-sequence humanized IgG1 antibody with a cleavable tetrapeptide linker and the topoisomerase I inhibitor DXd. Approximately eight linker-payload units are attached per antibody. The composition is described in the EMA product information.\n\nHow does Enhertu® work? [...] Trastuzumab deruxtecan is a HER2-directed antibody-drug conjugate marketed as Enhertu®. It combines a humanized IgG1 antibody with the same amino acid sequence as trastuzumab, a tetrapeptide-based cleavable linker and the membrane-permeable topoisomerase I inhibitor DXd. Approximately eight linker-payload molecules are attached to each antibody. After HER2 binding and internalization, lysosomal cleavage releases DXd, which causes DNA damage and apoptotic cell death. Product-specific analytical [...] ## What Is Trastuzumab Deruxtecan?\n\nTrastuzumab deruxtecan is an antibody-drug conjugate composed of a trastuzumab-sequence anti-HER2 IgG1 antibody covalently linked to DXd through a cleavable tetrapeptide linker. Enhertu® is the licensed medicinal product. It must not be treated as equivalent to unconjugated trastuzumab or to trastuzumab emtansine because the linker, payload, drug load, impurity profile and biological activity are product-specific.\n\n## HER2 Biology and ADC Uptake",
+      "origins": [
+        {
+          "source": {
+            "name": "evidentic.com",
+            "url": "https://evidentic.com/research/trastuzumab-deruxtecan"
+          },
+          "document": {
+            "name": "Trastuzumab Deruxtecan: Detailed Enhertu® ADC Profile",
+            "url": "https://evidentic.com/research/trastuzumab-deruxtecan"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1411c0ac-8bcc-4f63-b2a6-5960cfc2cf2a",
+      "content": "Mechanism of action:Enhertu, trastuzumab deruxtecan, is a HER2-targeted antibody-drug conjugate. The antibody is a humanized anti-HER2 IgG1 attached to deruxtecan, a topoisomerase I inhibitor (DXd) bound by a tetrapeptide-based cleavable linker. The antibody-drug conjugate is stable in plasma. The function of the antibody portion is to bind to HER2 expressed on the surface of certain tumour cells. After binding, the trastuzumab deruxtecan complex then undergoes internalization and intracellular [...] Enhertu (Trastuzumab deruxtecan) 100 mg powder for concentrate for solution for infusion. Reg. no. 1C 15005/67 (NBC).\n\nTherapeutic indications: Enhertu as monotherapy is indicated for the treatment of adult patients with unresectable or metastatic HER2-positive breast cancer who have received one or more prior anti -HER2-based regimens.\n\nPharmacodynamic properties: Pharmacotherapeutic group: Antineoplastic agents, HER2 (Human Epidermal Growth Factor Receptor 2) inhibitors, ATC code: L01FD04. [...] Special warnings and precautions for use: In order to prevent medicinal product errors, it is important to check the vial labels to ensure that the medicinal product being prepared and administered is Enhertu (trastuzumab deruxtecan) and not trastuzumab or trastuzumab emtansine.\n\nInterstitial lung disease/pneumonitis: Cases of interstitial lung disease (ILD), and/or pneumonitis, have been reported with Enhertu. Fatal outcomes have been observed.",
+      "origins": [
+        {
+          "source": {
+            "name": "azmedconnect-th.com",
+            "url": "https://www.azmedconnect-th.com/postlogin/scientific-articles-overview/ENHERTU-Approved-in-Thailand.html"
+          },
+          "document": {
+            "name": "New Antibody-Drug-Conjugate (ADC) approved in Thailand",
+            "url": "https://www.azmedconnect-th.com/postlogin/scientific-articles-overview/ENHERTU-Approved-in-Thailand.html"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "055ecb26-d8db-483c-ba2c-5f3994e7ce84",
+      "content": "of the toxic payload to tumour cells expressing HER2.6,7. Enables reliable and consistent delivery of toxic payload (8:1 drug-to-antibody ratio) to the tumour and the neighbouring cells, with and without HER2 expression (bystander anti-tumour effect). ADC, antibody-drug conjugate; DXd, deruxtecan derivative; HER2, human epidermal growth factor receptor 2; mBC, metastatic breast cancer; MOA, mechanism of action; NICE, National Institute for Health and Care Excellence; PAS, Patient Access Scheme; [...] during or within 6 months of completing adjuvant chemotherapy1. # PUSH THE PARADIGM: For second-line HER2+ metastatic breast cancer patients. ENHERTU is a HER2-directed antibody-drug conjugate indicated for the treatment of adult patients with unresectable or metastatic HER2-positive breast cancer who have received one or more prior anti-HER2-based regimens in the metastatic setting.1. The DESTINY-Breast02 study: evaluated ENHERTU vs TPC in patients previously treated with T-DM13. ENHERTU is [...] Access Scheme; SMC, Scottish Medicines Consortium; T-DM1, trastuzumab emtansine; TPC, treatment of physician’s choice. Trastuzumab deruxtecan for treating HER2-positive unresectable or metastatic breast cancer after 1 or more anti-HER2 treatments.",
+      "origins": [
+        {
+          "source": {
+            "name": "enhertu.co.uk",
+            "url": "https://www.enhertu.co.uk/"
+          },
+          "document": {
+            "name": "Home | ENHERTU® (trastuzmab deruxtecan)",
+            "url": "https://www.enhertu.co.uk/"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "85457b56-b99a-4105-8bbb-b7b74f641017",
+      "name": "Daiichi Sankyo",
+      "entity_type": "Organization",
+      "mentions": [
+        "Daiichi Sankyo"
+      ]
+    },
+    {
+      "id": "6cb5b088-5801-4a23-b6fe-758c22f943ab",
+      "name": "AstraZeneca",
+      "entity_type": "Company",
+      "mentions": [
+        "AstraZeneca"
+      ]
+    },
+    {
+      "id": "3ac7d79f-f211-430f-ad8b-943aa3dd73bb",
+      "name": "GENENTECH INC",
+      "entity_type": "Company",
+      "mentions": [
+        "Genentech"
+      ]
+    },
+    {
+      "id": "cb346b28-8463-48b0-8444-f12785fe2eae",
+      "name": "Enhertu",
+      "entity_type": "Product",
+      "mentions": [
+        "Enhertu"
+      ]
+    },
+    {
+      "id": "3d77f5e2-b38f-4e2e-8de1-5006005296b6",
+      "name": "trastuzumab deruxtecan",
+      "entity_type": "Product",
+      "mentions": [
+        "T-DXd",
+        "DS-8201",
+        "Trastuzumab deruxtecan"
+      ]
+    },
+    {
+      "id": "56c512a4-94a8-4ba7-842e-a91442ef82a9",
+      "name": "trastuzumab",
+      "entity_type": "Product",
+      "mentions": [
+        "Trastuzumab"
+      ]
+    },
+    {
+      "id": "43835e2b-c2df-4a87-9edf-7447eb4716c1",
+      "name": "Deruxtecan",
+      "entity_type": "Product",
+      "mentions": [
+        "Deruxtecan",
+        "DXd"
+      ]
+    }
+  ],
+  "_query": "Who developed trastuzumab deruxtecan (Enhertu), and how is it built from the trastuzumab antibody?"
+}

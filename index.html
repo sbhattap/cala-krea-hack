@@ -2,11 +2,337 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Breast Cancer Drug Biographies</title>
-<!-- Placeholder until the Landscape exists: go straight to the hero biography. -->
-<meta http-equiv="refresh" content="0; url=biography.html?drug=trastuzumab">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* The Landscape: every drug in drugs.json as a dot on a year axis, one lane per breast cancer subtype,
+   colored by mechanism group. A drug sits in every lane it is approved for.
+   Tokens match biography.html. */
+:root{
+  --paper:#F5F2F1; --card:#FCFAF9; --ink:#1B1F2E; --muted:#5E6270; --rule:#DDD5D3;
+  --accent:#C2456A; --accent-2:#E2A04A; --night:#151827;
+  --display:"Young Serif", Georgia, "Times New Roman", serif;
+  --body:"Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  /* mechanism group colors */
+  --g-HR:#3F7FBF; --g-HER2:#C2456A; --g-CDK46:#3E9A7A; --g-PARP:#8A5CC2; --g-IO:#D07A2A; --g-ADC:#C9962B; --g-CHEMO:#6F7480;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#12141C; --card:#191C26; --ink:#ECE8E7; --muted:#A09CA6; --rule:#2B2E3A;
+    --accent:#E7708F; --accent-2:#F0B460; --night:#0B0D14; color-scheme:dark;
+    --g-HR:#6FA8E0; --g-HER2:#E7708F; --g-CDK46:#5FC29E; --g-PARP:#B08CE6; --g-IO:#EE9A50; --g-ADC:#F0B460; --g-CHEMO:#A3A7B2;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#12141C; --card:#191C26; --ink:#ECE8E7; --muted:#A09CA6; --rule:#2B2E3A;
+  --accent:#E7708F; --accent-2:#F0B460; --night:#0B0D14; color-scheme:dark;
+  --g-HR:#6FA8E0; --g-HER2:#E7708F; --g-CDK46:#5FC29E; --g-PARP:#B08CE6; --g-IO:#EE9A50; --g-ADC:#F0B460; --g-CHEMO:#A3A7B2;
+}
+*{box-sizing:border-box}
+body{margin:0;overflow-x:hidden;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px 64px}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+
+/* Hero */
+.hero{position:relative;overflow:hidden;background:var(--night);color:#F6EFEE;min-height:380px}
+.hero .art{position:absolute;inset:0;width:100%;height:100%;display:block;object-fit:cover}
+.hero .shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,9,16,.9) 0%,rgba(8,9,16,.6) 55%,rgba(8,9,16,.25) 100%)}
+.hero-inner{position:relative;max-width:1040px;margin:0 auto;padding:72px 16px 60px}
+.hero-label{display:inline-block;font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;background:#F6EFEE;color:#1B1F2E;padding:4px 10px;border-radius:2px}
+.hero h1{font-family:var(--display);font-weight:400;font-size:clamp(40px,7.5vw,80px);line-height:1.02;margin:18px 0 14px;max-width:14ch;text-wrap:balance}
+.hero p.line{max-width:44ch;font-size:clamp(17px,2.4vw,21px);margin:0}
+
+.hero p.month{max-width:52ch;margin:22px 0 0;font-size:15px;color:#EADDDB;background:rgba(8,9,16,.62);border-left:3px solid #E7708F;padding:10px 14px;border-radius:2px}
+.hero p.month .month-tag{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#F2C9D3}
+.hero p.month a{color:#F2C9D3;font-size:13px}
+.section-label{font-family:var(--mono);font-size:12px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:40px 0 12px}
+.intro{max-width:62ch;margin:0 0 16px;color:var(--muted)}
+
+/* Legend */
+.legend{display:flex;flex-wrap:wrap;gap:8px 20px;margin:0 0 14px;font-size:14px;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:8px}
+.legend i{display:inline-block;width:14px;height:14px;border-radius:50%}
+
+/* Timeline */
+.tl-scroll{overflow-x:auto;background:var(--card);border:1px solid var(--rule);border-radius:4px}
+#tl{display:block}
+#tl .axis{stroke:var(--rule);stroke-width:2}
+#tl .tick{stroke:var(--rule)}
+#tl .yr{font:12px var(--mono);fill:var(--muted)}
+#tl .lane{font:500 11px var(--mono);letter-spacing:.12em;fill:var(--muted);text-transform:uppercase}
+#tl .laneline{stroke:var(--rule);stroke-dasharray:2 5}
+#tl .link{fill:none;stroke:var(--ink);stroke-width:2;stroke-dasharray:6 5;opacity:.7}
+#tl .linklabel{font:500 12px var(--mono);fill:var(--ink)}
+#tl .linkbg{fill:var(--card)}
+#tl .span{fill:none;stroke-width:3;opacity:.8}
+#tl .empty{font:italic 14px var(--body);fill:var(--muted)}
+#tl a{cursor:pointer;outline:none}
+#tl a .halo{fill:none;stroke:transparent;stroke-width:3}
+#tl a:hover .halo,#tl a:focus-visible .halo{stroke:var(--accent)}
+#tl .dlabel{font:400 17px var(--display);fill:var(--ink)}
+#tl .dsub{font:12px var(--mono);fill:var(--muted)}
+#tl a:hover .dlabel,#tl a:focus-visible .dlabel{text-decoration:underline}
+
+/* Cards */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(280px,100%),1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--rule);border-radius:4px;padding:18px 18px 16px;border-top:4px solid var(--c,var(--accent))}
+.card .meta{font-family:var(--mono);font-size:12px;color:var(--muted);letter-spacing:.06em;font-variant-numeric:tabular-nums}
+.card h3{font-family:var(--display);font-weight:400;font-size:26px;line-height:1.15;margin:6px 0 2px}
+.card .brand{font-family:var(--display);color:var(--c,var(--accent));margin:0 0 10px}
+.card p{margin:0 0 12px;font-size:16px}
+.card .read{font-weight:600;text-decoration:none}
+.card .read:hover{text-decoration:underline}
+.src{font-size:13px;color:var(--muted);margin-top:12px}
+.src a{color:var(--muted);text-decoration-color:var(--accent);text-underline-offset:3px}
+.src .via{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-right:6px}
+
+footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--rule);font-size:14px;color:var(--muted)}
+footer p{max-width:66ch}
+footer .disclaimer{font-weight:600;color:var(--ink)}
+</style>
 </head>
 <body>
-<p><a href="biography.html?drug=trastuzumab">Open the Herceptin biography</a></p>
+
+<header class="hero">
+  <img class="art" src="assets/trastuzumab/hero.jpg" alt="" onerror="this.remove()">
+  <div class="shade"></div>
+  <div class="hero-inner">
+    <span class="hero-label">The Landscape</span>
+    <h1>Breast Cancer Drug Biographies</h1>
+    <p class="line">Every breast cancer drug has a life story: where it came from, who fought for it, and what it changed for patients.</p>
+    <p class="month"><span class="month-tag">October</span> is Breast Cancer Awareness Month. These stories are for patients and families who want to know where their medicines came from. <a href="https://www.cdc.gov/mmwr/preview/mmwrhtml/mm6039a6.htm" target="_blank" rel="noopener">CDC</a></p>
+  </div>
+</header>
+
+<main class="wrap">
+  <h2 class="section-label">Timeline of first US FDA approvals</h2>
+  <p class="intro">Each row is a breast cancer subtype. A drug appears in every row it is approved for, placed at the date of its first US FDA approval for that group, and colored by how it works. Select a drug to open its biography.</p>
+  <div class="legend" id="legend"></div>
+  <div class="tl-scroll" id="tl-scroll"><svg id="tl" role="img" aria-label="Timeline of breast cancer drugs by subtype and year of first US FDA approval"></svg></div>
+
+  <h2 class="section-label">Biographies</h2>
+  <div class="cards" id="cards"></div>
+
+  <footer>
+    <p class="disclaimer">For learning only. Talk to an oncologist about treatment.</p>
+    <p>Drug facts come from Cala's knowledge search, each with its source shown. More drugs will be added as they are sourced.</p>
+  </footer>
+</main>
+
+<script id="inline-drugs" type="application/json">
+[
+ {
+  "id": "trastuzumab",
+  "name": "Trastuzumab",
+  "brands": [
+   "Herceptin",
+   "Herceptin Hylecta"
+  ],
+  "company": "Genentech",
+  "mechanism_group": "HER2",
+  "status": "approved",
+  "first_approval": "1998-09-25",
+  "subtypes": [
+   "HER2+"
+  ],
+  "biography": true,
+  "sources": [
+   {
+    "label": "Herceptin FDA Approval History - Drugs.com",
+    "url": "https://www.drugs.com/history/herceptin.html",
+    "via": "cala"
+   }
+  ]
+ },
+ {
+  "id": "trastuzumab_deruxtecan",
+  "name": "Trastuzumab deruxtecan",
+  "brands": [
+   "Enhertu"
+  ],
+  "company": "Daiichi Sankyo and AstraZeneca",
+  "mechanism_group": "ADC",
+  "status": "approved",
+  "first_approval": "2019-12-20",
+  "subtypes": [
+   "HER2+",
+   "HER2-low"
+  ],
+  "builds_on": [
+   "trastuzumab"
+  ],
+  "biography": true,
+  "sources": [
+   {
+    "label": "Enhertu FDA Approval History - Drugs.com",
+    "url": "https://www.drugs.com/history/enhertu.html",
+    "via": "cala"
+   }
+  ],
+  "subtype_approvals": {
+   "HER2-low": {
+    "date": "2022-08-06",
+    "source": {
+     "label": "Enhertu FDA Approval History - Drugs.com (HER2-low approval)",
+     "url": "https://www.drugs.com/history/enhertu.html",
+     "via": "cala"
+    }
+   }
+  }
+ }
+]
+</script>
+<script>
+const GROUPS = {
+  "HR":   {label:"Hormone receptor", v:"--g-HR"},
+  "HER2": {label:"HER2-targeted antibody", v:"--g-HER2"},
+  "CDK4/6":{label:"CDK4/6 inhibitor", v:"--g-CDK46"},
+  "PARP": {label:"PARP inhibitor", v:"--g-PARP"},
+  "IO":   {label:"Immunotherapy", v:"--g-IO"},
+  "ADC":  {label:"Antibody-drug conjugate", v:"--g-ADC"},
+  "CHEMO":{label:"Chemotherapy", v:"--g-CHEMO"}
+};
+const ORDER = ["HR","HER2","ADC","CDK4/6","PARP","IO","CHEMO"];
+const SUBTYPES = ["HR+","HER2+","HER2-low","TNBC"];
+// Date a drug first reached a subtype: its own dated approval if we have one, else its first approval.
+const subDate = (d, s) => (d.subtype_approvals && d.subtype_approvals[s] && d.subtype_approvals[s].date) || d.first_approval;
+const subsOf = d => SUBTYPES.filter(s => (d.subtypes||[]).includes(s));
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const groupKey = g => { const k = String(g||"").toUpperCase(); if(k.startsWith("CDK")) return "CDK4/6"; if(k.startsWith("HORMONE")||k==="HR") return "HR"; if(k.startsWith("IMMUNO")) return "IO"; return GROUPS[k] ? k : "CHEMO"; };
+const colorOf = g => `var(${GROUPS[groupKey(g)].v})`;
+const yearOf = d => d.first_approval ? +String(d.first_approval).slice(0,4) : null;
+const fmtDate = s => { if(!s) return ""; const d = new Date(s + "T00:00:00"); return isNaN(d) ? s : d.toLocaleDateString("en-US",{year:"numeric",month:"short",day:"numeric"}); };
+const bioHref = d => `biography.html?drug=${encodeURIComponent(d.id)}`;
+const NS = "http://www.w3.org/2000/svg";
+
+let DRUGS = [];
+
+async function load(){
+  try{
+    const r = await fetch("drugs.json", {cache:"no-cache"});
+    if(!r.ok) throw new Error(r.status);
+    DRUGS = await r.json();
+  }catch(e){
+    DRUGS = JSON.parse(document.getElementById("inline-drugs").textContent);
+  }
+  renderLegend(); renderCards(); renderTimeline();
+  let t; addEventListener("resize", () => { clearTimeout(t); t = setTimeout(renderTimeline, 120); });
+}
+
+function renderLegend(){
+  const present = ORDER.filter(k => DRUGS.some(d => groupKey(d.mechanism_group) === k));
+  document.getElementById("legend").innerHTML =
+    present.map(k => `<span><i style="background:var(${GROUPS[k].v})"></i>${esc(GROUPS[k].label)}</span>`).join("") +
+    `<span><i style="background:var(--muted)"></i>Approved</span>` +
+    `<span><i style="border:2px solid var(--muted)"></i>In trials</span>`;
+}
+
+function renderCards(){
+  const lineOf = d => {
+    const yr = d.first_approval ? ` First US FDA approval ${fmtDate(d.first_approval)}.` : "";
+    if(d.builds_on && d.builds_on.length){
+      const base = DRUGS.find(x => x.id === d.builds_on[0]);
+      return `${GROUPS[groupKey(d.mechanism_group)].label} built on the ${base ? base.name.toLowerCase() : d.builds_on[0]} antibody.${yr}`;
+    }
+    return `${GROUPS[groupKey(d.mechanism_group)].label}.${yr}`;
+  };
+  document.getElementById("cards").innerHTML = DRUGS.filter(d => d.biography).map(d => `
+    <article class="card" style="--c:${colorOf(d.mechanism_group)}">
+      <div class="meta">${esc(yearOf(d) ?? d.status)} · ${esc((d.subtypes||[]).join(", "))}</div>
+      <h3>${esc(d.name)}</h3>
+      <div class="brand">${esc((d.brands||[]).join(", "))}</div>
+      <p>${esc(lineOf(d))} <br><span style="color:var(--muted);font-size:14px">${esc(d.company)}</span></p>
+      <a class="read" href="${bioHref(d)}">Read the biography →</a>
+      <div class="src">${[...(d.sources||[]), ...Object.values(d.subtype_approvals||{}).map(a => a.source).filter(Boolean)].map(s => `<div><span class="via">via ${esc(s.via||"source")}</span><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a></div>`).join("")}</div>
+    </article>`).join("");
+}
+
+function el(tag, attrs, parent){ const e = document.createElementNS(NS, tag); for(const k in attrs) e.setAttribute(k, attrs[k]); if(parent) parent.appendChild(e); return e; }
+
+function renderTimeline(){
+  const svg = document.getElementById("tl");
+  svg.innerHTML = "";
+  const box = document.getElementById("tl-scroll").clientWidth;
+  const W = Math.max(box - 2, 760);
+  const Y0 = 1995, Y1 = 2026, padL = 40, padR = 60;
+  const lanes = SUBTYPES; // always show every subtype, so empty rows read as "not sourced yet"
+  const laneH = 120, top = 40, axisY = top + lanes.length * laneH + 10, H = axisY + 40;
+  const x = y => padL + (y - Y0) / (Y1 - Y0) * (W - padL - padR);
+  svg.setAttribute("width", W); svg.setAttribute("height", H); svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+
+  // lanes
+  const laneY = {};
+  lanes.forEach((k, i) => {
+    const y = top + i * laneH + laneH / 2; laneY[k] = y;
+    el("line", {class:"laneline", x1:padL, x2:W - padR, y1:y, y2:y}, svg);
+    const t = el("text", {class:"lane", x:padL, y:y - laneH / 2 + 14}, svg); t.textContent = k;
+    if(!DRUGS.some(d => subsOf(d).includes(k))){ const e = el("text", {class:"empty", x:(padL + W - padR) / 2, y:y + 5, "text-anchor":"middle"}, svg); e.textContent = "No drugs sourced yet"; }
+  });
+  // axis
+  el("line", {class:"axis", x1:padL, x2:W - padR, y1:axisY, y2:axisY}, svg);
+  for(let y = Y0; y <= Y1; y++){
+    const major = y % 5 === 0;
+    el("line", {class:"tick", x1:x(y), x2:x(y), y1:axisY, y2:axisY + (major ? 8 : 4)}, svg);
+    if(major || (y === Y1 && Y1 % 5 > 2)){ const t = el("text", {class:"yr", x:x(y), y:axisY + 24, "text-anchor":"middle"}, svg); t.textContent = y; }
+  }
+
+  // positions: one per (drug, subtype); drugs still in trials sit at today
+  const xOf = date => { if(!date) return x(Y1); const t = new Date(date + "T00:00:00"); return x(Math.min(Y1, t.getFullYear() + t.getMonth() / 12)); };
+  const pos = {};
+  DRUGS.forEach(d => { pos[d.id] = {}; subsOf(d).forEach(s => pos[d.id][s] = {x: xOf(subDate(d, s)), y: laneY[s], date: subDate(d, s)}); });
+
+  // a drug that reached a new subtype: line from its earlier row to the later one
+  DRUGS.forEach(d => {
+    const ps = subsOf(d).map(s => [s, pos[d.id][s]]).sort((a, b) => String(a[1].date).localeCompare(String(b[1].date)));
+    for(let i = 1; i < ps.length; i++){
+      const [, a] = ps[i - 1], [s, b] = ps[i];
+      el("path", {class:"span", stroke:colorOf(d.mechanism_group), d:`M${a.x},${a.y} C${a.x},${(a.y + b.y) / 2} ${b.x},${(a.y + b.y) / 2} ${b.x},${b.y}`}, svg);
+      const mx = (a.x + b.x) / 2, my = (a.y + b.y) / 2;
+      const bg = el("rect", {class:"linkbg", rx:3}, svg);
+      const t = el("text", {class:"linklabel", x:mx, y:my + 4, "text-anchor":"middle"}, svg);
+      t.textContent = `reached ${s} · ${new Date(b.date + "T00:00:00").getFullYear()}`;
+      const bb = t.getBBox(); bg.setAttribute("x", bb.x - 6); bg.setAttribute("y", bb.y - 3); bg.setAttribute("width", bb.width + 12); bg.setAttribute("height", bb.height + 6);
+    }
+  });
+
+  // "builds on" arcs, drawn in the first row both drugs share (under dots)
+  DRUGS.forEach(d => (d.builds_on||[]).forEach(bid => {
+    const base = DRUGS.find(x => x.id === bid); if(!base) return;
+    const s = subsOf(d).find(s => subsOf(base).includes(s)); if(!s) return;
+    const a = pos[bid][s], b = pos[d.id][s];
+    const mx = (a.x + b.x) / 2, lift = Math.min(90, Math.abs(b.x - a.x) * .25 + 30);
+    const cy = Math.min(a.y, b.y) - lift;
+    el("path", {class:"link", d:`M${a.x},${a.y - 16} Q${mx},${cy - 40} ${b.x},${b.y - 16}`}, svg);
+    const ly = (a.y - 16 + b.y - 16) / 4 + (cy - 40) / 2; // quadratic midpoint
+    const label = `same antibody: built on ${base ? base.name.toLowerCase() : bid}`;
+    const bg = el("rect", {class:"linkbg", rx:3}, svg);
+    const t = el("text", {class:"linklabel", x:mx, y:ly + 4, "text-anchor":"middle"}, svg); t.textContent = label;
+    const bb = t.getBBox(); bg.setAttribute("x", bb.x - 6); bg.setAttribute("y", bb.y - 3); bg.setAttribute("width", bb.width + 12); bg.setAttribute("height", bb.height + 6);
+  }));
+
+  // dots, one per row the drug appears in
+  DRUGS.forEach(d => subsOf(d).forEach(s => {
+    const p = pos[d.id][s];
+    const col = colorOf(d.mechanism_group), approved = d.status === "approved";
+    const label = `${d.name}${d.brands && d.brands[0] ? " (" + d.brands[0] + ")" : ""}, ${s}, ${approved ? "first US FDA approval for this group " + fmtDate(p.date) : d.status}`;
+    const g = d.biography ? el("a", {href:bioHref(d), "aria-label":label + ". Open biography."}, svg) : el("g", {"aria-label":label, role:"img"}, svg);
+    el("line", {x1:p.x, x2:p.x, y1:p.y, y2:axisY, stroke:col, "stroke-width":1, opacity:.35}, g);
+    el("circle", {class:"halo", cx:p.x, cy:p.y, r:20}, g);
+    el("circle", {cx:p.x, cy:p.y, r:14, fill:approved ? col : "var(--card)", stroke:col, "stroke-width":approved ? 0 : 3}, g);
+    const right = p.x < W - 220;
+    const tx = right ? p.x + 24 : p.x - 24, anchor = right ? "start" : "end";
+    const t1 = el("text", {class:"dlabel", x:tx, y:p.y + 2, "text-anchor":anchor}, g); t1.textContent = (d.brands && d.brands[0]) || d.name;
+    const t2 = el("text", {class:"dsub", x:tx, y:p.y + 20, "text-anchor":anchor}, g); t2.textContent = `${d.name} · ${p.date ? p.date.slice(0, 4) : d.status}`;
+    const tt = el("title", {}, g); tt.textContent = label;
+  }));
+}
+
+load();
+</script>
 </body>
 </html>

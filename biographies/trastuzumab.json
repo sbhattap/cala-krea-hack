@@ -275,7 +275,11 @@
         }
       ],
       "cala": "data/raw/trastuzumab/successors.json",
-      "krea_prompt": "a branching family tree drawn as glowing antibody shapes, one Y-shaped trunk splitting into newer branches, deep navy and rose palette, elegant illustration, no text"
+      "krea_prompt": "a branching family tree drawn as glowing antibody shapes, one Y-shaped trunk splitting into newer branches, deep navy and rose palette, elegant illustration, no text",
+      "link": {
+        "drug": "trastuzumab_deruxtecan",
+        "label": "Read Enhertu's biography"
+      }
     }
   ]
 }

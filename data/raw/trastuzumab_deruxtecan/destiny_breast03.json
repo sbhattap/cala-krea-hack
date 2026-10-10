@@ -1,0 +1,289 @@
+{
+  "content": "## DESTINY-Breast03 Trial: Trastuzumab Deruxtecan (T-DXd) vs Trastuzumab Emtansine (T-DM1)\n\n**DESTINY-Breast03** is a phase III, open-label, randomized trial that enrolled **524 patients** with HER2-positive unresectable or metastatic breast cancer who had previously been treated with trastuzumab and a taxane. Patients were randomized 1:1 to receive trastuzumab deruxtecan (T-DXd, 5.4 mg/kg) or trastuzumab emtansine (T-DM1, 3.6 mg/kg) every 3 weeks.\n\n### Key Efficacy Results\n\n- **Progression-free survival (PFS):** At the initial interim analysis, 12-month PFS was **75.8% with T-DXd vs 34.1% with T-DM1** (HR 0.28; 95% CI 0.22–0.37), representing a **72% reduction in the risk of disease progression or death**.\n- **Updated PFS (Lancet 2023):** With longer follow-up, median PFS was **28.8 months with T-DXd vs 6.8 months with T-DM1**.\n- **Further update (41-month follow-up, 2024):** Median PFS was **29.0 months vs 7.2 months** (HR 0.30; 95% CI 0.24–0.38).\n- **Overall survival (OS):** A significant OS benefit was observed, with an HR of **0.64** in the updated analysis.\n- **Objective response rate (ORR):** Confirmed ORR was **79.7% with T-DXd vs 34.2% with T-DM1**.\n\n### Brain Metastases Subgroup\n\nIn patients with brain metastases at baseline, T-DXd also showed substantial benefit:\n- Median PFS: **15.0 months (T-DXd) vs 3.0 months (T-DM1)** (HR 0.25; 95% CI 0.13–0.45)\n- Systemic ORR: **67.4% vs 20.5%**\n- Intracranial ORR: **65.7% vs 34.3%**\n\n### Safety Profile\n\n- T-DXd was associated with **higher rates of adverse events** compared to T-DM1, including more chemotherapy-like side effects (nausea, alopecia ~30%).\n- **Interstitial lung disease (ILD)/pneumonitis** occurred in approximately **10.5% of T-DXd patients vs 1.9% with T-DM1**, though most cases were low grade with no grade 4–5 events in the primary report.\n- Drug-related treatment discontinuation rates were higher with T-DXd (**22.6% vs 7.3%** at longer follow-up).\n- Patient-reported outcomes showed that T-DXd was associated with **maintained or improved quality of life** despite the higher toxicity rates.\n\n### Clinical Impact\n\nDESTINY-Breast03 established trastuzumab deruxtecan as the new **standard of care for second-line treatment** of HER2-positive metastatic breast cancer, displacing trastuzumab emtansine. The trial led to regulatory approvals in the US, EU, Japan, and other regions, and T-DXd is now a guideline-recommended treatment in this setting.",
+  "explainability": [
+    {
+      "content": "The DESTINY-Breast03 trial randomly assigned 524 HER2‑positive metastatic breast cancer patients to trastuzumab deruxtecan (T‑DXd) or trastuzumab emtansine (T‑DM1) in a 1:1 ratio.",
+      "references": [
+        "443b317a-bef5-4782-9a15-345bd6d695af"
+      ]
+    },
+    {
+      "content": "At the interim analysis, 12‑month progression‑free survival was 75.8% with T‑DXd versus 34.1% with T‑DM1 (HR 0.28), demonstrating a 72% reduction in risk of disease progression or death.",
+      "references": [
+        "443b317a-bef5-4782-9a15-345bd6d695af"
+      ]
+    },
+    {
+      "content": "Confirmed objective response rate was 79.7% for T‑DXd compared with 34.2% for T‑DM1.",
+      "references": [
+        "443b317a-bef5-4782-9a15-345bd6d695af"
+      ]
+    },
+    {
+      "content": "With longer follow‑up, median PFS was 28.8 months for T‑DXd versus 6.8 months for T‑DM1, and an updated analysis showed median PFS of 29.0 months versus 7.2 months (HR 0.30).",
+      "references": [
+        "5e81dd9a-705e-4b98-8695-fd8555d47dac"
+      ]
+    },
+    {
+      "content": "The same updated analysis reported an overall survival hazard ratio of 0.64, indicating a significant OS benefit for T‑DXd.",
+      "references": [
+        "5e81dd9a-705e-4b98-8695-fd8555d47dac"
+      ]
+    },
+    {
+      "content": "In patients with baseline brain metastases, T‑DXd achieved median PFS of 15.0 months versus 3.0 months for T‑DM1 (HR 0.25) and higher systemic and intracranial response rates.",
+      "references": [
+        "7e0f3877-9678-4112-af73-011e7535c33f"
+      ]
+    },
+    {
+      "content": "Safety data showed drug‑related interstitial lung disease/pneumonitis in about 10.5% of T‑DXd patients versus 1.9% of T‑DM1 patients, with most events low grade.",
+      "references": [
+        "443b317a-bef5-4782-9a15-345bd6d695af",
+        "27f3fefc-71c0-477d-80f2-6dc0a53fd835"
+      ]
+    },
+    {
+      "content": "Treatment discontinuation due to adverse events was higher with T‑DXd (22.6%) than with T‑DM1 (7.3%).",
+      "references": [
+        "5e81dd9a-705e-4b98-8695-fd8555d47dac"
+      ]
+    },
+    {
+      "content": "These efficacy and safety results led to T‑DXd being adopted as the new standard of care for second‑line treatment, displacing T‑DM1.",
+      "references": [
+        "19c5552d-fe9e-4f8e-a37f-9b0c63213a97",
+        "7e28038e-2713-4404-8494-e94f5edb5271"
+      ]
+    }
+  ],
+  "context": [
+    {
+      "id": "443b317a-bef5-4782-9a15-345bd6d695af",
+      "content": "## Overview\n\nOpen-label phase 3 trial of 524 patients with HER2-positive unresectable or metastatic breast cancer previously treated with trastuzumab and a taxane, randomised 1:1 to trastuzumab deruxtecan (T-DXd, 5.4 mg/kg) or trastuzumab emtansine (T-DM1). Primary endpoint was progression-free survival by blinded independent central review. [...] Published\n\nNew England Journal of Medicine, 2022\n\nFull text\n\ndoi:10.1056/NEJMoa2115022\n\nFindings\n\n 12-month progression-free survival 75.8% with T-DXd vs 34.1% with T-DM1; HR 0.28 (95% CI 0.22-0.37).\n Confirmed objective response 79.7% vs 34.2%.\n Updated analysis (Lancet 2023): median PFS 28.8 vs 6.8 months; overall survival HR 0.64.\n Drug-related interstitial lung disease/pneumonitis in roughly one in ten T-DXd patients, mostly low grade, with no grade 4-5 events in the primary report. [...] At the interim analysis, 12-month PFS was 75.8% vs 34.1% (HR 0.28). The 2023 update reported median PFS 28.8 vs 6.8 months and a significant overall survival benefit (HR 0.64). It moved T-DXd into the second line and is the clearest head-to-head demonstration that ADC design (payload, drug-to-antibody ratio, bystander effect) determines clinical outcome.\n\nRandomised controlled trialChanged practice524 participants\n\nAuthors\n\nCortes J, Kim SB, Chung WP, et al.\n\nPublished",
+      "origins": [
+        {
+          "source": {
+            "name": "OnCo",
+            "url": "https://onco.cc/key-papers/paper-destiny-breast03-nejm-2022"
+          },
+          "document": {
+            "name": "DESTINY-Breast03: trastuzumab… · Key paper · OnCo",
+            "url": "https://onco.cc/key-papers/paper-destiny-breast03-nejm-2022"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5e81dd9a-705e-4b98-8695-fd8555d47dac",
+      "content": "growth factor receptor 2 (HER2)-positive breast cancer. In June 2024, Javier Cortés and colleagues presented an updated efficacy and safety analysis of the DESTINY-Breast03 trial with a median follow-up of 41 months. Indeed, the study, which has 41-month follow-up, continued to demonstrate the superior efficacy of T-DXd, with a median PFS of 29.0 months compared to 7.2 months for T-DM1 [hazard ratio (HR) 0.30, 95% confidence interval (CI): 0.24–0.38]. The median OS was also better with T-DXd at [...] observed in the DESTINY-Breast03 trial (6). In contrast, T-DM1 tends to have lower toxicity than T-DXd. In the results of the DESTINY-Breast03 trial, the incidence of drug-related TEAEs associated with discontinued treatment was 22.6% in the T-DXd group and 7.3% in the T-DM1 group. In the DESTINY-Breast03 trial, 32.3% of patients in the T-DM1 group received T-DXd as a post-trial anticancer systemic treatment. Trastuzumab deruxtecan versus trastuzumab emtansine in patients with HER2-positive [...] Advancing HER2-positive breast cancer treatment: the promise and challenges of trastuzumab deruxtecan over trastuzumab e... Comment on: Cortés J, Hurvitz SA, Im SA, et al. Keywords: Breast cancer; DESTINY-Breast03 trial; trastuzumab deruxtecan (T-DXd); trastuzumab emtansine (T-DM1). The DESTINY-Breast03 trial is a phase III, open-label, randomized study comparing trastuzumab deruxtecan (T-DXd) with trastuzumab emtansine (T-DM1) as second-line treatment for human epidermal growth factor",
+      "origins": [
+        {
+          "source": {
+            "name": "Session Timed Out",
+            "url": "https://actr.amegroups.org/article/view/10871/html"
+          },
+          "document": {
+            "name": "Advancing HER2-positive breast cancer treatment: the promise and challenges of trastuzumab deruxtecan over trastuzumab emtansine—DESTINY-Breast03 trial - Ogata - AME Clinical Trials Review",
+            "url": "https://actr.amegroups.org/article/view/10871/html"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "27f3fefc-71c0-477d-80f2-6dc0a53fd835",
+      "content": "# Trastuzumab Deruxtecan Tops Trastuzumab Emtansine as Second-Line Therapy in HER2-Positive Metastatic Breast Cancer. Previously treated patients with HER2-positive metastatic breast cancer have improved progression-free survival (PFS) from trastuzumab deruxtecan-nxki (Enhertu) compared with ado-trastuzumab emtansine (Kadcyla), according to data from the phase 3 DESTINY-Breast03 clinical trial. The improvement in PFS with trastuzumab deruxtecan was “highly statistically significant and [...] of care for second-line HER2-positive, metastatic breast cancer,” he said. The open-label DESTINY-Breast03 study randomized 524 patients who had previously received a taxane and pertuzumab from 50 countries to trastuzumab deruxtecan, 5.4 mg/kg, or to trastuzumab emtansine, 3.6 mg/kg, every 3 weeks. Approximately 50% of the patients in each arm had received 1 previous therapy in the metastatic setting, and 8.8% and 6.8%, respectively, had ≥5 previous lines in the trastuzumab deruxtecan and [...] (6.6% vs 0.4%), and nausea (6.6% vs 0.4%), respectively. The rates of dose reductions (21.4% vs 12.6%) and discontinuations because of drug-related adverse events were higher in the trastuzumab deruxtecan versus the trastuzumab emtansine arm (12.8% vs 5.0%). Drug-related interstitial lung disease or pneumonitis was more common in the trastuzumab deruxtecan versus the trastuzumab emtansine treatment arm (10.5% and 1.9%, respectively). Most important, there was an absence of high-grade events",
+      "origins": [
+        {
+          "source": {
+            "name": "Journal of Hematology Oncology Pharmacy",
+            "url": "https://jhoponline.com/issue-archive/2021-issues/december-2021-vol-11-no-6/trastuzumab-deruxtecan-tops-trastuzumab-emtansine-as-second-line-therapy-in-her2-positive-metastatic-breast-cancer"
+          },
+          "document": {
+            "name": "Trastuzumab Deruxtecan Tops Trastuzumab Emtansine as Second-Line Therapy in HER2-Positive Metastatic Breast Cancer",
+            "url": "https://jhoponline.com/issue-archive/2021-issues/december-2021-vol-11-no-6/trastuzumab-deruxtecan-tops-trastuzumab-emtansine-as-second-line-therapy-in-her2-positive-metastatic-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7e0f3877-9678-4112-af73-011e7535c33f",
+      "content": "HER2+ mBC with and without BMs achieved greater benefit from treatment with T-DXd vs T-DM1. DESTINY-Breast03 is a randomized, multicenter, open-label, phase III study of trastuzumab deruxtecan (T-DXd) versus trastuzumab emtansine (T-DM1) in patients with human epidermal growth factor receptor 2 (HER2)-positive metastatic breast cancer (mBC) previously treated with trastuzumab and a taxane. Here, we report exploratory efficacy data in patients with and without brain metastases (BMs) at baseline. [...] Open, Volume 9, Issue 5, May 2024, Pages 102990.    •43/261 patients randomized to T-DXd and 39/263 patients randomized to T-DM1 had clinically inactive BMs at baseline.    •For patients with BMs, median (95%CI) PFS was 15.0 (12.5-22.2) months for T-DXd vs 3.0 (95% CI, 2.8-5.8) months for T-DM1.    •For patients with BMs, confirmed systemic ORR was 67.4% for T-DXd versus 20.5% for T-DM1.    •Intracranial ORR was 65.7% with T-DXd versus 34.3% with T-DM1.    •Patients with HER2+ mBC with and [...] (95% CI 0.13-0.45). For patients without BMs, median PFS was not reached (95% CI 22.4 months-not estimable) for T-DXd versus 7.1 months (95% CI 5.6-9.7 months) for T-DM1; HR 0.30 (95% CI 0.22-0.40). Confirmed systemic ORR was 67.4% for T-DXd versus 20.5% for T-DM1 and 82.1% for T-DXd versus 36.6% for T-DM1 for patients with and without BMs, respectively. Patients with HER2-positive mBC whose disease progressed after trastuzumab and a taxane achieved a substantial benefit from treatment with",
+      "origins": [
+        {
+          "source": {
+            "name": "sciencedirect.com",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2059702924006926"
+          },
+          "document": {
+            "name": "Trastuzumab deruxtecan versus trastuzumab emtansine in HER2-positive metastatic breast cancer patients with brain metastases from the randomized DESTINY-Breast03 trial",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2059702924006926"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19c5552d-fe9e-4f8e-a37f-9b0c63213a97",
+      "content": "23. 23. Hurvitz SA, et al. Trastuzumab deruxtecan versus trastuzumab emtansine in patients with HER2-positive metastatic breast cancer: updated results from DESTINY-Breast03, a randomised, open-label, phase 3 trial Lancet 2023 401 105 117 doi:10.1016/S0140-6736(22)02420-5 PMID:36495879 Hurvitz, S. A. et al. Trastuzumab deruxtecan versus trastuzumab emtansine in patients with HER2-positive metastatic breast cancer: updated results from DESTINY-Breast03, a randomised, open-label, phase 3 trial. [...] of DESTINY-Breast03 (NCT03529110), a multicenter phase 3 trial conducted to investigate the efficacy and safety of T-DXd versus T-DM1 (ref. 13). Before approval of T-DXd, T-DM1 was primarily used in this setting. [...] T-DXd is approved in several regions across the globe, including the United States, the European Union and Japan, for patients with HER2-positive metastatic breast cancer after disease progression on taxane and trastuzumab or in patients who have developed disease recurrence during or within 6 months of completing neoadjuvant and/or adjuvant therapy; T-DXd is now a guideline-recommended treatment11,13–16. The approval of T-DXd in this setting was based on the results of DESTINY-Breast03",
+      "origins": [
+        {
+          "source": {
+            "name": "pmc.ncbi.nlm.nih.gov",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11333275"
+          },
+          "document": {
+            "name": "Trastuzumab deruxtecan versus trastuzumab emtansine in HER2-positive metastatic breast cancer: long-term survival analysis of the DESTINY-Breast03 trial",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11333275"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "766ec904-9a61-45b1-82b0-c50a9c7e5307",
+      "content": "et al: Trastuzumab deruxtecan (T-DXd) vs trastuzumab emtansine (T-DM1) in patients with HER2+ metastatic breast cancer: Results of the randomized phase III DESTINY-Breast03 study. Shanu Modi, MD, of the Breast Medicine Service at Memorial Sloan Kettering Cancer Center, New York, called the DESTINY-Breast03 results,1 which showed a highly significant benefit for fam-trastuzumab deruxtecan-nxki (T-DXd) over trastuzumab emtansine (T-DM1), “unprecedented.” She suggested they... [...] # DESTINY Breast03 Trial Supports Second-Line Use of T-DXd in Metastatic HER2-Positive Breast Cancer. The antibody-drug conjugate fam-trastuzumab deruxtecan-nxki (T-DXd) may become a new option as a second-line treatment of patients with HER2-positive unresectable or metastatic breast cancer, based on results from the global phase III DESTINY-Breast03 trial. Treatment with T-DXd led to a highly significant 72% reduction in the risk of disease progression vs trastuzumab emtansine (T-DM1) in [...] New York, agreed: “I believe the DESTINY-Breast03 data support T-DXd as a new second-line option. The drug was approved by the US Food and Drug Administration in December 2019 for the treatment of patients with unresectable or metastatic HER2-positive breast cancer who have received at least two prior anti–HER2-based regimens, based on the phase II DESTINY-Breast01 trial.2. The subsequent open-label randomized DESTINY-Breast03 trial is the first global phase III head-to-head trial of T-DXd",
+      "origins": [
+        {
+          "source": {
+            "name": "More Top Stories",
+            "url": "https://www.ascopost.com/issues/october-10-2021/destiny-breast03-trial-supports-second-line-use-of-t-dxd-in-metastatic-her2-positive-breast-cancer"
+          },
+          "document": {
+            "name": "DESTINY Breast03 Trial Supports Second-Line Use of T-DXd in Metastatic HER2-Positive Breast Cancer - The ASCO Post",
+            "url": "https://www.ascopost.com/issues/october-10-2021/destiny-breast03-trial-supports-second-line-use-of-t-dxd-in-metastatic-her2-positive-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2d8f37c8-14b8-4bf8-baab-66383dfcdfc4",
+      "content": "that there is a risk of alopecia, although, as we saw in DESTINY-Breast03, that was about 30%, so not the majority of patients but important to note. Mark Pegram, MD: My experience with T-DXd is that in contrast to T-DM1 [ado-trastuzumab emtansine] it does have more chemotherapy-like side effects. Overall, based on the strength of the DB03 data this, this T-DXd agent is associated with such robust efficacy signals that it must be considered moving up from a third or a later line consideration [...] DESTINY-Breast01, we had seen that there was about a 15% rate of ILD in this pretreated patient population. In DESTINY-Breast03, which is less pretreated patients, we saw a lower rate of ILD of about 10%. Our group has put into place making sure that we make all patients aware of the risk of ILD so that if, for example, they develop any symptoms like shortness of breath, cough, dyspnea on exertion that we’re able to work them up very quickly. It is important to warn patients that there is a [...] # Experience with Trastuzumab Deruxtecan in Breast Cancer. Breast cancer experts, Sara Tolaney, MD, and Mark Pegram, MD, discuss current standard of care in sequencing of therapies in mBC and the effect of DESTINY-Breast03 data on sequencing going forward. 1 Historical Perspective of HER2+ Breast Cancer. 2 Trastuzumab Derxutecan in HER2+ mBC. 3 DESTINY-Breast03 Trial in HER2+ mBC. 5 Sequencing in HER2+ MBC. 6 Other Trials with Trastuzumab Deruxtecan in Breast Cancer. Sara Tolaney, MD: In my",
+      "origins": [
+        {
+          "source": {
+            "name": "onclive.com",
+            "url": "https://www.onclive.com/view/experience-with-trastuzumab-deruxtecan-in-breast-cancer"
+          },
+          "document": {
+            "name": "Experience with Trastuzumab Deruxtecan in Breast Cancer | OncLive",
+            "url": "https://www.onclive.com/view/experience-with-trastuzumab-deruxtecan-in-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4b83094d-dc30-4766-8041-339458237c75",
+      "content": "Recently, it has been reported that trastuzumab deruxtecan reduced the risk of disease progression or death compared with trastuzumab emtansine in patients with HER2-positive metastatic breast cancer previously treated with trastuzumab and a taxane in the phase III DESTINY-Breast03 trial (N Engl J Med. 2022;386:1143–1154). At ESMO Breast Cancer 2022, results presented at a Proffered Paper Session demonstrate that trastuzumab deruxtecan was also associated with maintained or improved QoL versus [...] “The DESTINY-Breast03 trial represents a breakthrough in terms of efficacy results, but a higher proportion of particular adverse events were seen with trastuzumab deruxtecan over trastuzumab emtansine, including pneumonitis, so it is important to complement survival data with information about the impact of this treatment on distinct domains of quality of life from the patient’s perspective,” notes Dr Ines Vaz-Luis from the Institut Gustave Roussy, Villejuif, France. “It is reassuring that [...] Abstracts discussed:\n\nCurigliano G, et al. Patient-reported outcomes (PROs) from DESTINY-Breast03, a randomized phase 3 study of trastuzumab deruxtecan (T-DXd) vs trastuzumab emtansine (T-DM1) in patients (pts) with HER2-positive (HER2+) metastatic breast cancer (MBC). ESMO Breast Cancer 2022, Abstract 163O\n\nProffered Paper Session 1, 03.05.2022, h. 13:45 – 15:15, Munich Hall",
+      "origins": [
+        {
+          "source": {
+            "name": "Daily Reporter",
+            "url": "https://dailyreporter.esmo.org/esmo-breast-cancer-2022/highlights/positive-patient-reported-outcomes-data-expand-on-the-efficacy-benefits-of-trastuzumab-deruxtecan-and-pembrolizumab"
+          },
+          "document": {
+            "name": "PROs confirms benefits of trastuzumab deruxetan in TNBC",
+            "url": "https://dailyreporter.esmo.org/esmo-breast-cancer-2022/highlights/positive-patient-reported-outcomes-data-expand-on-the-efficacy-benefits-of-trastuzumab-deruxtecan-and-pembrolizumab"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7e28038e-2713-4404-8494-e94f5edb5271",
+      "content": "for this review responded that, based on the results of the DESTINY-Breast03 study, trastuzumab deruxtecan would likely displace trastuzumab emtansine as the second-line treatment of choice for patients with no contraindications in the metastatic setting. The clinical experts were uncertain of the optimal sequencing of post–second-line therapies in patients receiving trastuzumab deruxtecan, which may include trastuzumab emtansine, tucatinib plus capecitabine and trastuzumab, and other options, [...] deruxtecan would be administered to all patients with good PS (as judged by the treating clinician) and no contraindications, which they expected would include some patients with an ECOG PS of 2. The clinical experts felt that the results of the DESTINY-Breast03 study could be extended to these patients. | PAG noted that the proposed place in therapy for trastuzumab deruxtecan is currently occupied by trastuzumab emtansine (Kadcyla). | The clinical experts consulted by CADTH for this review [...] | PAG noted that the DESTINY-Breast03 study included patients with an ECOG PS of 0 or 1 and excluded patients who had prior treatment with an anti-HER2 ADC. Will patients who were treated with adjuvant trastuzumab emtansine (Kadcyla) be eligible for trastuzumab deruxtecan? | The clinical experts consulted by CADTH for this review responded that there is presently no reason to think that patients who received trastuzumab emtansine in the adjuvant or neoadjuvant setting would not be eligible for",
+      "origins": [
+        {
+          "source": {
+            "name": "NCBI",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK601709/table/tr82698680670285_ch01_t04?report=objectonly"
+          },
+          "document": {
+            "name": "Table 4, Summary of Drug Plan Input and Clinical Expert Response - Trastuzumab Deruxtecan (Enhertu) - NCBI Bookshelf",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK601709/table/tr82698680670285_ch01_t04?report=objectonly"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "3d77f5e2-b38f-4e2e-8de1-5006005296b6",
+      "name": "trastuzumab deruxtecan",
+      "entity_type": "Product",
+      "mentions": [
+        "T-DXd",
+        "Trastuzumab deruxtecan"
+      ]
+    },
+    {
+      "id": "78ca97f7-b3a4-42e9-886a-43d53d003dde",
+      "name": "T‑DM1",
+      "entity_type": "Product",
+      "mentions": [
+        "Trastuzumab emtansine",
+        "T-DM1"
+      ]
+    },
+    {
+      "id": "921e05f9-75f8-42ee-bdf9-bb50c1953cfe",
+      "name": "Lancet",
+      "entity_type": "Organization",
+      "mentions": [
+        "Lancet"
+      ]
+    },
+    {
+      "id": "37a1f0f5-f5ef-4b63-b3d8-14f5636be703",
+      "name": "United States",
+      "entity_type": "Country",
+      "mentions": [
+        "US",
+        "United States"
+      ]
+    },
+    {
+      "id": "f986cf92-bc07-44f4-afe4-ad56002039d7",
+      "name": "European Union",
+      "entity_type": "GPE",
+      "mentions": [
+        "EU",
+        "European Union"
+      ]
+    },
+    {
+      "id": "71508759-e63e-4543-8937-0ab6278be2cd",
+      "name": "Japan",
+      "entity_type": "Country",
+      "mentions": [
+        "Japan"
+      ]
+    }
+  ],
+  "_query": "What did the DESTINY-Breast03 trial show comparing trastuzumab deruxtecan with trastuzumab emtansine?"
+}

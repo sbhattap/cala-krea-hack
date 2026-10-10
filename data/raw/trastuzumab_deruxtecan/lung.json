@@ -1,0 +1,271 @@
+{
+  "content": "## Interstitial Lung Disease (ILD) Risk with Trastuzumab Deruxtecan (T-DXd)\n\nInterstitial lung disease (ILD)/pneumonitis is the most clinically significant and potentially fatal toxicity associated with trastuzumab deruxtecan (T-DXd, marketed as Enhertu). Below is a summary of the key data:\n\n### Incidence\n\n- **Overall pooled incidence:** Approximately **10–15%** of patients develop ILD across clinical trials and real-world studies. A large meta-analysis of 35 studies (6,840 patients) reported a pooled all-grade ILD incidence of **8.8%**, with real-world data tending to report lower rates than clinical trials in that analysis. However, a pooled analysis of nine T-DXd monotherapy studies (1,150 patients) found an overall incidence of **15.4%**.\n- **Severity:** The majority of ILD cases (approximately **77–85%**) are low-grade (grade 1 or 2). Grade ≥3 ILD occurs in roughly **1.6–2.8%** of patients, and fatal (grade 5) ILD in approximately **0.3–2.2%**, depending on the study and data source.\n- **Variation by tumor type:** The highest ILD incidence has been observed in patients with uterine carcinomatosis (~26%) and non-small cell lung cancer (~25%).\n\n### Timing\n\n- **Median time to onset:** Approximately **5–6 months** from the start of treatment (range: ~1–21 months).\n- **Most events occur within the first 12 months** (~87% of first events). The risk of a new ILD event beyond 12 months is low (conditional probability ~1.8%), suggesting **no cumulative toxicity**.\n\n### Risk Factors\n\nSeveral baseline factors have been associated with increased ILD risk:\n\n- **East Asian ethnicity** (particularly Japanese patients)\n- **Age** (both younger than 65 and ≥75 years have been flagged in different analyses)\n- **Baseline oxygen saturation <95%**\n- **Moderate to severe renal impairment**\n- **Pre-existing lung comorbidities** (history of ILD, radiation pneumonitis, COPD/emphysema)\n- **Higher T-DXd dose** (>6.4 mg/kg)\n- **Higher body mass index**\n- **Heavily pretreated patients** (>4 years since initial diagnosis; multiple prior lines of therapy)\n\n### Clinical Presentation and Monitoring\n\n- ILD may present subtly with gradual shortness of breath or persistent dry cough, which can be mistaken for GERD or reactive airway disease.\n- The most common radiological pattern is **organizing pneumonia** (~62–70%), followed by hypersensitivity pneumonitis (~20%).\n- **Vigilant monitoring** is essential: respiratory symptoms should be assessed at every visit, and any new breathlessness or cough warrants same-day evaluation. Intermittent chest CT scans are recommended.\n\n### Management\n\n- **Prompt discontinuation** of T-DXd at the first signs of ILD.\n- **Corticosteroid therapy** is the mainstay of treatment.\n- Dose interruption, reduction, or permanent discontinuation depending on severity.\n- A multidisciplinary approach (oncology, pulmonology, radiology) is recommended.\n- Retreatment after recovery from grade 1 ILD has been studied and may be considered in select cases.\n\n### Bottom Line\n\nWhile the benefit–risk profile of T-DXd remains positive given its striking efficacy across multiple HER2-expressing cancers, ILD is a serious and potentially life-threatening adverse event that requires proactive monitoring, early detection, and prompt management in all patients receiving this therapy.",
+  "explainability": [
+    {
+      "content": "The overall incidence of any‑grade ILD with trastuzumab deruxtecan is reported to be around 8.8%–15.4% across studies, indicating that roughly 10–15% of patients develop ILD.",
+      "references": [
+        "38ecbc99-75cb-48b5-b87d-cee01e0b4046",
+        "47ffd06c-f531-493a-8375-f58acba9cf7b"
+      ]
+    },
+    {
+      "content": "Grade ≥ 3 (more severe) ILD occurs in about 1.6%–2.8% of patients, and fatal (grade 5) ILD is observed in roughly 0.3%–2.2% of cases, showing that serious outcomes are relatively rare but present.",
+      "references": [
+        "38ecbc99-75cb-48b5-b87d-cee01e0b4046",
+        "5bc3dfce-0917-41b4-8e6b-48185ef53dc8"
+      ]
+    },
+    {
+      "content": "Most ILD events are low‑grade (grade 1‑2), comprising approximately 77–85% of cases, meaning the majority are mild and manageable with early intervention.",
+      "references": [
+        "47ffd06c-f531-493a-8375-f58acba9cf7b",
+        "38ae5d9e-1922-4232-a5e2-3eb0f08992f7"
+      ]
+    },
+    {
+      "content": "The median time to onset of ILD is about 5–6 months after starting T‑DXd, with the majority (≈87%–97%) occurring within the first 12 months, indicating that risk is highest early in treatment and does not markedly accumulate later.",
+      "references": [
+        "1d0e8eb9-edd3-46ea-8db9-c8aef32ff9a6",
+        "5b00f4fe-e764-4ebb-9699-df0f6e200369"
+      ]
+    },
+    {
+      "content": "Key baseline risk factors identified include East Asian ethnicity (especially Japanese patients), baseline oxygen saturation < 95%, moderate/severe renal impairment, pre‑existing lung comorbidities, higher T‑DXd dose (>6.4 mg/kg), higher BMI, and heavily pre‑treated disease (>4 years since diagnosis).",
+      "references": [
+        "81b1505d-ec42-4a37-8697-cb8125ce184f",
+        "38ae5d9e-1922-4232-a5e2-3eb0f08992f7"
+      ]
+    }
+  ],
+  "context": [
+    {
+      "id": "38ecbc99-75cb-48b5-b87d-cee01e0b4046",
+      "content": "incidence was 8.8% for all-grade ILD, 1.6% for grade ≥3 ILD, and 0.26% for fatal ILD. RWD was independently associated with lower reported rates of all-grade and fatal ILD, while prior lines of therapy were the main predictor of grade ≥3 ILD.ConclusionILD risk with T-DXd differs by severity and data source. Vigilant monitoring is essential, particularly in heavily pretreated patients. [...] IntroductionTrastuzumab deruxtecan (T-DXd)-induced interstitial lung disease/pneumonitis (ILD) represents a clinically significant and potentially fatal toxicity. Discrepancies exist regarding its reported frequency and severity between clinical trials (CTs) and real-world data (RWD). This meta-analysis aims to evaluate the incidence of T-DXd-related ILD and investigate its differences between CTs and RWD.MethodsA systematic review and meta-analysis was conducted in accordance with the PRISMA [...] with the PRISMA guidelines. Databases were searched from their inception through January 2026. CTs and real-world studies reporting T-DXd-related ILD were included in the analysis. Pooled incidences for all-grade, grade ≥3, and fatal ILD were calculated using random-effects models. Subgroup analyses comparing CTs and RWD, and meta-regression analyses for relevant outcomes were performed.ResultsThirty-five studies (19 CTs, 16 RWD) including 6840 patients were analyzed. The pooled incidence was",
+      "origins": [
+        {
+          "source": {
+            "name": "pubmed.ncbi.nlm.nih.gov",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42104817?fc=20220524054416&ff=20260509171925&v=2.20.0"
+          },
+          "document": {
+            "name": "Trastuzumab Deruxtecan-Induced Interstitial Lung Disease: A Systematic Review and Meta-Analysis of Clinical Trials and Real-World Evidence.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42104817?fc=20220524054416&ff=20260509171925&v=2.20.0"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1d0e8eb9-edd3-46ea-8db9-c8aef32ff9a6",
+      "content": "Cumulative incidence and risk factors of trastuzumab deruxtecan–related interstitial lung disease in a multicenter real-world cohort. We aimed to estimate the cumulative incidence of T-DXd–related ILD using a competing-risk approach and to identify clinical and inflammatory factors associated with increased risk. Gray’s test was used for univariable screening, followed by multivariable Fine–Gray regression.Results: Seventy-four patients (18.3%) developed T-DXd–related ILD, with a median time [...] with a median time to onset of 5.5 months and a mean of 8.4 months. This site uses cookies and similar technologies such as web beacons/pixels to collect information about how you interact with our website and to allow us to remember you, as described in our Privacy Policy. By default, cookies are set to “Allow all cookies,” but you can change your settings by visiting “Cookies Settings.” Use of our website represents your acceptance of our Terms of Use. This information might be about you, [...] Title: Cumulative incidence and risk factors of trastuzumab deruxtecan–related interstitial lung disease in a multicenter real-world cohort.",
+      "origins": [
+        {
+          "source": {
+            "name": "asco.org",
+            "url": "https://www.asco.org/abstracts-presentations/264640"
+          },
+          "document": {
+            "name": "Cumulative incidence and risk factors of trastuzumab deruxtecan–related interstitial lung disease in a multicenter real-world cohort.",
+            "url": "https://www.asco.org/abstracts-presentations/264640"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5bc3dfce-0917-41b4-8e6b-48185ef53dc8",
+      "content": "treated with T-DXd, reported an overall ILD incidence of 12.1% (95% CI: 9.9–14.6%), with Grade 5 (fatal) events in approximately 2.2% of cases. A recent United States-based retrospective multicenter study involving 314 patients reported ILD in 9.2% of patients treated with T-DXd in routine clinical practice, with 1.6% experiencing fatal outcomes . Given these considerations, the generation of locally derived real-world data is crucial for characterizing the presentation and management of [...] pooled analyses . Literature to date has highlighted a few factors that may elevate ILD risk with T-DXd, including East Asian ethnicity (particularly Japanese patients), reduced baseline oxygen saturation, and possibly higher drug exposure .  11.Rugo H.S., Crossno C.L., Gesthalter Y.B., Kelley K., Moore H.N., Rimawi M.F., Westbrook K.E., Buys S.S. Real-World Perspectives and Practices for Pneumonitis/Interstitial Lung Disease Associated With Trastuzumab Deruxtecan Use in Human Epidermal Growth [...] ILD onset relative to the first dose of T-DXd, presenting respiratory symptoms (e.g., dyspnea and cough), radiological findings including ground-glass opacities, and the severity of ILD as graded according to the Common Terminology Criteria for Adverse Events (CTCAE) version 5.0. In this real-world cohort, we found that ILD occurred in approximately one-quarter of patients receiving T-DXd, a rate noticeably higher than the 10–15% incidence reported in clinical trials and pooled analyses .",
+      "origins": [
+        {
+          "source": {
+            "name": "pmc.ncbi.nlm.nih.gov",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12564367"
+          },
+          "document": {
+            "name": "Trastuzumab Deruxtecan-Associated Interstitial Lung Disease: Real-World Insights from a Tertiary Care Center - PMC",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12564367"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "47ffd06c-f531-493a-8375-f58acba9cf7b",
+      "content": "## Conclusions\n\nIn this pooled analysis of heavily treated patients, the incidence of ILD/pneumonitis was 15.4%, with most being low grade and occurring in the first 12 months of treatment. The benefit-risk of T-DXd treatment is positive; however, some patients may be at increased risk of developing ILD/pneumonitis, and further investigation is needed to confirm ILD/pneumonitis risk factors. Close monitoring and proactive management of ILD/pneumonitis are warranted for all.\n\n## Keywords [...] The analysis included 1150 patients (breast cancer, 44.3%; gastric cancer, 25.6%; lung cancer, 17.7%; colorectal cancer, 9.3%; other cancer, 3.0%). Median treatment duration was 5.8 (range, 0.7-56.3) months, with a median of 4 (range, 1-27) prior lines of therapy. The overall incidence of adjudicated drug-related ILD/pneumonitis was 15.4% (grade 5, 2.2%). Most patients with ILD/pneumonitis experienced low-grade events (grade 1 or 2, 77.4%); 87.0% had their first event within 12 months [median, [...] saturation <95%, moderate/severe renal impairment, presence of lung comorbidities, and time since initial diagnosis >4 years.",
+      "origins": [
+        {
+          "source": {
+            "name": "pubmed.ncbi.nlm.nih.gov",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35963179"
+          },
+          "document": {
+            "name": "Pooled analysis of drug-related interstitial lung disease and/or pneumonitis in nine trastuzumab deruxtecan monotherapy studies.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35963179"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5b00f4fe-e764-4ebb-9699-df0f6e200369",
+      "content": "Most of the interstitial lung disease events occurred within the first 12 months of treatment. The median time to first event was 5.6 months (range = 1.1–20.8), with 97% of patients experiencing the first onset of interstitial lung disease prior to 12 months. Forty-two percent of patients were treated for ≥ 12 months.\n\nThe risk of patients having a new any-grade interstitial lung disease event beyond 12 months after treatment initiation was low, with a conditional probability of 1.8%. [...] Results\n\nDuring treatment, 38 patients (15.5%) experienced an interstitial lung disease event that was adjudicated as drug-related. Thirty (12.2%) were grade 1 or 2 events; grade 3 and 4 interstitial lung disease events were reported in one (0.4%) patient each. Six (2.4%) patients died due to a grade 5 interstitial lung disease event. Of patients with interstitial lung disease, most (79%) experienced grade 1 or 2 events. [...] The investigators concluded that when T-DXd was administered at the approved dose (5.4 mg/kg), most interstitial lung disease events were of a low grade and occurred in the first 12 months. They added that the risk decreased after 12 months from the start of treatment, suggesting no cumulative toxicity.",
+      "origins": [
+        {
+          "source": {
+            "name": "More Top Stories",
+            "url": "https://ascopost.com/news/may-2021/incidence-of-interstitial-lung-disease-related-to-trastuzumab-deruxtecan-nxki-in-patients-with-her2-positive-metastatic-breast-cancer"
+          },
+          "document": {
+            "name": "Incidence of Interstitial Lung Disease Related to Trastuzumab Deruxtecan-nxki in Patients With HER2-Positive Metastatic Breast Cancer - The ASCO Post",
+            "url": "https://ascopost.com/news/may-2021/incidence-of-interstitial-lung-disease-related-to-trastuzumab-deruxtecan-nxki-in-patients-with-her2-positive-metastatic-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "81b1505d-ec42-4a37-8697-cb8125ce184f",
+      "content": "+ Cartoons\n  + Doctor’s Voice\n  + Peer-to-Peer\n  + Podcast\n Business of Medicine\n\n# Risk for ILD/Pneumonitis Examined for Trastuzumab Deruxtecan\n\nBy HealthDay - Last Updated: August 22, 2022\n\nMONDAY, Aug. 22, 2022 (HealthDay News) — For patients receiving trastuzumab deruxtecan (T-DXd) monotherapy, the incidence of adjudicated drug-related interstitial lung disease (ILD)/pneumonitis is 15.4 percent, according to a study published online Aug. 11 in ESMO Open. [...] The researchers found that the incidence of adjudicated drug-related ILD/pneumonitis was 15.4 percent overall (grade 5, 2.2 percent); a majority of patients experienced low-grade events (grade 1 or 2, 77.4 percent). Most patients (87.0 percent) had their first event within 12 months of the first dose of T-DXd (median, 5.4 months). For 53.2 percent of events, adjudicated ILD/pneumonitis onset occurred earlier than identified by investigators (median difference in onset, 43 days). Baseline [...] 43 days). Baseline factors potentially associated with an increased risk for adjudicated drug-related ILD/pneumonitis included age younger than 65 years, enrollment in Japan, T-DXd dose >6.4 mg/kg, oxygen saturation <95 percent, moderate/severe renal impairment, lung comorbidities, and more than four years since the initial diagnosis.",
+      "origins": [
+        {
+          "source": {
+            "name": "Physician's Weekly | www.PhysiciansWeekly.com",
+            "url": "https://www.physiciansweekly.com/post/risk-for-ild-pneumonitis-examined-for-trastuzumab-deruxtecan"
+          },
+          "document": {
+            "name": "Risk for ILD/Pneumonitis Examined for Trastuzumab Deruxtecan | www.PhysiciansWeekly.com",
+            "url": "https://www.physiciansweekly.com/post/risk-for-ild-pneumonitis-examined-for-trastuzumab-deruxtecan"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "38ae5d9e-1922-4232-a5e2-3eb0f08992f7",
+      "content": "In the safety analysis set (n = 1070), 77.4% were males and the median age was 70 years (range 23-100 years). The median treatment duration of T-DXd was 3.9 months (range 0.7-12.0 months). The incidence of any grade, grade ≥3, and grade 5 adjudicated drug-related ILD was 9.6%, 2.8%, and 1.2%, respectively. The median time from first T-DXd treatment to the first onset of adjudicated drug-related ILD episode was 2.9 months (range 0.3-11.5 months). The most common imaging pattern at the onset of [...] at the onset of adjudicated drug-related ILD was organizing pneumonia (62.1%), followed by hypersensitivity pneumonitis (20.4%) and diffuse alveolar damage (7.8%). Age (≥75 years), medical history and/or comorbidity of ILD, radiation pneumonitis, and chronic obstructive pulmonary disease (COPD) or emphysema were identified as factors of interest for ILD incidence. [...] ## Background\n\nInterstitial lung disease (ILD)/pneumonitis is an important identified risk associated with trastuzumab deruxtecan (T-DXd) treatment, but there are few reports of T-DXd-related ILD in a real-world setting.\n\n## Materials And Methods",
+      "origins": [
+        {
+          "source": {
+            "name": "pubmed.ncbi.nlm.nih.gov",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41349223"
+          },
+          "document": {
+            "name": "Real-world evaluation of interstitial lung disease/pneumonitis in patients treated with trastuzumab deruxtecan for HER2-positive advanced or recurrent gastric cancer: a postmarketing surveillance study in Japan.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41349223"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "393cd3a9-f49a-4957-9430-71dccfe2008b",
+      "content": "cancers, including striking efficacy in breast cancers with low levels of HER2 expression, HER2+ gastric cancers and HER2 mutated non-small cell lung cancer, making it one of the most active and versatile HER2 targeting therapies available in the clinic today [2,3]. While the most common toxicities of T-DXd are low-grade and manageable nausea, GI dysfunction, and bone marrow suppression, it is critical to highlight the risk of interstitial lung disease (ILD) as an important toxicity of this [...] toxicity of this new-generation ADC. While the pathophysiology of the lung toxicity is yet unclear, having a heightened awareness of this risk and implementation of routine monitoring of respiratory symptoms and intermittent chest computed tomography (CT) scans with prompt cessation of therapy at the first signs of toxicity and institution of treatment with steroids, the rates of grade 5 ILD events are now typically less than 1% in modern breast trials . Here, we report a case of grade 4 ILD [...] # A Reversible Case of Advanced Interstitial Lung Disease in a Patient with HER2 Low Metastatic Breast Cancer Treated with Trastuzumab Deruxtecan. Citation: Costa FMD, Cerezoli MT, Medeiros AK, Silva GNB, Maluf FC, Modi S (2023) A Reversible Case of Advanced Interstitial Lung Disease in a Patient with HER2 Low Metastatic Breast Cancer Treated with Trastuzumab Deruxtecan. This study presents a case of reversible grade 4 Interstitial Lung Disease (ILD) triggered by Trastuzumab Deruxtecan (T-DXd)",
+      "origins": [
+        {
+          "source": {
+            "name": "Gavin Publishers",
+            "url": "https://gavinpublishers.com/article/view/a-reversible-case-of-advanced-interstitial-lung-disease-in-a-patient-with-her2-low-metastatic--breast-cancer-treated-with-trastuzumab-deruxtecan-"
+          },
+          "document": {
+            "name": "A Reversible Case of Advanced Interstitial Lung Disease in a Patient with HER2 Low Metastatic Breast Cancer Treated with Trastuzumab Deruxtecan",
+            "url": "https://gavinpublishers.com/article/view/a-reversible-case-of-advanced-interstitial-lung-disease-in-a-patient-with-her2-low-metastatic--breast-cancer-treated-with-trastuzumab-deruxtecan-"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1a4ca62d-f497-434b-a99c-f9ac3b10dbc0",
+      "content": "Interstitial lung disease (ILD) represents a unique and serious toxicity associated with trastuzumab deruxtecan, occurring in approximately 10% to 15% of patients receiving antibody-drug conjugate (ADC) therapy. Dr Preeshagul emphasizes the subtle, “cryptic” presentation of ILD, which may manifest as gradual shortness of breath or persistent dry cough that can be mistakenly attributed to GERD or reactive airway disease. Early recognition requires high clinical suspicion and careful monitoring [...] are crucial for preventing progression to severe, life-threatening respiratory complications. [...] ILD evaluation and management.",
+      "origins": [
+        {
+          "source": {
+            "name": "onclive.com",
+            "url": "https://www.onclive.com/view/recognizing-and-treating-interstitial-lung-disease-associated-with-trastuzumab-deruxtecan"
+          },
+          "document": {
+            "name": "Recognizing and Treating Interstitial Lung Disease Associated With Trastuzumab Deruxtecan | OncLive",
+            "url": "https://www.onclive.com/view/recognizing-and-treating-interstitial-lung-disease-associated-with-trastuzumab-deruxtecan"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7cb27dca-0dcd-4b2b-8564-3c2704a5b334",
+      "content": "Trastuzumab Deruxtecan-Induced Interstitial Lung Disease/Pneumonitis in ERBB2-Positive Advanced Solid Malignancies: A Systematic Review | springermedizin.de. Trastuzumab deruxtecan (T-DXd) is a novel anti-ERBB2 antibody drug conjugate that appears to be associated with an increased risk of lung toxicity. We performed a systematic review to describe the incidence, severity, and management of T-DXd-induced interstitial lung disease (ILD) or pneumonitis. We searched PubMed/MEDLINE, Embase, [...] and supportive care. Interstitial lung disease/pneumonitis is a well-described, serious, and potentially life-threatening adverse event that is associated with T-DXd. Further studies are needed to identify the risk factors and the underlying pathophysiology of T-DXd-induced ILD/pneumonitis to prevent occurrence and to develop effective management strategies. | Incidence and severity of trastuzumab deruxtecan-induced interstitial lung disease/pneumonitis are variable among different [...] cases, n = 136 out of total n = 1193). Grading of the adjudicated T-DXd-induced ILD/pneumonitis was reported in 122 patients with the majority of the cases (78.69%, n = 96) occurring as grade 1 or 2. The highest incidence of ILD/pneumonitis was seen in patients with uterine carcinomatosis (26.47%) and non-small cell lung cancer (24.77%). Interstitial lung disease/pneumonitis events were treated with a dose interruption or reduction, treatment discontinuation, corticosteroids, and supportive",
+      "origins": [
+        {
+          "source": {
+            "name": "Home",
+            "url": "https://www.springermedizin.de/trastuzumab-deruxtecan-induced-interstitial-lung-disease-pneumon/24123210"
+          },
+          "document": {
+            "name": "Trastuzumab Deruxtecan-Induced Interstitial Lung Disease/Pneumonitis in ERBB2-Positive Advanced Solid Malignancies: A Systematic Review",
+            "url": "https://www.springermedizin.de/trastuzumab-deruxtecan-induced-interstitial-lung-disease-pneumon/24123210"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4590b927-2021-46c0-b3de-13517737c97d",
+      "content": "III RCTs, three phase II and two phase I non-RCTs, and one retrospective cohort comprising 1,443 patients with a mean. and presented with hormone-receptor-positive mBC (66.8%). In a pooled analysis, the incidence of ILD was 13.0% (179. patients; 95%CI 11.0–13.0). Patients enrolled in phase III clinical trials had an ILD rate of 12.0%, while the observational. cohort reported a numerically higher rate of 18.0%. Most ILD cases, 84.9% (152 patients), were mild (grade 1 or 2). or 4 AEs were [...] # Incidence of interstitial lung disease and cardiotoxicity with trastuzumab deruxtecan in breast cancer patients: A systematic review and single-arm meta-analysis. Objective: We performed a systematic review and meta-analysis to assess the incidence and severity of those adverse. events (AEs) in metastatic breast cancer (mBC) patients treated with trastuzumab deruxtecan (T-DXd). comprehensively searched PubMed, Cochrane, and Scopus databases for randomized clinical trials (RCTs) and [...] 2). or 4 AEs were reported in 13 (7.3%) patients, and grade 5 in 14 (7.8%) patients. We assessed cardiotoxicity by the reduction. Decreased LVEF was seen in 3.6% (95%CI. 3.0–5.0%), and most patients were asymptomatic. A total of 11 patients developed prolonged QT interval, and four had. Conclusion: Our meta-analysis reinforces the importance of close vigilance for pulmonary and cardiac toxicities in mBC patients on treatment with T-DXd. Early detection and management. by a multidisciplinary",
+      "origins": [
+        {
+          "source": {
+            "name": "mastology.org",
+            "url": "https://mastology.org/journal/article/view/1544"
+          },
+          "document": {
+            "name": "Incidence of interstitial lung disease and cardiotoxicity with trastuzumab deruxtecan in breast cancer patients: A systematic review and single-arm meta-analysis\n\t\t\t\t\t\t\t| Mastology",
+            "url": "https://mastology.org/journal/article/view/1544"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "3d77f5e2-b38f-4e2e-8de1-5006005296b6",
+      "name": "trastuzumab deruxtecan",
+      "entity_type": "Product",
+      "mentions": [
+        "Trastuzumab Deruxtecan",
+        "T-DXd"
+      ]
+    },
+    {
+      "id": "cb346b28-8463-48b0-8444-f12785fe2eae",
+      "name": "Enhertu",
+      "entity_type": "Product",
+      "mentions": [
+        "Enhertu"
+      ]
+    }
+  ],
+  "_query": "What is the risk of interstitial lung disease with trastuzumab deruxtecan?"
+}

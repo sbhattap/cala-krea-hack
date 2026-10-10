@@ -91,6 +91,8 @@ details .prompt strong{font-family:var(--mono);font-weight:500;font-size:11px;le
 .src .via{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-right:6px}
 @media (max-width:640px){ .ch{padding-left:36px} .plate{aspect-ratio:4/3} }
 
+.related{display:inline-block;margin:0 0 12px;font:500 14px var(--body);color:var(--ink);text-decoration:none;border:1px solid var(--accent);border-radius:999px;padding:6px 14px}
+.related:hover{background:var(--accent);color:var(--paper)}
 .error{margin:48px 0;padding:20px;border:1px solid var(--rule);background:var(--card);border-radius:4px}
 footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--rule);font-size:14px;color:var(--muted)}
 footer p{max-width:66ch}
@@ -380,10 +382,11 @@ function render(bio){
       <div class="meta"><span class="num">Ch. ${String(i+1).padStart(2,"0")}</span><span>${esc(c.date)}</span></div>
       <h3>${esc(c.title)}</h3>
       <figure class="plate">
-        <canvas class="art" data-scene="${esc(chId(c, i))}" data-seed="${i+3}" aria-hidden="true"></canvas>
+        <canvas class="art" data-scene="${esc(c.scene || chId(c, i))}" data-seed="${i+3}" aria-hidden="true"></canvas>
         ${c.stat ? `<figcaption class="stat-over"><b>${esc(c.stat[0])}</b><span>${esc(c.stat[1])}</span></figcaption>` : ""}
       </figure>
       <p class="lede">${esc(c.line || (c.body || [])[0])}</p>
+      ${c.link ? `<a class="related" href="biography.html?drug=${encodeURIComponent(c.link.drug)}">${esc(c.link.label)} →</a>` : ""}
       <details>
         <summary>Read the full chapter</summary>
         ${(c.body || []).map(p => `<p>${esc(p)}</p>`).join("")}
@@ -475,7 +478,7 @@ function buildFilm(){
     s.className = "scene" + (i % 2 ? " alt" : "");
     s.style.setProperty("--dur", (CHAPTER_MS + 2000) + "ms");
     const src = images[chId(c, i)];
-    s.innerHTML = src ? `<img class="art" src="${esc(src)}" alt="">` : `<canvas class="art" data-scene="${esc(chId(c, i))}" data-seed="${i+3}"></canvas>`;
+    s.innerHTML = src ? `<img class="art" src="${esc(src)}" alt="">` : `<canvas class="art" data-scene="${esc(c.scene || chId(c, i))}" data-seed="${i+3}"></canvas>`;
     scenesEl.appendChild(s);
   });
   const hs = document.createElement("div"); hs.className = "scene"; hs.dataset.hero = "1";
@@ -506,7 +509,7 @@ function show(n){
     const h = BIO.hero || {};
     card.innerHTML = st.type === "title"
       ? `<div class="when">${esc(h.label || "Drug biography")}</div><h2>${esc(BIO.name)}</h2><p>${esc(h.line || "")}</p>`
-      : `<div class="when">${esc(BIO.name)}</div><h2>The story continues</h2><p>Every fact in this film came from Cala, with its source. Hero image by Krea.</p><p class="small">For learning only. Talk to an oncologist about treatment.</p>`;
+      : `<div class="when">${esc(BIO.name)}</div><h2>The story continues</h2><p>Every fact in this film came from Cala, with its source. Hero image by Krea.</p><p class="small">Made for Breast Cancer Awareness Month, October 2026.</p><p class="small">For learning only. Talk to an oncologist about treatment.</p>`;
     requestAnimationFrame(() => card.classList.add("show"));
     const text = st.type === "title" ? `${BIO.name}. ${h.line || ""}` : "Every fact in this film came with a source.";
     const t0 = Date.now();

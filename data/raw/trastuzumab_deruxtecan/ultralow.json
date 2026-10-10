@@ -1,0 +1,224 @@
+{
+  "content": "## DESTINY-Breast06 Trial Results\n\n**DESTINY-Breast06** was a global, randomized, open-label, **phase 3 clinical trial** (NCT04494425) that evaluated **Enhertu (trastuzumab deruxtecan / T-DXd)** versus physician's choice of chemotherapy (capecitabine, paclitaxel, or nab-paclitaxel) in patients with **hormone receptor–positive (HR+), HER2-low or HER2-ultralow** unresectable or metastatic breast cancer who had received at least one prior line of endocrine therapy but no prior chemotherapy in the metastatic setting. The trial enrolled 866 patients.\n\n### Key findings\n\n- **Progression-free survival (PFS):** In the HER2-low group, median PFS was **13.2 months** with T-DXd versus **8.1 months** with chemotherapy (HR 0.62; 95% CI 0.51–0.74; P < 0.0001). Results in the overall intent-to-treat population (HER2-low + HER2-ultralow) were consistent (median PFS 13.2 vs. 8.1 months; HR 0.63).\n- **Objective response rate:** Greater than 60% with T-DXd.\n- **HER2-ultralow benefit:** A prespecified subgroup analysis showed that the clinically meaningful improvement was **consistent between patients with HER2-low and HER2-ultralow expression** (HER2-ultralow defined as IHC 0 with membrane staining, i.e., IHC >0 and <1+). This was a landmark finding, as no targeted therapies had previously been approved specifically for HER2-ultralow disease.\n- **Safety:** The safety profile was consistent with prior T-DXd breast cancer trials, with no new safety signals. The most common treatment-related adverse events included nausea, fatigue, and alopecia; drug-related interstitial lung disease (ILD)/pneumonitis occurred in approximately 12% of patients.\n\n### FDA Approval\n\nIn **January 2025**, the FDA approved Enhertu for patients with **unresectable or metastatic HER2-low or HER2-ultralow breast cancer** who have previously been treated with at least one type of endocrine therapy in the metastatic setting. This approval was based directly on the DESTINY-Breast06 results and made Enhertu the **first HER2-directed therapy approved for HER2-ultralow breast cancer**.\n",
+  "explainability": [
+    {
+      "content": "The DESTINY‑Breast06 phase 3 trial compared Enhertu (T‑DXd) with physician’s choice chemotherapy in HR‑positive, HER2‑low or HER2‑ultralow metastatic breast cancer patients who had received prior endocrine therapy.",
+      "references": [
+        "8730a9ce-8003-4db7-b2ad-60c3ada63a24",
+        "8d9e92d9-bc5b-420b-a0dd-8571c5a66ca2"
+      ]
+    },
+    {
+      "content": "The trial enrolled 866 patients and demonstrated a statistically significant and clinically meaningful improvement in progression‑free survival (median PFS 13.2 months vs 8.1 months; HR≈0.62‑0.63, P < 0.0001).",
+      "references": [
+        "8730a9ce-8003-4db7-b2ad-60c3ada63a24",
+        "0cffc997-d118-467c-a364-defff50dc4c5"
+      ]
+    },
+    {
+      "content": "Objective response rate with T‑DXd exceeded 60 %.",
+      "references": [
+        "8d9e92d9-bc5b-420b-a0dd-8571c5a66ca2"
+      ]
+    },
+    {
+      "content": "A prespecified subgroup analysis showed that the PFS benefit was consistent in patients with HER2‑ultralow disease (IHC 0 with membrane staining).",
+      "references": [
+        "c1391686-c38f-4569-a5fe-20c0ea1d7bb0"
+      ]
+    },
+    {
+      "content": "The safety profile in DESTINY‑Breast06 was consistent with earlier T‑DXd studies, with no new safety signals and interstitial lung disease occurring in about 12 % of patients.",
+      "references": [
+        "8d9e92d9-bc5b-420b-a0dd-8571c5a66ca2"
+      ]
+    },
+    {
+      "content": "Based on these results, the FDA approved Enhertu for unresectable or metastatic HER2‑low or HER2‑ultralow breast cancer in January 2025.",
+      "references": [
+        "8730a9ce-8003-4db7-b2ad-60c3ada63a24",
+        "1d3b1443-26fa-4e60-8191-a11d788aafa8"
+      ]
+    }
+  ],
+  "context": [
+    {
+      "id": "8730a9ce-8003-4db7-b2ad-60c3ada63a24",
+      "content": "# FDA Approves T-DXd in HER2-Low/Ultralow Breast Cancer. In January 2025, the FDA approved trastuzumab deruxtecan for patients with unresectable or metastatic HER2-low or HER2-ultralow breast cancer who have previously been treated with at least 1 type of endocrine therapy in the metastatic setting. Results from the DESTINY-Breast06 trial led to the approval of T-DXd for patients with unresectable or metastatic HER2-low or HER2-ultralow breast cancer. Trastuzumab deruxtecan (T-DXd; Enhertu) has [...] Enhertu) has been approved by the FDA for patients with unresectable or metastatic HER2-low or HER2-ultralow breast cancer who have previously been treated with at least 1 type of endocrine therapy in the metastatic setting, according to a press release from the agency.1. The approval was based on results from the phase 3 DESTINY-Breast06 trial (NCT04494425),in which T-DXd was compared with the investigator’s choice of chemotherapy for patients with hormone receptor (HR)–positive, HER2-low or [...] HER2-low or HER2-ultralow advanced or metastatic breast cancer.2. Results that were previously presented at the 2024 American Society of Clinical Oncology (ASCO) Annual Meeting showed a median progression-free survival (PFS) in the HER2-low group of 13.2 months in the T-DXd arm vs 8.1 months in the chemotherapy arm (HR, 0.62; 95% CI, 0.51-0.74; P <.0001). In the intent-to-treat (ITT) population, the median PFS was 13.2 months vs 8.1 months in each respective arm (HR, 0.63; 95% CI, 0.53-0.75; P",
+      "origins": [
+        {
+          "source": {
+            "name": "CancerNetwork",
+            "url": "https://www.cancernetwork.com/view/fda-approves-t-dxd-in-her2-low-ultralow-breast-cancer"
+          },
+          "document": {
+            "name": "FDA Approves T-DXd in HER2-Low/Ultralow Breast Cancer | CancerNetwork",
+            "url": "https://www.cancernetwork.com/view/fda-approves-t-dxd-in-her2-low-ultralow-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8d9e92d9-bc5b-420b-a0dd-8571c5a66ca2",
+      "content": "More recently, T-DXd received FDA approval for patients with HER2-ultralow MBC based on results from the DESTINYBreast06 trial (NCT04494425).5 In the phase 3, open-label DESTINY-Breast06 trial, 866 patients with HER2-low (IHC 1+ or IHC 2+/ISH negativity) or HER2-ultralow (IHC 0 with membrane staining), HR+ MBC who had received 1 or more lines of endocrine-based therapy and no previous chemotherapy for MBC were randomly assigned to T-DXd or physician’s choice of chemotherapy (capecitabine, [...] 7. ###### Bardia A, Hu X, Dent R, et al; Destiny-Breast06 Trial Investigators. Trastuzumab deruxtecan after endocrine therapy in metastatic breast cancer. N Engl J Med. 2024;391(22):2110-2122. doi:10.1056/NEJMoa2407086\n8. ###### Trodelvy. Prescribing information. Gilead Sciences; 2024. Accessed March 17, 2025. [...] The most common treatment-related adverse events (TRAEs) associated with T-DXd in the DESTINYBreast04 trial were nausea, fatigue, and alopecia; grade 3 or higher AEs included neutropenia, anemia, and fatigue. Patients should receive antiemetic prophylaxis with a 3- or 4-drug regimen. Drug-related interstitial lung disease (ILD)/pneumonitis occurred in 12.1% of patients, with 0.8% experiencing grade 5 events.5,6 The safety profile of T-DXd was consistent in DESTINY-Breast06 with no new safety",
+      "origins": [
+        {
+          "source": {
+            "name": "pharmacytimes.com",
+            "url": "https://www.pharmacytimes.com/view/advances-in-the-management-of-hr-her2--ultralow-and--low-metastatic-breast-cancer-new-horizons-and-treatment-frontiers"
+          },
+          "document": {
+            "name": "Advances in the Management of HR+/HER2– Ultralow and -Low Metastatic Breast Cancer: New Horizons and Treatment Frontiers | Pharmacy Times",
+            "url": "https://www.pharmacytimes.com/view/advances-in-the-management-of-hr-her2--ultralow-and--low-metastatic-breast-cancer-new-horizons-and-treatment-frontiers"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0cffc997-d118-467c-a364-defff50dc4c5",
+      "content": "the primary trial population of patients with HR positive, HER2 low (IHC 1+ or IHC 2+/ISH-) metastatic breast cancer following one or more lines of endocrine therapy. A statistically significant and clinically meaningful improvement in PFS also was observed in the overall trial population (patients with HER2 low and HER2 ultralow [defined as IHC 0 with membrane staining; IHC >0 <1+] metastatic breast cancer). DESTINY-Breast06 is a global, randomized, open-label, phase 3 trial evaluating the [...] chemotherapy in the primary trial population of patients with HR positive, HER2 low metastatic breast cancer following one or more lines of endocrine therapy. TOKYO & BASKING RIDGE, N.J.--(BUSINESS WIRE)-- Positive topline results from the DESTINY-Breast06 phase 3 trial showed that ENHERTU® (trastuzumab deruxtecan) demonstrated a statistically significant and clinically meaningful improvement in progression-free survival (PFS) compared to standard of care chemotherapy in the primary trial [...] # ENHERTU® Demonstrated Statistically Significant & Clinically Meaningful Improvement in Progression-Free Survival in HR Positive, HER2 Low Metastatic Breast Cancer Following One or More Lines of Endocrine Therapy in DESTINY-Breast06 Phase 3 Trial. ## Positive topline results from the DESTINY-Breast06 phase 3 trial showed that ENHERTU® demonstrated a statistically significant and clinically meaningful improvement in progression-free survival compared to standard of care chemotherapy in the",
+      "origins": [
+        {
+          "source": {
+            "name": "BioSpace: Biotech, Pharmaceutical and Clinical Research News",
+            "url": "https://www.biospace.com/enhertu-demonstrated-statistically-significant-and-clinically-meaningful-improvement-in-progression-free-survival-in-hr-positive-her2-low-metastatic-breast-cancer-following-one-or-more-lines-of-endocrine-therapy-in-destiny-breast06-phase-3-trial"
+          },
+          "document": {
+            "name": "ENHERTU® Demonstrated Statistically Significant & Clinically Meaningful Improvement in Progression-Free Survival in HR Positive, HER2 Low Metastatic Breast Cancer Following One or More Lines of Endocrine Therapy in DESTINY-Breast06 Phase 3 Trial - BioSpace",
+            "url": "https://www.biospace.com/enhertu-demonstrated-statistically-significant-and-clinically-meaningful-improvement-in-progression-free-survival-in-hr-positive-her2-low-metastatic-breast-cancer-following-one-or-more-lines-of-endocrine-therapy-in-destiny-breast06-phase-3-trial"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1391686-c38f-4569-a5fe-20c0ea1d7bb0",
+      "content": "(patients with HER2-low and HER2-ultralow [defined as IHC 0 with membrane staining; IHC >0<1+] metastatic breast cancer). A prespecified subgroup analysis showed the clinically meaningful improvement was consistent between patients with HER2- low and HER2-ultralow expression. Overall survival (OS) data were not mature at the time of the analysis; however, Enhertu showed an early trend towards an OS improvement versus standard-of-care chemotherapy in patients with HER2-low metastatic breast [...] 25 per cent may be HER2-ultralow. Endocrine therapies are widely used in the early lines of treatment for HR-positive metastatic breast cancer; however after two lines of treatment, further efficacy from endocrine therapy is often limited. The current standard of care following endocrine therapy is chemotherapy, which is associated with poor response rates and outcomes. The safety profile of Enhertu was consistent with previous breast cancer clinical trials with no new safety signals [...] metastatic breast cancer and in the overall trial population. The trial will continue as planned to further assess OS and other secondary endpoints. Enhertu is a specifically engineered HER2-directed DXd antibody drug conjugate (ADC) discovered by Daiichi Sankyo and being jointly developed and commercialised by AstraZeneca and Daiichi Sankyo. It is estimated that approximately 60-65 per cent of HR-positive, HER2-negative breast cancers are HER2-low and potentially an additional 25 per cent may",
+      "origins": [
+        {
+          "source": {
+            "name": "India’s Leading Pharma Industry Platform",
+            "url": "https://www.expresspharma.in/enhertu-shows-positive-results-in-destiny-breast06-phase-iii-trial"
+          },
+          "document": {
+            "name": "Enhertu shows positive results in DESTINY-Breast06 Phase III trial - Express Pharma",
+            "url": "https://www.expresspharma.in/enhertu-shows-positive-results-in-destiny-breast06-phase-iii-trial"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8f49da57-8e3b-48dc-a787-323c9fd403ba",
+      "content": "cancers (by IHC) still have some level of HER2 expression. Support for the new approval came from the randomized phase III DESTINY-Breast06 trial involving patients with endocrine-resistant/refractory, inoperable or metastatic HR-positive breast cancer with HER2-low or HER2-ultralow expression. The safety profile of T-DXd in DESTINY-Breast06 was consistent with previous clinical trials of the drug in breast cancer with no new safety concerns identified. T-DXd is also approved for HER2-positive [...] and a response rate of more than 60%, trastuzumab deruxtecan offers a potential new standard of care for patients with HR-positive, HER2-low or HER2-ultralow metastatic breast cancer following endocrine therapy.\". Experience with T-DXd in clinical practice has been consistent with clinical trial results, including patients with HER2-ultralow breast cancers, he told MedPage Today. With the addition of a new treatment option for a new molecularly defined type of breast cancer, \"it is critical for [...] for HER2-positive (IHC 3+ or ISH+) breast cancer, non-small cell lung cancer, gastric or gastroesophageal junction cancers, and carries a tumor-agnostic indication for HER2-positive cancers as well.",
+      "origins": [
+        {
+          "source": {
+            "name": "medpagetoday.com",
+            "url": "https://www.medpagetoday.com/hematologyoncology/breastcancer/113982"
+          },
+          "document": {
+            "name": "FDA Expands Enhertu Approval to HER2-Ultralow Breast Cancer | MedPage Today",
+            "url": "https://www.medpagetoday.com/hematologyoncology/breastcancer/113982"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1d3b1443-26fa-4e60-8191-a11d788aafa8",
+      "content": "FDA approval in January 2025 extended Enhertu to patients with unresectable or metastatic HR-positive HER2-low or HER2-ultralow breast cancer",
+      "origins": [
+        {
+          "source": {
+            "name": "marketsandstats.com",
+            "url": "https://www.marketsandstats.com/reports/antibody-drug-conjugates-market"
+          },
+          "document": {
+            "name": "Antibody-Drug Conjugates Market Size, Share, Growth - 2032",
+            "url": "https://www.marketsandstats.com/reports/antibody-drug-conjugates-market"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f877f30a-ab0d-4926-bd2a-45dff982ed0e",
+      "content": "If approved, Daiichi Sankyo and AstraZeneca’s ENHERTU will be the first HER2 directed therapy and antibody drug conjugate for patients prior to receiving chemotherapy for metastatic breast cancer. About DESTINY-Breast06DESTINY-Breast06 is a global, randomized, open-label, phase 3 trial evaluating the efficacy and safety of ENHERTU (5.4 mg/kg) versus investigator’s choice of chemotherapy (capecitabine, paclitaxel or nab paclitaxel) in patients with HR positive, HER2 low (IHC 1+ or IHC 2+/ISH-) [...] options based on efficacy results from the DESTINY-PanTumor02, DESTINY-Lung01 and DESTINY-CRC02 trials. [...] 1+ or IHC 2+/ISH-) or HER2 ultralow (defined as IHC 0 with membrane staining [IHC >0 <1+]) advanced or metastatic breast cancer. Prior to the approval of ENHERTU following chemotherapy in HER2 low metastatic breast cancer based on the DESTINY-Breast04 trial, there were no targeted therapies approved specifically for patients with HER2 low expression.13 There are no targeted therapies specifically approved for patients with HER2 ultralow expression.14. ENHERTU (5.4 mg/kg) is approved in more",
+      "origins": [
+        {
+          "source": {
+            "name": "BioSpace: Biotech, Pharmaceutical and Clinical Research News",
+            "url": "https://www.biospace.com/press-releases/enhertu-granted-priority-review-in-the-u-s-for-patients-with-her2-low-or-her2-ultralow-metastatic-breast-cancer-who-have-received-at-least-one-line-of-endocrine-therapy"
+          },
+          "document": {
+            "name": "ENHERTU® Granted Priority Review in the U.S. for Patients with HER2 Low or HER2 Ultralow Metastatic Breast Cancer Who Have Received at Least One Line of Endocrine Therapy - BioSpace",
+            "url": "https://www.biospace.com/press-releases/enhertu-granted-priority-review-in-the-u-s-for-patients-with-her2-low-or-her2-ultralow-metastatic-breast-cancer-who-have-received-at-least-one-line-of-endocrine-therapy"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "cb346b28-8463-48b0-8444-f12785fe2eae",
+      "name": "Enhertu",
+      "entity_type": "Product",
+      "mentions": [
+        "Enhertu",
+        "trastuzumab deruxtecan",
+        "T‑DXd"
+      ]
+    },
+    {
+      "id": "34c4c927-b182-47ce-92f6-5fb2db46c7a5",
+      "name": "Capecitabine",
+      "entity_type": "Product",
+      "mentions": [
+        "capecitabine"
+      ]
+    },
+    {
+      "id": "f702e36f-9fb1-4e6e-a1fe-65a0efc9d78a",
+      "name": "paclitaxel",
+      "entity_type": "Product",
+      "mentions": [
+        "paclitaxel"
+      ]
+    },
+    {
+      "id": "2f235ea8-1981-4353-ab95-2819d77bfac1",
+      "name": "Nab-paclitaxel",
+      "entity_type": "Product",
+      "mentions": [
+        "nab‑paclitaxel"
+      ]
+    },
+    {
+      "id": "247699e6-094a-464d-b016-a945b6f1598d",
+      "name": "U.S. FDA",
+      "entity_type": "Company",
+      "mentions": [
+        "FDA"
+      ]
+    }
+  ],
+  "_query": "What did the DESTINY-Breast06 trial show, and when did the FDA approve Enhertu for HER2-ultralow breast cancer?"
+}

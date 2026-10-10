@@ -1,0 +1,61 @@
+[
+  {
+    "id": "trastuzumab",
+    "name": "Trastuzumab",
+    "brands": [
+      "Herceptin",
+      "Herceptin Hylecta"
+    ],
+    "company": "Genentech",
+    "mechanism_group": "HER2",
+    "status": "approved",
+    "first_approval": "1998-09-25",
+    "subtypes": [
+      "HER2+"
+    ],
+    "biography": true,
+    "sources": [
+      {
+        "label": "Herceptin FDA Approval History - Drugs.com",
+        "url": "https://www.drugs.com/history/herceptin.html",
+        "via": "cala"
+      }
+    ]
+  },
+  {
+    "id": "trastuzumab_deruxtecan",
+    "name": "Trastuzumab deruxtecan",
+    "brands": [
+      "Enhertu"
+    ],
+    "company": "Daiichi Sankyo and AstraZeneca",
+    "mechanism_group": "ADC",
+    "status": "approved",
+    "first_approval": "2019-12-20",
+    "subtypes": [
+      "HER2+",
+      "HER2-low"
+    ],
+    "builds_on": [
+      "trastuzumab"
+    ],
+    "biography": true,
+    "sources": [
+      {
+        "label": "Enhertu FDA Approval History - Drugs.com",
+        "url": "https://www.drugs.com/history/enhertu.html",
+        "via": "cala"
+      }
+    ],
+    "subtype_approvals": {
+      "HER2-low": {
+        "date": "2022-08-06",
+        "source": {
+          "label": "Enhertu FDA Approval History - Drugs.com (HER2-low approval)",
+          "url": "https://www.drugs.com/history/enhertu.html",
+          "via": "cala"
+        }
+      }
+    }
+  }
+]

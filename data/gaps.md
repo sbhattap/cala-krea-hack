@@ -41,3 +41,21 @@ Claim numbers refer to `data/claims_trastuzumab.md`. Raw responses are in `data/
 | 19 | HercepTest / HER2 testing as a companion diagnostic | Explains how patients are picked for the drug |
 | 20 | Stomach (gastric) cancer approval, Oct 2010 | Appears only in a summary paragraph, not as a cited claim |
 | 21 | Approval dates for pertuzumab, Kadcyla, Enhertu | Successor claims have no dates; the Landscape will need them |
+
+## Trastuzumab deruxtecan (Enhertu)
+
+Claims in `data/claims_trastuzumab_deruxtecan.md`; raw responses in `data/raw/trastuzumab_deruxtecan/`.
+
+| # | Claim | Problem | Status |
+|---|---|---|---|
+| 1 | Year Daiichi Sankyo started the program | Cala gave no date for the origin | Origin chapter is dated by Herceptin's 1998 approval, the antibody it reuses |
+| 2 | DESTINY-Breast03 date | Dated 2022 from the NEJM 2022 key-paper source; no exact date returned | Used "2022" |
+| 3 | May 2026 early-breast-cancer approval | Month comes from Cala's summary and the press release title; no exact day | Used "May 2026" |
+| 4 | DESTINY-Breast09 (first-line, with pertuzumab) and DESTINY-Breast11 | Results sourced, but no FDA approval date for first-line use | Left out |
+| 5 | Kadcyla's own approval date | Not queried | Left out |
+
+## Landscape (drugs.json)
+
+| Claim | Problem | Status |
+|---|---|---|
+| Enhertu HER2-low approval: Aug 6, 2022 | Cala's date (her2_low #8, source Drugs.com). FDA announcements may give Aug 5, 2022. Want the FDA record. | Used for Enhertu's HER2-low row |

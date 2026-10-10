@@ -1,0 +1,384 @@
+{
+  "content": "## Enhertu (Trastuzumab Deruxtecan) vs. Kadcyla (Trastuzumab Emtansine)\n\nBoth Enhertu and Kadcyla are **antibody-drug conjugates (ADCs)** that target the **HER2 protein** on cancer cells using the same monoclonal antibody — **trastuzumab**. Despite sharing the same antibody backbone, they differ significantly in their linker chemistry, cytotoxic payload, drug-to-antibody ratio (DAR), and clinical performance.\n\n### 1. Cytotoxic Payload (Warhead)\n\n| Feature | **Kadcyla (T-DM1)** | **Enhertu (T-DXd)** |\n|---|---|---|\n| **Payload** | DM1 (emtansine), a maytansinoid | DXd (deruxtecan), a topoisomerase I inhibitor |\n| **Mechanism** | Disrupts microtubules → blocks cell division | Causes DNA damage via topoisomerase I inhibition |\n\n### 2. Linker Technology\n\n- **Kadcyla** uses a **non-cleavable linker**. The payload is released only after the ADC is internalized and degraded inside the target cell's lysosomes. This limits the drug's effect largely to the cell that internalizes it.\n- **Enhertu** uses a **cleavable (cathepsin B–sensitive) linker**. Once inside the cell, the linker is enzymatically cleaved, releasing the DXd payload. Because DXd is highly membrane-permeable, it can diffuse out and kill **neighboring tumor cells** — a phenomenon known as the **\"bystander effect.\"** This is a major advantage, especially in tumors with heterogeneous HER2 expression.\n\n### 3. Drug-to-Antibody Ratio (DAR)\n\n- **Kadcyla**: average DAR of ~**3.5** (approximately 3–4 payload molecules per antibody)\n- **Enhertu**: average DAR of ~**8** (approximately 8 payload molecules per antibody)\n\nThe higher DAR of Enhertu means each antibody delivers roughly **twice as much cytotoxic drug** to the tumor.\n\n### 4. Clinical Efficacy\n\nIn the head-to-head **DESTINY-Breast03** Phase III trial in patients with HER2-positive metastatic breast cancer:\n\n- **Enhertu** reduced the risk of disease progression or death by **72%** compared to Kadcyla (hazard ratio 0.28).\n- **12-month progression-free survival**: Enhertu **75.8%** vs. Kadcyla **34.1%**.\n- **24-month overall survival**: Enhertu **77.4%** vs. Kadcyla **69.9%**, a statistically significant improvement.\n\n### 5. Approved Indications\n\n- **Kadcyla** is approved for **HER2-positive breast cancer** (metastatic and early-stage residual disease after neoadjuvant therapy).\n- **Enhertu** has broader approvals, including HER2-positive breast cancer, HER2-low breast cancer, HER2-positive gastric cancer, and a **tumor-agnostic** indication for HER2-positive solid tumors — making it applicable across a wider range of cancers.\n\n### 6. Safety Considerations\n\n- **Kadcyla's** notable side effects include thrombocytopenia and hepatotoxicity.\n- **Enhertu** carries a distinct risk of **interstitial lung disease (ILD)/pneumonitis**, which can be fatal and requires careful monitoring.\n\n### 7. Developers\n\n- **Kadcyla** was developed by Genentech/Roche.\n- **Enhertu** was co-developed by Daiichi Sankyo and AstraZeneca.\n\n### Summary\n\nWhile both drugs use the same HER2-targeting antibody, Enhertu represents a next-generation ADC with a more potent payload, a higher drug-to-antibody ratio, a cleavable linker enabling a bystander effect, and significantly improved clinical outcomes compared to Kadcyla in head-to-head trials.\n",
+  "explainability": [
+    {
+      "content": "Both drugs use the same trastuzumab antibody to target HER2, but differ in the cytotoxic payload they deliver: Kadcyla carries DM1 (emtansine) that disrupts microtubules, while Enhertu carries DXd, a topoisomerase I inhibitor that causes DNA damage.",
+      "references": [
+        "318ce691-f6a3-4107-b678-cf6e256c3dab"
+      ]
+    },
+    {
+      "content": "Kadcyla employs a non‑cleavable linker, releasing its payload only after intracellular degradation, whereas Enhertu uses a cathepsin‑B‑sensitive cleavable linker that releases DXd inside the cell and allows the payload to diffuse to neighboring cells (bystander effect).",
+      "references": [
+        "8e83c957-df92-49fe-82e6-9e6755ac7ca3",
+        "900b29a2-5851-47b2-ad08-1e371600eefb"
+      ]
+    },
+    {
+      "content": "Enhertu has a higher drug‑to‑antibody ratio (average DAR ≈ 8) compared with Kadcyla’s DAR of about 3.5, meaning each antibody delivers roughly twice as many drug molecules.",
+      "references": [
+        "3ed7b175-0334-48ce-9837-1144f7d536d1",
+        "df4a7a26-08de-4124-aba2-4b1151fbf45e"
+      ]
+    },
+    {
+      "content": "In the head‑to‑head DESTINY‑Breast03 Phase III trial, Enhertu reduced the risk of disease progression or death by 72% versus Kadcyla (HR 0.28) and achieved a 12‑month PFS of 75.8% versus 34.1% for Kadcyla.",
+      "references": [
+        "c8d90abe-b7f8-4db4-88cc-03192ec8f0f1",
+        "d5b71391-fe63-49c7-be40-05eb94fee315"
+      ]
+    },
+    {
+      "content": "Overall survival at 24 months was higher for Enhertu (77.4%) than for Kadcyla (69.9%), confirming a survival advantage.",
+      "references": [
+        "d5b71391-fe63-49c7-be40-05eb94fee315"
+      ]
+    }
+  ],
+  "context": [
+    {
+      "id": "318ce691-f6a3-4107-b678-cf6e256c3dab",
+      "content": "emtansine) and Enhertu (fam-trastuzumab deruxtecan-nxki) are both antibody-drug conjugates targeting HER2-positive breast cancer, but they differ in their chemical makeup and the cytotoxic agents they deliver. Kadcyla combines trastuzumab with the cytotoxic agent DM1, designed to disrupt microtubules within cancer cells, while Enhertu links trastuzumab to a topoisomerase I inhibitor, deruxtecan, which causes DNA damage in cancer cells. | Metric | Kadcyla (trastuzumab emtansine) | Enhertu [...] | Enhertu (fam-trastuzumab deruxtecan-nxki) |. ### Efficacy. Kadcyla (trastuzumab emtansine) is a targeted therapy drug used in the treatment of HER2-positive breast cancer. This medication is designed to combine the HER2 targeting properties of trastuzumab with the chemotherapy agent DM1 (emtansine), allowing for direct delivery of the cytotoxic agent to the cancer cells. Clinical trials have demonstrated that Kadcyla significantly improves survival rates in patients with metastatic [...] or death compared to trastuzumab alone. ##### Efficacy of Enhertu (fam-trastuzumab deruxtecan-nxki) in Breast Cancer. Enhertu (fam-trastuzumab deruxtecan-nxki) is another novel agent for the treatment of HER2-positive breast cancer. It is an antibody-drug conjugate that combines a HER2-targeted antibody with a topoisomerase inhibitor payload, delivered directly to the cancer cells. Enhertu has shown substantial efficacy in the treatment of patients with HER2-positive metastatic breast cancer",
+      "origins": [
+        {
+          "source": {
+            "name": "everyone.org",
+            "url": "https://everyone.org/explore/compare?id1=324&id2=347"
+          },
+          "document": {
+            "name": "Kadcyla (trastuzumab emtansine) vs Enhertu (fam-trastuzumab deruxtecan-nxki) | Everyone.org",
+            "url": "https://everyone.org/explore/compare?id1=324&id2=347"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8e83c957-df92-49fe-82e6-9e6755ac7ca3",
+      "content": "Trastuzumab Der‑ uxtecan (Enhertu) Cathepsin B-sensi‑ tive linker DXd, Topoisomer‑ ase inhibitor DNA intercalation 8 1.7–9.0 0.04—0.16 0.023 (43 × more potent) Trastuzumab Emtansine (Kadcyla) Non-cleavable linker DMl, Maytansinoid Tubulin polimeriza‑ tion blockers 3.5 0.79–7.2 0.2—29 0.25 (4 × more potent) Page 5 of 13 López de Sá et al. Journal of Hematology & Oncology (2023) 16:118 Table 2 Values of the different physicochemical parameters comparing the Lipinski rule, in conjunction with the [...] and trastuzumab derux-tecan (Enhertu) showed a significant improvement of 40 times over the payload. [...] govite-can (Trodelvy) and Trastuzumab deruxtecan (Enhertu) the values were relatively close to this limit (in the cases where the calculation could be performed). Taking this data into consideration, it can be concluded that some of the selected payloads used for approved ADCs have inappropriate physicochemical characteristics that Table 1 Antibody drug conjugate (ADC) characteristics: linker class, payload and payload mechanism of action, drug antibody ratio (DAR), potency of the payload and",
+      "origins": [
+        {
+          "source": {
+            "name": "Journal of Hematology & Oncology",
+            "url": "https://jhoonline.biomedcentral.com/counter/pdf/10.1186/s13045-023-01519-0.pdf"
+          },
+          "document": {
+            "name": "[PDF] Considerations for the design of antibody drug conjugates (ADCs ...",
+            "url": "https://jhoonline.biomedcentral.com/counter/pdf/10.1186/s13045-023-01519-0.pdf"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3ed7b175-0334-48ce-9837-1144f7d536d1",
+      "content": "Enhertu® differs from Kadcyla® in its payload mechanism of action and the improvement in clinical efficacy in low expressing or hetoerogeneous expressing HER2 tumours is driven both by the higher DAR and the stability profile of the drug. [...] As previously noted, Enhertu® uses the same antibody trastuzumab as the previously approved ADC Kadcyla® and a direct comparison of Enhertu® versus Kadcyla® in the Phase III metastatic HER2-positive breast cancer trial DESTINY clearly demonstrated Enhertu®’s superiority over Kadcyla®. The 12-month progression free survival (PFS) with Enhertu® treatment was 75.8% compared to Kadcyla®’s 34.1%, with the inevitability that Enhertu® will replace Kadcyla® in second-line therapy (5). [...] The nature of the maleimide linker employed in Enhertu® and Trodelvy® means that the maximum DAR achievable is 8, and whilst these higher DAR ADCs have demonstrated the potential for increasing the drug loading, it could signpost the next-generation ADC disruptive technologies may overcome these limitations that can further push the boundaries of high DAR ADCs. Increases in DAR to achieve greater than 8 payloads should therefore be accompanied with the concomitant decreases in linker-payload",
+      "origins": [
+        {
+          "source": {
+            "name": "ADC Review, Journal of Antibody-drug Conjugates",
+            "url": "https://www.adcreview.com/editorial/the-rise-of-her2-targeting-adcs-and-the-journey-from-breakthrough-therapy-to-biosimilars-and-biobetters"
+          },
+          "document": {
+            "name": "The Rise of HER2-targeting ADCs and the Journey from Breakthrough Therapy to Biosimilars and Biobetters » ADC Review",
+            "url": "https://www.adcreview.com/editorial/the-rise-of-her2-targeting-adcs-and-the-journey-from-breakthrough-therapy-to-biosimilars-and-biobetters"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c8d90abe-b7f8-4db4-88cc-03192ec8f0f1",
+      "content": "Daiichi Sankyo) HER2-directed antibody drug conjugate (ADC), demonstrated superior progression-free survival (PFS) versus trastuzumab emtansine (T-DM1), a HER2-directed ADC currently approved to treat patients with HER2-positive unresectable and/or metastatic breast cancer previously treated with trastuzumab and a taxane. At a prespecified interim analysis of DESTINY-Breast03,ENHERTUprovided a 72% reduction in the risk of disease progression or death compared to T-DM1, (hazard ratio [HR] 0.28; [...] trastuzumab emtansine (T-DM1) in patients with HER2-positive metastatic breast cancer. ## Detailed positive results from the head-to-head DESTINY-Breast03 Phase III trial showed that ENHERTU®, the AstraZeneca and Daiichi Sankyo Company, Limited HER2-directed antibody drug conjugate, demonstrated superior progression-free survival versus trastuzumab emtansine, a HER2-directed ADC currently approved to treat patients with HER2-positive unresectable and/or metastatic breast cancer previously [...] ENHERTU® (fam-trastuzumab deruxtecan-nxki) reduced the risk of disease progression or death by 72% vs. trastuzumab emtansine (T-DM1) in patients with HER2-positive metastatic breast cancer - BioSpace",
+      "origins": [
+        {
+          "source": {
+            "name": "BioSpace: Biotech, Pharmaceutical and Clinical Research News",
+            "url": "https://www.biospace.com/enhertu-fam-trastuzumab-deruxtecan-nxki-reduced-the-risk-of-disease-progression-or-death-by-72-percent-vs-trastuzumab-emtansine-t-dm1-in-patients-with-her2-positive-metastatic-breast-cancer"
+          },
+          "document": {
+            "name": "ENHERTU® (fam-trastuzumab deruxtecan-nxki) reduced the risk of disease progression or death by 72% vs. trastuzumab emtansine (T-DM1) in patients with HER2-positive metastatic breast cancer - BioSpace",
+            "url": "https://www.biospace.com/enhertu-fam-trastuzumab-deruxtecan-nxki-reduced-the-risk-of-disease-progression-or-death-by-72-percent-vs-trastuzumab-emtansine-t-dm1-in-patients-with-her2-positive-metastatic-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d5b71391-fe63-49c7-be40-05eb94fee315",
+      "content": "# Trastuzumab Deruxtecan: Longer Overall Survival than Trastuzumab Emtansine in HER2-positive Metastatic Breast Cancer. The second-line treatment with trastuzumab deruxtecan (T-DXd; Enhertu®; Daiichi Sankyo and AstraZeneca) leeds to significantly longer overall survival compared with trastuzumab emtansine (T-DM1; Kadcyla®; Genentech/Roche) in patients with Human Epidermal Growth Factor Receptor 2 (HER2-) positive metastatic breast cancer.. This is the conclusion based on the updated results [...] emtansine, a statistically significant improvement. After 24 months, overall survival rates were 77.4 percent and 69.9 percent for patients treated with trastuzumab deruxtecan and trastuzumab emtansine, respectively. “The results of this analysis demonstrated remarkable overall survival and continued PFS benefit with trastuzumab deruxtecan in patients with HER2-positive metastatic breast cancer who progressed on prior therapy, further supporting the use of trastuzumab deruxtecan over [...] deruxtecan over trastuzumab emtansine in the second-line setting,” Hurvitz noted. Ongoing studies aim to determine the efficacy and safety of trastuzumab deruxtecan as a first-line treatment for patients with HER2-positive metastatic breast cancer. Trastuzumab deruxtecan versus trastuzumab emtansine in patients with HER2–positive metastatic breast cancer: Updated survival results of the randomized, phase 3 study DESTINY–Breast03.",
+      "origins": [
+        {
+          "source": {
+            "name": "ADC Review, Journal of Antibody-drug Conjugates",
+            "url": "https://www.adcreview.com/news/trastuzumab-deruxtecan-longer-overall-survival-than-trastuzumab-emtansine-in-her2-positive-metastatic-breast-cancer"
+          },
+          "document": {
+            "name": "Trastuzumab Deruxtecan: Longer Overall Survival than Trastuzumab Emtansine in HER2-positive Metastatic Breast Cancer » ADC Review",
+            "url": "https://www.adcreview.com/news/trastuzumab-deruxtecan-longer-overall-survival-than-trastuzumab-emtansine-in-her2-positive-metastatic-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a9d52f6a-0b97-4a01-a15b-d62fd987df76",
+      "content": "Two breast cancer drugs share an antibody. Not a similar one — the same one, molecule for molecule, the same chain of amino acids that finds the same protein, called HER2, on the surface of the same tumors. Kadcyla, approved in 2013, uses that antibody. Enhertu, approved six years later, uses it again. And yet a clinician will tell you they behave like different drugs entirely: they reach different patients, they fail in different ways, and one of them does something the other simply cannot. [...] simply cannot. The antibody is identical. The difference lives in the parts most people never think about — the chemistry that holds the antibody to its poison, and how much poison it holds. [...] That is the strange fact at the center of how an antibody-drug conjugate is optimized. By the time a program reaches lead optimization — the stage where a candidate molecule is refined into the exact version that will go forward (SP-05) — most of the big choices an ADC makes have already been made. The antibody was usually borrowed from a drug that already worked. The payload was picked from a short roster of known poisons. What is left to refine is not the antibody and not really the payload,",
+      "origins": [
+        {
+          "source": {
+            "name": "theleadcompound.substack.com",
+            "url": "https://theleadcompound.substack.com/p/why-adc-linkers-are-the-whole-game"
+          },
+          "document": {
+            "name": "ADC Linkers Explained: Kadcyla vs Enhertu",
+            "url": "https://theleadcompound.substack.com/p/why-adc-linkers-are-the-whole-game"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "900b29a2-5851-47b2-ad08-1e371600eefb",
+      "content": "of cytotoxicity by anti-HER2 ADCs (Kadcyla® and Enhertu®) compared to the monoclonal antibody (mAb) backbone on which they were based (Trastuzumab). February, 2024 Key words or phrases: Antibody-drug conjugates (ADCs), Incucyte® Live-Cell Analysis, iQue® High-Throughput Screening (HTS) by Cytometry, mechanism of action (MoA), spheroids, 3D advanced cell models, cytotoxicity, internalization 2 Introduction ADCs are a unity between highly specific mAbs and cytotoxic chemotherapeutic drugs. In [...] payload can then be released and diffuse easily into neighboring cells, regardless of their HER2 expression and result in their death.19 To examine this in vitro using a 3D single spheroid model, spheroids were first formed from a mixture of of high HER2 expressing BT474 cells (labeled with Incucyte® Cytolight Green Lentivirus) and low HER2 expressing, unlabeled MDA-MB-231 cells. IgG Control Enhertu® Kadcyla® Trastuzumab 9 Conclusions These data describe the use of the Incucyte® Live-Cell [...] drugs. In this application note, we present a combined Incucyte® Live-Cell Analysis and iQue® HTS by Cytometry approach for quantifying the function of two Trastuzumab (antiHER2) based ADCs: Trastuzumab emtansine (Kadcyla®) and Trastuzumab deruxtecan (Enhertu®), using both single and multi-spheroid 3D models. This activity is thought to be facilitated by the high membrane permeability of the Dxd payload, meaning that once the ADC has killed a HER2 expressing cell, the payload can then be",
+      "origins": [
+        {
+          "source": {
+            "name": "technologynetworks.com",
+            "url": "https://www.technologynetworks.com/biopharma/application-notes/3d-tumor-models-for-more-predictive-adc-drug-development-396475"
+          },
+          "document": {
+            "name": "3D Tumor Models Enhance ADC Drug Development | Technology Networks",
+            "url": "https://www.technologynetworks.com/biopharma/application-notes/3d-tumor-models-for-more-predictive-adc-drug-development-396475"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2a86e43c-e00b-4776-b342-1d8685020aaa",
+      "content": "HER2-targeting ADCs such as Kadcyla® and ENHERTU® have brought tremendous clinical benefits to patients with advanced breast cancer. In addition, there are many ADCs with different mechanisms of action in various stages of clinical development that will potentially offer patients more treatment options after experiencing acquired resistance with currently available therapies. Although effective treatments for BC patients with CNS metastasis and low HER2 expression are still lacking, ongoing [...] are an emerging class of drugs used in targeted therapies for hematologic malignancies and solid tumors, known for their highly selective binding moiety of monoclonal antibody (mAb) to differentially expressed tumor antigens and highly cytotoxic warheads with defined mechanisms of action. Eleven ADCs have been approved by the FDA, three of which are for breast cancer indication namely HER2-targeting Kadcyla® and ENHERTU®, and TROP2-targeting Trodelvy®, highlighting the clinical potential of [...] death. Depending on the chemical properties of the cytotoxic payload and/or the design of the drug linker, the released active form of the payload can be either cell permeable or non-cell permeable. For the former, it possesses “bystander effect”, i.e., ADCs with such payload can demonstrate cell killing capability for adjacent non-targeted cells in the tumor, examples of ADCs include Adcetris® and Enhertu®. For the latter, it does not have “bystander effect”, such ADC examples include",
+      "origins": [
+        {
+          "source": {
+            "name": "Session Timed Out",
+            "url": "https://tbcr.amegroups.org/article/view/57236/html"
+          },
+          "document": {
+            "name": "A narrative review of the current landscape and future perspectives of HER2-targeting antibody drug conjugates for advanced breast cancer - Li - Translational Breast Cancer Research",
+            "url": "https://tbcr.amegroups.org/article/view/57236/html"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "df4a7a26-08de-4124-aba2-4b1151fbf45e",
+      "content": "HIGH\n\n  Drug-to-Antibody Ratio and Distribution — Average DAR and the distribution of individual drug-load species influence potency, hydrophobicity, stability and pharmacokinetic behavior.\n HIGH\n\n  Linker-Payload Identity and Integrity — The tetrapeptide linker and DXd payload define intracellular release and topoisomerase-I-mediated activity. Premature cleavage or chemical modification can change free-payload levels and potency.\n HIGH [...] No. Enhertu® uses an antibody component with the same amino acid sequence as trastuzumab, but it also contains a cleavable linker and an average of about eight DXd payload units. These additions create distinct drug-load, impurity, stability, potency and handling attributes. The EMA product information also states that Enhertu® should not be substituted with trastuzumab or trastuzumab emtansine.\n\nWhat is the drug-to-antibody ratio of Enhertu®? [...] analytical work should address antibody identity, drug-to-antibody ratio, conjugation distribution, free payload, linker integrity, HER2 binding, internalization, cell-based cytotoxicity, aggregates, charge variants and formulation stability.",
+      "origins": [
+        {
+          "source": {
+            "name": "evidentic.com",
+            "url": "https://evidentic.com/research/trastuzumab-deruxtecan"
+          },
+          "document": {
+            "name": "Trastuzumab Deruxtecan: Detailed Enhertu® ADC Profile",
+            "url": "https://evidentic.com/research/trastuzumab-deruxtecan"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "865e7334-7fc8-4106-a498-bc0482032dc0",
+      "content": "at the rhizoxin binding site, inhibits the assembly of microtubules, and leads to cell cycle arrest and cell death via apoptosis. Similar to Trastuzumab (Herceptin) \"Trastuzumab (Herceptin)\"), ado-trastuzumab emtansine inhibits HER2 receptor signaling, facilitates antibody-dependent cell-mediated cytotoxicity (ADCC), and inhibits shedding of the HER2 extracellular domain in HER2-overexpressing human breast cancer cells. [...] : Initial marketing authorization as Kadcyla. Kadcyla, as a single agent, is indicated for the treatment of adult patients with HER2-positive, unresectable locally advanced or metastatic breast cancer who previously received trastuzumab and a taxane, separately or in combination. Patients should have received prior therapy for locally advanced or metastatic disease. [...] : Initial marketing authorization as Kadcyla. Kadcyla, as a single agent, is indicated for the treatment of adult patients with HER2-positive, unresectable locally advanced or metastatic breast cancer who previously received trastuzumab and a taxane, separately or in combination. Patients should have developed disease recurrence during or within six months of completing adjuvant therapy.",
+      "origins": [
+        {
+          "source": {
+            "name": "hemonc.org",
+            "url": "https://hemonc.org/wiki/Trastuzumab_emtansine_(Kadcyla)"
+          },
+          "document": {
+            "name": "Trastuzumab emtansine (Kadcyla) | HemOnc.org - A Hematology Oncology Wiki",
+            "url": "https://hemonc.org/wiki/Trastuzumab_emtansine_(Kadcyla)"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e130543f-f414-4d34-a2d5-a92f8574cb55",
+      "content": "antibody-drug conjugate Kadcyla® (trastuzumab emtansine) • Mitigation measures for prescribing errors due to similarities in active ingredient names and measures to avoid errors during prescription phase by physicians • Comparison of commercial appearance between Enhertu (trastuzumab deruxtecan) and other trastuzumab-containing products and the HER2-targeted antibody-drug conjugate Kadcyla® (trastuzumab emtansine). • Potential mitigation strategies to avoid errors during preparation phase by [...] not trastuzumab or trastuzumab emtansine. Enhertu should not be substituted with trastuzumab or trastuzumab emtansine. Patients treated with trastuzumab deruxtecan should have documented HER2-positive tumour status, defined as a score of 3 + by immunohistochemistry (IHC) or a ratio of ≥ 2.0 by in situ hybridization (ISH) or by fluorescence in situ hybridization (FISH) assessed by a CE-marked in vitro diagnostic (IVD) medical device. If a CE-marked IVD is not available, the HER2 status should be [...] the vial labels to ensure that the medicinal product being prepared and administered is Enhertu (trastuzumab deruxtecan) and not trastuzumab or trastuzumab emtansine. Traceability In order to improve the traceability of biological medicinal products, the name and the batch number of the administered product should be clearly recorded. Interstitial lung disease/pneumonitis Cases of interstitial lung disease (ILD), and/or pneumonitis, have been reported with Enhertu (see section 4.8). Fatal",
+      "origins": [
+        {
+          "source": {
+            "name": "European Commission, official website",
+            "url": "https://ec.europa.eu/health/documents/community-register/2021/20211112153261/anx_153261_en.pdf"
+          },
+          "document": {
+            "name": "Enhertu, INN-trastuzumab deruxtecan",
+            "url": "https://ec.europa.eu/health/documents/community-register/2021/20211112153261/anx_153261_en.pdf"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7f3e9354-40ca-42c1-9cb1-2bbffad7c7a6",
+      "content": "Entity: trastuzumab deruxtecan (type: Product, ID: 3d77f5e2-b38f-4e2e-8de1-5006005296b6). Properties: description = An antibody‑drug conjugate approved for the treatment of HER2‑positive cancers.; launch_date = 2024-04-05. Outgoing relationship types CREATED_BY: GENENTECH, INC..",
+      "origins": [
+        {
+          "source": {
+            "name": "braintumor.org",
+            "url": "https://braintumor.org/"
+          },
+          "document": {
+            "name": "braintumor.org",
+            "url": "https://braintumor.org/news/can-newly-approved-tissue-agnostic-drugs-benefit-pediatric-high-grade-glioma-patients"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "onclive.com",
+            "url": "https://www.onclive.com/"
+          },
+          "document": {
+            "name": "onclive.com",
+            "url": "https://www.onclive.com/view/agnostic-approval-of-trastuzumab-deruxtecan-ushers-in-new-option-for-advanced-her2-solid-tumors"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8bc0c575-4a36-415d-b445-c8e8229cd00d",
+      "content": "Entity: Kadcyla (type: Product, ID: c60998de-d390-4333-9e2f-aaf83ba74d17). Properties: description = an antibody‑drug conjugate used to treat HER2‑positive breast cancer.",
+      "origins": []
+    },
+    {
+      "id": "8831dff7-f1fa-4b61-8e3a-761e4f6d2295",
+      "content": "An ADC drug consists of monoclonal antibodies conjugated to a payload via a linker, for the precise targeting of antigen-positive cancer cells. ADCs are developed to target protein receptors with high expression such as HER2, TROP-2, CD22, and others. There are two cytotoxic payload types predominantly used in ADCs: microtubule inhibitors (MMAE, DM1/DM4), and the more potent DNA-damaging payloads such as topoisomerase I inhibitors (DXd, SN38). Linkers maintain the stability of the ADC and may [...] Daiichi's deruxtecan payload technology has led to HER2-targeting Enhertu, the highest-grossing ADC approved for multiple indications. Enhertu generated $3.4 billion in 2023 and is projected to reach $14 billion by 2029. Additionally, the company has several pipeline agents expected to have marked commercial success, notably TROP-2-targeting DS-1062 for metastatic breast and non-small cell lung cancer (NSCLC). [...] of the ADC and may induce a 'bystander effect' if the payload is released adjacent to the tumor cell.",
+      "origins": [
+        {
+          "source": {
+            "name": "finance.yahoo.com",
+            "url": "https://finance.yahoo.com/news/antibody-drug-conjugates-adc-industry-105900401.html"
+          },
+          "document": {
+            "name": "Antibody-Drug Conjugates (ADC) Industry Overview 2024: Market to Exceed $40 Billion by 2029, Driven by Daiichi Sankyo's Enhertu, Roche's Kadcyla, Astellas Pharma, Pfizer's Padcev, & Gilead's Trodelvy",
+            "url": "https://finance.yahoo.com/news/antibody-drug-conjugates-adc-industry-105900401.html"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "c60998de-d390-4333-9e2f-aaf83ba74d17",
+      "name": "Kadcyla",
+      "entity_type": "Product",
+      "mentions": [
+        "Kadcyla",
+        "T-DM1"
+      ]
+    },
+    {
+      "id": "cb346b28-8463-48b0-8444-f12785fe2eae",
+      "name": "Enhertu",
+      "entity_type": "Product",
+      "mentions": [
+        "T-DXd",
+        "Enhertu"
+      ]
+    },
+    {
+      "id": "2e8b6029-adc3-48dc-9580-b6da2fdb4a32",
+      "name": "DM1",
+      "entity_type": "Product",
+      "mentions": [
+        "emtansine",
+        "DM1"
+      ]
+    },
+    {
+      "id": "43835e2b-c2df-4a87-9edf-7447eb4716c1",
+      "name": "Deruxtecan",
+      "entity_type": "Product",
+      "mentions": [
+        "deruxtecan",
+        "DXd"
+      ]
+    },
+    {
+      "id": "8859b031-aba4-4fc6-8745-e5c5f897ab45",
+      "name": "DESTINY-Breast03",
+      "entity_type": "Event",
+      "mentions": [
+        "DESTINY-Breast03"
+      ]
+    },
+    {
+      "id": "3ac7d79f-f211-430f-ad8b-943aa3dd73bb",
+      "name": "GENENTECH INC",
+      "entity_type": "Company",
+      "mentions": [
+        "Genentech"
+      ]
+    },
+    {
+      "id": "95c6a490-7297-4f92-9c61-155885fa5985",
+      "name": "Roche Holding AG",
+      "entity_type": "Company",
+      "mentions": [
+        "Roche"
+      ]
+    },
+    {
+      "id": "85457b56-b99a-4105-8bbb-b7b74f641017",
+      "name": "Daiichi Sankyo",
+      "entity_type": "Organization",
+      "mentions": [
+        "Daiichi Sankyo"
+      ]
+    },
+    {
+      "id": "c902ba15-fd66-4949-9816-ad364e0a8bee",
+      "name": "ASTRAZENECA PLC",
+      "entity_type": "Company",
+      "mentions": [
+        "AstraZeneca"
+      ]
+    }
+  ],
+  "_query": "How is trastuzumab deruxtecan (Enhertu) different from trastuzumab emtansine (Kadcyla)?"
+}

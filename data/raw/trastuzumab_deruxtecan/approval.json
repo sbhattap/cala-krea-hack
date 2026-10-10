@@ -1,0 +1,190 @@
+{
+  "content": "The FDA first approved Enhertu (fam-trastuzumab deruxtecan-nxki) for breast cancer on **December 20, 2019**. This was an **accelerated approval** for adult patients with unresectable or metastatic HER2-positive breast cancer who had received two or more prior anti-HER2-based regimens in the metastatic setting.\n\nSince that initial approval, the FDA has expanded Enhertu's breast cancer indications several times:\n\n- **May 4, 2022** — Converted to regular (full) approval for HER2-positive metastatic breast cancer after just one prior anti-HER2 therapy, based on the DESTINY-Breast03 trial.\n- **August 5, 2022** — Approved for HER2-low metastatic breast cancer.\n- **January 27, 2025** — Expanded to include HER2-ultralow metastatic breast cancer.\n- **December 15, 2025** — Approved in combination with pertuzumab for first-line treatment of HER2-positive metastatic breast cancer.\n- **May 15, 2026** — Approved for two new indications in HER2-positive early breast cancer.",
+  "explainability": [
+    {
+      "content": "The FDA approval history table lists the first FDA approval date for Enhertu as December 20, 2019.",
+      "references": [
+        "e55180f4-e93f-41bc-8af7-dfe1a6caf145"
+      ]
+    },
+    {
+      "content": "An article explicitly states that on December 20 the FDA granted accelerated approval of Enhertu for inoperable or metastatic HER2‑positive breast cancer after at least two prior anti‑HER2 therapies.",
+      "references": [
+        "21877926-cc72-4e36-8f30-61a845b67a6e"
+      ]
+    }
+  ],
+  "context": [
+    {
+      "id": "e55180f4-e93f-41bc-8af7-dfe1a6caf145",
+      "content": "| Date | Article |\n --- |\n| May 15, 2026 | Approval Enhertu Approved in the US for Two New Indications for Patients with HER2 Positive Early Breast Cancer |\n| Dec 15, 2025 | Approval Enhertu Plus Pertuzumab Approved in the US as First New Treatment in a Decade for the First-Line Treatment of Patients with HER2-Positive Metastatic Breast Cancer |\n| Jan 27, 2025 | Approval Enhertu Approved as First HER2-Directed Therapy for Patients with HER2-Low or HER2-Ultralow Metastatic Breast Cancer | [...] | Apr  6, 2024 | Approval Enhertu Approved in the US as First Tumor-Agnostic HER2-Directed Therapy for Previously Treated Patients with Metastatic HER2-Positive Solid Tumors |\n| Aug 12, 2022 | Approval Enhertu Approved in the US as the First HER2-Directed Therapy for Patients with Previously Treated HER2-Mutant Metastatic Non-Small Cell Lung Cancer |\n| Aug  6, 2022 | Approval Enhertu Approved in the US as the First HER2-Directed Therapy for Patients with HER2-Low Metastatic Breast Cancer | [...] Drugs.com - Go to homepage\n\n# Enhertu FDA Approval History\n\nLast updated by Judith Stewart, BPharm on May 19, 2026.\n\nFDA Approved: Yes (First approved December 20, 2019)  \nBrand name: Enhertu  \nGeneric name: fam-trastuzumab deruxtecan-nxki  \nDosage form: Injection  \nCompany: AstraZeneca and Daiichi Sankyo Company, Limited  \nTreatment for: Breast Cancer, Gastric Cancer, Non Small Cell Lung Cancer, Solid Tumors, Gastroesophageal Junction Cancer",
+      "origins": [
+        {
+          "source": {
+            "name": "drugs.com",
+            "url": "https://www.drugs.com/history/enhertu.html"
+          },
+          "document": {
+            "name": "Enhertu (fam-trastuzumab deruxtecan-nxki) FDA Approval History - Drugs.com",
+            "url": "https://www.drugs.com/history/enhertu.html"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "58baca89-1d01-47ab-b377-58aeeeb74e2f",
+      "content": "# FDA grants regular approval to fam-trastuzumab deruxtecan-nxki for breast cancer. On May 4, 2022, the Food and Drug Administration approved fam-trastuzumab deruxtecan-nxki (Enhertu, Daiichi Sankyo, Inc.) for adult patients with unresectable or metastatic HER2-positive breast cancer who have received a prior anti-HER2-based regimen either in the metastatic setting, or in the neoadjuvant or adjuvant setting and have developed disease recurrence during or within 6 months of completing therapy. [...] completing therapy. In December 2019, fam-trastuzumab deruxtecan-nxki received accelerated approval for adult patients with unresectable or metastatic HER2-positive breast cancer who have received two or more prior anti-HER2-based regimens in the metastatic setting. Efficacy was based on DESTINY-Breast03 (NCT03529110), a multicenter, open-label, randomized trial that enrolled 524 patients with HER2-positive, unresectable, and/or metastatic breast cancer who received prior trastuzumab and taxane [...] 42.5) for those receiving ado-trastuzumab emtansine. Serious adverse reactions in >1% of patients who received Enhertu were vomiting, interstitial lung disease, pneumonia, pyrexia, and urinary tract infection. The prescribing information includes a Boxed Warning to advise health professionals of the risk of interstitial lung disease and embryo-fetal toxicity. The recommended Enhertu dose for breast cancer is 5.4 mg/kg given as an intravenous infusion once every 3 weeks (21-day cycle) until",
+      "origins": [
+        {
+          "source": {
+            "name": "Wayback Machine",
+            "url": "https://web.archive.org/web/20220504234609/https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-regular-approval-fam-trastuzumab-deruxtecan-nxki-breast-cancer"
+          },
+          "document": {
+            "name": "FDA grants regular approval to fam-trastuzumab deruxtecan-nxki for breast cancer | FDA",
+            "url": "https://web.archive.org/web/20220504234609/https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-regular-approval-fam-trastuzumab-deruxtecan-nxki-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "21877926-cc72-4e36-8f30-61a845b67a6e",
+      "content": "Advertisement\n\nOn December 20, the Food and Drug Administration (FDA) granted accelerated approval of Enhertu (fam-trastuzumab deruxtecan-nxki, or T-DXd) for the treatment of people with inoperable or metastatic HER2-positive breast cancer who have tried at least two prior anti-HER2 targeted therapies.\n\nResearchers at the recent San Antonio Breast Cancer Symposium (SABCS) suggested that Enhertu could become a new standard of care for advanced HER2-positive breast cancer. [...] Enhertu received an FDA breakthrough therapy designation and fast track status; it was approved three months ahead of its goal date, according to an FDA news release. The FDA may grant accelerated approval based on overall response rates for drugs that address an unmet medical need. However, trials are expected to continue to confirm clinical benefits such as improved survival, and approval may be withdrawn if they fail to do so. [...] 60% of women treated with the antibody-drug conjugate experienced complete or partial tumor shrinkage.\n\nDecember 23, 2019 •  By  Liz Highleyman\n\n## Share\n\nBluesky\n\nEmail\n\nFacebook\n\nPinterest\n\nTumblr\n\nX (Twitter)\n\n Share\n Comments\n Print\n\nAdvertisement",
+      "origins": [
+        {
+          "source": {
+            "name": "Cancer Health Home",
+            "url": "https://www.cancerhealth.com/article/fda-approves-enhertu-her2positive-advanced-breast-cancer"
+          },
+          "document": {
+            "name": "FDA Approves Enhertu for HER2-Positive Advanced Breast Cancer - Cancer Health",
+            "url": "https://www.cancerhealth.com/article/fda-approves-enhertu-her2positive-advanced-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6abf78e0-71a2-4ee7-9783-753869aa0ada",
+      "content": "# FDA OKs Trastuzumab Deruxtecan for Earlier Use in Breast Cancer. The US Food and Drug Administration (FDA) has granted standard approval to fam-trastuzumab deruxtecan-nxki (Enhertu) for patients with unresectable or metastatic HER2-positive breast cancer who have received one prior anti-HER2 therapy. This standard approval converts a December 2019 accelerated approval for the use of the agent in the third-line or after in HER2-positive metastatic breast cancer, broadening the indication to [...] FDA OKs Trastuzumab Deruxtecan for Earlier Use in Breast Cancer - Medscape - May 05, 2022. ###### Authors and Disclosures. ### Journalist. #### Sharon Worcester. ### Comments. You have already selected  for My Alerts. Click the topic below to receive emails when new articles are available. You've successfully added  to your alerts. You will receive email when new content is published. ###### Email This. ###### Feedback. #### Policies. #### Medscape. #### For Advertisers. [...] which showed a 72% reduction in the risk for disease progression or death vs trastuzumab emtansine (Kadcyla) (hazard ratio, 0.28). \"This is an important day for the breast cancer community. With this approval, Enhertu now provides a new treatment option for patients with HER2-positive metastatic breast cancer which can be used earlier in treatment to potentially delay progression of disease,\" Catherine Ormerod, executive vice president, strategy and mission, for the nonprofit organization",
+      "origins": [
+        {
+          "source": {
+            "name": "medscape.com",
+            "url": "https://www.medscape.com/viewarticle/973519"
+          },
+          "document": {
+            "name": "FDA OKs Trastuzumab Deruxtecan for Earlier Use in Breast Cancer",
+            "url": "https://www.medscape.com/viewarticle/973519"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cd301d19-8088-4c55-95ef-8fa0a33cf201",
+      "content": "breast cancer following endocrine therapy. Enhertu, from AstraZeneca and Daiichi Sankyo, is an antibody-drug conjugate (ADC) that delivers strong chemotherapy directly to cancer cells. Last week, the FDA approved a new ADC from the same partnership, Datroway (datopotamab deruxtecan), which consists of an antibody targeting TROP-2 with the same payload, for HER2-negative metastatic breast cancer. The FDA initially approved Enhertu in December 2019 for inoperable or metastatic breast cancer with [...] Cancer Health Directory - My Account or Log Out). FDA Approves Enhertu for HER2-Ultralow Metastatic Breast Cancer. # FDA Approves Enhertu for HER2-Ultralow Metastatic Breast Cancer. The antibody-drug conjugate improved progression-free survival for patients previously treated with hormone therapy.. On January 27, the Food and Drug Administration (FDA) expanded the approval of Enhertu (fam-trastuzumab deruxtecan) to cover people with hormone-positive, HER2-ultralow advanced breast cancer [...] breast cancer with high HER2 expression. Approval was extended to patients with HER2-low breast cancer in August 2022, and now the indication has been further expanded to include those with the lowest HER2 expression. “It is critical for patients to understand the HER2 status of their metastatic breast cancer to help them make informed treatment decisions. Breast cancer is classified by the type of receptors on tumors. Triple-negative breast cancer doesn’t express any of these receptors and is",
+      "origins": [
+        {
+          "source": {
+            "name": "Cancer Health Home",
+            "url": "https://cancerhealth.com/article/fda-approves-enhertu-her2ultralow-metastatic-breast-cancer"
+          },
+          "document": {
+            "name": "FDA Approves Enhertu for HER2-Ultralow Metastatic Breast Cancer - Cancer Health",
+            "url": "https://cancerhealth.com/article/fda-approves-enhertu-her2ultralow-metastatic-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f9e19a91-ac14-4dd4-8575-4a37c97cdb08",
+      "content": "On December 15, 2025, the U.S. Food and Drug Administration (FDA) approved fam-trastuzumab deruxtecan-nxki with pertuzumab for the first-line treatment of adults with unresectable or metastatic HER2-positive breast cancer, defined as HER2 IHC 3+ or ISH-positive by an FDA-approved test. Fam-trastuzumab deruxtecan-nxki is marketed as Enhertu® by Daiichi Sankyo, Inc. [...] Double Left   Left  Oct / 2026  Right   Double Right\n\nOctober 2026\n\n| M | T | W | T | F | S | S |\n|  | 1 | 2 | 3 | 4 |\n| 5 | 6 | 7 | 8 | 9 | 10 | 11 |\n| 12 | 13 | 14 | 15 | 16 | 17 | 18 |\n| 19 | 20 | 21 | 22 | 23 | 24 | 25 |\n| 26 | 27 | 28 | 29 | 30 | 31 |  |\n\nOncodailyJournal   CancerWorld\n\nLinkedin   X   Facebook   Instagram   Youtube   Spotify   Telegram   Bsky   Google   RSS\n\n News Feed\n Events By OncoDaily\n OncoGrants\n OncoDaily TV\n NewsLetter\n\nFDA Approvals [...] This approval establishes fam-trastuzumab deruxtecan-nxki with pertuzumab as a new frontline option for patients with advanced HER2-positive disease, expanding the role of antibody–drug conjugates earlier in the treatment paradigm (FDA, 2025).\n\nRead About Fam-trastuzumab deruxtecan-nxki (Enhertu) on OncoDaily\n\n## Companion Diagnostic Approval",
+      "origins": [
+        {
+          "source": {
+            "name": "Oncology News, Insights, Stories by OncoDaily",
+            "url": "https://oncodaily.com/fda-approvals/fam-trastuzumab-deruxtecan-nxki-with-pertuzumab"
+          },
+          "document": {
+            "name": "FDA Approves Fam-Trastuzumab Deruxtecan-nxki With Pertuzumab for First-Line Treatment of HER2-Positive Metastatic Breast Cancer - OncoDaily",
+            "url": "https://oncodaily.com/fda-approvals/fam-trastuzumab-deruxtecan-nxki-with-pertuzumab"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ddce22f3-60b8-4800-b55e-6656770862bd",
+      "content": "| Date | Article |\n --- |\n| May 15, 2026 | Approval Enhertu Approved in the US for Two New Indications for Patients with HER2 Positive Early Breast Cancer |\n| Dec 15, 2025 | Approval Enhertu Plus Pertuzumab Approved in the US as First New Treatment in a Decade for the First-Line Treatment of Patients with HER2-Positive Metastatic Breast Cancer |\n| Jan 27, 2025 | Approval Enhertu Approved as First HER2-Directed Therapy for Patients with HER2-Low or HER2-Ultralow Metastatic Breast Cancer | [...] | Apr  6, 2024 | Approval Enhertu Approved in the US as First Tumor-Agnostic HER2-Directed Therapy for Previously Treated Patients with Metastatic HER2-Positive Solid Tumors |\n| Aug 12, 2022 | Approval Enhertu Approved in the US as the First HER2-Directed Therapy for Patients with Previously Treated HER2-Mutant Metastatic Non-Small Cell Lung Cancer |\n| Aug  6, 2022 | Approval Enhertu Approved in the US as the First HER2-Directed Therapy for Patients with HER2-Low Metastatic Breast Cancer | [...] Drugs.com - Go to homepage\n\n# Enhertu FDA Approval History\n\nLast updated by Judith Stewart, BPharm on May 19, 2026.\n\nFDA Approved: Yes (First approved December 20, 2019)  \nBrand name: Enhertu  \nGeneric name: fam-trastuzumab deruxtecan-nxki  \nDosage form: Injection  \nCompany: AstraZeneca and Daiichi Sankyo Company, Limited  \nTreatment for: Breast Cancer, Gastric Cancer, Non Small Cell Lung Cancer, Solid Tumors, Gastroesophageal Junction Cancer",
+      "origins": [
+        {
+          "source": {
+            "name": "drugs.com",
+            "url": "http://drugs.com/history/enhertu.html"
+          },
+          "document": {
+            "name": "Enhertu (fam-trastuzumab deruxtecan-nxki) FDA Approval History - Drugs.com",
+            "url": "http://drugs.com/history/enhertu.html"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "a7aff311-6818-4b14-8915-ed4e83026a4b",
+      "name": "U.S. Food and Drug Administration (FDA)",
+      "entity_type": "Company",
+      "mentions": [
+        "U.S. Food and Drug Administration",
+        "FDA"
+      ]
+    },
+    {
+      "id": "3d77f5e2-b38f-4e2e-8de1-5006005296b6",
+      "name": "trastuzumab deruxtecan",
+      "entity_type": "Product",
+      "mentions": [
+        "trastuzumab deruxtecan",
+        "Enhertu",
+        "fam-trastuzumab deruxtecan-nxki"
+      ]
+    },
+    {
+      "id": "8859b031-aba4-4fc6-8745-e5c5f897ab45",
+      "name": "DESTINY-Breast03",
+      "entity_type": "Event",
+      "mentions": [
+        "DESTINY-Breast03 trial"
+      ]
+    },
+    {
+      "id": "a52f0bd8-d9da-4634-b7e2-ced97b1ae365",
+      "name": "Pertuzumab",
+      "entity_type": "Product",
+      "mentions": [
+        "pertuzumab"
+      ]
+    }
+  ],
+  "_query": "When did the FDA first approve Enhertu (trastuzumab deruxtecan) for breast cancer?"
+}

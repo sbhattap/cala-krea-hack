@@ -1,0 +1,275 @@
+{
+  "content": "## DESTINY-Breast04 Trial Results\n\n**DESTINY-Breast04** (NCT03734029) was a landmark randomized, open-label, phase 3 clinical trial that enrolled **557 adults** with unresectable or metastatic **HER2-low** breast cancer (defined as IHC 1+ or IHC 2+/ISH−). Patients were randomized 2:1 to receive trastuzumab deruxtecan (T-DXd, brand name **Enhertu**) at 5.4 mg/kg IV every 3 weeks versus physician's choice of single-agent chemotherapy. All patients had received at least one prior line of chemotherapy in the metastatic setting.\n\n### Key Findings\n\n- **Progression-free survival (PFS):** In the primary endpoint population (HR-positive patients), median PFS was **10.1 months** with Enhertu versus **5.4 months** with chemotherapy — a **49% reduction** in the risk of disease progression or death (HR 0.51; P < 0.0001). In the overall population, median PFS was **9.9 months** vs. **5.1 months** (HR 0.50).\n\n- **Overall survival (OS):** In the HR-positive cohort, median OS was **23.9 months** with Enhertu versus **17.5 months** with chemotherapy (HR 0.64; P = 0.003). In the overall cohort, median OS was **23.4 months** vs. **16.8 months** — a **36% reduction** in the risk of death. Updated long-term data (median follow-up ~32 months) confirmed these results, with a **31% reduction** in the risk of death in both the overall and HR-positive cohorts.\n\n- **HR-negative patients:** In an exploratory analysis of the hormone receptor-negative subgroup, Enhertu showed a **42% reduction** in the risk of death, demonstrating benefit regardless of hormone receptor status.\n\n### Significance\n\nDESTINY-Breast04 was the **first phase 3 trial** to demonstrate that a HER2-directed therapy could provide clinically meaningful benefit in HER2-low metastatic breast cancer — a category encompassing roughly **55–60% of all breast cancers**. The results were presented at the 2022 ASCO Annual Meeting to a standing ovation and established T-DXd as a new standard of care for this population.\n\n---\n\n## FDA Approval of Enhertu for HER2-Low Breast Cancer\n\n- **August 5, 2022:** The FDA approved Enhertu (fam-trastuzumab deruxtecan-nxki) as the **first targeted therapy** for patients with unresectable or metastatic HER2-low breast cancer who had received a prior chemotherapy in the metastatic setting or developed disease recurrence during or within six months of completing adjuvant chemotherapy. This approval was based on the DESTINY-Breast04 results.\n\n- **January 27, 2025:** The FDA granted an expanded approval for Enhertu for HR-positive, HER2-low or **HER2-ultralow** metastatic breast cancer (based on the DESTINY-Breast06 trial), further broadening the eligible patient population to include those who had progressed on endocrine therapy and had not yet received chemotherapy in the metastatic setting.",
+  "explainability": [
+    {
+      "content": "DESTINY-Breast04 randomly assigned 557 adults with unresectable or metastatic HER2‑low breast cancer (IHC 1+ or IHC 2+/ISH‑) to receive trastuzumab deruxtecan (Enhertu) 5.4 mg/kg q3 weeks or physician’s choice chemotherapy, with all patients having received at least one prior metastatic‑line therapy.",
+      "references": [
+        "b5aecc33-e624-4636-8a52-aa513a1c26ab",
+        "acdfe7c2-e324-48fa-bf9b-55b995650c53"
+      ]
+    },
+    {
+      "content": "In the hormone‑receptor‑positive primary endpoint cohort, median progression‑free survival was 10.1 months with Enhertu versus 5.4 months with chemotherapy (HR 0.51, P < 0.0001).",
+      "references": [
+        "b5aecc33-e624-4636-8a52-aa513a1c26ab"
+      ]
+    },
+    {
+      "content": "Across the overall population, median PFS was 9.9 months with Enhertu versus 5.1 months with chemotherapy (HR 0.50).",
+      "references": [
+        "acdfe7c2-e324-48fa-bf9b-55b995650c53"
+      ]
+    },
+    {
+      "content": "Median overall survival in the HR‑positive cohort was 23.9 months with Enhertu versus 17.5 months with chemotherapy (HR 0.64, P = 0.003).",
+      "references": [
+        "b5aecc33-e624-4636-8a52-aa513a1c26ab"
+      ]
+    },
+    {
+      "content": "In the overall cohort, median OS was 23.4 months with Enhertu versus 16.8 months with chemotherapy, representing a 36 % reduction in risk of death; updated analysis confirmed a 31 % reduction in both overall and HR‑positive cohorts.",
+      "references": [
+        "00445984-abc4-456e-b48b-23afb9dd318e"
+      ]
+    },
+    {
+      "content": "Exploratory analysis of the HR‑negative subgroup showed a 42 % reduction in risk of death, indicating benefit regardless of hormone‑receptor status.",
+      "references": [
+        "00445984-abc4-456e-b48b-23afb9dd318e",
+        "90144cbf-5685-4ccb-9712-3136cbdec4f4"
+      ]
+    },
+    {
+      "content": "These results made DESTINY‑Breast04 the first phase III trial to demonstrate a statistically significant and clinically meaningful benefit of a HER2‑directed therapy in HER2‑low metastatic breast cancer, establishing a new targetable patient population.",
+      "references": [
+        "90144cbf-5685-4ccb-9712-3136cbdec4f4",
+        "5c497e40-8cea-4eca-a027-782122f89345"
+      ]
+    },
+    {
+      "content": "Based on these trial outcomes, the FDA approved Enhertu for unresectable or metastatic HER2‑low breast cancer on August 6 2022 (first HER2‑directed therapy for this indication).",
+      "references": [
+        "c7c4c35f-179e-413e-a42c-671fb1f2f03b"
+      ]
+    }
+  ],
+  "context": [
+    {
+      "id": "b5aecc33-e624-4636-8a52-aa513a1c26ab",
+      "content": "DESTINY-Breast04, a phase 3, open-label pivotal trial, randomly assigned patients with unresectable or metastatic HER2-low breast cancer to receive the fam-trastuzumab deruxtecan-nxki (Enhertu) at 5.4 mg/kg every 3 weeks (n = 373) or physician’s choice chemotherapy at locally approved dosing (n = 184). All enrolled patients had already received at last 1 prior line of therapy in the metastatic setting.1,2 [...] The primary end point was progression-free survival (PFS) in patients with hormone receptor–positive breast cancer. The median PFS in the primary end point population was 10.1 months (95% CI, 9.5-11.5) with the antibody-drug conjugate vs 5.4 months (95% CI, 4.4-7.1) with standard of care (HR, 0.51; 95% CI, 0.40-0.64; P < .0001). The median overall survival was 23.9 months (95% CI, 20.8-24.8) vs 17.5 months (95% CI, 15.2-22.4), respectively (HR, 0.64; 95% CI, 0.48-0.86; P = .003).1,2 [...] These findings, according to Donahue, will result in the addition of another therapy that patients with unresectable or metastatic HER2-low breast cancer can benefit greatly from.",
+      "origins": [
+        {
+          "source": {
+            "name": "oncnursingnews.com",
+            "url": "https://www.oncnursingnews.com/view/sarah-donahue-highlights-destiny-breast04-trial-takeaways-for-patients-with-hr-her2-low-metastatic-breast-cancer"
+          },
+          "document": {
+            "name": "Sarah Donahue Highlights Destiny-Breast04 Trial Takeaways for Patients With HR+, HER2-Low Metastatic Breast Cancer | Oncology Nursing News",
+            "url": "https://www.oncnursingnews.com/view/sarah-donahue-highlights-destiny-breast04-trial-takeaways-for-patients-with-hr-her2-low-metastatic-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "90144cbf-5685-4ccb-9712-3136cbdec4f4",
+      "content": "# DESTINY-Breast04 Trial: T-DXd Significantly Improves Survival in Patients With HER2-Low Metastatic Breast Cancer. The antibody-drug conjugate fam-trastuzumab deruxtecan-nxki (T-DXd) doubled progression-free survival compared with chemotherapy alone in patients with “HER2-low” metastatic breast cancer—ie, patients with low levels of HER2 expression. The agent also extended overall survival for patients with low levels of the HER2 receptor, regardless of hormone receptor status.1 These results [...] These results could impact the way breast cancer is treated in about half of all breast cancers, for the first time incorporating patients with HER2-low disease as a subset that will benefit from a HER2-directed therapy such as T-DXd, experts predicted. “DESTINY-Breast04 is the first phase III trial of a HER2-directed therapy in patients with [HER2-low] metastatic breast cancer to show a statistically significant and clinically meaningful benefit in progression-free survival and overall [...] trial … will significantly expand the population of patients who can benefit from HER2-targeted therapy. Trastuzumab, one component of the antibody-drug conjugate, is used to treat patients with breast cancer expressing high levels of HER2 (ie, HER2 3+ or HER2-positive) but not in those with low levels of HER2 expression (HER2 1+/2+ or HER2-low) or no HER2 expression (HER2 0+). T-DXd is approved in the United States for adults with unresectable or metastatic HER2-positive breast cancer who have",
+      "origins": [
+        {
+          "source": {
+            "name": "More Top Stories",
+            "url": "https://ascopost.com/issues/june-25-2022/destiny-breast04-trial-t-dxd-significantly-improves-survival-in-patients-with-her2-low-metastatic-breast-cancer?_sp=319f875f-d4e1-46f8-b9d5-c49a131cdf5f"
+          },
+          "document": {
+            "name": "DESTINY-Breast04 Trial T-DXd Significantly Improves Survival in Patients With HER2-Low Metastatic Breast Cancer - The ASCO Post",
+            "url": "https://ascopost.com/issues/june-25-2022/destiny-breast04-trial-t-dxd-significantly-improves-survival-in-patients-with-her2-low-metastatic-breast-cancer?_sp=319f875f-d4e1-46f8-b9d5-c49a131cdf5f"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "00445984-abc4-456e-b48b-23afb9dd318e",
+      "content": "OS results were consistent with those from the primary analysis, with a median OS in the overall cohort of 22.9 months (95% CI 21.2–24.5) for T-DXd and 16.8 months (95% CI 14.1–19.5) for TPC (hazard ratio 0.69; 95% CI 0.55–0.86) (Fig. 1b). For the HR+ cohort, the median OS was 23.9 months (95% CI 21.7–25.2) in the T-DXd arm and 17.6 months (95% CI 15.1–20.2) in the TPC arm (hazard ratio 0.69; 95% CI 0.55–0.87) (Fig. 2a). In the HR− cohort, median OS was 17.1 months (95% CI 13.6–23.0) in the [...] Based on the DESTINY-Breast04 results, T-DXd became the first HER2-directed therapy to show clinical efficacy in HER2-low breast cancer, thereby identifying a new clinically targetable patient population. T-DXd has since been approved by regulatory bodies including the US Food and Drug Administration for patients with HER2-low unresectable or metastatic breast cancer, and DESTINY-Breast04 demonstrated the importance of considering HER2 IHC and/or ISH results in the HER2-low category in the [...] ## Discussion\n\nResults from the updated analysis of DESTINY-Breast04 confirm the sustained clinically meaningful benefit of T-DXd versus TPC as previously demonstrated in HR+ and HR−, HER2-low metastatic breast cancer. OS was improved with T-DXd compared with TPC and confirmed the results from the primary analysis8.\"). Patients treated with T-DXd had a 31% reduction in the risk of death in both the overall and HR+ cohorts and a 42% reduction in risk of death in the exploratory HR− cohort.",
+      "origins": [
+        {
+          "source": {
+            "name": "Nature",
+            "url": "https://www.nature.com/articles/s41591-025-03981-4"
+          },
+          "document": {
+            "name": "Trastuzumab deruxtecan in HER2-low metastatic breast cancer: long-term survival analysis of the randomized, phase 3 DESTINY-Breast04 trial | Nature Medicine",
+            "url": "https://www.nature.com/articles/s41591-025-03981-4"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "acdfe7c2-e324-48fa-bf9b-55b995650c53",
+      "content": "in the physician’s choice group (HR, 0.50; 95% CI, 0.40-0.63; _P_< .0001). News of the results elicited a rare standing ovation at the ASCO meeting, and the FDA subsequently approved the agent for the treatment of patients with HER2-low metastatic disease in August 2022 (Table).2. Approximately 60% of breast cancers qualify as HER2 low based on the definition in DESTINY-Breast04.3 And although targeted drugs have transformed outcomes for the 15% to 20% of patients with breast cancer with [...] A dramatic presentation at the 2022 American Society of Clinical Oncology Annual Meeting changed treatment standards seemingly overnight for women with previously treated metastatic HER2-low breast cancer. A dramatic presentation at the 2022 American Society of Clinical Oncology (ASCO) Annual Meeting changed treatment standards seemingly overnight for women with previously treated metastatic HER2-low breast cancer. Investigators of the phase 3 DESTINY-Breast04 trial (NCT03734029) enrolled [...] enrolled previously treated patients with HER2-low metastatic breast cancer, which was defined for the trial as a score of 1+ on immunohistochemical (IHC) analysis or an IHC score of 2+ and negative results on in situ hybridization (ISH). Among the 557 patients who were randomly assigned 2:1 to trastuzumab deruxtecan or physician’s choice of single-agent chemotherapy, the median progression-free survival (PFS) was 9.9 months in the trastuzumab deruxtecan group vs 5.1 months in the physician’s",
+      "origins": [
+        {
+          "source": {
+            "name": "onclive.com",
+            "url": "https://www.onclive.com/view/metastatic-breast-cancer-enters-a-new-era-of-her2-classification"
+          },
+          "document": {
+            "name": "Metastatic Breast Cancer Enters a New Era of HER2 Classification",
+            "url": "https://www.onclive.com/view/metastatic-breast-cancer-enters-a-new-era-of-her2-classification"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "78f7a10d-e84d-45d6-88f0-727476696d85",
+      "content": "Practice-changing results of the DESTINY-Breast04 trial (NCT03734029) presented at the American Society of Clinical Oncology (ASCO) 2022 Annual Meeting in June 2022 led to the approval of the human epidermal growth factor receptor 2 (HER2)-targeting antibody-drug conjugate (ADC) trastuzumab deruxtecan (T-DXd) for patients with unresectable or metastatic HER2-low breast cancer in August.1 [...] The randomized, multicenter, open-label Phase III DESTINY-Breast04 trial enrolled 557 adult patients with unresectable or metastatic HER2-low breast cancer, of which 494 were hormone receptor-positive (HR+) and 63 hormone receptor-negative (HR-).6 373 were randomized to receive T-DXd by intravenous infusion every three weeks while 184 received physician’s choice of chemotherapy.6 [...] Regardless of whether HER2-low is or is not a distinct subtype, the DESTINY-Breast04 trial in patients with HER2-low cancer highlights that HER2-low is a critical biomarker of response to T-DXd, as outcomes were not affected by patient history or disease characteristics, including prior lines of chemotherapy or CDK4/6 inhibitor treatment and baseline central nervous system (CNS) metastases.11",
+      "origins": [
+        {
+          "source": {
+            "name": "vjoncology.com",
+            "url": "https://www.vjoncology.com/trastuzumab-deruxtecan-and-the-evolving-her2-low-breast-cancer-landscape"
+          },
+          "document": {
+            "name": "Trastuzumab deruxtecan and the evolving HER2-low breast cancer landscape  - VJOncology",
+            "url": "https://www.vjoncology.com/trastuzumab-deruxtecan-and-the-evolving-her2-low-breast-cancer-landscape"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5c497e40-8cea-4eca-a027-782122f89345",
+      "content": "For many people outside the breast oncology and research fields, the “unheard-of” and “breakthrough” results out of the DESTINY-Breast04 trial introduced them to the concept of “HER2-low breast cancer” and essentially added a new term to the breast cancer vocabulary. For the first time in a clinical trial, DESTINY-Breast04’s exciting results showed that patients with low HER2-expressing metastatic breast cancer benefitted from a targeted therapy, trastuzumab deruxtecan (T-DXd/Enhertu®), an [...] of people with HER2-low breast cancer and the 20 percent of those who are HER2-positive). ## What is HER2-low breast cancer? The DESTINY-Breast04 results showed that HER2-low breast cancer is now targetable with a novel HER2-targeted therapy. Estimates show that at least 55 percent of people with breast cancer fall into this HER2-low category—including some patients who have either hormone receptor–positive breast cancer or triple-negative breast cancer, who will now have a new strategy to [...] currently have few targeted therapies, are also HER2-low and those patients in the DESTINY-Breast04 trial benefitted from T-DXd. The DESTINY-Breast04 trial represents a new era of targeted therapies and has opened up treatment to a new HER2-low subset of breast cancer patients. Next, T-DXd will be tested in patients with earlier stage HER2-positive and HER2-low breast cancer whose disease has not yet become resistant to therapy.",
+      "origins": [
+        {
+          "source": {
+            "name": "bcrf.org",
+            "url": "https://www.bcrf.org/?p=23458"
+          },
+          "document": {
+            "name": "HER2-Low Breast Cancer Explained | BCRF",
+            "url": "https://www.bcrf.org/?p=23458"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c7c4c35f-179e-413e-a42c-671fb1f2f03b",
+      "content": "| Date | Article |\n --- |\n| May 15, 2026 | Approval Enhertu Approved in the US for Two New Indications for Patients with HER2 Positive Early Breast Cancer |\n| Dec 15, 2025 | Approval Enhertu Plus Pertuzumab Approved in the US as First New Treatment in a Decade for the First-Line Treatment of Patients with HER2-Positive Metastatic Breast Cancer |\n| Jan 27, 2025 | Approval Enhertu Approved as First HER2-Directed Therapy for Patients with HER2-Low or HER2-Ultralow Metastatic Breast Cancer | [...] | May  6, 2022 | Approval Enhertu Approved in the US for Patients with HER2-Positive Metastatic Breast Cancer Treated with a Prior Anti-HER2-Based Regimen |\n| Apr 27, 2022 | Enhertu Granted Breakthrough Therapy Designation in U.S. for Patients with HER2 Low Metastatic Breast Cancer |\n| Jan 15, 2021 | Approval Enhertu Approved in the U.S. for the Treatment of Patients With Previously Treated HER2 Positive Advanced Gastric Cancer | [...] | Apr  6, 2024 | Approval Enhertu Approved in the US as First Tumor-Agnostic HER2-Directed Therapy for Previously Treated Patients with Metastatic HER2-Positive Solid Tumors |\n| Aug 12, 2022 | Approval Enhertu Approved in the US as the First HER2-Directed Therapy for Patients with Previously Treated HER2-Mutant Metastatic Non-Small Cell Lung Cancer |\n| Aug  6, 2022 | Approval Enhertu Approved in the US as the First HER2-Directed Therapy for Patients with HER2-Low Metastatic Breast Cancer |",
+      "origins": [
+        {
+          "source": {
+            "name": "drugs.com",
+            "url": "https://www.drugs.com/history/enhertu.html"
+          },
+          "document": {
+            "name": "Enhertu (fam-trastuzumab deruxtecan-nxki) FDA Approval History - Drugs.com",
+            "url": "https://www.drugs.com/history/enhertu.html"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ac0154df-69a3-4439-ae77-f1d12485564a",
+      "content": "# FDA Approves Enhertu for HER2-Low Metastatic Breast Cancer. The Food and Drug Administration approved Enhertu for the treatment of unresectable or metastatic HER2-low breast cancer — marking the first targeted drug for this newly defined breast cancer subtype. The Food and Drug Administration (FDA) on Friday approved Enhertu (fam-trastuzumab-deruxtecan-nxki) for the treatment of patients with unresectable or metastatic HER2-low breast cancer, marking the first targeted therapy approved for [...] there are some HER2 proteins on the surface of cancer cells, but not enough to be classified as HER2-positive. \"Today’s FDA approval of Enhertu for HER2-low advanced (metastatic) breast cancer is an important milestone in many ways,\" Dr. Debu Tripathy, chairman of the Department of Breast Medical Oncology at The University of Texas MD Anderson Cancer Center in Houston, said in an interview with CURE®. Three Weeks of Radiation After Mastectomy Works as Well as Five, 10-Year Data Show. [...] decision to grant Enhertu a priority review, is based off findings from the DESTINY-Breast04 clinical trial, which included 557 adults with unresectable or metastatic HER2-low breast cancer, of which 494 patients had HR-positive disease and 63 patients had HR-negative disease. \"The approval today of trastuzumab deruxtecan for patients with metastatic ‘HER2 low’ breast cancer represents a major advance in treatment options for our patients,\" Dr. Hope S. Of note, the prescribing information for",
+      "origins": [
+        {
+          "source": {
+            "name": "curetoday.com",
+            "url": "https://www.curetoday.com/view/fda-approves-enhertu-for-her2-low-metastatic-breast-cancer"
+          },
+          "document": {
+            "name": "FDA Approves Enhertu for HER2-Low Metastatic Breast Cancer | CURE",
+            "url": "https://www.curetoday.com/view/fda-approves-enhertu-for-her2-low-metastatic-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "718e8f72-6b1a-404e-901b-f296d2732a01",
+      "content": "# FDA Approves Enhertu for HR+/HER2-low Breast Cancer: Key Trial Results & Insights. ### FDA Approves Enhertu for HR-Positive, HER2-Low and HER2-Ultralow Breast Cancer: A New Milestone in Treatment. On January 27, 2025, the U.S. Food and Drug Administration (FDA) approved fam-trastuzumab deruxtecan-nxki—better known as Enhertu—for patients with unresectable or metastatic HR-positive, HER2-low, or HER2-ultralow breast cancer. This approval marks a significant step forward, offering new hope to [...] Ventana’s PATHWAY anti-HER-2 (4B5) assay as a companion diagnostic. Previously used to detect HER2-low expression, it’s now validated for HER2-ultralow cases, helping doctors accurately identify candidates for Enhertu. The approval stems from the DESTINY-Breast06 trial, a randomized study of 866 patients with HR-positive, HER2-low or HER2-ultralow breast cancer.  Progression-Free Survival (PFS): For HER2-low patients (n=713), Enhertu extended median PFS to 13.2 months compared to 8.1 months [...] to 8.1 months with chemo—a 38% reduction in risk (hazard ratio 0.62, p<0.0001).  HER2-Ultralow Results: In an exploratory subgroup (n=153), PFS reached 15.1 months with Enhertu versus 8.3 months with chemo, hinting at broader potential. Overall survival (OS) data remains immature, with 39% of patients deceased at the PFS analysis, but the trial’s PFS results are a strong foundation for this approval. Enhertu’s approval is a breakthrough—especially for HER2-ultralow patients, who lacked targeted",
+      "origins": [
+        {
+          "source": {
+            "name": "OncologyTube HomePage",
+            "url": "https://oncologytube.com/fda-approves-enhertu-for-hr-her2-low-breast-cancer-key-trial-results-insights"
+          },
+          "document": {
+            "name": "FDA Approves Enhertu for HR+/HER2-low Breast Cancer: Key Trial Results & Insights - OncologyTube",
+            "url": "https://oncologytube.com/fda-approves-enhertu-for-hr-her2-low-breast-cancer-key-trial-results-insights"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6f01592e-0bc9-4fdb-acf3-d217b90c0849",
+      "content": "setting or developed recurrence of the disease during or within six months of the completion of adjuvant chemotherapy. Enhertu FDA approval has been driven by the findings of the DESTINY-Breast04 phase 3 clinical trial. In the late-stage clinical trial, Enhertu cut down the risk of disease progression or death by 50% compared to physician’s choice of chemotherapy in patients having HER2-low metastatic breast cancer with hormone receptor (HR)-positive disease or HR-negative disease. In patients [...] moment in breast cancer treatment as Enhertu is the first-ever HER2-directed medicine to be approved for the treatment of patients with HER2-low metastatic breast cancer. “With the ground-breaking survival benefit seen in the DESTINY-Breast04 trial, this milestone confirms the importance of targeting lower levels of HER2 expression in the treatment of metastatic breast cancer and we are thrilled that we can now offer Enhertu to even more patients.”. [...] In patients subject to Enhertu treatment, the median overall survival (OS) was 23.4 months compared to 16.8 months in those subject to chemotherapy treatment, which is a reduction of 36% in the risk of death. Commenting on Enhertu FDA approval, Dave Fredrickson — AstraZeneca Executive Vice President of Oncology Business Unit said: “The rapid approval of Enhertu in HER2-low metastatic breast cancer by the FDA underscores the urgency to bring this transformational medicine to patients as quickly",
+      "origins": [
+        {
+          "source": {
+            "name": "Business News Today | Global stock market updates, BSE, NSE, ASX",
+            "url": "https://business-news-today.com/astrazeneca-daiichi-sankyo-get-enhertu-fda-approval-for-her2-low-metastatic-breast-cancer"
+          },
+          "document": {
+            "name": "AstraZeneca, Daiichi Sankyo get Enhertu FDA approval for HER2-low",
+            "url": "https://business-news-today.com/astrazeneca-daiichi-sankyo-get-enhertu-fda-approval-for-her2-low-metastatic-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "cb346b28-8463-48b0-8444-f12785fe2eae",
+      "name": "Enhertu",
+      "entity_type": "Product",
+      "mentions": [
+        "Enhertu"
+      ]
+    },
+    {
+      "id": "247699e6-094a-464d-b016-a945b6f1598d",
+      "name": "U.S. FDA",
+      "entity_type": "Company",
+      "mentions": [
+        "FDA"
+      ]
+    },
+    {
+      "id": "b4b0b964-93c7-4331-bed4-4b82517c1d5a",
+      "name": "ASCO Annual Meeting",
+      "entity_type": "Event",
+      "mentions": [
+        "ASCO Annual Meeting"
+      ]
+    }
+  ],
+  "_query": "What did the DESTINY-Breast04 trial show in HER2-low breast cancer, and when did the FDA approve Enhertu for HER2-low disease?"
+}

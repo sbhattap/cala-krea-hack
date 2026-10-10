@@ -1,0 +1,516 @@
+{
+  "content": "## Trastuzumab Deruxtecan (Enhertu) in Early-Stage & First-Line HER2-Positive Breast Cancer\n\nTrastuzumab deruxtecan (T-DXd, marketed as Enhertu) has generated landmark results across three major Phase III trials — DESTINY-Breast05, DESTINY-Breast11, and DESTINY-Breast09 — reshaping the treatment landscape for HER2-positive breast cancer from the neoadjuvant setting through first-line metastatic disease. In May 2026, the FDA approved Enhertu for both neoadjuvant and adjuvant treatment of HER2-positive early breast cancer based on these trials.\n\n---\n\n### DESTINY-Breast05 — Adjuvant (Post-Surgery) Setting\n\n- **Design:** Global, multicenter, randomized, open-label Phase III trial comparing T-DXd (5.4 mg/kg) versus T-DM1 (trastuzumab emtansine) in 1,635 patients with HER2-positive early breast cancer who had **residual invasive disease** in the breast or axillary lymph nodes after neoadjuvant therapy and were at high risk of recurrence.\n- **Key results (presented at ESMO 2025):**\n  - T-DXd reduced the risk of invasive disease recurrence or death (invasive disease-free survival, IDFS) by **53%** versus T-DM1 (HR 0.47; 95% CI 0.34–0.66; p < 0.0001).\n  - **3-year IDFS:** 92.4% with T-DXd vs. 83.7% with T-DM1.\n  - **3-year DFS:** 92.3% vs. 83.5% (HR 0.47; p < 0.0001).\n  - Distant recurrence-free interval (DRFI) at 3 years: 93.9% vs. 86.1% (HR 0.49).\n- **Safety:** Adjudicated interstitial lung disease (ILD) occurred in 9.6% of patients on T-DXd vs. 1.6% on T-DM1, including two deaths in the T-DXd arm.\n- **Regulatory status:** FDA-approved (May 2026) as adjuvant treatment for adults with HER2-positive breast cancer with residual invasive disease after neoadjuvant trastuzumab-based and taxane-based therapy. Also approved in China (October 2026), Brazil, Canada, and India; under review in the EU, Japan, and Switzerland. Included in NCCN Guidelines as a **Category 1** recommendation.\n\n---\n\n### DESTINY-Breast11 — Neoadjuvant (Pre-Surgery) Setting\n\n- **Design:** Global, multicenter, randomized, open-label Phase III trial (927 patients) evaluating neoadjuvant T-DXd monotherapy or T-DXd followed by THP (paclitaxel, trastuzumab, pertuzumab) versus standard ddAC-THP (dose-dense doxorubicin/cyclophosphamide followed by THP) in patients with high-risk (node-positive or ≥T3) HER2-positive early breast cancer. The T-DXd monotherapy arm was closed early on recommendation of the Independent Data Monitoring Committee.\n- **Key results (published in *Annals of Oncology*, 2026):**\n  - **pCR rate:** 67.3% with T-DXd followed by THP vs. 56.3% with ddAC-THP — an absolute improvement of **11.2 percentage points** (95% CI 3.9–18.3; p = 0.003).\n  - pCR benefit was observed across subgroups, including both HR-positive and HR-negative disease.\n  - Event-free survival (EFS) data were not yet mature at the time of the pCR analysis (29 EFS events [4.5%] and 12 OS events [1.9%]).\n  - The regimen is anthracycline-free, potentially offering a better tolerability profile.\n- **Regulatory status:** FDA-approved (May 2026) for neoadjuvant use in Stage II or III HER2-positive breast cancer (T-DXd followed by THP). Also approved in China (conditional, March 2026). EMA's CHMP recommended only the post-neoadjuvant (residual disease) indication in the EU (September 2026), with a European Commission decision pending.\n- **Note:** A critique in the *European Journal of Cancer* noted the 11.2-point pCR gain fell short of the trial's own 15-point design target and below the surrogate threshold effect estimated to predict an IDFS benefit. Long-term outcome data will be important to confirm the clinical significance of the pCR improvement.\n\n---\n\n### DESTINY-Breast09 — First-Line Metastatic Setting\n\nWhile not an early-stage trial, DESTINY-Breast09 is closely related as it evaluates T-DXd in the first-line metastatic setting:\n\n- **Design:** Global, randomized, open-label Phase III trial (1,157 patients) comparing T-DXd plus pertuzumab, T-DXd plus placebo, or standard THP (taxane + trastuzumab + pertuzumab) as first-line treatment for HER2-positive metastatic breast cancer.\n- **Key results (presented at ASCO 2025; published in *NEJM*, 2026):**\n  - T-DXd + pertuzumab reduced the risk of disease progression or death by **44%** vs. THP (HR 0.56; 95% CI 0.44–0.71; p < 0.0001).\n  - **Median PFS:** 40.7 months with T-DXd + pertuzumab vs. 26.9 months with THP.\n  - **Confirmed ORR:** 85.1% vs. 78.6%; **median duration of response:** 39.2 vs. 26.4 months.\n  - Overall survival data were immature (16% maturity), with an early numerical trend favoring T-DXd + pertuzumab (HR 0.84; 95% CI 0.59–1.19).\n- **Regulatory status:** FDA-approved (December 2025) for first-line HER2-positive metastatic breast cancer. EU-approved (September 2026). Also approved in China (August 2026), Japan, and 40+ countries. Included in ESMO Guidelines as a **Category IA** first-line option.\n\n---\n\n### Summary\n\nTrastuzumab deruxtecan has established itself as a potential new standard of care across the full spectrum of HER2-positive breast cancer — from neoadjuvant therapy (DESTINY-Breast11), through adjuvant treatment of residual disease (DESTINY-Breast05), to first-line metastatic disease (DESTINY-Breast09). Long-term survival data, particularly for the neoadjuvant setting, remain awaited to fully confirm the durability of these benefits.",
+  "explainability": [
+    {
+      "content": "DESTINY-Breast05, a global Phase III trial of trastuzumab deruxtecan versus T‑DM1 in 1,635 HER2‑positive early‑breast‑cancer patients with residual invasive disease, showed a 53 % reduction in invasive disease‑free survival events (HR 0.47, p < 0.0001) and a 3‑year IDFS of 92.4 % versus 83.7 % for T‑DM1.",
+      "references": [
+        "3bbe2758-6bc7-40ba-826c-f3b35eeadd7d",
+        "eac68afa-ae6b-4caa-99ce-5fbdebc3cfc8",
+        "a0fece0b-f090-4233-ac7e-a93beb8922c3",
+        "0230dcd7-5eb2-46fd-8e01-b794b73dd8d5",
+        "ee8a610d-18e4-4ecf-909a-e68681352191"
+      ]
+    },
+    {
+      "content": "The same trial reported adjudicated interstitial lung disease in 9.6 % of patients receiving trastuzumab deruxtecan, highlighting a safety consideration.",
+      "references": [
+        "b8288e8b-5c75-42cf-b280-905ca83a56dc"
+      ]
+    },
+    {
+      "content": "DESTINY‑Breast11, a Phase III trial of neoadjuvant trastuzumab deruxtecan followed by THP versus standard ddAC‑THP in high‑risk HER2‑positive early breast cancer, demonstrated a pathologic complete response rate of 67.3 % versus 56.3 %, an absolute gain of 11.2 % (p = 0.003).",
+      "references": [
+        "2a703cc0-8934-4f89-82eb-1ed229961774",
+        "f7448e53-6a98-4dc1-ada0-679671768939",
+        "d064d80f-4b4c-4926-90f4-b92db8d3dd07"
+      ]
+    },
+    {
+      "content": "DESTINY‑Breast09, a global Phase III trial in first‑line HER2‑positive metastatic disease, showed that trastuzumab deruxtecan plus pertuzumab reduced the risk of disease progression or death by 44 % (HR 0.56, p < 0.0001) and achieved a median progression‑free survival of 40.7 months versus 26.9 months with standard THP.",
+      "references": [
+        "d966407e-d637-49a0-b3b4-3db76f3a2e9b",
+        "8b6d469f-5ed2-4a07-a17b-9982473daf59",
+        "6462f2c9-70f8-4772-9754-0ad74fcb34ac"
+      ]
+    },
+    {
+      "content": "The DESTINY‑Breast09 trial also reported a confirmed overall response rate of 85.1 % for trastuzumab deruxtecan + pertuzumab versus 78.6 % for the control arm, supporting its efficacy in the metastatic setting.",
+      "references": [
+        "6462f2c9-70f8-4772-9754-0ad74fcb34ac"
+      ]
+    }
+  ],
+  "context": [
+    {
+      "id": "3bbe2758-6bc7-40ba-826c-f3b35eeadd7d",
+      "content": "DESTINY-Breast05DESTINY-Breast05 is a global, multicenter, randomized, open-label, Phase III trial evaluating the efficacy and safety of ENHERTU (5.4mg/kg) versus T-DM1 in patients with HER2-positive early breast cancer with residual invasive disease in breast or axillary lymph nodes following neoadjuvant therapy and a high risk of recurrence. High risk of recurrence was defined as presentation with inoperable cancer (prior to neoadjuvant therapy) or pathologically positive axillary lymph nodes [...] Based on the DESTINY-Breast05 results, trastuzumab deruxtecan (ENHERTU) has been included in the NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®) as a Category 1 recommended treatment in the adjuvant setting for patients with HER2-positive early breast cancer with residual disease and a high risk of recurrence following preoperative therapy. See NCCN Guidelines® for detailed recommendations. [...] In DESTINY-Breast05, ENHERTUas an adjuvant treatment reduced the risk of invasive disease recurrence or death (invasive disease-free survival [IDFS]) by 53% compared to trastuzumab emtansine (T-DM1) in patients with HER2-positive breast cancer with residual invasive disease following neoadjuvant therapy (hazard ratio [HR] 0.47; 95% CI 0.34-0.66; p<0.0001). At three years, 92.4% of patients in the ENHERTU arm were alive and free of invasive disease, compared with 83.7% of those in the T-DM1 arm,",
+      "origins": [
+        {
+          "source": {
+            "name": "User",
+            "url": "http://markets.chroniclejournal.com/thepilotnews/article/bizwire-2026-5-16-enhertu-fam-trastuzumab-deruxtecan-nxki-approved-in-the-us-for-two-new-indications-for-patients-with-her2-positive-early-breast-cancer"
+          },
+          "document": {
+            "name": "User | thepilotnews.com - ENHERTU® (fam-trastuzumab deruxtecan-nxki) approved in the US for two new indications for patients with HER2-positive early breast cancer",
+            "url": "http://markets.chroniclejournal.com/thepilotnews/article/bizwire-2026-5-16-enhertu-fam-trastuzumab-deruxtecan-nxki-approved-in-the-us-for-two-new-indications-for-patients-with-her2-positive-early-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eac68afa-ae6b-4caa-99ce-5fbdebc3cfc8",
+      "content": "to trastuzumab emtansine (T-DM1) in patients with HER2-positive breast cancer with residual invasive disease following neoadjuvant therapy (hazard ratio [HR] 0.47; 95% CI 0.34-0.66; p<0.0001). Based on the DESTINY-Breast05 results, trastuzumab deruxtecan (ENHERTU) has been included in the NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines®) as a Category 1 recommended treatment in the adjuvant setting for patients with HER2-positive early breast cancer with residual disease and a [...] disease.”. In DESTINY-Breast11, ENHERTU followed by THP as a neoadjuvant treatment demonstrated a pathologic complete response (pCR) rate of 67.3% compared with 56.3% for dose-dense doxorubicin and cyclophosphamide followed by THP [ddAC-THP], an improvement of 11.2% (95% confidence interval [CI] 3.9-18.3; p=0.003). In DESTINY-Breast05, ENHERTUas an adjuvant treatment reduced the risk of invasive disease recurrence or death (invasive disease-free survival [IDFS]) by 53% compared to trastuzumab [...] DESTINY-Breast11 and DESTINY-Breast05 Phase III trials, respectively. In the neoadjuvant setting, ENHERTU followed by a taxane, trastuzumab, and pertuzumab (THP) has been approved for the treatment of adult patients with HER2-positive Stage II or Stage III breast cancer. In the adjuvant setting, ENHERTU has been approved for the treatment of adult patients with HER2-positive breast cancer who have residual invasive disease following trastuzumab (with or without pertuzumab) and taxane-based",
+      "origins": [
+        {
+          "source": {
+            "name": "User",
+            "url": "http://markets.chroniclejournal.com/chroniclejournal/article/bizwire-2026-5-16-enhertu-fam-trastuzumab-deruxtecan-nxki-approved-in-the-us-for-two-new-indications-for-patients-with-her2-positive-early-breast-cancer"
+          },
+          "document": {
+            "name": "User | chroniclejournal.com - ENHERTU® (fam-trastuzumab deruxtecan-nxki) approved in the US for two new indications for patients with HER2-positive early breast cancer",
+            "url": "http://markets.chroniclejournal.com/chroniclejournal/article/bizwire-2026-5-16-enhertu-fam-trastuzumab-deruxtecan-nxki-approved-in-the-us-for-two-new-indications-for-patients-with-her2-positive-early-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b8288e8b-5c75-42cf-b280-905ca83a56dc",
+      "content": "## The Floor has Dropped; the Ceiling Just Rose\n\nIn May 2026, the FDA approved trastuzumab deruxtecan (T-DXd; Enhertu) as neoadjuvant therapy followed by a taxane, trastuzumab, and pertuzumab (THP), for the neoadjuvant treatment of adult patients with HER2-positive (IHC 3+ or ISH+) Stage II or III breast cancer and as adjuvant therapy for patients with residual invasive disease after surgery (FDA Prescribing Information).\n\nOn September 17, 2026, the EMA's human medicines committee (CHMP) recommended T-DXd only for the post-neoadjuvant (residual disease) indication in the EU — narrower than the FDA's dual neoadjuvant-and-adjuvant approval — with a European Commission decision still pending (EMA). [...] Questions also remain about how much weight to give pCR gains when long-term outcome data are immature. A critique in European Journal of Cancer notes that the 11.2-percentage-point pCR gain in DESTINY-Breast11 fell short of the trial's own 15-point design target and below the surrogate threshold effect the authors estimate would be needed to predict an iDFS benefit (European Journal of Cancer).\n\nAnd T-DXd isn't free. Adjudicated interstitial lung disease occurred in 9.6% of patients on T-DXd in DESTINY-Breast05 versus 1.6% on T-DM1, including two deaths (NEJM). “Coordination with pulmonology and radiology is especially important because distinguishing T-DXd pneumonitis from radiation pneumonitis can be clinically challenging,” Abdou notes (Medscape). [...] ## Where De-escalation Becomes Standard Stops Cold\n\nResidual invasive disease after neoadjuvant therapy remains the clearest signal that a patient needs more, not less. KATHERINE's final survival analysis showed T-DM1 cut the risk of invasive disease events by nearly half versus trastuzumab alone (7-year IDFS 80.8% vs. 67.1%) (NEJM). Now DESTINY-Breast05 has positioned T-DXd to replace T-DM1 as the standard treatment for high-risk residual disease, with a 3-year IDFS of 92.4% versus 83.7% for T-DM1 (NEJM).",
+      "origins": [
+        {
+          "source": {
+            "name": "medscape.com",
+            "url": "https://www.medscape.com/c99/p10/her2-positive-breast-cancer-2026-treatment-map-getting-more-2026a10011sr"
+          },
+          "document": {
+            "name": "HER2+ Early Breast Cancer: Who Can Safely Receive Less?",
+            "url": "https://www.medscape.com/c99/p10/her2-positive-breast-cancer-2026-treatment-map-getting-more-2026a10011sr"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a0fece0b-f090-4233-ac7e-a93beb8922c3",
+      "content": "In May 2026, the FDA approved T-DXd for adult patients with HER2-positive (IHC 3+ or ISH-positive) breast cancer and residual invasive disease after neoadjuvant HER2-targeted therapy, at a dose of 5.4 mg/kg every 3 weeks for up to 14 cycles.3 This regulatory decision was backed by findings from DESTINY-Breast05.\n\nThe adjuvant T-DXd indication is also approved in Brazil, Canada, and India, and is under review in the European Union, Japan, and Switzerland.¹\n\n## References\n\n### Newsletter\n\nStay up to date on the most recent and practice-changing oncology data\n\n## Related to this article [...] The NMPA approval is supported by findings from the phase 3 DESTINY-Breast05 trial (NCT04622319), in which T-DXd was compared with ado-trastuzumab emtansine (T-DM1; Kadcyla).1,2 At the interim analysis presented at the 2025 ESMO Congress, T-DXd (n = 818) reduced the risk of invasive disease recurrence or death by 53% vs T-DM1 (n = 817; HR, 0.47; 95% CI, 0.34-0.66; P < .0001). The 3-year invasive disease–free survival (IDFS) rate was 92.4% (95% CI, 89.7%-94.4%) with T-DXd vs 83.7% (95% CI, 80.2%-86.7%) with T-DM1.2\n\n“[These] findings represent an important step toward reducing the risk of recurrence and advancing the goal of cure,” Zhimin Shao, of Fudan University in Shanghai, China, and the China lead investigator for DESTINY-Breast05, stated in a news release.¹ [...] The 3-year DFS rate was 92.3% (95% CI, 89.5%-94.3%) with T-DXd vs 83.5% (95% CI, 79.9%-86.4%) with T-DM1 (HR, 0.47; 95% CI, 0.34-0.66; P < .0001). Distant recurrence was the first event in 42 patients receiving T-DXd vs 77 patients receiving T-DM1, including CNS recurrence in 17 patients vs 25 patients, respectively. The 3-year DRFI rates were 93.9% (95% CI, 91.4%-95.7%) vs 86.1% (95% CI, 82.5%-89.1%), respectively (HR, 0.49; 95% CI, 0.34-0.71), and the 3-year BMFI rates were 97.6% (95% CI, 96.2%-98.5%) vs 95.8% (95% CI, 93.6%-97.2%), respectively (HR, 0.64; 95% CI, 0.35-1.17).\n\n## What safety findings were observed with T-DXd in DESTINY-Breast05?",
+      "origins": [
+        {
+          "source": {
+            "name": "onclive.com",
+            "url": "https://www.onclive.com/view/china-s-nmpa-approves-adjuvant-t-dxd-for-her2-early-breast-cancer-with-residual-invasive-disease"
+          },
+          "document": {
+            "name": "China’s NMPA Approves Adjuvant T-DXd for HER2+ Early Breast Cancer With Residual Invasive Disease | OncLive",
+            "url": "https://www.onclive.com/view/china-s-nmpa-approves-adjuvant-t-dxd-for-her2-early-breast-cancer-with-residual-invasive-disease"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0230dcd7-5eb2-46fd-8e01-b794b73dd8d5",
+      "content": "Dr. Shao noted that the trial outcomes highlight the ability of trastuzumab deruxtecan to advance clinical practice in the adjuvant setting due to a significant improvement in invasive disease-free survival over T-DM1.\n\n## DESTINY-Breast05 Results Supporting the Approval\n\nIn DESTINY-Breast05, trastuzumab deruxtecan reduced the risk of invasive disease recurrence or death by 53% compared with trastuzumab emtansine. The hazard ratio for invasive disease-free survival (IDFS) was 0.47, with a 95% confidence interval of 0.34-0.66 and p<0.0001. [...] ## Trial Design and Patient Population\n\nDESTINY-Breast05 is a global, multicenter, randomized, open-label Phase 3 trial evaluating the efficacy and safety of trastuzumab deruxtecan at 5.4 mg/kg versus trastuzumab emtansine.\n\nThe study enrolled 1,635 patients across Asia, Europe, North America, Oceania and South America. Eligible patients had HER2-positive early breast cancer with residual invasive disease in the breast or axillary lymph nodes after neoadjuvant therapy and a high risk of recurrence.\n\nHigh recurrence risk was defined as either inoperable cancer before neoadjuvant treatment or pathologically positive axillary lymph nodes after neoadjuvant therapy. [...] China’s National Medical Products Administration (NMPA) has approved trastuzumab deruxtecan as adjuvant treatment for adults with HER2-positive early breast cancer who have residual invasive disease after neoadjuvant taxane- and trastuzumab-based treatment, according to a latest press release from Daiichi Sankyo.\n\nThe indication covers patients whose tumors are HER2-positive, defined as immunohistochemistry (IHC) 3+ or in-situ hybridization (ISH)+. The approval is based on the Phase 3 DESTINY-Breast05 trial, which compared trastuzumab deruxtecan with trastuzumab emtansine (T-DM1) in patients with residual invasive disease following neoadjuvant therapy.",
+      "origins": [
+        {
+          "source": {
+            "name": "Oncology News, Insights, Stories by OncoDaily",
+            "url": "https://oncodaily.com/breast-oncology/trastuzumab-deruxtecan-603589"
+          },
+          "document": {
+            "name": "Trastuzumab Deruxtecan Approved in China for HER2-Positive Early Breast Cancer With Residual Disease - OncoDaily",
+            "url": "https://oncodaily.com/breast-oncology/trastuzumab-deruxtecan-603589"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ee8a610d-18e4-4ecf-909a-e68681352191",
+      "content": "1 Enhertu® Approved in China as Adjuvant Treatment for Patients with Residual Disease After Neoadjuvant Treatment for HER2 Positive Early Breast Cancer • Approval based on DESTINY-Breast05 phase 3 trial results which showed Daiichi Sankyo and AstraZeneca’s Enhertu reduced the risk of invasive disease recurrence or death by 53% compared to T-DM1 • Second approval in early breast cancer for Enhertu in China marking the fifth approval in less than a year • Enhertu now approved for nine indications in China Tokyo – (October 8, 2026) – Enhertu® (trastuzumab deruxtecan) has been approved in China for the adjuvant treatment of adult patients with HER2 positive (immunohistochemistry [IHC] 3+ or in-situ hybridization [ISH]+) early breast cancer who have residual invasive disease after neoadjuvant [...] with HER2 expression (IHC 3+) who have received prior treatment or have no satisfactory alternative treatment options based on DESTINY-PanTumor02, DESTINY-Lung01, DESTINY-CRC02 and DESTINY-PanTumor03. About DESTINY-Breast05 DESTINY-Breast05 is a global, multicenter, randomized, open-label, phase 3 trial evaluating the efficacy and safety of Enhertu (5.4 mg/kg) versus T-DM1 in patients with HER2 positive early breast cancer with residual invasive disease in breast or axillary lymph nodes following neoadjuvant therapy and a high risk of recurrence. High risk of recurrence was defined as presentation with inoperable cancer (prior to neoadjuvant therapy) or pathologically positive axillary lymph nodes following neoadjuvant therapy. The primary endpoint of DESTINY-Breast05 is [...] IDFS rate of 92.4% (95% CI: 89.7-94.4) compared to 83.7% with T-DM1 (95% CI: 80.2-86.7). Data also showed that Enhertu significantly reduced the risk of disease recurrence or death (disease-free survival [DFS]) by 53% (HR=0.47; 95% CI: 0.34-0.66; p<0.0001) compared to T-DM1. Results showed a three-year DFS rate of 92.3% (95% CI: 89.5-94.3) in the Enhertu arm and 83.5% with T-DM1 (95% CI: 79.9-86.4). “For patients with HER2 positive early breast cancer that have residual invasive disease following neoadjuvant therapy, these findings represent an important step toward reducing the risk of recurrence and advancing the goal of cure,” said Zhimin Shao, MD, Director, Fudan University Cancer Institute and Breast Cancer, China, and lead investigator in China of the DESTINY-Breast05 trial. “The",
+      "origins": [
+        {
+          "source": {
+            "name": "Our Stories",
+            "url": "https://www.daiichisankyo.com/files/news/pressrelease/pdf/202610/20261008_E3.pdf"
+          },
+          "document": {
+            "name": "Enhertu® Approved in China as Adjuvant Treatment for ...",
+            "url": "https://www.daiichisankyo.com/files/news/pressrelease/pdf/202610/20261008_E3.pdf"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2a703cc0-8934-4f89-82eb-1ed229961774",
+      "content": "In DESTINY-Breast11 , ENHERTU followed by THP as a neoadjuvant treatment demonstrated a pathologic complete response (pCR) rate of 67.3% compared with 56.3% for dose-dense doxorubicin and cyclophosphamide followed by THP [ddAC-THP], an improvement of 11.2% (95% confidence interval [CI] 3.9-18.3; p=0.003). At the time of the pCR analysis, 29 patients (4.5%) had event-free survival (EFS) events, and 12 patients (1.9%) had overall survival (OS) events. The results were published in _Annals of [...] DESTINY-Breast11 DESTINY-Breast11 is a global, multicenter, randomized, open-label, Phase III trial evaluating the efficacy and safety of neoadjuvant ENHERTU (5.4mg/kg) monotherapy or ENHERTU followed by THP compared to ddAC-THP in patients with high-risk HER2-positive early-stage breast cancer.\n\nPatients were randomized 1:1:1 to receive either eight cycles of ENHERTU monotherapy; four cycles of ENHERTU followed by four cycles of THP; or four cycles of ddAC followed by four cycles of THP. [...] The ENHERTU monotherapy arm was closed early following a recommendation from the Independent Data Monitoring Committee.\n\nThe primary endpoint of DESTINY-Breast11 is rate of pCR – defined as no evidence of invasive cancer cells in the removed breast cancer tissue or lymph nodes following treatment. Secondary endpoints include EFS, invasive disease-free survival, overall survival and safety.",
+      "origins": [
+        {
+          "source": {
+            "name": "barchart.com",
+            "url": "https://www.barchart.com/story/news/1968967/enhertu-fam-trastuzumab-deruxtecan-nxki-approved-in-the-us-for-two-new-indications-for-patients-with-her2-positive-early-breast-cancer"
+          },
+          "document": {
+            "name": "ENHERTU® (fam-trastuzumab deruxtecan-nxki) approved in the US for two new indications for patients with HER2-positive early breast cancer",
+            "url": "https://www.barchart.com/story/news/1968967/enhertu-fam-trastuzumab-deruxtecan-nxki-approved-in-the-us-for-two-new-indications-for-patients-with-her2-positive-early-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f7448e53-6a98-4dc1-ada0-679671768939",
+      "content": "Also You Can Read About Her Positive Breast Cancer Treatment Guide on OncoDaily\n\n## Conclusion\n\nChina’s conditional approval of ENHERTU followed by THP for neoadjuvant treatment of stage II high-risk or stage III HER2-positive breast cancer marks a major step in early breast cancer care. Based on the DESTINY-Breast11 phase III trial, the regimen improved pathologic complete response from 56.25% with ddAC-THP to 67.29%, with an absolute pCR gain of 11.17% and a P value of 0.003. [...] This represented an absolute improvement of 11.17% with ENHERTU followed by THP, with a 95% confidence interval of 3.95 to 18.28 and a P value of 0.003.\n\nThe pCR benefit was also seen across prespecified subgroups, including both hormone receptor–positive and hormone receptor–negative disease. In the broader trial results previously reported, pCR rates were notably higher in the hormone receptor–negative subgroup, but improvement was observed in both biologic subtypes. [...] The approval, granted by China’s National Medical Products Administration (NMPA), is based on results from the phase III DESTINY-Breast11 trial, which showed that ENHERTU followed by THP produced a statistically significant and clinically meaningful improvement in pathologic complete response (pCR) compared with standard neoadjuvant therapy. The indication received conditional approval, meaning continued authorization will depend on confirmation of long-term clinical benefit in ongoing studies.",
+      "origins": [
+        {
+          "source": {
+            "name": "Oncology News, Insights, Stories by OncoDaily",
+            "url": "https://oncodaily.com/insight/enhertu-china-approved"
+          },
+          "document": {
+            "name": "China Approves Trastuzumab Deruxtecan (ENHERTU) Followed by THP for Neoadjuvant HER2-Positive Breast Cancer Based on DESTINY-Breast11 - OncoDaily",
+            "url": "https://oncodaily.com/insight/enhertu-china-approved"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d064d80f-4b4c-4926-90f4-b92db8d3dd07",
+      "content": "# Neoadjuvant trastuzumab deruxtecan shows promise in high-risk HER2+ early breast cancer. Home en\\_news Neoadjuvant trastuzumab deruxtecan shows promise in high-risk HER2+ early breast cancer.  Results from the multicenter, open-label, randomized phase 3 DESTINY Breast11 trial show that neoadjuvant antibody-drug conjugate trastuzumab deruxtecan improved pathological complete response in patients with high-risk HER2+ early breast cancer compared to standard treatment with chemotherapy.. [...] chemotherapy..  Co-authored by Santiago Escrivá de Romaní, Medical Oncologist at the Vall d’Hebron University Hospital and Investigator of VHIO’s Breast Cancer Group, findings from DESTINY Breast11 were presented at today’s Presidential Session of the 2025 European Society for Medical Oncology (ESMO) Annual Congress, 17-21 October, Berlin.. Results from the international phase 3 DESTINY-Breast11 study show that neoadjuvant therapy with antibody-drug conjugate (ADC)  trastuzumab deruxtecan [...] followed by the standard neoadjuvant triplet of dual HER2 blockade combined with chemotherapy or standard anthracycline-based chemotherapy followed by the same triplet combination, or trastuzumab deruxtecan monotherapy. “These data support this new treatment strategy as a potential new anthracycline-free regimen with improved efficacy and less toxicity for patients with high-risk HER2-positive early breast cancer,” concluded Escrivá de Romaní. Abstract: 291O – DESTINY-Breast11: neoadjuvant",
+      "origins": [
+        {
+          "source": {
+            "name": "Home - VHIO",
+            "url": "https://vhio.net/2025/10/18/neoadjuvant-trastuzumab-deruxtecan-shows-promise-in-high-risk-her2-early-breast-cancer"
+          },
+          "document": {
+            "name": "ESMO2025 New strategy for HER2+ early breast cancer",
+            "url": "https://vhio.net/2025/10/18/neoadjuvant-trastuzumab-deruxtecan-shows-promise-in-high-risk-her2-early-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e53affa7-c388-4ad7-ac9c-c97b0d5acd3a",
+      "content": "Article \nGoogle Scholar\n\nLoibl, S. et al. Trastuzumab deruxtecan in residual HER2-positive early breast cancer. N. Engl. J. Med. 394, 845–857  (2026).\n\nArticle \nCAS \nPubMed \nGoogle Scholar\n\nHarbeck, N. et al. Neoadjuvant trastuzumab deruxtecan alone or followed by paclitaxel, trastuzumab, and pertuzumab for high-risk HER2-positive early breast cancer (DESTINY-Breast11): a randomised, open-label, multicentre, phase III trial. Ann. Oncol. 37, 166–179  (2026).\n\nArticle \nCAS \nPubMed \nGoogle Scholar\n\nMetzger, O. et al. Palbociclib for hormone-receptor–positive, HER2-positive advanced breast cancer. N. Engl. J. Med. 394, 451–462  (2026).\n\nArticle \nCAS \nPubMed \nGoogle Scholar [...] Article \nPubMed \nPubMed Central \nGoogle Scholar\n\nPark, Y. H. et al. A DESTINY-Breast09 analysis of treatment duration and clinical outcomes by best response to trastuzumab deruxtecan (T-DXd) + pertuzumab (P). J. Clin. Oncol. 44, 1021  (2026).\n\nArticle \nGoogle Scholar\n\nBae, S. J. et al. Ovarian function suppression in HR-positive, HER2-positive breast cancer: an exploratory analysis of the HERA trial. J. Natl Compr. Canc. Netw. 23, 539–547  (2025).\n\nArticle \nPubMed \nGoogle Scholar\n\nDieci, M. V. et al. Type of adjuvant endocrine therapy and disease-free survival in patients with early HR-positive/HER2-positive BC: analysis from the phase III randomized ShortHER trial. npj Breast Cancer 9, 6  (2023).\n\nArticle \nCAS \nPubMed \nPubMed Central \nGoogle Scholar [...] Article \nPubMed \nGoogle Scholar\n\nRimawi, M. et al. Abstract RF6-07: trastuzumab deruxtecan (T-DXd) + pertuzumab (P) vs taxane + trastuzumab + pertuzumab (THP) for first-line (1L) treatment of patients (pts) with HER2-positive (HER2+) advanced/metastatic breast cancer (a/mBC): patient-reported outcomes (PROs) from the DESTINY-Breast09 study. Clin. Cancer Res. 32, RF6-07  (2026).\n\nArticle \nGoogle Scholar\n\nCortés, J. et al. Abstract P5-03-11: DEMETHER: a single-arm phase II trial to evaluate the efficacy & safety of subcutaneous pertuzumab & trastuzumab maintenance after induction treatment w/ trastuzumab deruxtecan (T-DXd) for previously untreated HER2-positive advanced breast cancer. Clin. Cancer Res. 31, P5-03-11  (2025).\n\nArticle \nGoogle Scholar",
+      "origins": [
+        {
+          "source": {
+            "name": "Nature",
+            "url": "https://www.nature.com/articles/s41571-026-01211-5"
+          },
+          "document": {
+            "name": "Right-sizing treatment for HER2-positive breast cancer: evolving algorithms across the disease continuum | Nature Reviews Clinical Oncology",
+            "url": "https://www.nature.com/articles/s41571-026-01211-5"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d966407e-d637-49a0-b3b4-3db76f3a2e9b",
+      "content": "Presented at ASCO 2025, new data from the DESTINY-Breast09 trial showed that Enhertu plus pertuzumab cut the risk of disease progression or death by 44% compared to taxane, trastuzumab, and pertuzumab (THP) in first-line treatment for HER2-positive metastatic breast cancer. In this global, randomized trial of 1,157 patients with HER2-positive advanced or metastatic breast cancer, Enhertu plus pertuzumab achieved a median progression-free survival (PFS) of 40.7 months — surpassing the 26.9 [...] surpassing the 26.9 months seen with taxane, trastuzumab, and pertuzumab (THP). > Dr. Sara Tolaney, emphasized the potential paradigm shift these data represent: “Patients with HER2-positive metastatic breast cancer often experience disease progression around two years after initiating standard-of-care first-line treatment. With a median progression-free survival of more than three years, the DESTINY-Breast09 results show trastuzumab deruxtecan combined with pertuzumab has the potential to [...] of patients with HER2-positive disease compared to THP in the first-line setting. DESTINY-Breast09 shows that initiating treatment with Enhertu in combination with pertuzumab at the time of metastatic diagnosis can delay disease progression,” said Ken Takeshita, Global Head, R&D, Daiichi Sankyo. DESTINY-Breast09: Trastuzumab Deruxtecan Plus Pertuzumab Sets New First-Line Benchmark in HER2-Positive Metastatic Breast Cancer 3. Trastuzumab deruxtecan (T-DXd) + pertuzumab (P) vs taxane +",
+      "origins": [
+        {
+          "source": {
+            "name": "ONCOLife Issues",
+            "url": "https://healthandpharma.net/destiny-enhertu-pertuzumab-breast-cancer-pertuzumab"
+          },
+          "document": {
+            "name": "Enhertu-pertuzumab Combo Shows 44% Risk Reduction in HER2+ Breast Cancer",
+            "url": "https://healthandpharma.net/destiny-enhertu-pertuzumab-breast-cancer-pertuzumab"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8b6d469f-5ed2-4a07-a17b-9982473daf59",
+      "content": "On December 15, 2025, the U.S. Food and Drug Administration (FDA) approved fam-trastuzumab deruxtecan-nxki with pertuzumab for the first-line treatment of adults with unresectable or metastatic HER2-positive breast cancer, defined as HER2 IHC 3+ or ISH-positive by an FDA-approved test. Fam-trastuzumab deruxtecan-nxki is marketed as Enhertu® by Daiichi Sankyo, Inc. [...] ## Efficacy Results From DESTINY-Breast09\n\nThe FDA approval of fam-trastuzumab deruxtecan-nxki with pertuzumab was based on results from the DESTINY-Breast09 trial (NCT04784715), a randomized, three-arm, multicenter, global Phase III study enrolling 1,157 adults with HER2-positive advanced or metastatic breast cancer. [...] Median PFS was:\n\n 40.7 months (95% CI: 36.5, not estimable) with fam-trastuzumab deruxtecan-nxki with pertuzumab\n 26.9 months (95% CI: 21.8, not estimable) with THP\n\nThis corresponded to a 44% reduction in the risk of disease progression or death (hazard ratio 0.56, 95% CI: 0.44–0.71; p <0.0001) in favor of fam-trastuzumab deruxtecan-nxki with pertuzumab (DESTINY-Breast09; FDA, 2025).\n\n## Objective Response and Overall Survival\n\nConfirmed objective response rate (ORR) by BICR was:",
+      "origins": [
+        {
+          "source": {
+            "name": "Oncology News, Insights, Stories by OncoDaily",
+            "url": "https://oncodaily.com/fda-approvals/fam-trastuzumab-deruxtecan-nxki-with-pertuzumab"
+          },
+          "document": {
+            "name": "FDA Approves Fam-Trastuzumab Deruxtecan-nxki With Pertuzumab for First-Line Treatment of HER2-Positive Metastatic Breast Cancer - OncoDaily",
+            "url": "https://oncodaily.com/fda-approvals/fam-trastuzumab-deruxtecan-nxki-with-pertuzumab"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "827c4e83-0c39-4320-8e9b-e3f7418b0e51",
+      "content": "On September 1, 2026, the European Commission approved trastuzumab deruxtecan (Enhertu) plus pertuzumab for the first-line treatment of adults with unresectable or metastatic HER2-positive breast cancer. The decision is based on the phase III DESTINY-Breast09 trial and represents the first new first-line regimen approved in the European Union for this population in more than a decade. [...] ## Reference\n\n1. AstraZeneca. Enhertu plus pertuzumab approved in the EU as first new regimen in more than a decade for the 1st-line treatment of patients with HER2-positive metastatic breast cancer. Published September 1, 2026. The approval is based on the phase III DESTINY-Breast09 trial.\n2. Tolaney SM, et al. Trastuzumab Deruxtecan plus Pertuzumab for HER2-Positive Metastatic Breast Cancer. New England Journal of Medicine. 2026;394:551–562, as cited in the source.\n\nArmen Gevorgyan\n\nAuthor [...] The magnitude of progression-free survival improvement is substantial. In DESTINY-Breast09, trastuzumab deruxtecan plus pertuzumab reduced the risk of disease progression or death by 44% compared with taxane, trastuzumab and pertuzumab (THP).\n\nMedian PFS by blinded independent central review reached 40.7 months versus 26.9 months, respectively:\n\n HR 0.56; 95% CI, 0.44–0.71; P<.00001.",
+      "origins": [
+        {
+          "source": {
+            "name": "Oncology News, Insights, Stories by OncoDaily",
+            "url": "https://oncodaily.com/breast-oncology/enhertu-eu"
+          },
+          "document": {
+            "name": "Enhertu Plus Pertuzumab Approved in the EU for First-Line HER2-Positive Metastatic Breast Cancer: A New Benchmark After More Than a Decade - OncoDaily",
+            "url": "https://oncodaily.com/breast-oncology/enhertu-eu"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6462f2c9-70f8-4772-9754-0ad74fcb34ac",
+      "content": "The confirmed overall response rate was 85.1% with trastuzumab deruxtecan plus pertuzumab compared with 78.6% in the control arm, while median duration of response was 39.2 months versus 26.4 months, respectively.\n\nThe DESTINY-Breast09 findings were presented at the 2025 ASCO Annual Meeting and subsequently published in The New England Journal of Medicine. Read the DESTINY-Breast09 publication in NEJM. [...] The trastuzumab deruxtecan approval was based on results from the global, randomized, open-label Phase 3 DESTINY-Breast09 trial (NCT04784715), which enrolled 1,157 patients with HER2-positive metastatic breast cancer.\n\nPatients were randomized to trastuzumab deruxtecan plus pertuzumab, trastuzumab deruxtecan plus placebo, or the standard regimen of a taxane, trastuzumab, and pertuzumab. [...] The approvals are supported by two Phase 3 studies: DESTINY-Breast09, which evaluated trastuzumab deruxtecan plus pertuzumab in first-line HER2-positive metastatic breast cancer, and TROPION-Breast02, which evaluated datopotamab deruxtecan in previously untreated advanced TNBC in patients for whom immunotherapy was not an option.\n\nYuki Abe, PhD, Senior Executive Officer, Head of R&D Division in Japan and Head of Research at Daiichi Sankyo, said:",
+      "origins": [
+        {
+          "source": {
+            "name": "Oncology News, Insights, Stories by OncoDaily",
+            "url": "https://oncodaily.com/oncolibrary/breast-oncology/trastuzumab-deruxtecan-586875"
+          },
+          "document": {
+            "name": "Japan Approves Trastuzumab Deruxtecan and Datopotamab Deruxtecan for New First-Line Metastatic Breast Cancer Indications - OncoDaily",
+            "url": "https://oncodaily.com/oncolibrary/breast-oncology/trastuzumab-deruxtecan-586875"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7f977120-5413-4f99-9407-ba41dc7703f1",
+      "content": "On December 15, 2025, the FDA approved fam-trastuzumab deruxtecan-nxki (Enhertu) in combination with pertuzumab for 1L HER2+ metastatic breast cancer. Approval based on DESTINY-Breast09 (NCT04784715) demonstrating PFS HR 0.56, median PFS 40.7 vs 26.9 months (p<0.0001). FDA also co-approved the PATHWAY anti-HER-2/neu (4B5) Rabbit Monoclonal Primary Antibody as companion diagnostic.\n\nSource: FDA (December 15, 2025)\n\nStudy Design\n\n## Trial Methodology & Results\n\n#### Study Design [...] Yes. On December 15, 2025 the FDA approved Enhertu in combination with pertuzumab (Perjeta) for the first-line treatment of adults with unresectable or metastatic HER2-positive (IHC 3+ or ISH+) breast cancer, based on DESTINY-Breast09. The PATHWAY (4B5) companion diagnostic was co-approved.\n\n### What were the DESTINY-Breast09 PFS results? [...] DESTINY-Breast09 is a Phase 3 trial of first-line trastuzumab deruxtecan (T-DXd, Enhertu) plus pertuzumab versus the standard taxane + trastuzumab + pertuzumab (THP) regimen in HER2-positive metastatic breast cancer. The T-DXd combination improved median PFS to 40.7 vs 26.9 months (HR 0.56; p<0.0001), supporting FDA approval on December 15, 2025. Sponsor: Daiichi Sankyo / AstraZeneca.\n\n1L HER2+ mBC Enhertu + Perjeta #ASCO25 #SABCS25\n\nDiscover KOL Sentiment on DESTINY-Breast09 →\n\nAt a Glance",
+      "origins": [
+        {
+          "source": {
+            "name": "KOL Pulse",
+            "url": "https://kolpulse.com/kol-pulse-trial-profile-destinybreast09"
+          },
+          "document": {
+            "name": "DESTINY-Breast09: 1L T-DXd (Enhertu) + Pertuzumab in HER2+ Metastatic Breast Cancer — KOL Analysis | KOL Pulse",
+            "url": "https://kolpulse.com/kol-pulse-trial-profile-destinybreast09"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6dbf4e25-b711-4352-8c07-61834e21423a",
+      "content": "DESTINY-Breast09 trial, Initial results showed a significant difference of 13.8 months in the median progression-free survival with trastuzumab deruxtecan plus",
+      "origins": [
+        {
+          "source": {
+            "name": "nejm.org",
+            "url": "https://www.nejm.org/doi/pdf/10.1056/NEJMra2500695"
+          },
+          "document": {
+            "name": "Advances in Systemic Treatment of Breast Cancer",
+            "url": "https://www.nejm.org/doi/pdf/10.1056/NEJMra2500695"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1745720b-aef2-45f3-93a5-6883a841f3ee",
+      "content": "to reshape clinical practice in first-line HER2-positive metastatic breast cancer. Based on the DESTINY-Breast09 findings, trastuzumab deruxtecan plus pertuzumab has been included in the ESMO Clinical Practice Guidelines as a Category IA first-line treatment option for patients with metastatic HER2-positive breast cancer, regardless of hormone receptor status. The European decision follows the August 2026 approval of trastuzumab deruxtecan plus pertuzumab in China for first-line unresectable or [...] Trastuzumab deruxtecan Plus Pertuzumab Approved in EU for First-Line HER2-Positive Metastatic Breast Cancer. The European Commission has approved trastuzumab deruxtecan in combination with pertuzumab for the first-line treatment of adults with unresectable or metastatic HER2-positive breast cancer, AstraZeneca and Daiichi Sankyo announced on September 1, 2026. The decision follows a positive opinion from the European Medicines Agency’s Committee for Medicinal Products for Human Use and [...] for Human Use and represents the first new first-line regimen approved in the EU for this patient population in more than a decade. DESTINY-Breast09: The Trial Changing the Future of HER2-Positive Breast Cancer. DESTINY-Breast09 is a global, multicenter, randomized, open-label Phase 3 trial evaluating trastuzumab deruxtecan 5.4 mg/kg alone or in combination with pertuzumab versus standard-of-care taxane, trastuzumab deruxtecan and pertuzumab (THP) as first-line treatment for HER2-positive",
+      "origins": [
+        {
+          "source": {
+            "name": "Oncology News, Insights, Stories by OncoDaily",
+            "url": "https://oncodaily.com/oncolibrary/breast-oncology/trastuzumab-deruxtecan-plus-pertuzumab578704"
+          },
+          "document": {
+            "name": "Trastuzumab deruxtecan Plus Pertuzumab Approved in EU for First-Line HER2-Positive Metastatic Breast Cancer - OncoDaily",
+            "url": "https://oncodaily.com/oncolibrary/breast-oncology/trastuzumab-deruxtecan-plus-pertuzumab578704"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "3d77f5e2-b38f-4e2e-8de1-5006005296b6",
+      "name": "trastuzumab deruxtecan",
+      "entity_type": "Product",
+      "mentions": [
+        "Trastuzumab deruxtecan",
+        "Enhertu"
+      ]
+    },
+    {
+      "id": "247699e6-094a-464d-b016-a945b6f1598d",
+      "name": "U.S. FDA",
+      "entity_type": "Company",
+      "mentions": [
+        "FDA"
+      ]
+    },
+    {
+      "id": "8fbf121e-c91e-4d25-8256-aab76a84fb12",
+      "name": "ESMO",
+      "entity_type": "Organization",
+      "mentions": [
+        "ESMO"
+      ]
+    },
+    {
+      "id": "78ca97f7-b3a4-42e9-886a-43d53d003dde",
+      "name": "T‑DM1",
+      "entity_type": "Product",
+      "mentions": [
+        "T-DM1"
+      ]
+    },
+    {
+      "id": "deaf6c99-6f2b-46e5-8c17-28baff78000c",
+      "name": "National Comprehensive Cancer Network® (NCCN)",
+      "entity_type": "Company",
+      "mentions": [
+        "NCCN"
+      ]
+    },
+    {
+      "id": "1079e55c-aee7-4dbb-a26d-533fa5569642",
+      "name": "Annals of Oncology",
+      "entity_type": "Organization",
+      "mentions": [
+        "Annals of Oncology"
+      ]
+    },
+    {
+      "id": "798759f8-bbab-42c9-9a73-6d55469a65d5",
+      "name": "European Journal of Cancer",
+      "entity_type": "Organization",
+      "mentions": [
+        "European Journal of Cancer"
+      ]
+    },
+    {
+      "id": "12fd2a71-e70f-45cc-aea9-13f2102bd3d7",
+      "name": "ASCO",
+      "entity_type": "Organization",
+      "mentions": [
+        "ASCO"
+      ]
+    },
+    {
+      "id": "c116ecfa-1313-4ca3-8d1c-02161633e3ad",
+      "name": "NEJM",
+      "entity_type": "Organization",
+      "mentions": [
+        "NEJM"
+      ]
+    },
+    {
+      "id": "ae61ace3-7e67-46cf-a7f0-8d9777dcb6fe",
+      "name": "EMA/CHMP",
+      "entity_type": "Organization",
+      "mentions": [
+        "CHMP"
+      ]
+    },
+    {
+      "id": "cc0d7437-ffbd-4981-9711-4c26ba4cccdb",
+      "name": "European Commission",
+      "entity_type": "Organization",
+      "mentions": [
+        "European Commission"
+      ]
+    },
+    {
+      "id": "b1d4c015-4b83-4675-b006-5194b2aa54d2",
+      "name": "China",
+      "entity_type": "Country",
+      "mentions": [
+        "China"
+      ]
+    },
+    {
+      "id": "5556df77-6050-4639-a274-bde3b7d3845f",
+      "name": "Brazil",
+      "entity_type": "Country",
+      "mentions": [
+        "Brazil"
+      ]
+    },
+    {
+      "id": "763bd3ad-e18f-4284-a5b3-76d48c8855b9",
+      "name": "Canada",
+      "entity_type": "Country",
+      "mentions": [
+        "Canada"
+      ]
+    },
+    {
+      "id": "ae488aa7-a00f-4f47-a108-e895c3ff4f52",
+      "name": "India",
+      "entity_type": "Country",
+      "mentions": [
+        "India"
+      ]
+    },
+    {
+      "id": "8f86c42f-aa65-4845-8e31-947fcefeede4",
+      "name": "EU",
+      "entity_type": "GPE",
+      "mentions": [
+        "EU"
+      ]
+    },
+    {
+      "id": "71508759-e63e-4543-8937-0ab6278be2cd",
+      "name": "Japan",
+      "entity_type": "Country",
+      "mentions": [
+        "Japan"
+      ]
+    },
+    {
+      "id": "30324bba-1827-47ae-b406-e3bde220e5d0",
+      "name": "Switzerland",
+      "entity_type": "Country",
+      "mentions": [
+        "Switzerland"
+      ]
+    }
+  ],
+  "_query": "What are the latest results for trastuzumab deruxtecan in early-stage HER2-positive breast cancer, such as DESTINY-Breast05, DESTINY-Breast09 or DESTINY-Breast11?"
+}

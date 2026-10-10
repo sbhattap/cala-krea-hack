@@ -1,0 +1,312 @@
+{
+  "content": "## AstraZeneca–Daiichi Sankyo Deal for Trastuzumab Deruxtecan (2019)\n\nOn **March 28, 2019**, Daiichi Sankyo and AstraZeneca announced a **global development and commercialization collaboration** for Daiichi Sankyo's lead antibody-drug conjugate (ADC), **[fam-] trastuzumab deruxtecan (DS-8201)**, later branded as **Enhertu**.\n\n### Key Terms\n\n| Element | Details |\n|---|---|\n| **Total potential deal value** | Up to **$6.9 billion** |\n| **Upfront payment** | **$1.35 billion** paid by AstraZeneca to Daiichi Sankyo |\n| **Contingent milestones** | Up to **$5.55 billion**, comprising **$3.8 billion** in regulatory milestones and other contingencies, plus up to **$1.75 billion** in sales-related milestones |\n| **Cost/profit sharing** | Both companies share **equally** in worldwide development and commercialization costs as well as profits |\n| **Geographic scope** | Joint development and commercialization **worldwide**, except in **Japan**, where Daiichi Sankyo retained exclusive rights |\n\n### Sales Responsibilities\n\n- **Daiichi Sankyo** was expected to book sales in the **U.S.**, certain European countries, and other markets where it has affiliates.\n- **AstraZeneca** was expected to book sales in **all other markets** worldwide, including China, Australia, Canada, and Russia.\n\n### Drug & Development Scope\n\n- Trastuzumab deruxtecan is a **HER2-targeting antibody-drug conjugate** that was in pivotal development for multiple HER2-expressing cancers, including **breast cancer** and **gastric cancer**, with additional development in **non-small cell lung cancer** and **colorectal cancer**.\n- The collaboration aimed to develop the drug both as a **monotherapy** and in **combination therapy** across a spectrum of HER2-expressing cancers.\n- As part of the deal, the **BLA submission** to the U.S. FDA for HER2-positive metastatic breast cancer (previously treated with T-DM1) was **accelerated** to the first half of fiscal year 2019.\n\n### Strategic Rationale\n\nAstraZeneca CEO **Pascal Soriot** stated: *\"We believe that trastuzumab deruxtecan could become a transformative new medicine for the treatment of HER2-positive breast and gastric cancers. In addition, it has the potential to redefine breast cancer treatment as the first therapy for HER2-low expressing tumors.\"*\n\nThe deal combined Daiichi Sankyo's scientific and technological expertise in ADCs with AstraZeneca's global oncology experience and resources. AstraZeneca funded the upfront payment partly through a **$3.5 billion share issue**.\n",
+  "explainability": [
+    {
+      "content": "The deal was announced on March 28, 2019 as a global development and commercialization agreement between Daiichi Sankyo and AstraZeneca for trastuzumab deruxtecan (DS‑8201).",
+      "references": [
+        "af667656-9fc8-4003-b32a-fa8c2e5abc87"
+      ]
+    },
+    {
+      "content": "AstraZeneca agreed to pay an upfront amount of $1.35 billion to Daiichi Sankyo.",
+      "references": [
+        "af667656-9fc8-4003-b32a-fa8c2e5abc87",
+        "fb06f5f9-ac34-4331-91d4-5d1564678cb2"
+      ]
+    },
+    {
+      "content": "Contingent milestone payments could reach up to $5.55 billion, comprising $3.8 billion for regulatory milestones and up to $1.75 billion for sales‑related milestones.",
+      "references": [
+        "af667656-9fc8-4003-b32a-fa8c2e5abc87",
+        "fb06f5f9-ac34-4331-91d4-5d1564678cb2"
+      ]
+    },
+    {
+      "content": "The total potential value of the agreement is up to $6.9 billion.",
+      "references": [
+        "af667656-9fc8-4003-b32a-fa8c2e5abc87",
+        "fb06f5f9-ac34-4331-91d4-5d1564678cb2",
+        "cf49827e-4c2d-4860-a686-c7cedfcaff7c"
+      ]
+    },
+    {
+      "content": "Both companies will share development and commercialization costs and profits equally worldwide, except that Daiichi Sankyo retains exclusive rights in Japan.",
+      "references": [
+        "fb06f5f9-ac34-4331-91d4-5d1564678cb2",
+        "aa4d9309-c958-4a4d-b8c3-2beeec843ef9"
+      ]
+    },
+    {
+      "content": "Daiichi Sankyo will book sales in the U.S., certain European countries, and other markets where it has affiliates, while AstraZeneca will book sales in all other markets worldwide, including China, Australia, Canada and Russia.",
+      "references": [
+        "fb06f5f9-ac34-4331-91d4-5d1564678cb2"
+      ]
+    }
+  ],
+  "context": [
+    {
+      "id": "af667656-9fc8-4003-b32a-fa8c2e5abc87",
+      "content": "Tokyo, Munich and Basking Ridge, NJ – (March 28, 2019) – Daiichi Sankyo Company, Limited (hereafter, Daiichi Sankyo) announced today that it has entered into a global development and commercialization agreement with AstraZeneca for Daiichi Sankyo’s lead antibody drug conjugate (ADC), [fam-] trastuzumab deruxtecan (DS-8201), currently in pivotal development for multiple HER2 expressing cancers including breast and gastric cancer, and additional development in non-small cell lung and colorectal [...] Financial Terms\n\nUnder the terms of the agreement, AstraZeneca will pay Daiichi Sankyo an upfront payment of $1.35 billion. Contingent payments of up to $5.55 billion include $3.8 billion for achievement of future regulatory milestones and other contingencies, as well as sales-related milestones of up to $1.75 billion. Total payments under the agreement have the potential to reach up to $6.90 billion. [...] March 28, 2019",
+      "origins": [
+        {
+          "source": {
+            "name": "Passion for innovation. Compassion for patients.",
+            "url": "https://daiichisankyo.us/press-releases/-/article/daiichi-sankyo-and-astrazeneca-announce-global-development-and-commercialization-collaboration-for-daiichi-sankyo-s-her2-targeting-antibody-drug-conju"
+          },
+          "document": {
+            "name": "Daiichi Sankyo and AstraZeneca Announce Global Development and Commercialization Collaboration for Daiichi Sankyo’s HER2 Targeting Antibody Drug Conjugate [Fam-] Trastuzumab Deruxtecan (DS-8201)- Daiichi Sankyo US",
+            "url": "https://daiichisankyo.us/press-releases/-/article/daiichi-sankyo-and-astrazeneca-announce-global-development-and-commercialization-collaboration-for-daiichi-sankyo-s-her2-targeting-antibody-drug-conju"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fb06f5f9-ac34-4331-91d4-5d1564678cb2",
+      "content": "will maintain exclusive rights. As announced separately by Daiichi Sankyo, a Biologics License Application (BLA) submission to U.S. FDA for [fam-] trastuzumab deruxtecan in HER2 positive metastatic breast cancer previously treated with ado trastuzumab emtansine (T-DM1) will be accelerated to the first half of fiscal year 2019. Daiichi Sankyo and AstraZeneca will share equally development and commercialization costs as well as profits from [fam-] trastuzumab deruxtecan worldwide, except for [...] with AstraZeneca for Daiichi Sankyo's lead antibody drug conjugate (ADC), [fam-] trastuzumab deruxtecan (DS-8201), currently in pivotal development for multiple HER2 expressing cancers including breast and gastric cancer, and additional development in non-small cell lung and colorectal cancer. Daiichi Sankyo and AstraZeneca will jointly develop and commercialize [fam-] trastuzumab deruxtecan as a monotherapy or a combination therapy worldwide, except in Japan where Daiichi Sankyo will maintain [...] in Japan • Daiichi Sankyo is expected to book sales in U.S., certain countries in Europe, and certain other markets where Daiichi Sankyo has affiliates; AstraZeneca is expected to book sales in all other markets worldwide, including China, Australia, Canada and Russia Tokyo, Munich and Basking Ridge, NJ - (March 28, 2019) - Daiichi Sankyo Company, Limited (hereafter, Daiichi Sankyo) announced today that it has entered into a global development and commercialization agreement with AstraZeneca",
+      "origins": [
+        {
+          "source": {
+            "name": "Content not available",
+            "url": "https://www.daiichi-sankyo.eu/media/european-news/news-detail/daiichi-sankyo-and-astrazeneca-announce-global-development-and-commercialization-collaboration-for-daiichi-sankyos-her2-targeting-antibody-drug-conjugate-fam-trastuzumab-deruxtecan-ds-8201"
+          },
+          "document": {
+            "name": "Daiichi Sankyo and AstraZeneca Announce Global Development and ...",
+            "url": "https://www.daiichi-sankyo.eu/media/european-news/news-detail/daiichi-sankyo-and-astrazeneca-announce-global-development-and-commercialization-collaboration-for-daiichi-sankyos-her2-targeting-antibody-drug-conjugate-fam-trastuzumab-deruxtecan-ds-8201"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "379fef35-076a-421b-a35c-a7b293e1df12",
+      "content": "Tokyo, Munich and Basking Ridge, NJ – (March 28, 2019) – Daiichi Sankyo Company, Limited (hereafter, Daiichi Sankyo) announced today that it has entered into a global development and commercialization agreement with AstraZeneca for Daiichi Sankyo’s lead antibody drug conjugate (ADC), [fam-] trastuzumab deruxtecan (DS-8201), currently in pivotal development for multiple HER2 expressing cancers including breast and gastric cancer, and additional development in non-small cell lung and colorectal [...] Tokyo, Munich and Basking Ridge, NJ – (March 28, 2019) – Daiichi Sankyo Company, Limited (hereafter, Daiichi Sankyo) announced today that it has entered into a global development and commercialization agreement with AstraZeneca for Daiichi Sankyo’s lead antibody drug conjugate (ADC), [fam-] trastuzumab deruxtecan (DS-8201), currently in pivotal development for multiple HER2 expressing cancers including breast and gastric cancer, and additional development in non-small cell lung and colorectal [...] Financial Terms\n\nUnder the terms of the agreement, AstraZeneca will pay Daiichi Sankyo an upfront payment of $1.35 billion. Contingent payments of up to $5.55 billion include $3.8 billion for achievement of future regulatory milestones and other contingencies, as well as sales-related milestones of up to $1.75 billion. Total payments under the agreement have the potential to reach up to $6.90 billion.",
+      "origins": [
+        {
+          "source": {
+            "name": "Our Stories",
+            "url": "https://www.daiichisankyo.com/media/press_release/detail/index_3199.html"
+          },
+          "document": {
+            "name": "Daiichi Sankyo and AstraZeneca Announce Global Development and Commercialization Collaboration for Daiichi Sankyo’s HER2 Targeting Antibody Drug Conjugate [Fam-] Trastuzumab Deruxtecan (DS-8201) - Press Releases - Media - Daiichi Sankyo",
+            "url": "https://www.daiichisankyo.com/media/press_release/detail/index_3199.html"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "588997f4-d6e3-4814-9212-1e6058b70bd5",
+      "content": "Date of preparation: March 2019 ONP/19/0013 Press Release Daiichi Sankyo and AstraZeneca Announce Global Development and Commercialization Collaboration for Daiichi Sankyo’s HER2 Targeting Antibody Drug Conjugate [Fam-] Trastuzumab Deruxtecan (DS-8201)  Collaboration combines Daiichi Sankyo’s scientific and technological excellence with AstraZeneca’s global experience and resources in oncology to accelerate and expand the potential of [fam-] trastuzumab deruxtecan as monotherapy and [...] global development and commercialization agreement with AstraZeneca for Daiichi Sankyo’s lead antibody drug conjugate (ADC), [fam-] trastuzumab deruxtecan (DS-8201), currently in pivotal development for multiple HER2 expressing cancers including breast and gastric cancer, and additional development in non-small cell lung and colorectal cancer. Daiichi Sankyo and AstraZeneca will jointly develop and commercialize [fam-] trastuzumab deruxtecan as a monotherapy or a combination therapy worldwide, [...] as monotherapy and combination therapy across a spectrum of HER2 expressing cancers  AstraZeneca to pay Daiichi Sankyo up to $6.90 billion in total consideration, including $1.35 billion upfront payment and up to an additional $5.55 billion contingent upon achievement of future regulatory and sales milestones as well as other contingencies  Companies to share equally development and commercialization costs as well as profits worldwide from [fam-] trastuzumab deruxtecan with Daiichi Sankyo",
+      "origins": [
+        {
+          "source": {
+            "name": "Passion for innovation. Compassion for patients.",
+            "url": "https://daiichisankyo.us/documents/36782/37787/Picasso+Press+Release+FINAL.pdf/ee8cc436-a076-5ee9-c24c-0ee4fdf62954?t=1553793328406"
+          },
+          "document": {
+            "name": "Press Release",
+            "url": "https://daiichisankyo.us/documents/36782/37787/Picasso+Press+Release+FINAL.pdf/ee8cc436-a076-5ee9-c24c-0ee4fdf62954?t=1553793328406"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a6c47ebd-c6ac-43a5-94b7-29409904f4f2",
+      "content": "deruxtecan, the companies announced Friday. Daiichi Sankyo indicated on Friday that it plans to seek FDA approval of the drug in patients with HER2 positive metastatic breast cancer previously treated with Roche's Kadcyla (ado-trastuzumab emtansine) in the first half of fiscal year 2019, moved forwards from a previous target of a filing in 2020. While Daiichi Sankyo's shares rose as much as 16 percent on news of the deal, AstraZeneca's stock slipped more than 5 percent, with analysts at [...] AstraZeneca to pay $1.35 billion upfront under deal to jointly develop Daiichi Sankyo's antibody-drug conjugate trastuzumab deruxtecan | FirstWord Pharma. AstraZeneca to pay $1.35 billion upfront under deal to jointly develop Daiichi Sankyo's antibody-drug conjugate trastuzumab deruxtecan. AstraZeneca agreed to pay $1.35 billion upfront as part of a deal potentially worth up to $6.9 billion to jointly develop and commercialise Daiichi Sankyo's antibody-drug conjugate trastuzumab deruxtecan, the [...] Collaboration for Daiichi Sankyo's HER2 Targeting Antibody Drug Conjugate [Fam-] Trastuzumab Deruxtecan (DS-8201) [PR Newswire] ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------](). [AstraZeneca in $6.9bn deal with Daiichi Sankyo for cancer treatment [Financial Times]",
+      "origins": [
+        {
+          "source": {
+            "name": "firstwordpharma.com",
+            "url": "https://firstwordpharma.com/story/4765047"
+          },
+          "document": {
+            "name": "AstraZeneca to pay $1.35 billion upfront under deal to jointly develop Daiichi Sankyo's antibody-drug conjugate trastuzumab deruxtecan",
+            "url": "https://firstwordpharma.com/story/4765047"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aa4d9309-c958-4a4d-b8c3-2beeec843ef9",
+      "content": "# AstraZeneca and Daiichi Sankyo Sign $6.9 Billion Deal for a Single Cancer Drug. ## AstraZeneca signed a global development and commercialization deal with Daiichi Sankyo Company for trastuzumab deruxtecan (DS-8201). AstraZeneca signed a global development and commercialization deal with Daiichi Sankyo for trastuzumab deruxtecan (DS-8201), an antibody-drug conjugate (ADC). DS-8201 is the lead compound in the ADC franchise of the Daiichi Sankyo Cancer Enterprise. It is in a development program [...] the value of trastuzumab deruxtecan and accelerate the establishment of our global oncology business.”. AstraZeneca Pharmaceuticals LP Daiichi Sankyo. [...] retain exclusive rights in Japan. Daiichi Sankyo would oversee sales for the drug in the U.S., certain European countries and other markets where it has affiliates. “We believe that trastuzumab deruxtecan could become a transformative new medicine for the treatment of HER2-positive breast and gastric cancers,” stated Pascal Soriot, chief executive officer of AstraZeneca. “In addition, it has the potential to redefine breast cancer treatment as the first therapy for HER2-low expressing tumors.",
+      "origins": [
+        {
+          "source": {
+            "name": "BioSpace: Biotech, Pharmaceutical and Clinical Research News",
+            "url": "https://www.biospace.com/astrazeneca-and-daiichi-sankyo-ink-6-9-billion-cancer-collaboration"
+          },
+          "document": {
+            "name": "AstraZeneca and Daiichi Sankyo Sign $6.9 Billion Deal for a Single Cancer Drug - BioSpace",
+            "url": "https://www.biospace.com/astrazeneca-and-daiichi-sankyo-ink-6-9-billion-cancer-collaboration"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "da29c139-9296-42c6-b855-0fe3c8bc36c6",
+      "content": "by partnering with Japanese cancer drugmaker Daiichi Sankyo. The UK-headquartered drugmaker is planning to fund the multibillion-dollar deal to develop and distribute trastuzumab deruxtecan using the proceeds of a $3.5bn share issue. AstraZeneca has signed a deal worth up to $6.9bn with Japanese drugmaker Daiichi Sankyo to develop and distribute the cancer drug trastuzumab deruxtecan. Under the terms of the agreement, AstraZeneca will pay $1.35bn to Daiichi for the cost of the drug, with a [...] of the drug, with a further $5.6bn to be paid if regulatory and sales milestones are met. Both companies will share worldwide development and commercialisation costs, with Daiichi retaining exclusive distribution rights in Japan. The tie-up comes at a fortuitous moment for Daiichi and AstraZeneca, as both companies have been seeking to push further into the oncology market after patents on other lucrative drugs expired earlier this year. AstraZeneca has seen its sales decline in recent years [...] in recent years after the patent on Crestor, its top-selling cholesterol drug, expired, while Daiichi faced a similar issue with its blood pressure remedy Benicar. This latest partnership appears to be a wise strategic move for both AstraZeneca and Daiichi, in that it allows both to push further into the lucrative oncology drug market, as well as increasing the reach of what many believe to be a breakthrough treatment for several types of cancer.",
+      "origins": [
+        {
+          "source": {
+            "name": "Innovation comes from understanding nature",
+            "url": "https://www.theneweconomy.com/business/astrazeneca-strikes-6-9bn-deal-with-japanese-drugmaker"
+          },
+          "document": {
+            "name": "AstraZeneca strikes $6.9bn deal with Japanese drugmaker – The New Economy",
+            "url": "https://www.theneweconomy.com/business/astrazeneca-strikes-6-9bn-deal-with-japanese-drugmaker"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cf49827e-4c2d-4860-a686-c7cedfcaff7c",
+      "content": "collaboration with Daiichi Sankyo for Enhertu (trastuzumab deruxtecan), a HER2-directed antibody-drug conjugate. AstraZeneca paid $1.35 billion upfront with up to $5.55 billion in regulatory and sales milestones, for a total potential deal value of $6.9 billion. AstraZeneca entered a global collaboration with Daiichi Sankyo to co-develop and co-commercialize Enhertu (trastuzumab deruxtecan) in March 2019, with AZ paying up to $6.9B total ($1.35B upfront, up to $5.55B in milestones). A second [...] collaboration to jointly develop and commercialize trastuzumab deruxtecan (Enhertu) in a deal worth up to…. AstraZeneca turns again to Daiichi Sankyo for a major cancer drug deal. AstraZeneca paid $1.35 billion upfront to license Enhertu in 2019 in a deal that could…. AstraZeneca and Daiichi Sankyo entered into a global collaboration to jointly develop and commercialise Enhertu in March 2019, with AstraZeneca paying…. AstraZeneca entered a global licensing and co-development collaboration with [...] A second deal for datopotamab deruxtecan followed in July 2020 (up to $6B). Combined Enhertu global sales reached $3.75B in FY2024 (up from $2.57B in FY2023), with projected sales of $4.6B in FY2025. Enhertu has expanded the definition of HER2-targetable cancers by proving efficacy in HER2-low and HER2-ultralow populations. ### HER2-Low Breast Cancer. ### HER2+ Breast Cancer. AstraZeneca paid $1.35B upfront with up to $5.55B in milestones to co-develop Enhertu (trastuzumab deruxtecan) HER2 ADC.",
+      "origins": [
+        {
+          "source": {
+            "name": "The Pharma Closeout",
+            "url": "https://thepharmacloseout.com/deals/astrazeneca-daiichi-sankyo-2019.html"
+          },
+          "document": {
+            "name": "AstraZeneca-Daiichi Sankyo $6.9B Deal (2019): How It Aged",
+            "url": "https://thepharmacloseout.com/deals/astrazeneca-daiichi-sankyo-2019.html"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0079aaee-56fd-4fc6-a39c-d112a702b291",
+      "content": "R&D will be transferred to the R&D division. Daiichi Sankyo said it was making the move in order to \"maximise\" its investment in three antibody-drug conjugates for cancer, headed by AstraZeneca-partnered HER2 drug Enhertu (trastuzumab deruxtecan). Enhertu is approved for HER2-positive breast and gastric cancers and has been predicted to become a multibillion-dollar blockbuster, which is why AZ forked out $1.35 billion upfront for rights to the drug in 2019 in a deal that could be worth up to [...] be worth up to $6.9 billion. AZ also bought into the second of Daichi Sankyo's three ADCs – a TROP2-targeted candidate for lung, breast and other cancers called datopotamab deruxtecan (Dato-DXd) – for $1 billion upfront in 2020 with a total value of up to $6 billion. The closure of Plexxikon is notable as the company has been at the heart of Daiichi Sankyo's ongoing pivot to oncology. However, there's been little news flow from the company over the last few years other than the Turalio approval",
+      "origins": [
+        {
+          "source": {
+            "name": "pharmaphorum.com",
+            "url": "https://pharmaphorum.com/news/daiichi-sankyo-says-plexxikon-rd-unit-will-close-down"
+          },
+          "document": {
+            "name": "Update: Daiichi Sankyo says Plexxikon R&D unit will close down | pharmaphorum",
+            "url": "https://pharmaphorum.com/news/daiichi-sankyo-says-plexxikon-rd-unit-will-close-down"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "c902ba15-fd66-4949-9816-ad364e0a8bee",
+      "name": "ASTRAZENECA PLC",
+      "entity_type": "Company",
+      "mentions": [
+        "AstraZeneca"
+      ]
+    },
+    {
+      "id": "85457b56-b99a-4105-8bbb-b7b74f641017",
+      "name": "Daiichi Sankyo",
+      "entity_type": "Organization",
+      "mentions": [
+        "Daiichi Sankyo"
+      ]
+    },
+    {
+      "id": "3d77f5e2-b38f-4e2e-8de1-5006005296b6",
+      "name": "trastuzumab deruxtecan",
+      "entity_type": "Product",
+      "mentions": [
+        "Enhertu",
+        "DS-8201",
+        "trastuzumab deruxtecan"
+      ]
+    },
+    {
+      "id": "71508759-e63e-4543-8937-0ab6278be2cd",
+      "name": "Japan",
+      "entity_type": "Country",
+      "mentions": [
+        "Japan"
+      ]
+    },
+    {
+      "id": "830d9f40-f8c1-4472-a6d5-1cd0bd627557",
+      "name": "U.S. government",
+      "entity_type": "GPE",
+      "mentions": [
+        "U.S."
+      ]
+    },
+    {
+      "id": "b1d4c015-4b83-4675-b006-5194b2aa54d2",
+      "name": "China",
+      "entity_type": "Country",
+      "mentions": [
+        "China"
+      ]
+    },
+    {
+      "id": "3bbe8853-c47f-442c-b9b3-e1f522ba614e",
+      "name": "Australia",
+      "entity_type": "Country",
+      "mentions": [
+        "Australia"
+      ]
+    },
+    {
+      "id": "763bd3ad-e18f-4284-a5b3-76d48c8855b9",
+      "name": "Canada",
+      "entity_type": "Country",
+      "mentions": [
+        "Canada"
+      ]
+    },
+    {
+      "id": "bed827c2-1920-4a43-a2ed-e5f5daa072b7",
+      "name": "Russian Federation",
+      "entity_type": "Country",
+      "mentions": [
+        "Russia"
+      ]
+    },
+    {
+      "id": "a6a90b84-3aaf-4f41-9780-289236ff223f",
+      "name": "Pascal Soriot",
+      "entity_type": "Person",
+      "mentions": [
+        "Pascal Soriot"
+      ]
+    },
+    {
+      "id": "247699e6-094a-464d-b016-a945b6f1598d",
+      "name": "U.S. FDA",
+      "entity_type": "Company",
+      "mentions": [
+        "U.S. FDA"
+      ]
+    }
+  ],
+  "_query": "What was the 2019 deal between AstraZeneca and Daiichi Sankyo for trastuzumab deruxtecan?"
+}
