@@ -1,0 +1,322 @@
+{
+  "content": "## Pivotal Phase III Trial of Trastuzumab Plus Chemotherapy in HER2-Positive Metastatic Breast Cancer\n\nThe pivotal phase III trial, published by **Dennis Slamon and colleagues in the *New England Journal of Medicine* in 2001** (trial H0648g), was a landmark study that led to the FDA approval of trastuzumab (Herceptin) for HER2-positive metastatic breast cancer.\n\n### Study Design and Patients\n\n- **469 women** with previously untreated HER2-overexpressing metastatic breast cancer were randomized to receive either **chemotherapy alone** or **chemotherapy plus trastuzumab**.\n- Chemotherapy consisted of either an **anthracycline (doxorubicin or epirubicin) plus cyclophosphamide** or **paclitaxel**, depending on prior treatment history.\n- Trastuzumab was administered concurrently with chemotherapy on a weekly basis.\n\n### Efficacy / Survival Benefit\n\nThe addition of trastuzumab to chemotherapy produced statistically significant improvements across all major endpoints:\n\n| Endpoint | Trastuzumab + Chemo | Chemo Alone | P-value |\n|---|---|---|---|\n| **Objective response rate** | 50% | 32% | < 0.001 |\n| **Median duration of response** | 9.1 months | 6.1 months | < 0.001 |\n| **Median time to disease progression** | 7.4 months | 4.6 months | — |\n| **Median overall survival** | 25.1 months | 20.3 months | 0.046 |\n\nThe trial demonstrated an approximately **5-month improvement in median overall survival** with the addition of trastuzumab.\n\n### Cardiac Side Effects\n\nCardiac dysfunction emerged as the most notable safety concern, particularly when trastuzumab was combined with anthracyclines:\n\n- **Trastuzumab + anthracycline/cyclophosphamide**: **27% incidence** of cardiac dysfunction (with up to **16% experiencing NYHA class III/IV heart failure**).\n- **Trastuzumab + paclitaxel**: **13% incidence** of cardiac dysfunction.\n- **Trastuzumab alone** (from other studies): 3–7% incidence.\n- By comparison, **anthracycline/cyclophosphamide alone** had an 8% rate, and **paclitaxel alone** had a 1% rate.\n\nAn independent **Cardiac Review and Evaluation Committee (CREC)** was subsequently formed to retrospectively review cardiac toxicity data across seven phase II and III trastuzumab studies (1,219 patients). The CREC defined cardiac dysfunction as a decrease in left ventricular ejection fraction (LVEF), symptoms/signs of congestive heart failure (CHF), or a decline in LVEF of ≥5% (with symptoms) or ≥10% (without symptoms) to an absolute LVEF ≤55%. Importantly, most trastuzumab-treated patients who developed cardiac dysfunction were **symptomatic (75%)**, but the majority **improved with standard heart failure treatment (79%)**.\n\n### Significance\n\nThis trial established that trastuzumab combined with chemotherapy significantly improved survival in HER2-positive metastatic breast cancer, but also highlighted the need for cardiac monitoring — especially when used alongside anthracyclines. The concurrent use of trastuzumab with anthracyclines is now generally avoided in clinical practice due to this cardiac risk.",
+  "explainability": [
+    {
+      "content": "The trial enrolled 469 women with previously untreated HER2‑positive metastatic breast cancer and randomized them to chemotherapy alone or chemotherapy plus trastuzumab.",
+      "references": [
+        "d7c63c05-b503-427a-a7b9-0abdff8896b5"
+      ]
+    },
+    {
+      "content": "Adding trastuzumab to chemotherapy increased median overall survival from 20.3 months to 25.1 months, an improvement of about 5 months.",
+      "references": [
+        "d7c63c05-b503-427a-a7b9-0abdff8896b5"
+      ]
+    },
+    {
+      "content": "The same addition improved objective response rate (50% vs 32%) and median duration of response (9.1 vs 6.1 months).",
+      "references": [
+        "d7c63c05-b503-427a-a7b9-0abdff8896b5"
+      ]
+    },
+    {
+      "content": "Cardiac dysfunction occurred in 27% of patients receiving trastuzumab with anthracycline/cyclophosphamide, with up to 16% experiencing NYHA class III/IV heart failure.",
+      "references": [
+        "ad524530-2fc3-4e73-b98c-f38ab8a3e708"
+      ]
+    },
+    {
+      "content": "When trastuzumab was combined with paclitaxel, cardiac dysfunction was observed in 13% of patients, and the overall incidence of cardiac events in the trial was 28% for the anthracycline‑trastuzumab arm and 11% for the paclitaxel‑trastuzumab arm.",
+      "references": [
+        "f30c5ae7-4312-40d1-8207-d18fafb99b26"
+      ]
+    }
+  ],
+  "context": [
+    {
+      "id": "d7c63c05-b503-427a-a7b9-0abdff8896b5",
+      "content": "a worse prognosis and more aggressive behavior in both early and metastatic breast cancer . Trastuzumab monotherapy demonstrated response rates of 26% as first-line therapy for HER2-positive metastatic breast cancer , and 15% in patients previously treated with chemotherapy . In the pivotal Phase III trial, which combined trastuzumab with doxorubicin plus cyclophosphamide (AC) or paclitaxel, 469 women with previously untreated metastatic breast cancer were randomly assigned to chemotherapy [...] to chemotherapy alone versus chemotherapy with trastuzumab. The addition of trastuzumab led to an improved response rate (50 vs 32%; p < 0.001), improved median duration of response (9.1 vs 6.1 months; p < 0.001), and prolonged overall survival (OS) (median 25.1 vs 20.3 months; p = 0.046) . Results of these trials led to the approval of trastuzumab for the treatment of HER2-positive metastatic breast cancer (Table 1) . ## Trastuzumab & cardiac dysfunction in metastatic breast cancer trials. [...] survival. These observations led to the development of the first monoclonal antibody targeting the extracellular domain of HER2, trastuzumab (Herceptin®, Genentech and Hoffman LaRoche, Switzerland), which was approved by the US FDA for metastatic breast cancer in 1998. In 2005, results from four major trastuzumab adjuvant trials demonstrated a marked reduction in risk of recurrence, and trastuzumab is now an essential component of the adjuvant treatment of H ER2-positive early breast cancer.",
+      "origins": [
+        {
+          "source": {
+            "name": "sage.cnpereading.com",
+            "url": "https://sage.cnpereading.com/doi/10.2217/17455057.5.2.135"
+          },
+          "document": {
+            "name": "Role of Trastuzumab in the Adjuvant Treatment of HER2-Positive Early Breast Cancer",
+            "url": "https://sage.cnpereading.com/doi/10.2217/17455057.5.2.135"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8a5a75a0-2b77-4b36-bbed-1b929a548ef1",
+      "content": "toxic effects. In the phase 3 EMILIA trial, HER2-positive advanced breast cancer patients previously treated with trastuzumab and taxane were randomly assigned to treatment with the antibody-drug conjugate ado-trastuzumab emtansine (T-DM1) or lapatinib plus capecitabine. T-DM1 was shown to significantly prolong PFS (9.6 months vs 6.4 months) and overall survival (30.9 months vs 25.1 months) compared with lapatinib plus capecitabine, and was associated with a better toxicity profile. It is [...] chemotherapy than it is with sequential administration. Results from the CLEOPATRA trial established the combination of pertuzumab, trastuzumab, and a taxane as the standard of care for first-line therapy of HER2-positive metastatic breast cancer. In CLEOPATRA, the addition of pertuzumab to trastuzumab and docetaxel resulted in a median progression-free survival (PFS) of 18.7 months — 6.3 months longer than with trastuzumab and docetaxel — with minimal to no increase in cardiac toxic effects. [...] # Fast Five Quiz: HER2-positive Metastatic Breast Cancer Management. Trastuzumab plus chemotherapy was associated with a significant improvement in time to disease progression (7.4 months vs 4.6 months), objective response rate (50% vs 32%), and longer median survival (25.1 months vs 20.3 months) compared with chemotherapy alone. Additionally, evidence suggested that in patients with advanced HER2-positive breast cancer, survival is better with up-front use of trastuzumab plus chemotherapy than",
+      "origins": [
+        {
+          "source": {
+            "name": "reference.medscape.com",
+            "url": "https://reference.medscape.com/viewarticle/963476_4"
+          },
+          "document": {
+            "name": "Fast Five Quiz: HER2-positive Metastatic Breast Cancer Management  - Page 4",
+            "url": "https://reference.medscape.com/viewarticle/963476_4"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9959b977-a867-49d0-a95f-e2c4ac3ee575",
+      "content": "Additionally, trastuzumab has been shown to improve both the progression-free survival (PFS) and the overall survival (OS) rate of patients with metastatic breast cancer. In a pivotal Phase III trial, trastuzumab, in combination with chemotherapy, was administered as first-line therapy to Her2-positive metastatic breast cancer patients. The time to disease progression was significantly prolonged (7.4 months versus 4.6 months). Also, the OS rates (25 months versus 20 months) improved, when [...] |  |  |\n --- |\n| 1. | Dawood S, Broglio K, Buzdar AU, Hortobagyi GN, Giordano SH. Prognosis of women with metastatic breast cancer by HER2 status and trastuzumab treatment: an institutional-based review. J Clin Oncol. 2010;28(1):92–98. |\n| 2. | Slamon DJ, Leyland-Jones B, Shak S, et al. Use of chemotherapy plus a monoclonal antibody against HER2 for metastatic breast cancer that overexpresses HER2. N Engl J Med. 2001;344(11):783–792. | [...] Trastuzumab is an effective targeted agent. However, it is estimated that, for each life saved, 10–25 patients develop heart disease. For example, the N9831 (Arm C) and NSABP B31 joint analysis revealed that, on average, for every three lives saved by reducing breast cancer, two patients died of heart disease or other complications.4 Slamon et al reported a 27% incidence of cardiac events in patients treated with the combination anthracyclines-trastuzumab, compared against 12% with the",
+      "origins": [
+        {
+          "source": {
+            "name": "Dove Medical Press - Open Access Publisher of Medical Journals",
+            "url": "https://www.dovepress.com/more-than-9-years-of-continuous-trastuzumab-treatment-in-metastatic-br-peer-reviewed-fulltext-article-OTT"
+          },
+          "document": {
+            "name": "More than 9 years of continuous trastuzumab treatment in metastatic br | OTT | Dove Medical Press",
+            "url": "https://www.dovepress.com/more-than-9-years-of-continuous-trastuzumab-treatment-in-metastatic-br-peer-reviewed-fulltext-article-OTT"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9bdb8562-88bb-4511-aa52-e7f9aa46c2a4",
+      "content": "In 2001, when Slamon et al. published the results of the phase III trial of trastuzumab in metastatic breast cancer in New England Journal of Medicine, it was accompanied by an editorial written by Elisabeth A. Eisenhauer (79). Here, she praised the study as a landmark trial and continued: “On a broader level, this trial demonstrates that a rationally selected therapy directed against a molecular determinant of malignant transformation can improve outcome. This is the beginning of an important [...] In 1995, a phase III trial was initiated to evaluate the efficacy of trastuzumab combined with chemotherapy. In this trial, 469 patients with metastatic HER2 positive breast cancer were randomized to receive trastuzumab plus anthracycline and cyclophosphamide or paclitaxel depending on previous treatment or chemotherapy alone (24). The trial showed that the addition of trastuzumab to chemotherapy resulted in an increased ORR (50% vs. 32%; P<0.001), longer duration of response (median 9.1 vs. [...] In a Phase III trial, 399 women with HER2-positive metastatic breast cancer, who had progressed after prior treatment with regimens containing anthracyclines, taxanes, and trastuzumab, were randomized to receive either lapatinib plus capecitabine or capecitabine alone. The primary efficacy endpoint in the trial was time to progression (TTP) and here, the addition of lapatinib was superior to capecitabine alone (46,49,50). The TTP in the lapatinib plus capecitabine group was 27.1 months against",
+      "origins": [
+        {
+          "source": {
+            "name": "pmc.ncbi.nlm.nih.gov",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11193558"
+          },
+          "document": {
+            "name": "Twenty-five years with HER2 targeted therapy",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11193558"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "89e891e4-d10c-4f15-8f01-b20acbdcff7e",
+      "content": "Musolino et al19 studied a population of 54 patients with HER2-amplified breast cancer who have received taxanes plus trastuzumab for metastatic disease and evaluated genotypes for the FcγRIIIa-158 valine(V)/phenylalanine(F), FcγRIIa-131 histidine(H)/arginine(R), and FcγRIIb-232 isoleucine(I)/threonine(T) polymorphisms. The first signal of trastuzumab-associated cardiotoxicity was seen in the pivotal phase III trial by Slamon et al, which randomized 469 patients with HER2-overexpressing breast [...] breast cancer to standard chemotherapy (either an anthracycline-containing regimen or paclitaxel) alone or standard chemotherapy plus concurrent weekly trastuzumab.10 This led to the formation of an independent Cardiac Review and Evaluation Committee (CREC) to retrospectively review the cardiac toxicity data from seven phase II and III studies in 1219 patients who received trastuzumab as monotherapy or in combination with chemotherapy.111 The CREC defined cardiac dysfunction as cardiomyopathy [...] as cardiomyopathy characterized by a decrease in cardiac left-ventricular ejection fraction (LVEF) that was either global or more severe in the septum, by symptoms or associated signs of congestive heart failure (CHF), or a by decline in LVEF of ≥5% (with symptoms) or 10% (no symptoms) with an absolute LVEF of ≤55%. Neratinib (HKI-272), an orally administered small molecule that acts as an irreversible inhibitor of the tyrosine kinase domain of EGFR, HER2, and HER4 (pan-HER inhibitor),135",
+      "origins": [
+        {
+          "source": {
+            "name": "pmc.ncbi.nlm.nih.gov",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3846373"
+          },
+          "document": {
+            "name": "Role of trastuzumab in the management of HER2-positive metastatic breast cancer - PMC",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3846373"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ad524530-2fc3-4e73-b98c-f38ab8a3e708",
+      "content": "CD onset. Patients treated with trastuzumab were found to be at an increased risk for CD. The incidence was greatest in patients receiving concomitant trastuzumab and anthracycline plus cyclophosphamide (27%). The risk was substantially lower in patients receiving paclitaxel and trastuzumab (13%) or trastuzumab alone (3% to 7%); however, most of these patients had received prior anthracycline therapy. CD was noted in 8% of patients receiving anthracycline plus cyclophosphamide and 1% receiving [...] Title: Cardiac dysfunction in the trastuzumab clinical trials experience - PubMed [...] and 1% receiving paclitaxel alone. Most trastuzumab-treated patients developing CD were symptomatic (75%), and most improved with standard treatment for congestive heart failure (79%). Trastuzumab is associated with an increased risk of CD, which is greatest in patients receiving concurrent anthracyclines. In most patients with metastatic breast cancer, the risk of CD can be justified given the improvement in overall survival previously reported with trastuzumab. ### Full Text Sources. ###",
+      "origins": [
+        {
+          "source": {
+            "name": "NCBI",
+            "url": "https://www.ncbi.nlm.nih.gov/pubmed/11870163"
+          },
+          "document": {
+            "name": "Cardiac dysfunction in the trastuzumab clinical trials experience - PubMed",
+            "url": "https://www.ncbi.nlm.nih.gov/pubmed/11870163"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c4c71526-4da1-41dc-b326-d9f869792572",
+      "content": "III clinical trial of the metastatic breast cancer patients, 27% and 13% had cardiac dysfunction after treatment with concurrent trastuzumab and anthracycline or trastuzumab plus paclitaxel, respectively (1). A recently published phase II study of pertuzumab in treatment of 41 advanced prostate cancer patients observed a 26.8% asymptomatic grade 1/2 reduction in LVEF, 4.9% asymptomatic LVEF <50%, and no congestive heart failure (38). There was a trend toward increased levels of pHER2-Y1248 in [...] recovery from prior chemotherapy- and/or radiation-related toxicities to grade ≤1 (excluding alopecia); left ventricular ejection fraction (LVEF) ≥55% with no clinical signs or symptoms of congestive heart failure; and adequate hematologic, renal, and hepatic organ functions. Cardiac toxicity of trastuzumab was reported in clinical trials when trastuzumab was used alone or in combination with chemotherapy for treatment of HER2+ metastatic breast cancer. In the pivotal phase III clinical trial [...] of pHER2-Y1248 in baseline tumors from patients with PR after trastuzumab and pertuzumab treatment. In conclusion, more studies are needed to define the efficacy of trastuzumab plus pertuzumab and to identify patients who could benefit from this treatment with minimal cardiac toxicity. Prior exposure to anthracyclines and prior left ventricular dysfunction with trastuzumab treatment may be potential risk factors of cardiac toxicity for patients who are treated with trastuzumab plus pertuzumab.",
+      "origins": [
+        {
+          "source": {
+            "name": "aacrjournals.org",
+            "url": "https://aacrjournals.org/clincancerres/article-abstract/14/9/2710/73524/Cardiac-Toxicity-and-Efficacy-of-Trastuzumab?searchresult=1"
+          },
+          "document": {
+            "name": "Cardiac Toxicity and Efficacy of Trastuzumab Combined with Pertuzumab in Patients with Trastuzumab-Insensitive Human Epidermal Growth Factor Receptor 2–Positive Metastatic Breast Cancer | Clinical Cancer Research | American Association for Cancer Research",
+            "url": "https://aacrjournals.org/clincancerres/article-abstract/14/9/2710/73524/Cardiac-Toxicity-and-Efficacy-of-Trastuzumab?searchresult=1"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ce9cf46b-6b76-4978-b013-de15f00ad5a2",
+      "content": "early treatment, anthracycline-induced cardiomyopathy can be successfully treated.[13,14] Although there is no specific treatment for anthracycline-induced cardiotoxicity, the experience is that patients respond well to guideline-concordant medical therapy. The incidence of cardiotoxicity (manifested as abnormal LVEF and congestive heart failure) ranges from 3% to 7% with trastuzumab monotherapy, is 13% with paclitaxel and trastuzumab, and is 27% with concomitant anthracycline and trastuzumab. [...] and trastuzumab. Up to 16% of patients in the pivotal trials receiving combined anthracycline and trastuzumab have New York Heart Association class III or IV heart failure, and thus concomitant administration should be avoided. [...] heart failure as a result of systolic and/or diastolic dysfunction is dose-dependent. A recent study showed a high incidence of diastolic dysfunction in patients after treatment with an anthracycline with or without trastuzumab. Age and body mass index were independent predictors of diastolic dysfunction in this study. The most important risk factor for cardiomyopathy is the cumulative dose of anthracyclines. However, recent studies have shown that with careful surveillance and early treatment,",
+      "origins": [
+        {
+          "source": {
+            "name": "CancerNetwork",
+            "url": "https://www.cancernetwork.com/view/chemotherapy-induced-cardiomyopathy-clinical-scenarios-and-challenges"
+          },
+          "document": {
+            "name": "Chemotherapy-Induced Cardiomyopathy: Clinical Scenarios and Challenges | CancerNetwork",
+            "url": "https://www.cancernetwork.com/view/chemotherapy-induced-cardiomyopathy-clinical-scenarios-and-challenges"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f30c5ae7-4312-40d1-8207-d18fafb99b26",
+      "content": "In patients with metastatic breast cancer, cardiac dysfunction (defined as CHF or significant asymptomatic decrease in left ventricular ejection fraction) was reported in 28% of patients who received trastuzumab plus anthracycline/cyclophosphamide chemotherapy in the H0648g trial, 11% who received trastuzumab plus paclitaxel in the H0648g trial, and 7% who received trastuzumab in the H0649g trial.(#r3990191) Rates of NYHA class III or IV CHF were 19, 4, and 5%, respectively.(#r3990191) [...] 1. Genentech. Herceptin® (trastuzumab) prescribing information. South San Francisco, CA; 2024 Jun.\n\n3. Slamon DJ, Leyland-Jones B, Shak S et al. Use of chemotherapy plus a monoclonal antibody against HER2 for metastatic breast cancer that overexpresses HER2. N Engl J Med. 2001; 344:783-92. (PubMed: 11248153) [...] have a 4-6 fold increased risk of symptomatic myocardial dysfunction compared with those not receiving trastuzumab.(#r3990191)(#r39901956) Symptomatic myocardial dysfunction can occur in patients receiving trastuzumab as a single agent or in combination with other agents; the highest absolute incidence is observed among patients receiving trastuzumab with an anthracycline.(#r3990191)(#r39901956)",
+      "origins": [
+        {
+          "source": {
+            "name": "oncologynewscentral.com",
+            "url": "https://www.oncologynewscentral.com/drugs/monograph/16623-399019/trastuzumab-intravenous"
+          },
+          "document": {
+            "name": "Trastuzumab: uses, dosing, warnings, adverse events, interactions",
+            "url": "https://www.oncologynewscentral.com/drugs/monograph/16623-399019/trastuzumab-intravenous"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fc54a342-076a-4ad4-8669-28aab5a9442a",
+      "content": "# Cardiac Toxicity of Trastuzumab-Related Regimens in HER2-Overexpressing Breast Cancer. The pivotal trial by Slamon and colleagues of trastuzumab combined with chemotherapy in metastatic breast cancer showed a high incidence of congestive heart failure (CHF) among patients who had received trastuzumab and anthracycline-based therapy simultaneously. As a result, the development of nonanthracycline-based treatment options for patients with HER2-overexpressing breast cancer has garnered [...] cardiac safety of taxane/trastuzumab-based combination regimens demonstrate that the docetaxel/carboplatin/trastuzumab triple combination can offer clinical efficacy with a low risk of cardiac dysfunction in patients with HER2-overexpressing early-stage breast cancer as well as in patients with metastatic breast cancer. ## Related Articles. [...] CHF of < 4% and asymptomatic declines in left ventricular ejection fractions of > 10 points in ≤ 30% of patients. For metastatic breast cancer, severe CHF has been reported in 2% of patients and ejection fraction declines in 6%-18% of patients. However, interstudy comparisons of chemotherapy-induced cardiac dysfunction are difficult because of the use of different definitions of cardiac dysfunction and different parameters for assessing cardiac safety. Recent data on cardiac safety of",
+      "origins": [
+        {
+          "source": {
+            "name": "Ovid is the world’s most trusted medical research platform | Wolters Kluwer",
+            "url": "https://www.ovid.com/journals/cbrc/pdf/10.3816/cbc.2007.n.017~cardiac-toxicity-of-trastuzumab-related-regimens-in"
+          },
+          "document": {
+            "name": "Cardiac Toxicity of Trastuzumab-Related Regimens... : Clinical Breast Cancer",
+            "url": "https://www.ovid.com/journals/cbrc/pdf/10.3816/cbc.2007.n.017~cardiac-toxicity-of-trastuzumab-related-regimens-in"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "289cf78f-44a1-482b-992e-bf309d0a7692",
+      "content": "cancer to standard chemotherapy (either an anthracycline-containing regimen or paclitaxel) alone or standard chemotherapy plus concurrent weekly trastuzumab.10 This led to the formation of an independent Cardiac Review and Evaluation Committee (CREC) to retrospectively review the cardiac toxicity data from seven phase II and III studies in 1219 patients who received trastuzumab as monotherapy or in combination with chemotherapy.111 The CREC defined cardiac dysfunction as cardiomyopathy [...] a population of 54 patients with HER2-amplified breast cancer who have received taxanes plus trastuzumab for metastatic disease and evaluated genotypes for the FcγRIIIa-158 valine(V)/phenylalanine(F), FcγRIIa-131  histidine(H)/arginine(R), and FcγRIIb-232 isoleucine(I)/threonine(T) polymorphisms. The first signal of trastuzumab-associated cardiotoxicity was seen in the pivotal phase III trial by Slamon et al, which randomized 469 patients with HER2-overexpressing breast cancer to standard [...] as cardiomyopathy characterized by a decrease in cardiac leftventricular ejection fraction (LVEF) that was either global or more severe in the septum, by symptoms or associated signs of congestive heart failure (CHF), or a by decline in LVEF of $5% (with symptoms) or 10% (no symptoms) with an absolute LVEF of #55%. Neratinib (HKI-272), an orally administered small molecule that acts as an irreversible inhibitor of the tyrosine kinase domain of EGFR, HER2, and HER4 (pan-HER inhibitor),135 showed",
+      "origins": [
+        {
+          "source": {
+            "name": "d.docksci.com",
+            "url": "https://d.docksci.com/role-of-trastuzumab-in-the-management-of-her2-positive-metastatic-breast-cancer_5bc73724d64ab20ba1703c6e.html"
+          },
+          "document": {
+            "name": "Role of trastuzumab in the management of HER2-positive metastatic breast cancer. - PDF Download Free",
+            "url": "https://d.docksci.com/role-of-trastuzumab-in-the-management-of-her2-positive-metastatic-breast-cancer_5bc73724d64ab20ba1703c6e.html"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "4fb9bcfa-bd22-4386-a435-947536272ab2",
+      "name": "Dennis Slamon",
+      "entity_type": "Person",
+      "mentions": [
+        "Dennis Slamon"
+      ]
+    },
+    {
+      "id": "eb7a3064-c57d-49fe-8cc1-55993a9c52e9",
+      "name": "The New England Journal of Medicine",
+      "entity_type": "WorkOfArt",
+      "mentions": [
+        "New England Journal of Medicine"
+      ]
+    },
+    {
+      "id": "247699e6-094a-464d-b016-a945b6f1598d",
+      "name": "U.S. FDA",
+      "entity_type": "Company",
+      "mentions": [
+        "FDA"
+      ]
+    },
+    {
+      "id": "a9a04198-4429-4edf-be76-a4dd4ff30e81",
+      "name": "Herceptin",
+      "entity_type": "Product",
+      "mentions": [
+        "Herceptin"
+      ]
+    },
+    {
+      "id": "c0717740-6090-4bb4-b101-b59df3280802",
+      "name": "doxorubicin",
+      "entity_type": "Product",
+      "mentions": [
+        "doxorubicin"
+      ]
+    },
+    {
+      "id": "73d131b9-cf1c-4a0b-ba81-f754beb6c622",
+      "name": "Epirubicin",
+      "entity_type": "Product",
+      "mentions": [
+        "epirubicin"
+      ]
+    },
+    {
+      "id": "941b29b8-006a-45e0-b470-53d4c2655985",
+      "name": "Cyclophosphamide",
+      "entity_type": "Product",
+      "mentions": [
+        "cyclophosphamide"
+      ]
+    },
+    {
+      "id": "f702e36f-9fb1-4e6e-a1fe-65a0efc9d78a",
+      "name": "paclitaxel",
+      "entity_type": "Product",
+      "mentions": [
+        "paclitaxel"
+      ]
+    },
+    {
+      "id": "4f2216fa-6f3d-421c-ac83-f4394614d31c",
+      "name": "Cardiac Review and Evaluation Committee",
+      "entity_type": "Organization",
+      "mentions": [
+        "Cardiac Review and Evaluation Committee",
+        "CREC"
+      ]
+    }
+  ],
+  "_query": "What did the pivotal phase 3 trial of trastuzumab plus chemotherapy in HER2-positive metastatic breast cancer show? How many patients, what survival benefit, and what heart side effects were found?"
+}

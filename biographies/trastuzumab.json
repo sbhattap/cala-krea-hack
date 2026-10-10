@@ -1,0 +1,281 @@
+{
+  "id": "trastuzumab",
+  "name": "Trastuzumab",
+  "brands": [
+    "Herceptin",
+    "Herceptin Hylecta"
+  ],
+  "hero": {
+    "label": "Drug biography · No. 001",
+    "line": "From a gene nobody wanted to chase, to the first antibody aimed at a cancer-causing protein, told in dated, sourced chapters.",
+    "spec": "HER2-targeted monoclonal antibody · first FDA approval Sept 25, 1998 · brands: Herceptin, Herceptin Hylecta"
+  },
+  "chapters": [
+    {
+      "id": "her2",
+      "date": "1985",
+      "title": "A gene called HER2",
+      "line": "A Genentech scientist cloned a growth gene called HER2, and a colleague made a mouse antibody that blocked it.",
+      "body": [
+        "In 1985, Axel Ullrich, a scientist at Genentech, cloned a human gene his team named HER2. It was closely related to neu, a cancer-causing gene in rats, and it played a part in how cells grow and divide.",
+        "Also at Genentech, H. Michael Shepard's lab made a mouse antibody called 4D5 that latched onto HER2 and slowed the growth of cancer cells carrying too much of it. Once humanized, 4D5 became trastuzumab, the first antibody aimed at a cancer-causing protein."
+      ],
+      "stat": [
+        "4D5",
+        "the mouse antibody that became trastuzumab"
+      ],
+      "source": {
+        "label": "Lasker Award profile, JCI (2019)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6763264"
+      },
+      "extra_sources": [
+        {
+          "label": "Lasker Foundation: Herceptin",
+          "url": "https://laskerfoundation.org/winners/herceptin-a-targeted-antibody-therapy-for-breast-cancer"
+        }
+      ],
+      "cala": "data/raw/trastuzumab/origin.json",
+      "krea_prompt": "a single glowing strand of DNA unspooling in a dark 1980s laboratory, one gene segment lit in warm rose light, film grain, no text"
+    },
+    {
+      "id": "aggressive",
+      "date": "1987",
+      "title": "The aggressive kind",
+      "line": "At UCLA, Dennis Slamon found HER2 overproduced in an aggressive kind of breast cancer.",
+      "body": [
+        "Dennis Slamon, a physician-scientist at UCLA, heard Ullrich talk about his growth genes and asked to collaborate. Together they checked those genes against Slamon's collection of human breast tumors.",
+        "In some tumors HER2 was amplified and overproduced, and those cancers were the aggressive kind: shorter survival, more recurrence. Slamon's 1987 paper in Science made the link, and gave doctors a way to name a subtype of breast cancer: HER2-positive."
+      ],
+      "stat": [
+        "20–25%",
+        "of breast cancer patients have HER2-positive tumors"
+      ],
+      "source": {
+        "label": "Lasker Foundation: Herceptin",
+        "url": "https://laskerfoundation.org/winners/herceptin-a-targeted-antibody-therapy-for-breast-cancer"
+      },
+      "extra_sources": [
+        {
+          "label": "UCLA Health: a conversation with Dennis Slamon",
+          "url": "https://www.uclahealth.org/news/release/medicine-his-dna-conversation-with-dennis-slamon"
+        },
+        {
+          "label": "CURE: long-term Herceptin data",
+          "url": "https://www.curetoday.com/view/long-term-data-show-the-impact-of-herceptin-on-treating-her2-positive-breast-cancer"
+        }
+      ],
+      "cala": "data/raw/trastuzumab/origin.json",
+      "krea_prompt": "microscope view of breast tissue cells, a cluster of cells glowing brighter and denser than the rest, soft pink and violet stain colors, scientific photography, no text"
+    },
+    {
+      "id": "abandoned",
+      "date": "1987",
+      "title": "Almost abandoned",
+      "line": "Genentech had doubts. A few people kept the program alive anyway.",
+      "body": [
+        "Genentech was not eager. Its recent cancer projects had failed, and many inside the company doubted that an antibody could work against a solid tumor. The market also looked small, since only about a fifth to a quarter of breast cancer patients were HER2-positive.",
+        "A few people kept the program alive anyway, led by Shepard with support from Genentech vice president Bill Young."
+      ],
+      "stat": null,
+      "source": {
+        "label": "Lasker Foundation: Herceptin",
+        "url": "https://laskerfoundation.org/winners/herceptin-a-targeted-antibody-therapy-for-breast-cancer"
+      },
+      "extra_sources": [
+        {
+          "label": "JCI: 2019 Lasker Award",
+          "url": "https://www.jci.org/articles/view/132533"
+        }
+      ],
+      "cala": "data/raw/trastuzumab/near_death.json",
+      "krea_prompt": "a lone desk lamp left on in an empty corporate office at night, a single folder on the desk, quiet and tense mood, cinematic, no text"
+    },
+    {
+      "id": "patron",
+      "date": "1990",
+      "title": "An unlikely patron",
+      "line": "Revlon funded Slamon's research, and the first patients were treated at UCLA.",
+      "body": [
+        "Help came from outside medicine. In 1990, Revlon and its chairman Ronald O. Perelman began funding Slamon's HER2 research through a series of grants meant to speed the drug's development.",
+        "That same year, Slamon led the first clinical trial of trastuzumab in people, at UCLA."
+      ],
+      "stat": [
+        "1990",
+        "first patients treated with trastuzumab, at UCLA"
+      ],
+      "source": {
+        "label": "UCLA Newsroom: Revlon funds breast cancer research",
+        "url": "https://newsroom.ucla.edu/releases/ucla-receives-1-million-from-revlon-to-fund-breast-cancer-research"
+      },
+      "extra_sources": [
+        {
+          "label": "Healio: 2019 Lasker-DeBakey Award",
+          "url": "https://www.healio.com/news/hematology-oncology/20190910/cancer-researchers-receive-laskerdebakey-clinical-medical-research-award"
+        }
+      ],
+      "cala": "data/raw/trastuzumab/funding.json",
+      "krea_prompt": "a vintage lipstick case standing beside a laboratory flask on a marble surface, warm red and clinical white, editorial still life, no text"
+    },
+    {
+      "id": "patients",
+      "date": "1995",
+      "title": "Patients at the table",
+      "line": "Patient advocates helped shape the trials, and a lottery shared out scarce early doses.",
+      "body": [
+        "Breast cancer advocates worked with Genentech to shape the phase 3 trials, so the design reflected what patients with metastatic disease needed, and simpler entry rules sped up enrollment.",
+        "In 1995 Genentech and advocates, including Bob Erwin, whose wife had died of breast cancer, designed one of the first FDA-approved expanded access programs for a cancer drug. It opened in 1996, and because supply was short, a lottery decided who got the drug."
+      ],
+      "stat": [
+        "Lottery",
+        "how scarce early doses were shared, from 1996"
+      ],
+      "source": {
+        "label": "Genentech: the HER2 story",
+        "url": "https://www.gene.com/stories/her2"
+      },
+      "extra_sources": [
+        {
+          "label": "Genentech approval press release (Drugs.com)",
+          "url": "https://drugs.com/newdrugs/herceptin-biotechnology-breakthrough-breast-cancer-wins-fda-approval-4878.html"
+        },
+        {
+          "label": "CancerNetwork: NBCC praises advocate partnership",
+          "url": "https://www.cancernetwork.com/view/nbcc-president-praises-genentech-partnering-breast-cancer-advocates-her-2-trial"
+        }
+      ],
+      "cala": "data/raw/trastuzumab/advocates.json",
+      "krea_prompt": "a circle of empty chairs around a meeting table, pink and amber afternoon light through tall windows, documentary photography, hopeful, no text"
+    },
+    {
+      "id": "approval",
+      "date": "Sept 25, 1998",
+      "title": "Approved",
+      "line": "The FDA approved Herceptin for metastatic HER2-positive breast cancer. It added months of life, with a real cost to the heart.",
+      "body": [
+        "On September 25, 1998 the FDA approved Herceptin for HER2-positive metastatic breast cancer. In the pivotal trial, 469 women were randomized to chemotherapy alone or chemotherapy plus trastuzumab. Adding trastuzumab raised median survival from 20.3 to 25.1 months, and tumors shrank in 50% of patients instead of 32%.",
+        "There was a cost. Heart damage appeared in 27% of patients who got trastuzumab with anthracycline chemotherapy, and up to 16% developed severe heart failure. With paclitaxel instead, the rate was 13%."
+      ],
+      "stat": [
+        "20.3 → 25.1",
+        "median months of survival, chemo alone vs with trastuzumab"
+      ],
+      "source": {
+        "label": "Drugs.com: Herceptin FDA approval history",
+        "url": "https://www.drugs.com/history/herceptin.html"
+      },
+      "extra_sources": [
+        {
+          "label": "Review of trastuzumab trials (Women's Health)",
+          "url": "https://sage.cnpereading.com/doi/10.2217/17455057.5.2.135"
+        },
+        {
+          "label": "PubMed: cardiac dysfunction in trastuzumab trials",
+          "url": "https://www.ncbi.nlm.nih.gov/pubmed/11870163"
+        }
+      ],
+      "cala": "data/raw/trastuzumab/pivotal_trial.json",
+      "krea_prompt": "a single clear IV bag hanging in soft morning light by a hospital window, calm and hopeful, muted pink tones, photography, no text"
+    },
+    {
+      "id": "early",
+      "date": "Nov 16, 2006",
+      "title": "A second life",
+      "line": "Approved for early-stage disease. In the HERA trial it lowered the risk of death by 26%.",
+      "body": [
+        "The bigger question was whether trastuzumab could also help people with early-stage disease, after surgery. Based on two US trials, NSABP B-31 and NCCTG N9831, the FDA approved it on November 16, 2006 for node-positive early-stage HER2-positive breast cancer, alongside chemotherapy.",
+        "The HERA trial enrolled 5,102 women. After 11 years of follow-up, one year of trastuzumab after chemotherapy lowered the risk of the cancer returning by 24% and the risk of death by 26%. One year of trastuzumab became the standard of care."
+      ],
+      "stat": [
+        "26%",
+        "lower risk of death with one year of trastuzumab (HERA, 11 years)"
+      ],
+      "source": {
+        "label": "HERA trial final analysis, PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28215665"
+      },
+      "extra_sources": [
+        {
+          "label": "Drugs.com: Herceptin FDA approval history",
+          "url": "https://drugs.com/history/herceptin.html"
+        }
+      ],
+      "cala": "data/raw/trastuzumab/adjuvant.json",
+      "krea_prompt": "a long road stretching ahead through spring fields at dawn, wide and open, soft rose sky, landscape photography, no text"
+    },
+    {
+      "id": "biosimilar",
+      "date": "Dec 1, 2017",
+      "title": "Copies arrive",
+      "line": "The first biosimilar copy of trastuzumab was approved.",
+      "body": [
+        "On December 1, 2017 the FDA approved Ogivri (trastuzumab-dkst), made by Biocon and Mylan, the first biosimilar of trastuzumab.",
+        "It was only the second cancer biosimilar the FDA had ever approved, and the first for breast and stomach cancer."
+      ],
+      "stat": [
+        "2nd",
+        "cancer biosimilar ever approved by the FDA"
+      ],
+      "source": {
+        "label": "GaBI Online: FDA approves Ogivri",
+        "url": "https://gabionline.net/biosimilars/news/FDA-approves-trastuzumab-biosimilar-Ogivri"
+      },
+      "extra_sources": [],
+      "cala": "data/raw/trastuzumab/biosimilars.json",
+      "krea_prompt": "two nearly identical glass vials side by side on a pale surface, mirrored reflections, minimalist product photography, no text"
+    },
+    {
+      "id": "hylecta",
+      "date": "Feb 28, 2019",
+      "title": "Under the skin, and a prize",
+      "line": "A version given under the skin was approved, and its three pioneers shared the Lasker Award.",
+      "body": [
+        "On February 28, 2019 the FDA approved Herceptin Hylecta, trastuzumab combined with hyaluronidase so it can be given as an injection under the skin instead of through a vein.",
+        "That September, Ullrich, Shepard and Slamon shared the Lasker-DeBakey Clinical Medical Research Award for discovering and developing Herceptin."
+      ],
+      "stat": null,
+      "source": {
+        "label": "Drugs.com: Herceptin Hylecta approval history",
+        "url": "https://www.drugs.com/history/herceptin-hylecta.html"
+      },
+      "extra_sources": [
+        {
+          "label": "UCLA: Slamon wins 2019 Lasker Award",
+          "url": "https://stemcell.ucla.edu/news/ucla-oncologist-dennis-slamon-wins-2019-lasker-award-clinical-medical-research"
+        }
+      ],
+      "cala": "data/raw/trastuzumab/subcutaneous.json",
+      "krea_prompt": "a small modern injection syringe resting on folded linen beside a bronze award medal, soft studio light, still life, no text"
+    },
+    {
+      "id": "family",
+      "date": "Today",
+      "year": 2026,
+      "title": "A family of HER2 drugs",
+      "line": "Trastuzumab is now the backbone of a family of HER2 drugs, including Kadcyla and Enhertu.",
+      "body": [
+        "Trastuzumab became the foundation for a family of HER2 drugs. Genentech's pertuzumab, launched in 2012, is given together with it.",
+        "Two antibody-drug conjugates use trastuzumab to deliver chemotherapy straight to HER2-positive cells: trastuzumab emtansine (Kadcyla) and trastuzumab deruxtecan (Enhertu)."
+      ],
+      "stat": [
+        "2",
+        "antibody-drug conjugates built on trastuzumab: Kadcyla and Enhertu"
+      ],
+      "source": {
+        "label": "Twenty-five years with HER2 targeted therapy (PMC)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11193558"
+      },
+      "extra_sources": [
+        {
+          "label": "Fierce Biotech: FDA approves Kadcyla",
+          "url": "https://www.fiercebiotech.com/biotech/fda-approves-genentech-s-kadcyla-ado-trastuzumab-emtansine-first-antibody-drug-conjugate"
+        },
+        {
+          "label": "OncLive: trastuzumab deruxtecan approval",
+          "url": "https://www.onclive.com/view/agnostic-approval-of-trastuzumab-deruxtecan-ushers-in-new-option-for-advanced-her2-solid-tumors"
+        }
+      ],
+      "cala": "data/raw/trastuzumab/successors.json",
+      "krea_prompt": "a branching family tree drawn as glowing antibody shapes, one Y-shaped trunk splitting into newer branches, deep navy and rose palette, elegant illustration, no text"
+    }
+  ]
+}

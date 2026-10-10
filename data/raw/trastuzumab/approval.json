@@ -1,0 +1,76 @@
+{
+  "content": "The FDA first approved trastuzumab (Herceptin) for breast cancer on **September 25, 1998**. The approval was hailed as a \"biotechnology breakthrough in breast cancer.\" It was initially approved for the treatment of HER2-overexpressing metastatic breast cancer. Herceptin later received additional approvals, including for adjuvant treatment of HER2-positive node-positive breast cancer (November 2006) and for HER2-positive metastatic stomach cancer (October 2010).",
+  "explainability": [
+    {
+      "content": "The FDA’s first approval date for trastuzumab (Herceptin) for breast cancer is listed as September 25, 1998.",
+      "references": [
+        "04f35f3c-32a8-4042-af56-3c263eb10e90"
+      ]
+    },
+    {
+      "content": "Both supporting facts explicitly state that the first FDA approval occurred on September 25, 1998, confirming the answer’s date.",
+      "references": [
+        "15faa9a2-bae2-46fe-94ce-38ec8442ba39"
+      ]
+    }
+  ],
+  "context": [
+    {
+      "id": "04f35f3c-32a8-4042-af56-3c263eb10e90",
+      "content": "Drugs.com - Go to homepage\n\n# Herceptin FDA Approval History\n\nFDA Approved: Yes (First approved September 25, 1998)  \nBrand name: Herceptin  \nGeneric name: trastuzumab  \nDosage form: Injection  \nCompany: Genentech, Inc.  \nTreatment for: Breast Cancer, Gastric Cancer, Gastroesophageal Junction Cancer [...] | Sep 25, 1998 | Approval Herceptin: Biotechnology Breakthrough In Breast Cancer Wins FDA Approval | [...] | Date | Article |\n --- |\n| Aug  1, 2023 | Lunit Presents Groundbreaking Study on Predicting Treatment Response by HER2 Analysis in Colorectal Cancer |\n| Jun  3, 2023 | Trial Shows Potential for Chemotherapy-free Treatment of HER2-positive Early Breast Cancer |\n| Oct 20, 2010 | Approval FDA Approves Herceptin For HER2-Positive Metastatic Stomach Cancer |\n| Nov 16, 2006 | Approval FDA Approves Herceptin for the Adjuvant Treatment of HER2-Positive Node-Positive Breast Cancer |",
+      "origins": [
+        {
+          "source": {
+            "name": "drugs.com",
+            "url": "https://www.drugs.com/history/herceptin.html"
+          },
+          "document": {
+            "name": "Herceptin (trastuzumab) FDA Approval History - Drugs.com",
+            "url": "https://www.drugs.com/history/herceptin.html"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "15faa9a2-bae2-46fe-94ce-38ec8442ba39",
+      "content": "Drugs.com - Go to homepage. # Herceptin FDA Approval History. FDA Approved: Yes (First approved September 25, 1998). Treatment for: Breast Cancer, Gastric Cancer. Herceptin (trastuzumab) is a HER2/neu receptor antagonist indicated for the treatment of HER2 overexpressing breast cancer and for the treatment of HER2-overexpressing metastatic gastric or gastroesophageal junction adenocarcinoma. Add as a preferred source on Google Google preferred source badge. ## Development timeline for [...] |. | Sep 25, 1998 | Approval Herceptin: Biotechnology Breakthrough In Breast Cancer Wins FDA Approval |. ## Further information. Always consult your healthcare provider to ensure the information displayed on this page applies to your personal circumstances. Pregnancy & Lactation  Risk data available. CSA Schedule\\ Not a controlled drug N/A. Approval History Drug history at FDA. [...] timeline for Herceptin. | Aug  1, 2023 | Lunit Presents Groundbreaking Study on Predicting Treatment Response by HER2 Analysis in Colorectal Cancer |. | Jun  3, 2023 | Trial Shows Potential for Chemotherapy-free Treatment of HER2-positive Early Breast Cancer |. | Oct 20, 2010 | Approval FDA Approves Herceptin For HER2-Positive Metastatic Stomach Cancer |. | Nov 16, 2006 | Approval FDA Approves Herceptin for the Adjuvant Treatment of HER2-Positive Node-Positive Breast Cancer |. | Sep 25, 1998 |",
+      "origins": [
+        {
+          "source": {
+            "name": "drugs.com",
+            "url": "https://drugs.com/history/herceptin.html"
+          },
+          "document": {
+            "name": "Herceptin (trastuzumab) FDA Approval History - Drugs.com",
+            "url": "https://drugs.com/history/herceptin.html"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "247699e6-094a-464d-b016-a945b6f1598d",
+      "name": "U.S. FDA",
+      "entity_type": "Company",
+      "mentions": [
+        "FDA"
+      ]
+    },
+    {
+      "id": "56c512a4-94a8-4ba7-842e-a91442ef82a9",
+      "name": "trastuzumab",
+      "entity_type": "Product",
+      "mentions": [
+        "trastuzumab",
+        "Herceptin"
+      ]
+    }
+  ]
+}

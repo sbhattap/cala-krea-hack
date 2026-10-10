@@ -1,0 +1,404 @@
+{
+  "content": "## Yes — Genentech seriously considered not pursuing the Herceptin program\n\nThe development of Herceptin (trastuzumab) came remarkably close to being abandoned on multiple occasions. Several key factors nearly derailed the program:\n\n### Genentech's reluctance\n\nAfter Dr. Dennis Slamon (UCLA) and Dr. Axel Ullrich (Genentech) published their 1987 *Science* paper linking the HER2 gene alteration to aggressive breast cancer, Slamon proposed that Genentech develop a monoclonal antibody targeting HER2. However, **Genentech \"wanted no part of it.\"** The company had been burned by failures of earlier cancer drugs and had grown cautious. Slamon was still a young researcher without a long track record, and at the time chemotherapy and surgery were the gold standards of cancer treatment.\n\nAs Slamon himself recounted: *\"No one was interested in pursuing antibodies because so many had failed. I was trying to convince Genentech to stay with the program based on the data, and it took a couple of years of hard sell. The company wasn't terribly enthused, but there was a core of people there who believed in the data and kept the project alive.\"*\n\n### Specific objections within Genentech\n\nAccording to the Lasker Foundation's account of the Herceptin story, there was **\"much opposition in the company\"** when Slamon proposed leading clinical trials. Decision-makers raised several concerns:\n\n- **Skepticism about monoclonal antibodies**: Many experts doubted that antibodies would prove therapeutically useful against solid tumors, partly because scientists questioned whether they could penetrate tumors.\n- **Limited market size**: Why develop a drug that would only be given to roughly 20–25% of women with breast cancer? Wouldn't a drug for all breast cancer patients be more profitable?\n- **Prior failures**: Genentech had pursued other potential cancer drugs that had not panned out, making leadership risk-averse.\n\n### What kept the program alive\n\nA small group of internal champions — notably scientist H. Michael Shepard, with support from then-Genentech Vice President Bill Young — persisted in advocating for the HER2 antibody program. Shepard and Slamon performed additional experiments showing the mouse monoclonal antibody could localize to and specifically target HER2-positive tumors in patients, which helped bolster the case.\n\nExternally, Slamon also faced difficulty securing NIH funding for his studies. A critical lifeline came from **Revlon**, whose chairman Ronald O. Perelman funded the research starting in 1990 that helped bring Herceptin toward clinical trials. Entertainment executive Lilly Tartikoff was also instrumental in connecting Slamon with private funders.\n\n### The 12-year journey to approval\n\nSlamon fought for 12 years to get Herceptin to patients. The first human clinical trial was conducted at UCLA in 1990 with 20 women. The results of the Phase I trial were ultimately enough to convince Genentech and the FDA to proceed with larger Phase II and Phase III trials. Herceptin received FDA approval on September 25, 1998, becoming the first monoclonal antibody approved for the treatment of a solid tumor (HER2-overexpressing metastatic breast cancer).\n\nThe story was later dramatized in the 2008 Lifetime TV movie *Living Proof*, based on Robert Bazell's book *HER-2: The Making of Herceptin*. In 2019, Slamon, Shepard, and Ullrich were jointly awarded the Lasker–DeBakey Clinical Medical Research Award for their contributions to Herceptin's development.\n",
+  "explainability": [
+    {
+      "content": "Genentech initially showed strong reluctance to develop Herceptin, with the company explicitly stating it \"wanted no part of it\" after the 1987 Science paper linking HER2 to aggressive breast cancer.",
+      "references": [
+        "903dc2b2-9f4f-42c1-ba73-ab72b6c4a6d1",
+        "19556da5-b960-401f-8d60-b32c684dc752"
+      ]
+    },
+    {
+      "content": "This reluctance stemmed from Genentech’s recent experience of failed cancer drug projects, making its leadership risk‑averse toward new oncology candidates.",
+      "references": [
+        "abd66c08-dac7-4e64-8ba8-7679b9130545"
+      ]
+    },
+    {
+      "content": "Within Genentech, there was considerable opposition, including skepticism that monoclonal antibodies could work against solid tumors and concerns about the limited market (only ~20‑25% of breast cancer patients).",
+      "references": [
+        "abd66c08-dac7-4e64-8ba8-7679b9130545"
+      ]
+    },
+    {
+      "content": "Despite this internal opposition, a small group of champions—particularly H. Michael Shepard, supported by Vice President Bill Young—persisted in advocating for the HER2 antibody program, keeping the project alive.",
+      "references": [
+        "f8cf7976-556f-42bd-aa2f-69caac9303a3"
+      ]
+    }
+  ],
+  "context": [
+    {
+      "id": "903dc2b2-9f4f-42c1-ba73-ab72b6c4a6d1",
+      "content": "Approved by the FDA in 1998 and manufactured by Genentech, now part of the Roche Group, Herceptin is a monoclonal antibody that helps counteract a mutation of the HER2 gene, found in about 25 percent of breast cancer patients. [...] “No one was interested in pursuing antibodies because so many had failed,” Slamon said. “I was trying to convince Genentech to stay with the program based on the data, and it took a couple of years of hard sell. The company wasn’t terribly enthused, but there was a core of people there who believed in the data and kept the project alive.”\n\n## Lining Up Private Funding\n\nLuckily for Slamon, there were also private funders who felt certain he was on the right track. [...] It was there that he began the research that paved the way for Herceptin. In the lab of Winston A. Anderson, Ph.D., a cell biologist in the Anatomy Department, and under the tutelage of Werner Kirsten, M.D., of the Pathology Department, Slamon participated in research on retroviruses that caused cancer in mice.",
+      "origins": [
+        {
+          "source": {
+            "name": "Welcome to UCLA Health",
+            "url": "https://www.uclahealth.org/news/release/medicine-his-dna-conversation-with-dennis-slamon"
+          },
+          "document": {
+            "name": "Medicine is in His DNA: A Conversation with Dennis Slamon | UCLA Health",
+            "url": "https://www.uclahealth.org/news/release/medicine-his-dna-conversation-with-dennis-slamon"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "555a71bb-66c3-4fe3-8dcb-b8e52d286734",
+      "content": "“No one was interested in pursuing antibodies because so many had failed,” Slamon said. “I was trying to convince Genentech to stay with the program based on the data, and it took a couple of years of hard sell. The company wasn’t terribly enthused, but there was a core of people there who believed in the data and kept the project alive.”\n\n### 3 Questions for Dr Slamon\n\n#### Is Herceptin being investiga ted for any new indications? [...] Slamon fought for 12 years to get Herceptin to patients, keeping the project alive despite a nearly crippling early lack of funding, and ultimately helping to spark an understanding that breast cancer and other cancer types can take a variety of forms, each subtype potentially requiring its own treatment options. It is a principle that will prove true in all other major malignancies, Slamon believes, as the recent rise in targeted cancer therapies picks up speed during the next 5 years. [...] “It told us right away that we were not dealing with 1 disease in breast cancer,” Slamon said, “even though the dogma at the time was that each disease was a monolith, defined by the tissue where it arose and treated with a one-size-fits-all approach.”\n\nTo Slamon, HER2 looked like a perfect target for treatment with an antibody, but not everyone agreed.",
+      "origins": [
+        {
+          "source": {
+            "name": "onclive.com",
+            "url": "https://www.onclive.com/view/medicine-is-in-his-dna-giant-in-breast-gene-research-draws-on-childhood-values"
+          },
+          "document": {
+            "name": "Medicine Is in His DNA: Giant in Breast Gene Research Draws on Childhood Values | OncLive",
+            "url": "https://www.onclive.com/view/medicine-is-in-his-dna-giant-in-breast-gene-research-draws-on-childhood-values"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "abd66c08-dac7-4e64-8ba8-7679b9130545",
+      "content": "Despite these auspicious results, hesitation lurked among Genentech’s decision makers. The company had pursued other potential cancer drugs that had not panned out. Furthermore, many experts were skeptical that monoclonal antibodies would prove therapeutically useful against cancer, especially for solid rather than blood malignancies—in part because scientists doubted that these agents would penetrate the tumors. To bolster the case for clinical pursuit, Shepard and Slamon performed numerous [...] Slamon proposed to Genentech that he should lead clinical trials of Herceptin in women with Her-2 positive breast cancer. There was much opposition in the company. Would a humanized antibody actually work in people? Why develop a drug that would be given to only 20 percent of women with breast cancer? With such a limited market, would the drug be profitable? Shouldn’t we develop a drug that cures all women? Fortunately, Slamon, Ullrich and Shepard prevailed, and the trials were successful. The [...] are diagnosed with the type of breast cancer that the drug attacks, and over 2.3 million individuals have received the treatment since it became available. Shepard (now at BetterOutcomes4Cancer) and Ullrich (now at Max Planck Institute of Biochemistry, Martinsried, Germany) conducted their Herceptin investigations at Genentech. Slamon did his at the University of California, Los Angeles (UCLA), where he continues to work.",
+      "origins": [
+        {
+          "source": {
+            "name": "laskerfoundation.org",
+            "url": "https://laskerfoundation.org/winners/herceptin-a-targeted-antibody-therapy-for-breast-cancer"
+          },
+          "document": {
+            "name": "Herceptin—a targeted antibody therapy for breast cancer - Lasker Foundation",
+            "url": "https://laskerfoundation.org/winners/herceptin-a-targeted-antibody-therapy-for-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f8cf7976-556f-42bd-aa2f-69caac9303a3",
+      "content": "Shepard and Slamon, there was reluctance at Genentech to pursue the development of a mAb-based therapy. However, Shepard was persistent and finally given funding and an opportunity to continue the work toward developing a HER2-specific antibody due to the support of then Genentech Vice President, Bill Young. After a set of unpublished experiments, in collaboration with Slamon, that showed the mouse mAb was able to localize to and specifically target HER2+ tumors in patients, the next step was [...] clear to me that the most dedicated science, was actually being done at Genentech, so I decided to go there.” Shepard initially worked with David Goeddel, who is best known for cloning human insulin, growth hormones, and many of Genentech’s early products. Eventually, Shepard moved over to the Pharmacology Department and became interested in generating medicines that were not just cloned genes. Shepard became part of Genentech’s TNF project, which took off when they obtained tumor cell lines [...] The characterization of tumor-specific proteins and genes has led to the development of several targeted therapies that have improved and extended the lives of patients with a variety of cancers. The 2019 Lasker~DeBakey Clinical Medical Research Award recognizes H. Michael Shepard, Dennis J. Slamon, and Axel Ullrich (Figure 1) for their contributions to the development of the HER2-targeting monoclonal antibody (mAb), Herceptin (also known as trastuzumab), the first of its kind to effectively",
+      "origins": [
+        {
+          "source": {
+            "name": "JCI",
+            "url": "https://www.jci.org/articles/view/132533"
+          },
+          "document": {
+            "name": "JCI - H. Michael Shepard, Dennis J. Slamon, and Axel Ullrich honored with the 2019 Lasker~DeBakey Clinical Medical Research Award",
+            "url": "https://www.jci.org/articles/view/132533"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19556da5-b960-401f-8d60-b32c684dc752",
+      "content": "“Patient care is gratifying,” Dr. Slamon says. “But if that was all I did day in and day out, I would find it frustrating. Because there’s only so many tools we have. That’s why being able to participate in something new, the research, is so important to me. It gives all of us hope.”\n\nThe results of the Phase I trial were enough to convince Genentech and the FDA to proceed with the larger Phase II and Phase III trials. Herceptin, finally, received its initial FDA approval in 1998. [...] At this point, Dr. Slamon had the data in hand to proceed to clinical trials. In 1987, he and Dr. Ullrich published their research in the prestigious peer-reviewed journal Science. Yet Genentech, which owned the rights to the drug, wanted no part of it. Having been burned by failures of earlier cancer drugs, the company had grown cautious. And Dr. Slamon still was a young researcher, without a track record. And, at that time, chemotherapy and cutting still were the gold standards. [...] It is his belief in data and a dogged perseverance that led Dr. Slamon, professor and chief of hematology/oncology at the David Geffen School of Medicine at UCLA, to the groundbreaking development of the breast cancer drug Herceptin, a lifesaving monoclonal antibody for women with HER2-positive breast cancer, a particularly aggressive form of the disease. Monoclonal antibodies are proteins created in a lab that, when injected into humans, bind to and destroy specific invader organisms like",
+      "origins": [
+        {
+          "source": {
+            "name": "Homepage",
+            "url": "https://cancerhistoryproject.com/people/coal-miners-son-dr-dennis-slamon"
+          },
+          "document": {
+            "name": "Coal Miner’s Son: Dr. Dennis Slamon – The Cancer History Project",
+            "url": "https://cancerhistoryproject.com/people/coal-miners-son-dr-dennis-slamon"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11387c03-0725-4325-99db-0b9d430d6085",
+      "content": "Revlon’s relationship with Dr. Slamon started in 1990; Ronald O. Perelman and Revlon funded the research that was needed to bring the cancer treatment drug Herceptin to market. Before Herceptin was introduced, breast cancer patients with high HER2+, faced grim chances. [...] According to Lorenzo Delpani, CEO of Revlon, Inc., “It is our goal that this donation will help to enable Dr. Slamon and his team to continue their research into major cancer breakthroughs that will lead to lives being saved, ultimately finding a cure.” [...] Following the success of Herceptin, Dr. Slamon spearheaded the development of the radical drug Ibrance. Ibrance has been shown to register very optimistic results in patients with ER+/HER2- types of breast cancer. The United States FDA has already given its approval in January of this year. Ibrance has been quite effective in blocking tumor growth; it also allows metastatic longer life spans.",
+      "origins": [
+        {
+          "source": {
+            "name": "Daily CSR",
+            "url": "https://www.dailycsr.com/Revlon-s-LOVE-IS-ON-initiative-making-headways-in-cancer-research-and-awareness_a134.html"
+          },
+          "document": {
+            "name": "Revlon’s ‘LOVE IS ON’ initiative making headways in cancer research and awareness",
+            "url": "https://www.dailycsr.com/Revlon-s-LOVE-IS-ON-initiative-making-headways-in-cancer-research-and-awareness_a134.html"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "92b8b8d8-6a01-470d-b113-722ae8551bc1",
+      "content": "article, Slamon complains that he had difficulty getting the NIH to fund his studies and that it took a grant from Revlon for him to continue his research. Indeed, a made-for-TV movie about Slamon and Herceptin aired on Lifetime in 2008 called Living Proof), which was based on a book by Robert Bazell called HER-2: The Making of Herceptin, A Revolutionary Treatment for Breast Cancer, tells a more complex story than just the NIH’s not funding his research. If, for example, Slamon and Ullrich (the [...] and Ullrich (the latter of which was a Genentech scientist) had submitted their HER-2 grants around the time other researchers were having difficulty duplicating their results, the reviewers at the NIH study section responsible for reviewing Slamon’s grants would almost certainly have known about it. One difference between me and those calling for reform of the NIH grant process is that I openly admit that I don’t have any data to support my bias that the current system is too conservative and [...] Kolata argues that the system is broken but sees the answer not in the sort of clinical research and comparative effectiveness research beloved by Begley, which in her ideal world would rapidly translate basic science findings into treatments and new tests, but in another mantra that seems to be going around, namely “high impact” research, which, we’re told piously and solemnly, we are not doing nearly enough of because the NIH doesn’t encourage it or fund it. In Kolata’s article, Slamon",
+      "origins": [
+        {
+          "source": {
+            "name": "sciencebasedmedicine.org",
+            "url": "https://sciencebasedmedicine.org/cancer-research-going-for-the-bunt-versus-swinging-for-the-fences"
+          },
+          "document": {
+            "name": "Cancer research: Going for the bunt versus swinging for the fences | Science-Based Medicine",
+            "url": "https://sciencebasedmedicine.org/cancer-research-going-for-the-bunt-versus-swinging-for-the-fences"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "376c53be-57fe-4f4c-83cd-dac58866d90b",
+      "content": "“Living Proof” tells true story of…. # “Living Proof” tells true story of breast-cancer drug. Harry Connick Jr. portrays Dr. Dennis Slamon, the UCLA doctor who helped develop the breast-cancer drug Herceptin, in. Harry Connick Jr. portrays Dr. Dennis Slamon, the UCLA doctor who helped develop the breast-cancer drug Herceptin, in “Living Proof.”. Joanne Ostrow of The Denver Post. By Joanne Ostrow | joniostrow@gmail.com. A stunning lineup of talented actresses combines with a lively script to [...] a lively script to distinguish what might have been a fairly ordinary disease movie on Lifetime this weekend. A based-on-truth testament to perseverance and essential human goodness, the film offers proof that determined individuals can win the fight against huge, heartless drug companies. “Living Proof,” premiering Saturday at 7 p.m. on Lifetime, tells the true story of the doctor who helped develop the breast cancer drug Herceptin. His years-long fight to raise money to keep the drug trials [...] Thankfully the complex science is related at the level of the wide-eyed “English major” Jamie (Bynes), who takes a job as Slamon’s student assistant. Among the villains of the piece are the doctor-bureaucrats at drug maker Genentech, who fear the financial downside if the drug were to fail.",
+      "origins": [
+        {
+          "source": {
+            "name": "The Denver Post",
+            "url": "https://www.denverpost.com/2008/10/15/living-proof-tells-true-story-of-breast-cancer-drug"
+          },
+          "document": {
+            "name": "“Living Proof” tells true story of breast-cancer drug – The Denver Post",
+            "url": "https://www.denverpost.com/2008/10/15/living-proof-tells-true-story-of-breast-cancer-drug"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "30e05b0c-ed3d-439f-b9e2-cfcfcfe39c76",
+      "content": "Button group.\n\nArticle\n\n# Dennis Slamon to be Played by Harry Connick Jr. in Movie\n\nOncology Times 30(14):p 21, July 25, 2008. | DOI: 10.1097/01.COT.0000333625.80154.39\n\nHarry Connick Jr. will be playing Dennis J. Slamon, MD, PhD, in a new movie being made of the story about the development of Herceptin.\n\nThe Lifetime TV movie, Living Proof, is based on NBC Science Correspondent Bob Bazell's 1998 book Her-2: The Making of Herceptin, a Revolutionary Treatment for Breast Cancer (Random House). [...] “It's great that Lifetime is making a movie about the development of Herceptin,” Dr. Slamon said through a UCLA spokesperson when asked for his reaction for this article. “But the real heroes of this story are all the women who enrolled in the clinical studies without knowing whether or not this drug would help them.”\n\n## Image Gallery\n\nOpen multimedia modal\n\n## Figure\n\nOpen multimedia modal [...] Renee Zellweger is producing the movie, which is expected to air in October for Breast Cancer Awareness Month. This year also marks the 10th anniversary of Herceptin's approval.\n\nOpen multimedia modal\n\n## Figure\n\nOpen multimedia modal\n\nWhen Harry met Denny: The Lifetime TV movie about the development of trastuzumab is scheduled to air in October, coinciding with the network's 14th annual “Stop Breast Cancer for Life” campaign.",
+      "origins": [
+        {
+          "source": {
+            "name": "journals.lww.com",
+            "url": "https://journals.lww.com/oncology-times/fulltext/2008/07250/dennis_slamon_to_be_played_by_harry_connick_jr__in.11.aspx"
+          },
+          "document": {
+            "name": "Dennis Slamon to be Played by Harry Connick Jr.... : Oncology Times",
+            "url": "https://journals.lww.com/oncology-times/fulltext/2008/07250/dennis_slamon_to_be_played_by_harry_connick_jr__in.11.aspx"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fcc49981-c7c3-4f16-99d2-064d66dde914",
+      "content": "Physician-scientist Dr. Dennis Slamon, professor and chief of hematology/oncology at the David Geffen School of Medicine at UCLA, has been awarded the 2019 Lasker-DeBakey Clinical Medical Research Award for the groundbreaking development of breast cancer drug Herceptin (trastuzumab), a lifesaving therapy for women with HER2-positive breast cancer. He shares the award with H. Michael Shepard, an American cancer researcher honored for work he completed at biotechnology company Genentech; and Axel [...] The development of Herceptin marked a new era of more effective therapies designed to fight cancer at its genetic roots. In the early 1980s, Slamon first identified a new, more aggressive subtype of breast cancer called HER2-positive, or HER2+. Several years later, he and his team discovered a link between the HER2+ gene mutation and aggressive breast cancer. He then proved the theory that if researchers could identify what was broken in a cancer cell compared to a normal cell, they could [...] The first human clinical trial led by Slamon was performed at UCLA in 1990. Twenty women — who he credits as being the real heroes in the Herceptin development story — participated.",
+      "origins": [
+        {
+          "source": {
+            "name": "Newsroom",
+            "url": "http://newsroom.ucla.edu/releases/ucla-oncologist-dennis-slamon-lasker-award-clinical-medical-research"
+          },
+          "document": {
+            "name": "UCLA oncologist Dennis Slamon wins 2019 Lasker Award for clinical medical research | UCLA",
+            "url": "http://newsroom.ucla.edu/releases/ucla-oncologist-dennis-slamon-lasker-award-clinical-medical-research"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c58fc400-27fa-4f8f-b06c-7aecb4936baa",
+      "content": "Herceptin's Development The HER2 gene was first linked to certain breast and ovarian cancers in 1986. Six years later in 1992, the Herceptin antibody, combined with chemotherapy, was given to the first trial group of 15 women, all considered terminally ill. By 1996, 900 women were involved in Phase III clinical trials. One of those patients, Amy Applebaum, is still receiving Herceptin therapy today: \"When I discovered I had metastatic breast cancer it was a very scary time. Participating in the [...] 12/30/2016 \nHerceptin is the first humanized monoclonal antibody for the treatment of HER2 overexpressing metastatic breast cancer and the second U.S. approval in this new class of biotherapeutic cancer drugs. The first was Rituxan¿ (Rituximab), developed by Genentech and its partner IDEC Pharmaceuticals Corporation, approved in November 1997. [...] Biotechnology Breakthrough In Breast Cancer Wins FDA Approval -- New Therapy for a Quarter of Women with Metastatic Breast Cancer; Testing for Protein Overexpression Critical --SOUTH SAN FRANCISCO, Calif., -- September 25, 1998 -- Genentech, Inc., (NYSE: GNE) announced today that it received approval from the U.S. Food & Drug Administration (FDA) for Herceptin(R) (Trastuzumab), a unique new approach for treating one type of metastatic breast cancer and the first monoclonal antibody for use in",
+      "origins": [
+        {
+          "source": {
+            "name": "Welcome to WildFly",
+            "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1485894/download-documents?artifactId=ha1Hf_h4gSYkYc0VfEjlWHIZaDaAaN9nvCz7AL9cW3DyFAsdUJ52EEM"
+          },
+          "document": {
+            "name": "# # Page 5 of 5 Genentech: Press Releases | Biotechnology Breakthrough In Breast Cancer Wins FDA Ap...",
+            "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1485894/download-documents?artifactId=ha1Hf_h4gSYkYc0VfEjlWHIZaDaAaN9nvCz7AL9cW3DyFAsdUJ52EEM"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "3ac7d79f-f211-430f-ad8b-943aa3dd73bb",
+      "name": "GENENTECH INC",
+      "entity_type": "Company",
+      "mentions": [
+        "Genentech"
+      ]
+    },
+    {
+      "id": "a9a04198-4429-4edf-be76-a4dd4ff30e81",
+      "name": "Herceptin",
+      "entity_type": "Product",
+      "mentions": [
+        "Herceptin"
+      ]
+    },
+    {
+      "id": "56c512a4-94a8-4ba7-842e-a91442ef82a9",
+      "name": "trastuzumab",
+      "entity_type": "Product",
+      "mentions": [
+        "trastuzumab"
+      ]
+    },
+    {
+      "id": "4fb9bcfa-bd22-4386-a435-947536272ab2",
+      "name": "Dennis Slamon",
+      "entity_type": "Person",
+      "mentions": [
+        "Dr. Dennis Slamon"
+      ]
+    },
+    {
+      "id": "6eb28507-4e5a-48e5-ad6b-eb9a8dbcc7d9",
+      "name": "UCLA",
+      "entity_type": "Organization",
+      "mentions": [
+        "UCLA"
+      ]
+    },
+    {
+      "id": "4f0ecbb6-463a-4582-8aea-f44b2ef66a73",
+      "name": "Axel Ullrich",
+      "entity_type": "Person",
+      "mentions": [
+        "Dr. Axel Ullrich"
+      ]
+    },
+    {
+      "id": "804de5cc-720a-4b68-bff1-b2567b404ec8",
+      "name": "Science",
+      "entity_type": "WorkOfArt",
+      "mentions": [
+        "Science"
+      ]
+    },
+    {
+      "id": "3bcf2c47-51b8-4105-ad72-2c03d52ce354",
+      "name": "Ronald O. Perelman",
+      "entity_type": "Person",
+      "mentions": [
+        "Ronald O. Perelman"
+      ]
+    },
+    {
+      "id": "720b3763-5ad2-41b2-af55-6d3f0f9beca4",
+      "name": "Revlon, Inc.",
+      "entity_type": "Company",
+      "mentions": [
+        "Revlon"
+      ]
+    },
+    {
+      "id": "78473da8-4efd-44f5-baa1-685d206a2e17",
+      "name": "Lilly Tartikoff",
+      "entity_type": "Person",
+      "mentions": [
+        "Lilly Tartikoff"
+      ]
+    },
+    {
+      "id": "bd8cfd94-8007-4416-8fe5-8c372d78deaf",
+      "name": "NIH",
+      "entity_type": "Organization",
+      "mentions": [
+        "NIH"
+      ]
+    },
+    {
+      "id": "247699e6-094a-464d-b016-a945b6f1598d",
+      "name": "U.S. FDA",
+      "entity_type": "Company",
+      "mentions": [
+        "FDA"
+      ]
+    },
+    {
+      "id": "4ac8ed82-6182-4b45-b1c3-431ebe46cc59",
+      "name": "Lifetime",
+      "entity_type": "Organization",
+      "mentions": [
+        "Lifetime"
+      ]
+    },
+    {
+      "id": "9210a025-34fb-48d6-b3a9-bbd9716f0b30",
+      "name": "Living Proof",
+      "entity_type": "WorkOfArt",
+      "mentions": [
+        "Living Proof"
+      ]
+    },
+    {
+      "id": "ec619bf5-e2fd-4bbc-8e37-651a0910e401",
+      "name": "Robert Bazell",
+      "entity_type": "Person",
+      "mentions": [
+        "Robert Bazell"
+      ]
+    },
+    {
+      "id": "559a83e8-5d44-40bf-b224-53820ce70ba4",
+      "name": "HER-2: The Making of Herceptin",
+      "entity_type": "WorkOfArt",
+      "mentions": [
+        "HER-2: The Making of Herceptin"
+      ]
+    },
+    {
+      "id": "5ca31300-a46d-41a1-bd38-05f5276537e1",
+      "name": "Lasker–DeBakey Clinical Medical Research Award",
+      "entity_type": "Award",
+      "mentions": [
+        "Lasker–DeBakey Clinical Medical Research Award"
+      ]
+    },
+    {
+      "id": "98efe273-2feb-4bf5-91e5-6acf41509d00",
+      "name": "Lasker Foundation",
+      "entity_type": "Organization",
+      "mentions": [
+        "Lasker Foundation"
+      ]
+    },
+    {
+      "id": "db3a57e9-ecd6-4ea2-9d75-26eb41878bab",
+      "name": "Bill Young",
+      "entity_type": "Person",
+      "mentions": [
+        "Bill Young"
+      ]
+    },
+    {
+      "id": "b51c171a-4f0e-43ad-b717-4ab82dcca1c5",
+      "name": "H. Michael Shepard",
+      "entity_type": "Person",
+      "mentions": [
+        "H. Michael Shepard"
+      ]
+    }
+  ],
+  "_query": "Did Genentech consider abandoning the Herceptin (trastuzumab) program during development?"
+}

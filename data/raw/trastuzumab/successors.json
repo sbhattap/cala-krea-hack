@@ -1,0 +1,802 @@
+{
+  "content": "## Newer HER2-Targeted Breast Cancer Drugs That Built on Trastuzumab\n\n**Trastuzumab** (brand name Herceptin) was the pioneering anti-HER2 monoclonal antibody, developed by Genentech and approved in **1998**. It revolutionized treatment for HER2-positive breast cancer. Since then, several newer drugs have been developed that build on its foundation:\n\n### Monoclonal Antibodies\n\n- **Pertuzumab (Perjeta)** — A HER2-targeted monoclonal antibody developed by Genentech, approved in **June 2012**. It works by blocking HER2 dimerization (a different mechanism from trastuzumab) and is commonly used *in combination* with trastuzumab and chemotherapy as a first-line regimen.\n\n- **Margetuximab (Margenza)** — An engineered monoclonal antibody that targets HER2 similarly to trastuzumab but is designed to also activate the immune system more strongly, triggering natural killer cells and macrophages against tumor cells. It is used for metastatic HER2-positive breast cancer after prior anti-HER2 therapies.\n\n### Antibody-Drug Conjugates (ADCs)\n\nThese drugs use trastuzumab (or a trastuzumab-based antibody) as a delivery vehicle to bring a cytotoxic payload directly to HER2-expressing cancer cells:\n\n- **Trastuzumab emtansine / T-DM1 (Kadcyla)** — Developed by Genentech, approved in **February 2013**. It combines trastuzumab with the cytotoxin emtansine (DM1), delivering chemotherapy specifically to HER2-positive tumor cells. Used as a second-line treatment after trastuzumab-based therapy, and in the adjuvant setting when residual disease remains after neoadjuvant treatment.\n\n- **Trastuzumab deruxtecan / T-DXd (Enhertu)** — Developed by Daiichi Sankyo and marketed with Genentech, approved in **2024** with a tissue-agnostic indication. It pairs trastuzumab with the topoisomerase I inhibitor deruxtecan. In the DESTINY-Breast03 trial, it showed a **72% reduction in the risk of progression or death** versus T-DM1. Notably, it is also approved for **HER2-low** breast cancer, expanding the treatable population beyond traditional HER2-positive disease.\n\n- **Trastuzumab duocarmazine (SYD985)** — Another trastuzumab-based ADC with a different cytotoxic payload, which has been investigated in clinical trials.\n\n### Tyrosine Kinase Inhibitors (TKIs)\n\nSmall-molecule drugs that block HER2 signaling from inside the cell:\n\n- **Lapatinib (Tykerb)** — One of the earlier oral HER2-targeted TKIs, used in combination with capecitabine or letrozole for metastatic HER2-positive breast cancer.\n\n- **Neratinib (Nerlynx)** — Developed by Puma Biotechnology, approved in **July 2017**. An irreversible pan-HER TKI used as extended adjuvant therapy after trastuzumab, and in combination with capecitabine for metastatic disease.\n\n- **Tucatinib (Tukysa)** — Developed by Array BioPharma/Seagen, approved in **April 2020**. A highly selective HER2 TKI used in combination with trastuzumab and capecitabine, with notable activity against brain metastases from HER2-positive breast cancer.\n\n### Investigational Agents\n\n- **Inetetamab** and **pyrotinib** are newer HER2-targeted agents (a monoclonal antibody and a TKI, respectively) that have shown promising results in clinical trials, particularly in neoadjuvant settings in China.\n\nTogether, these drugs represent a progression from trastuzumab's original monoclonal antibody approach to more sophisticated strategies — combining antibody targeting with cytotoxic payloads (ADCs), engineering enhanced immune activation (margetuximab), and blocking intracellular signaling (TKIs).\n",
+  "explainability": [
+    {
+      "content": "Trastuzumab is the original anti‑HER2 monoclonal antibody launched in 1998, serving as the foundational HER2‑targeted therapy.",
+      "references": [
+        "017bfc55-bf86-401d-803d-9ba1385721bb"
+      ]
+    },
+    {
+      "content": "Pertuzumab is a HER2‑targeted monoclonal antibody developed by Genentech and launched in 2012, used together with trastuzumab, thus building on the trastuzumab platform.",
+      "references": [
+        "4aba5f22-f496-41ee-bb17-1cec3500638a"
+      ]
+    },
+    {
+      "content": "Margetuximab is an engineered monoclonal antibody that targets HER2 similarly to trastuzumab and enhances immune activation, representing a next‑generation trastuzumab‑based antibody.",
+      "references": [
+        "b42eeabe-1519-4b76-846f-7ee6c4258d91"
+      ]
+    },
+    {
+      "content": "Trastuzumab emtansine (T‑DM1) is an antibody‑drug conjugate that couples trastuzumab with the cytotoxic payload emtansine, using trastuzumab as the delivery vehicle.",
+      "references": [
+        "e8dd935b-0316-4021-8bd9-bfe7eabde9a5"
+      ]
+    },
+    {
+      "content": "Trastuzumab deruxtecan (Enhertu) is an antibody‑drug conjugate composed of trastuzumab linked to the cytotoxin deruxtecan, directly building on trastuzumab’s targeting capability.",
+      "references": [
+        "04e018cc-dd97-46e8-bd3f-d37cc42cc07e",
+        "2ea6a5dd-d99c-4777-bbd8-92b5a1a752e8"
+      ]
+    },
+    {
+      "content": "Trastuzumab duocarmazine (SYD985) is another ADC that uses trastuzumab as the antibody component to deliver a different cytotoxic payload, further extending the trastuzumab platform.",
+      "references": [
+        "c151ba99-7b2d-41f6-869f-a46b166b45de"
+      ]
+    }
+  ],
+  "context": [
+    {
+      "id": "017bfc55-bf86-401d-803d-9ba1385721bb",
+      "content": "Entity: trastuzumab (type: Product, ID: 56c512a4-94a8-4ba7-842e-a91442ef82a9). Properties: name = trastuzumab; description = An anti‑HER2 monoclonal antibody medication for HER2‑positive breast cancer, developed by Genentech and launched in 1998.; launch_date = 1998-09-25; category = anti-HER2 monoclonal antibody. Outgoing relationship types CREATED_BY: GENENTECH, INC..",
+      "origins": [
+        {
+          "source": {
+            "name": "Twenty-five years with HER2 targeted therapy",
+            "url": "https://pmc.ncbi.nlm.nih.gov/"
+          },
+          "document": {
+            "name": "Twenty-five years with HER2 targeted therapy",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11193558"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/"
+          },
+          "document": {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Trastuzumab"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "www.criver.com",
+            "url": "https://www.criver.com/"
+          },
+          "document": {
+            "name": "www.criver.com",
+            "url": "https://www.criver.com/eureka/brief-history-her2herceptin"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "www.drugs.com",
+            "url": "https://www.drugs.com/"
+          },
+          "document": {
+            "name": "www.drugs.com",
+            "url": "https://www.drugs.com/history/herceptin.html"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "Alcohol and Breast Cancer: What’s the Risk?",
+            "url": "https://blog.dana-farber.org/"
+          },
+          "document": {
+            "name": "Alcohol and Breast Cancer: What’s the Risk?",
+            "url": "https://blog.dana-farber.org/insight/2021/10/what-are-the-molecular-subtypes-of-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04e018cc-dd97-46e8-bd3f-d37cc42cc07e",
+      "content": "Entity: trastuzumab deruxtecan (type: Product, ID: 3d77f5e2-b38f-4e2e-8de1-5006005296b6). Properties: name = trastuzumab deruxtecan; description = An antibody‑drug conjugate approved for the treatment of HER2‑positive cancers.; launch_date = 2024-04-05; category = antibody-drug conjugate. Outgoing relationship types CREATED_BY: GENENTECH, INC.. Outgoing relationship types MANUFACTURED_BY: Daiichi Sankyo.",
+      "origins": [
+        {
+          "source": {
+            "name": "onclive.com",
+            "url": "https://www.onclive.com/"
+          },
+          "document": {
+            "name": "onclive.com",
+            "url": "https://www.onclive.com/view/agnostic-approval-of-trastuzumab-deruxtecan-ushers-in-new-option-for-advanced-her2-solid-tumors"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "Nature",
+            "url": "https://www.nature.com/"
+          },
+          "document": {
+            "name": "Nature",
+            "url": "https://www.nature.com/articles/s41591-026-04543-y"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "braintumor.org",
+            "url": "https://braintumor.org/"
+          },
+          "document": {
+            "name": "braintumor.org",
+            "url": "https://braintumor.org/news/can-newly-approved-tissue-agnostic-drugs-benefit-pediatric-high-grade-glioma-patients"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e8dd935b-0316-4021-8bd9-bfe7eabde9a5",
+      "content": "Entity: T‑DM1 (type: Product, ID: 78ca97f7-b3a4-42e9-886a-43d53d003dde). Properties: name = T‑DM1; description = An antibody‑drug conjugate targeting HER2-positive breast cancer, developed and manufactured by Genentech and launched in 2013.; launch_date = 2013-02-22; category = antibody-drug conjugate. Outgoing relationship types CREATED_BY: GENENTECH, INC.. Outgoing relationship types MANUFACTURED_BY: GENENTECH, INC..",
+      "origins": [
+        {
+          "source": {
+            "name": "www.fiercebiotech.com",
+            "url": "https://www.fiercebiotech.com/"
+          },
+          "document": {
+            "name": "www.fiercebiotech.com",
+            "url": "https://www.fiercebiotech.com/biotech/fda-approves-genentech-s-kadcyla-ado-trastuzumab-emtansine-first-antibody-drug-conjugate"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "www.accessdata.fda.gov",
+            "url": "https://www.accessdata.fda.gov/"
+          },
+          "document": {
+            "name": "www.accessdata.fda.gov",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2013/125427Orig1s000ChemR.pdf"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "ImmunoGen, Inc. Announces FDA Approval of Kadcyla (Ado-Trastuzumab Emtansine; Also Known as T-DM1)",
+            "url": "https://news.abbvie.com/"
+          },
+          "document": {
+            "name": "ImmunoGen, Inc. Announces FDA Approval of Kadcyla (Ado-Trastuzumab Emtansine; Also Known as T-DM1)",
+            "url": "https://news.abbvie.com/2013-02-22-ImmunoGen,-Inc-Announces-FDA-Approval-of-Kadcyla-Ado-Trastuzumab-Emtansine-Also-Known-as-T-DM1"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "www.drugs.com",
+            "url": "https://www.drugs.com/"
+          },
+          "document": {
+            "name": "www.drugs.com",
+            "url": "https://www.drugs.com/history/kadcyla.html"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "aacrjournals.org",
+            "url": "https://aacrjournals.org/"
+          },
+          "document": {
+            "name": "aacrjournals.org",
+            "url": "https://aacrjournals.org/clincancerres/article/20/17/4436/13323/FDA-Approval-Ado-Trastuzumab-Emtansine-for-the"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "Genotipia | Cursos de Genética Médica y Noticias de Actualidad",
+            "url": "https://genotipia.com/"
+          },
+          "document": {
+            "name": "Genotipia | Cursos de Genética Médica y Noticias de Actualidad",
+            "url": "https://genotipia.com/oncologia-de-precision-cancer-de-mama"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "pubmed.ncbi.nlm.nih.gov",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/"
+          },
+          "document": {
+            "name": "pubmed.ncbi.nlm.nih.gov",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23620199"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4aba5f22-f496-41ee-bb17-1cec3500638a",
+      "content": "Entity: Pertuzumab (type: Product, ID: a52f0bd8-d9da-4634-b7e2-ced97b1ae365). Properties: name = Pertuzumab; description = A HER2‑targeted monoclonal antibody developed and manufactured by Genentech, launched in 2012.; launch_date = 2012-06-08; category = monoclonal antibody. Outgoing relationship types CREATED_BY: GENENTECH, INC..",
+      "origins": [
+        {
+          "source": {
+            "name": "https://cancerbiologyresearch.com/tag/her2-targeted-therapy/feed",
+            "url": "https://cancerbiologyresearch.com/"
+          },
+          "document": {
+            "name": "https://cancerbiologyresearch.com/tag/her2-targeted-therapy/feed",
+            "url": "https://cancerbiologyresearch.com/tag/her2-targeted-therapy/feed"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "Home | Value-Based Cancer Care",
+            "url": "https://www.valuebasedcancer.com/"
+          },
+          "document": {
+            "name": "Home | Value-Based Cancer Care",
+            "url": "https://www.valuebasedcancer.com/issues/2012/june-2012-vol-3-no-4/1707-fda-expedites-approval-of-pertuzumab-for-metastatic-her2-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-regular-approval-pertuzumab-adjuvant-treatment-her2-positive-breast-cancer",
+            "url": "https://www.fda.gov/"
+          },
+          "document": {
+            "name": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-regular-approval-pertuzumab-adjuvant-treatment-her2-positive-breast-cancer",
+            "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-regular-approval-pertuzumab-adjuvant-treatment-her2-positive-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "https://www.lbbc.org/about-breast-cancer/treatments/targeted-therapy/for-her2-positive/pertuzumab",
+            "url": "https://www.lbbc.org/"
+          },
+          "document": {
+            "name": "https://www.lbbc.org/about-breast-cancer/treatments/targeted-therapy/for-her2-positive/pertuzumab",
+            "url": "https://www.lbbc.org/about-breast-cancer/treatments/targeted-therapy/for-her2-positive/pertuzumab"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "Selleck Chemicals is your Trusted Supplierfor Inhibitors, Antibodies, Proteins, Kits and Reagents",
+            "url": "https://www.selleck.au/"
+          },
+          "document": {
+            "name": "Selleck Chemicals is your Trusted Supplierfor Inhibitors, Antibodies, Proteins, Kits and Reagents",
+            "url": "https://www.selleck.au/products/pertuzumab.html"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "Targeted Oncology Case-Based Roundtable | Community Case Forum Events",
+            "url": "https://join.targetedonc.com/"
+          },
+          "document": {
+            "name": "Targeted Oncology Case-Based Roundtable | Community Case Forum Events",
+            "url": "https://join.targetedonc.com/view/phase-iii-trial-results-confirm-adjuvant-pertuzumab-success-in-her2-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "Targeted Oncology Case-Based Roundtable | Community Case Forum Events",
+            "url": "https://join.targetedonc.com/"
+          },
+          "document": {
+            "name": "Targeted Oncology Case-Based Roundtable | Community Case Forum Events",
+            "url": "https://join.targetedonc.com/view/aphinity-trial-pertuzumab-for-patients-with-her2-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "https://www.drugs.com/history/perjeta.html",
+            "url": "https://www.drugs.com/"
+          },
+          "document": {
+            "name": "https://www.drugs.com/history/perjeta.html",
+            "url": "https://www.drugs.com/history/perjeta.html"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7a3f9998-e4be-468b-bf4f-49539c6d9cc1",
+      "content": "Entity: Tucatinib (type: Product, ID: 070fc6f1-6bc8-4b9c-b2cc-acb11dd6efa9). Properties: name = Tucatinib; description = A HER2‑positive breast cancer targeted therapy tyrosine‑kinase inhibitor launched in 2020, developed by Array BioPharma and manufactured by Seagen.; launch_date = 2020-04-17; category = targeted therapy. Outgoing relationship types CREATED_BY: Array BioPharma Inc..",
+      "origins": [
+        {
+          "source": {
+            "name": "Tucatinib - Array BioPharma/Seagen",
+            "url": "https://adisinsight.springer.com/"
+          },
+          "document": {
+            "name": "Tucatinib - Array BioPharma/Seagen",
+            "url": "https://adisinsight.springer.com/drugs/800021257"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "www.sciencedirect.com",
+            "url": "https://www.sciencedirect.com/"
+          },
+          "document": {
+            "name": "www.sciencedirect.com",
+            "url": "https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/tucatinib"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/"
+          },
+          "document": {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Tucatinib"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "go.drugbank.com",
+            "url": "https://go.drugbank.com/"
+          },
+          "document": {
+            "name": "go.drugbank.com",
+            "url": "https://go.drugbank.com/drugs/DB11652"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "pubmed.ncbi.nlm.nih.gov",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/"
+          },
+          "document": {
+            "name": "pubmed.ncbi.nlm.nih.gov",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32548668"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b466fbda-cd48-4b7d-b90c-80d0d022d3f7",
+      "content": "Entity: neratinib (type: Product, ID: 95ec2635-ddcc-4522-8eaf-88d7d9dc1f74). Properties: name = neratinib; description = A tyrosine kinase inhibitor used in biomarker-directed breast cancer trials, launched in 2017 and developed by Puma Biotechnology.; launch_date = 2017-07-17; category = Tyrosine kinase inhibitor. Outgoing relationship types CREATED_BY: PUMA BIOTECHNOLOGY INC.",
+      "origins": [
+        {
+          "source": {
+            "name": "Neratinib - Puma Biotechnology",
+            "url": "https://adisinsight.springer.com/"
+          },
+          "document": {
+            "name": "Neratinib - Puma Biotechnology",
+            "url": "https://adisinsight.springer.com/drugs/800021154"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "www.clinicaltrialsarena.com",
+            "url": "https://www.clinicaltrialsarena.com/"
+          },
+          "document": {
+            "name": "www.clinicaltrialsarena.com",
+            "url": "https://www.clinicaltrialsarena.com/projects/nerlynx-neratinib-for-the-treatment-of-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "go.drugbank.com",
+            "url": "https://go.drugbank.com/"
+          },
+          "document": {
+            "name": "go.drugbank.com",
+            "url": "https://go.drugbank.com/drugs/DB11828"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "pubmed.ncbi.nlm.nih.gov",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/"
+          },
+          "document": {
+            "name": "pubmed.ncbi.nlm.nih.gov",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29523624"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        },
+        {
+          "source": {
+            "name": "www.lbbc.org",
+            "url": "https://www.lbbc.org/"
+          },
+          "document": {
+            "name": "www.lbbc.org",
+            "url": "https://www.lbbc.org/about-breast-cancer/treatments/targeted-therapy/for-her2-positive/neratinib"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b42eeabe-1519-4b76-846f-7ee6c4258d91",
+      "content": "Entity: Margetuximab (type: Product, ID: f06c1879-acf6-4190-91af-2470dcb1788a). Properties: name = Margetuximab; description = a monoclonal antibody that targets HER2 receptors for cancer therapy.",
+      "origins": []
+    },
+    {
+      "id": "2ea6a5dd-d99c-4777-bbd8-92b5a1a752e8",
+      "content": "Trastuzumab deruxtecan (brand name Enhertu®) is an antibody-drug conjugate composed of trastuzumab, which targets the drug to HER2 receptors on breast cancer cells, and deruxtecan, a cytotoxin which then kills those cells. Clinical trials called DESTINY- Breast03 and DESTINY- Breast04 have recently shown that this medicine improves survival in two groups of patients – those whose HER2-positive metastatic breast cancer has returned after first line treatment with trastuzumab and taxanes, and [...] Margetuximab (brand name Margenza®) is a synthesised monoclonal antibody that targets the HER2 receptor, blocking cell proliferation as trastuzumab does, and also activates the immune system so that the tumour cells are attacked by natural killer cells and macrophages. It can be used to treat metastatic HER2-positive breast cancer when other anti-HER2 therapies have stopped working.\n\nTyrosine kinase inhibitors [...] Trastuzumab emtansine (brand name Kadcyla®) This drug is used in patients with HER2-positive metastatic breast cancer who have received prior trastuzumab and chemotherapy separately or together and either received prior therapy for metastatic disease, or who relapsed within 6 months of completing adjuvant therapy. As it is used after earlier treatments for metastatic disease it is known as a ‘second-line’ strategy. Trastuzumab emtansine is an antibody-drug conjugate that combines a cytotoxin",
+      "origins": [
+        {
+          "source": {
+            "name": "Breast Cancer Aotearoa",
+            "url": "https://www.breastcancer.org.nz/aboutBC/Treatment/Targeted-Therapy"
+          },
+          "document": {
+            "name": "Targeted drug therapy | BCAC Breast Cancer Aotearoa Coalition",
+            "url": "https://www.breastcancer.org.nz/aboutBC/Treatment/Targeted-Therapy"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d502c3e0-cd3c-4706-9f06-66493532be19",
+      "content": "of the phase 3 DESTINY-Breast03 trial (NCT03529110) of fam-trastuzumab deruxtecan-nxki (Enhertu) in patients with HER2-positive breast cancer. Based on the primary analysis of the study, trastuzumab deruxtecan showed a 72% reduction in the risk of progression or death versus trastuzumab emtansine (TDM-1) in these patients and adverse events were manageable. These patients must have received a prior trastuzumab (Herceptin)-based regimen, but Hamilton says there are now trials investigating [...] investigating earlier use of trastuzumab deruxtecan in the frontline, adjuvant, and neoadjuvant settings, with the latter 2 showing whether this will be a curative option for patients. Another area that needs to be investigated is the sequencing of current agents once trastuzumab deruxtecan is used in the second line. Other agents used in HER2-positive disease including capecitabine (Xeloda), tucatinib (Tukysa), and trastuzumab (Herceptin) will need to be investigated in terms of their efficacy [...] of their efficacy following the newer agent and what the optimal sequence is. The role of TDM-1 as a subsequent treatment after trastuzumab deruxtecan will also need to be determined. 0:08 | We are going to continue to bring trastuzumab deruxtecan up into earlier settings, meaning there are ongoing trials in the first-line with trastuzumab deruxtecan as well as both neoadjuvant and adjuvant studies, so studies where patients are in the curative setting. If we're conceivably using trastuzumab",
+      "origins": [
+        {
+          "source": {
+            "name": "targetedonc.com",
+            "url": "https://www.targetedonc.com/view/next-steps-following-destiny-breast03-for-her2-breast-cancer"
+          },
+          "document": {
+            "name": "Next Steps Following DESTINY-Breast03 for HER2+ Breast Cancer | Targeted Oncology - Immunotherapy, Biomarkers, and Cancer Pathways",
+            "url": "https://www.targetedonc.com/view/next-steps-following-destiny-breast03-for-her2-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c151ba99-7b2d-41f6-869f-a46b166b45de",
+      "content": "and payloads. Moreover, trastuzumab deruxtecan has enhanced the efficacy of trastuzumab emtansine, and the new drug trastuzumab duocarmazine is currently undergoing clinical trials to assess its effect. Lapitinib, neratinib and tucatinib have been approved for HER2-positive metastasis patients, however clinical trials are currently ongoing to optimize combined strategies, to reduce toxicity, and to better define the useful setting. HER2-positive; metastatic; clinical resistance. Based on the [...] subtype. Consequently, with this biological rationale, the inhibition of the PI3K/AKT/mTOR pathway has been proposed as a therapeutic strategy to overcome resistance to anti-HER2 BC treatments. Clinical trials have shown that the combination of everolimus, trastuzumab, and paclitaxel can improve progression-free survival (PFS) in patients with hormone receptor (HR)-negative and HER2-positive advanced BC . [...] been reformulated and, on the other hand, the combination of anti-HER2 therapies with new drugs has been also tested. HER2-positive breast cancer accounts for 15–20% of all breast cancer cases. This article reviews the main mechanisms underlying resistance to anti-HER2 treatments, focusing on newer HER2-targeted therapies. The progress in anti-HER2 drugs includes the development of novel antibody–drug conjugates with improvements in the conjugation process and novel linkers and payloads.",
+      "origins": [
+        {
+          "source": {
+            "name": "mdpi.com",
+            "url": "https://www.mdpi.com/2072-6694/15/18/4522"
+          },
+          "document": {
+            "name": "Clinical Impact of New Treatment Strategies for HER2-Positive Metastatic Breast Cancer Patients with Resistance to Classical Anti-HER Therapies",
+            "url": "https://www.mdpi.com/2072-6694/15/18/4522"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b64c2da2-3417-4e8c-a46f-2b2f4608e392",
+      "content": "dependence of the tumour on HER2, coupled with effective HER2-targeted drugs such as trastuzumab, pertuzumab and most recently, tucatinib and trastuzumab deruxtecan (T-DXd), have contributed to these survival improvements in patients with HER2-positive (HER2+) BC4. As such, the goal of therapy in HER2+ BC is to expand the number of patients cured in the early setting and prevent recurrence. Phase I and II clinical studies demonstrating activity of trastuzumab were followed by a phase III [...] # Targeting HER2-positive breast cancer: advances and future directions. Drug Discovery · 2022-11-07 · 22(2):101-126 · DOI: 10.1038/s41573-022-00579-0 · PMID: 36344672 · PMCID: PMC9640784. The long-sought discovery of HER2 as an actionable and highly sensitive therapeutic target was a major breakthrough for the treatment of highly aggressive HER2-positive breast cancer, leading to approval of the first HER2-targeted drug — the monoclonal antibody trastuzumab — almost 25 years ago. Since then, [...] to harness the immune system. The discovery of the monoclonal antibody trastuzumab almost 25 years ago revolutionized treatment and drug development for HER2+ breast cancer. review the current standard of care for HER2+ breast cancer, describe mechanisms of drug resistance and focus on next-generation platforms and therapies for the treatment of this disease. Innovations in pathology, molecular biology and drug development have enabled HER2-positive breast cancer (BC), a historically aggressive",
+      "origins": [
+        {
+          "source": {
+            "name": "pmc.ncbi.nlm.nih.gov",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9640784"
+          },
+          "document": {
+            "name": "Targeting HER2-positive breast cancer: advances and future directions",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9640784"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "52e19cb2-1584-43ee-bbd6-41197608a3a1",
+      "content": "is to have a true multidisciplinary team. And some of the newer drugs for HER2-positive metastatic breast cancer, including small molecule tyrosine kinase inhibitors like tucatinib in combination with trastuzumab and capecitabine, as well as some of the newer antibody drug conjugates, including both trastuzumab emtansine and trastuzumab deruxtecan, clearly have activity against CNS disease from HER2-positive metastatic breast cancer. So, when we have a patient who has this problem, we often [...] # CNS Metastases in HER2+ Metastatic Breast Cancer. Editor’s note: According to results from the phase 3 HER2CLIMB-02 study, the combination of tucatinib and ado-trastuzumab emtansine (T-DM1) appreciably improved progression-free survival versus placebo plus T-DM1 in patients with previously treated HER2-positive breast cancer, including those with brain metastases.[1;)]. The DESTINY-Breast12 trial demonstrated that over half of patients with pretreated HER2-positive metastatic breast cancer, [...] breast cancer, including those with brain metastases, maintained health-related quality of life and neurological stability at 12 months while receiving trastuzumab deruxtecan (T-DXd). Brain or central nervous system (CNS) metastases among patients with human epidermal growth factor receptor 2 positive (HER2+) metastatic breast cancer (MBC) pose difficult treatment decisions and increase patient symptom burden.. Brain metastases from HER2 (human epidermal growth factor receptor 2)-positive",
+      "origins": [
+        {
+          "source": {
+            "name": "decisionpoint.medscape.com",
+            "url": "https://decisionpoint.medscape.com/oncology/viewarticle/992586"
+          },
+          "document": {
+            "name": "CNS Metastases in HER2+ Metastatic Breast Cancer",
+            "url": "https://decisionpoint.medscape.com/oncology/viewarticle/992586"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ab32337a-a2dc-4365-ac5f-16c1ded67303",
+      "content": "and pyrotinib eliminated tumors prior to surgery |.  Trastuzumab and pertuzumab are HER2-targeted monoclonal antibodies commonly used to treat HER2+ breast cancer. + Trastuzumab and pertuzumab eventually stop working for 22% to 25% of people with HER2+ breast cancer. + Inetetamab is a novel HER2-targeted monoclonal antibody that blocks HER2 signaling and produces a stronger anti-cancer immune response than trastuzumab.  Inetetamab and pyrotinib have been shown to be safe and effective in trials [...] burden and hormone receptor-negative disease, they come from a single-arm phase 2 trial. Randomized studies comparing this approach with current standards, such as trastuzumab and pertuzumab-based regimens as well as the more recently approved trastuzumab-derutxtecan, will be essential before this strategy can be widely adopted,” said Rebecca Alexandra Dent, MD, Deputy Chief Executive Officer (Clinical) and Senior Consultant at the National Cancer Centre Singapore and an ASCO Expert in breast [...] effective in trials of people with metastatic HER2+ breast cancer. — For people with locally advanced HER2+ breast cancer, neoadjuvant treatment with the novel HER2-targeted drugs inetetamab and pyrotinib eliminated tumors prior to surgery in the single-arm phase 2 neoPICD trial conducted in China. The phase 2 neoPICD trial enrolled 124 people with stage II to III non-metastatic HER2+ breast cancer with a high tumor burden.",
+      "origins": [
+        {
+          "source": {
+            "name": "asco.org",
+            "url": "https://www.asco.org/about-asco/press-center/neoadjuvant-inetetamab-pyrotinib-eliminates-tumors-breast-cancer"
+          },
+          "document": {
+            "name": "Locally Advanced Breast Cancer Treated With Novel HER2-Targeted Drugs Eliminates Tumors Prior to Surgery - ASCO",
+            "url": "https://www.asco.org/about-asco/press-center/neoadjuvant-inetetamab-pyrotinib-eliminates-tumors-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "56c512a4-94a8-4ba7-842e-a91442ef82a9",
+      "name": "trastuzumab",
+      "entity_type": "Product",
+      "mentions": [
+        "Trastuzumab",
+        "Herceptin"
+      ]
+    },
+    {
+      "id": "3ac7d79f-f211-430f-ad8b-943aa3dd73bb",
+      "name": "GENENTECH INC",
+      "entity_type": "Company",
+      "mentions": [
+        "Genentech"
+      ]
+    },
+    {
+      "id": "a52f0bd8-d9da-4634-b7e2-ced97b1ae365",
+      "name": "Pertuzumab",
+      "entity_type": "Product",
+      "mentions": [
+        "Perjeta",
+        "Pertuzumab"
+      ]
+    },
+    {
+      "id": "f06c1879-acf6-4190-91af-2470dcb1788a",
+      "name": "Margetuximab",
+      "entity_type": "Product",
+      "mentions": [
+        "Margetuximab",
+        "Margenza"
+      ]
+    },
+    {
+      "id": "78ca97f7-b3a4-42e9-886a-43d53d003dde",
+      "name": "T‑DM1",
+      "entity_type": "Product",
+      "mentions": [
+        "Trastuzumab emtansine",
+        "T-DM1",
+        "Kadcyla"
+      ]
+    },
+    {
+      "id": "85457b56-b99a-4105-8bbb-b7b74f641017",
+      "name": "Daiichi Sankyo",
+      "entity_type": "Organization",
+      "mentions": [
+        "Daiichi Sankyo"
+      ]
+    },
+    {
+      "id": "3d77f5e2-b38f-4e2e-8de1-5006005296b6",
+      "name": "trastuzumab deruxtecan",
+      "entity_type": "Product",
+      "mentions": [
+        "Trastuzumab deruxtecan",
+        "T-DXd",
+        "Enhertu"
+      ]
+    },
+    {
+      "id": "8859b031-aba4-4fc6-8745-e5c5f897ab45",
+      "name": "DESTINY-Breast03",
+      "entity_type": "Event",
+      "mentions": [
+        "DESTINY-Breast03"
+      ]
+    },
+    {
+      "id": "6cde8661-6e5f-471e-b11f-80fb70ed16c7",
+      "name": "Trastuzumab duocarmazine",
+      "entity_type": "Product",
+      "mentions": [
+        "SYD985",
+        "Trastuzumab duocarmazine"
+      ]
+    },
+    {
+      "id": "aeabfe1d-cabd-46e7-8a4b-306228a6bbc9",
+      "name": "lapatinib",
+      "entity_type": "Product",
+      "mentions": [
+        "Tykerb",
+        "Lapatinib"
+      ]
+    },
+    {
+      "id": "34c4c927-b182-47ce-92f6-5fb2db46c7a5",
+      "name": "Capecitabine",
+      "entity_type": "Product",
+      "mentions": [
+        "Capecitabine"
+      ]
+    },
+    {
+      "id": "17be4348-8677-444a-a2e0-c0a72b006b02",
+      "name": "Letrozole",
+      "entity_type": "Product",
+      "mentions": [
+        "Letrozole"
+      ]
+    },
+    {
+      "id": "95ec2635-ddcc-4522-8eaf-88d7d9dc1f74",
+      "name": "neratinib",
+      "entity_type": "Product",
+      "mentions": [
+        "Neratinib",
+        "Nerlynx"
+      ]
+    },
+    {
+      "id": "28a0ed5d-58a5-4fe8-8719-465bbeffd238",
+      "name": "PUMA BIOTECHNOLOGY INC",
+      "entity_type": "Company",
+      "mentions": [
+        "Puma Biotechnology"
+      ]
+    },
+    {
+      "id": "070fc6f1-6bc8-4b9c-b2cc-acb11dd6efa9",
+      "name": "Tucatinib",
+      "entity_type": "Product",
+      "mentions": [
+        "Tucatinib",
+        "Tukysa"
+      ]
+    },
+    {
+      "id": "f88057c7-2d33-4b66-806b-1493b6d52254",
+      "name": "Array BioPharma Inc.",
+      "entity_type": "Company",
+      "mentions": [
+        "Array BioPharma"
+      ]
+    },
+    {
+      "id": "0f626f5b-d520-4733-b31f-a921ca994254",
+      "name": "SEAGEN INC",
+      "entity_type": "Company",
+      "mentions": [
+        "Seagen"
+      ]
+    },
+    {
+      "id": "293b1b49-fe59-4a48-af68-68a6a31e04a5",
+      "name": "Inetetamab",
+      "entity_type": "Product",
+      "mentions": [
+        "Inetetamab"
+      ]
+    },
+    {
+      "id": "f1f6d055-f318-49e3-ab04-0b6013f83dfd",
+      "name": "pyrotinib",
+      "entity_type": "Product",
+      "mentions": [
+        "pyrotinib"
+      ]
+    },
+    {
+      "id": "b1d4c015-4b83-4675-b006-5194b2aa54d2",
+      "name": "China",
+      "entity_type": "Country",
+      "mentions": [
+        "China"
+      ]
+    }
+  ],
+  "_query": "Which newer HER2-targeted breast cancer drugs built on trastuzumab?"
+}

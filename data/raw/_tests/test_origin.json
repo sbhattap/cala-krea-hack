@@ -1,0 +1,335 @@
+{
+  "content": "## The Discovery of Herceptin (Trastuzumab)\n\nHerceptin (trastuzumab) was the first monoclonal antibody designed to target a cancer-causing protein — specifically the HER2 (human epidermal growth factor receptor 2) protein. Its development emerged from the complementary work of three scientists: **Axel Ullrich** and **H. Michael Shepard** at Genentech, and **Dennis Slamon** at UCLA. The drug was approved by the FDA on **September 25, 1998**, for the treatment of HER2-positive metastatic breast cancer.\n\n---\n\n### Axel Ullrich and the Cloning of HER2\n\nIn the mid-1980s, **Axel Ullrich**, a young scientist at Genentech, was exploring the link between growth factors and cancer. In **1985**, Ullrich and his colleagues reported the identification of a human gene with homology to the chicken oncogene v-erbB and EGF1, which they named **HER2** (human EGF receptor 2). HER2 was also found to be highly homologous to **neu**, a rat oncogene. This discovery of the HER2 gene and its role in cell growth and proliferation was a foundational step toward targeted cancer therapy.\n\n### Dennis Slamon and the Clinical Connection\n\n**Dennis Slamon**, a physician-scientist at UCLA who had trained at the University of Chicago (completing both his MD and PhD there), had a long-standing interest in oncology and the variable expression of oncogenes across tumor types. After hearing a talk by Ullrich about his work on growth-regulating genes, Slamon approached Ullrich about collaborating. Together, they evaluated the expression of the growth factors and oncogenes identified by Ullrich's group in Slamon's collection of human tumors.\n\nIn the **early 1980s**, Slamon identified a new, more aggressive subtype of breast cancer — **HER2-positive (HER2+)** — and showed that the HER2 gene was **amplified and overexpressed in approximately 25–30% of breast cancer patients**. This overexpression was significantly associated with disease aggressiveness, high recurrence rates, and poor prognosis. Slamon's key insight was that if researchers could identify what was \"broken\" in a cancer cell compared to a normal cell, they could target the defect specifically without harming healthy tissue.\n\n### Genentech's Role and the Development of the Antibody\n\nGenentech, founded in 1976 in South San Francisco, served as the institutional home for much of this research. While Ullrich was discovering HER2, another Genentech scientist, **H. Michael Shepard**, was studying tumor necrosis factor (TNF) resistance. Shepard's lab demonstrated that stimulation of tyrosine kinase receptors by growth factors could prevent killing of TNF-sensitive tumors. When Ullrich's group identified HER2 as a receptor tyrosine kinase, the two lines of research converged.\n\nShepard and colleagues developed a monoclonal antibody — **4D5** — that inhibited the growth of HER2-overexpressing cancer cells and restored TNF sensitivity. This antibody was later humanized and became **trastuzumab (Herceptin)**.\n\n### From Lab to Clinic\n\nSlamon led the **first human clinical trial of trastuzumab at UCLA in 1990**. Over approximately 12 years, Slamon guided the antibody through animal studies and clinical trials. Randomized trials showed that Herceptin, when coupled with chemotherapy, **stalled HER2-positive breast cancer progression and extended overall survival** from 20.3 months to 25.1 months in late-stage disease — a remarkable improvement in oncology. Over 2.3 million individuals have been treated with the drug.\n\n### Recognition\n\nIn **2019**, Shepard, Slamon, and Ullrich were jointly awarded the **Lasker–DeBakey Clinical Medical Research Award** — widely regarded as America's top biomedical research prize — for their groundbreaking development of Herceptin and for demonstrating that monoclonal antibodies were a viable strategy to treat solid tumors, opening a new era of targeted cancer therapy.\n",
+  "explainability": [
+    {
+      "content": "In 1985, Axel Ullrich at Genentech cloned the HER2 gene, establishing its role in cell growth and linking it to the oncogene neu.",
+      "references": [
+        "e2af6de9-dd74-470f-9dd9-3228a2103492"
+      ]
+    },
+    {
+      "content": "Dennis Slamon at UCLA, after hearing Ullrich’s talk, investigated HER2 expression in breast tumors and found that HER2 was amplified and overexpressed in about 25‑30% of cases, correlating with aggressive disease.",
+      "references": [
+        "e44e1931-f6e0-46fa-86f2-614b30a357a2",
+        "1e9227ce-9d9c-4411-9e9b-fac97042c425"
+      ]
+    },
+    {
+      "content": "Shepard’s lab at Genentech, working on TNF resistance, created the monoclonal antibody 4D5 that bound HER2 and inhibited growth of HER2‑overexpressing cancer cells, laying the groundwork for trastuzumab.",
+      "references": [
+        "b43a3626-c5a4-4822-91b0-b3819f322a2a",
+        "e2af6de9-dd74-470f-9dd9-3228a2103492"
+      ]
+    },
+    {
+      "content": "The 4D5 antibody was humanized, becoming trastuzumab (Herceptin), the first monoclonal antibody targeting an oncogenic protein.",
+      "references": [
+        "d8e5e757-6625-4ec8-a3e8-8d4111e437a0",
+        "e44e1931-f6e0-46fa-86f2-614b30a357a2"
+      ]
+    },
+    {
+      "content": "Slamon led the first human clinical trial of trastuzumab at UCLA in 1990, guiding its development through animal studies and subsequent trials.",
+      "references": [
+        "8c620832-07c9-420d-b754-586929b2e8ed",
+        "578e7180-d10a-460d-9c55-2a579223a2ef"
+      ]
+    },
+    {
+      "content": "Trastuzumab received FDA approval on September 25, 1998, confirming its efficacy in HER2‑positive metastatic breast cancer.",
+      "references": [
+        "d8e5e757-6625-4ec8-a3e8-8d4111e437a0",
+        "e44e1931-f6e0-46fa-86f2-614b30a357a2"
+      ]
+    },
+    {
+      "content": "In 2019, Ullrich, Shepard, and Slamon were jointly awarded the Lasker‑DeBakey Clinical Medical Research Award for their collaborative discovery and development of Herceptin.",
+      "references": [
+        "d8e5e757-6625-4ec8-a3e8-8d4111e437a0",
+        "c12a3ee4-de4a-435e-a049-91bd581a05c5"
+      ]
+    }
+  ],
+  "context": [
+    {
+      "id": "e2af6de9-dd74-470f-9dd9-3228a2103492",
+      "content": "H. Michael Shepard, Dennis J. Slamon, and Axel Ull-rich (Figure 1) for their contributions to the development of the HER2-targeting monoclonal antibody (mAb), Herceptin (also known as trastuzumab), the first of its kind to effectively target a cancer- associated protein and increase survival of women with HER2+ breast cancer. [...] Around the time of his discovery of HER2, Ullrich had given a talk at a confer-ence that caught the eye of Dennis Slamon, a UCLA-based physician-scientist with a long-standing interest in oncology. Slam-on completed both his MD and PhD at the University of Chicago, where he did his dis-sertation research with Winston Anderson and Werner Kirsten on the Kirsten sarco-ma virus. He moved to UCLA for special-Copyright: © 2019, American Society for Clinical Investigation Reference information: J Clin [...] While Shepard was looking to unravel the mechanisms underlying TNF resis-tance, Axel Ullrich, also at Genentech, was exploring the link between growth fac-tors and cancer. In particular, Ullrich was interested in growth factor receptors, and in 1985, Ullrich and colleagues reported the identification of a human gene with homology to the chicken oncogene v-erbB and EGF1, which they named human EGF receptor 2 (HER2) (4). Moreover, HER2 was found to be highly homologous to neu, a rat oncogene that",
+      "origins": [
+        {
+          "source": {
+            "name": "dm5migu4zj3pb.cloudfront.net",
+            "url": "https://dm5migu4zj3pb.cloudfront.net/manuscripts/132000/132533/JCI132533.v2.pdf"
+          },
+          "document": {
+            "name": "[PDF] H. Michael Shepard, Dennis J. Slamon, and Axel Ullrich honored ...",
+            "url": "https://dm5migu4zj3pb.cloudfront.net/manuscripts/132000/132533/JCI132533.v2.pdf"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d8e5e757-6625-4ec8-a3e8-8d4111e437a0",
+      "content": "an antibody called Herceptin that targets HER2. When Herceptin was approved in 1998 it was the first monoclonal antibody against an oncogene. This single drug changed our entire approach to cancer therapy. It emerged from the work of 3 scientists: Axel Ullrich and Michael Shepard of Genentech, and Dennis Slamon of UCLA. [...] The 2019 Lasker~DeBakey Clinical Medical Research Award honors three scientists—H. Michael Shepard, Dennis J. Slamon, and Axel Ullrich —who invented Herceptin, the first monoclonal antibody that blocks a cancer-causing protein, and developed it into a life-saving therapy for women with breast cancer. The innovation reduces the risk of recurrence and extends survival time for patients with metastatic as well as early-stage disease. Every year, more than 50,000 women in the US are diagnosed with [...] The HER2 oncogene was discovered in 1985 by Axel Ullrich, a young scientist at a young company called Genentech. Genentech was founded in 1976 in a vacant warehouse in a rundown industrial district called South San Francisco. Coincidentally, 1976 was also the year that Mike Bishop and Harold Varmus discovered the first cellular oncogene—also in San Francisco, but in a more genteel neighborhood.",
+      "origins": [
+        {
+          "source": {
+            "name": "laskerfoundation.org",
+            "url": "https://laskerfoundation.org/winners/herceptin-a-targeted-antibody-therapy-for-breast-cancer"
+          },
+          "document": {
+            "name": "Herceptin—a targeted antibody therapy for breast cancer - Lasker Foundation",
+            "url": "https://laskerfoundation.org/winners/herceptin-a-targeted-antibody-therapy-for-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d3dea48b-d13f-434f-8f0a-56a25a67845e",
+      "content": "In the mid-1970s, scientists discovered that certain genes, when mutated, can cause cancer; researchers theorized that targeting these oncogenes, or the proteins they code for, could prevent the spread of malignancies. The combined efforts of H. Michael Shepard, Dennis J. Slamon, and Axel Ullrich culminated in the creation of Herceptin, the first monoclonal antibody therapy that targets a protein encoded by an oncogene. These researchers provided the first demonstration that monoclonal [...] Herceptin was the first monoclonal antibody that blocks a cancer causing protein. For the invention of Herceptin and the development of a life-saving therapy for women with breast cancer, three researchers are now receiving the Lasker~DeBakey Clinical Medical Research Award: Axel Ullrich, Emeritus Director at the Max Planck Institute of Biochemistry and former Genentech scientist, H. Michael Shepard, former Genentech scientist and Dennis J. Slamon from the University of California, Los Angeles. [...] Shepard and Ullrich, then working at Genentech, and Slamon, at the University of California Los Angeles, conducted complementary research that led to powerful clinical results. Herceptin, when coupled with chemotherapy, stalled HER2-positive breast cancer progression and extended survival compared to chemotherapy treatment alone. Approved by the FDA in 1998, Herceptin was among the earliest targeted therapies designed to block the growth of cancerous cells. Over 2.3 million individuals have",
+      "origins": [
+        {
+          "source": {
+            "name": "Max-Planck-Gesellschaft zur Förderung der Wissenschaften",
+            "url": "https://www.mpg.de/en/20190910-Axel-Ullrich-Lasker-Award"
+          },
+          "document": {
+            "name": "MPIB-Emeritus Axel Ullrich is awarded with Lasker Award 2019 | Max-Planck-Gesellschaft",
+            "url": "https://www.mpg.de/en/20190910-Axel-Ullrich-Lasker-Award"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e44e1931-f6e0-46fa-86f2-614b30a357a2",
+      "content": "in oncology. The story begins in the mid-1980s when Axel Ullrich, in his research team at Genentech, successfully cloned the HER2 (human epidermal growth factor receptor 2) gene, revealing its role in cell growth and proliferation. Slamon at UCLA showed that the HER2 gene was amplified and overexpressed in approximately 25% to 30% of breast cancer patients, and this overexpression was significantly associated with disease aggressiveness, high recurrence rates, and poor prognosis. Michael [...] treatment of breast cancer marks a major advance in the use of monoclonal antibody cancer therapy. Herceptin is a humanized antibody directed against the HER-2 antigen that is overexpressed on the tumor cell surface in approximately 25% of breast cancer patients. Herceptin is administered by intravenous infusion and in conjunction with paclitaxel can extend survival in patients with HER-2/neu/erbB2 overexpressing metastatic breast cancer.Herceptin use is associated with infusion- related [...] prognosis. Michael Shepard and colleagues, developed a monoclonal antibody that specifically binds to and blocks the activity of the HER2 receptor based on this target. After years of clinical trials, trastuzumab was approved by the U.S. Food and Drug Administration (FDA) on September 25, 1998, for the treatment of HER2-positive metastatic breast cancer. Trastuzumab is used to treat breast cancer. The introduction of herceptin (Trastuzumab) into clinical practice for the treatment of breast",
+      "origins": [
+        {
+          "source": {
+            "name": "m.chemicalbook.com",
+            "url": "https://m.chemicalbook.com/ChemicalProductProperty_EN_CB61074602.htm"
+          },
+          "document": {
+            "name": "Trastuzumab | 180288-69-1",
+            "url": "https://m.chemicalbook.com/ChemicalProductProperty_EN_CB61074602.htm"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b43a3626-c5a4-4822-91b0-b3819f322a2a",
+      "content": "Slamon, and Axel Ullrich (Figure 1) for their contributions to the development of the HER2-targeting monoclonal antibody (mAb), Herceptin (also known as trastuzumab), the first of its kind to effectively target a cancer-associated protein and increase survival of women with HER2+ breast cancer. While Shepard was looking to unravel the mechanisms underlying TNF resistance, Axel Ullrich, also at Genentech, was exploring the link between growth factors and cancer. After the identification of HER2 [...] to evaluate the expression of the growth factors and oncogenes identified by Ullrich’s group in Slamon’s collection of human tumors. Hudziak and Shepard found that one mAb, 4D5, inhibited growth of HER2-overexpressing cancer cells and restored TNF sensitivity (12). Michael Shepard, Dennis Slamon, and Axel Ullrich that not only paved the way for the development of Herceptin but also laid the groundwork for the development of other targeted therapies for the treatment of cancer and other [...] of HER2 by Ullrich’s group, research in Shepard’s lab demonstrated that stimulation of tyrosine kinase receptors by growth factors could prevent killing of TNF-sensitive tumors in a dose-dependent manner (8). He said ‘You showed that tumor cells will become resistant to killing by TNF if you stimulate receptor tyrosine kinases, well I’ve got a receptor tyrosine kinase that you might want to look at’ and that was HER2.” The Ullrich lab already had cancer cell lines available with differential",
+      "origins": [
+        {
+          "source": {
+            "name": "pmc.ncbi.nlm.nih.gov",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6763264"
+          },
+          "document": {
+            "name": "H. Michael Shepard, Dennis J. Slamon, and Axel Ullrich honored with the 2019 Lasker~DeBakey Clinical Medical Research Award - PMC",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6763264"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ed6b7543-2165-40ed-b52c-22259db17d0b",
+      "content": "Slamon, and Axel Ullrich (Figure 1) for their contributions to the development of the HER2-targeting monoclonal antibody (mAb), Herceptin (also known as trastuzumab), the first of its kind to effectively target a cancer-associated protein and increase survival of women with HER2+ breast cancer. H. Michael Shepard, Dennis Slamon, and Axel Ullrich are being recognized for their work toward the development of Herceptin, the first targeted-mAb therapy for cancer. While Shepard was looking to [...] was looking to unravel the mechanisms underlying TNF resistance, Axel Ullrich, also at Genentech, was exploring the link between growth factors and cancer. After the identification of HER2 by Ullrich’s group, research in Shepard’s lab demonstrated that stimulation of tyrosine kinase receptors by growth factors could prevent killing of TNF-sensitive tumors in a dose-dependent manner (8). He said ‘You showed that tumor cells will become resistant to killing by TNF if you stimulate receptor [...] that oncogenes were variably expressed between tumor types (10). After hearing about Ullrich’s interest in growth-regulating genes, Slamon approached Ullrich about collaborating to evaluate the expression of the growth factors and oncogenes identified by Ullrich’s group in Slamon’s collection of human tumors. Michael Shepard, Dennis Slamon, and Axel Ullrich that not only paved the way for the development of Herceptin but also laid the groundwork for the development of other targeted therapies",
+      "origins": [
+        {
+          "source": {
+            "name": "JCI",
+            "url": "https://www.jci.org/articles/view/132533"
+          },
+          "document": {
+            "name": "JCI -\nH. Michael Shepard, Dennis J. Slamon, and Axel Ullrich honored with the 2019 Lasker~DeBakey Clinical Medical Research Award",
+            "url": "https://www.jci.org/articles/view/132533"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8c620832-07c9-420d-b754-586929b2e8ed",
+      "content": "still cancer-free. Subsequently, Slamon undertook the randomized trials to prove its value in the treatment of breast cancer in women with metastatic HER2-positive breast cancer. The randomized trial showed that Herceptin (trastuzumab) improved overall survival in late-stage breast cancer from 20.3 months to 25.1 months—this is a change in outcomes that is mind-boggling in oncology. It has a profound benefit for women with resected localized HER2-positive breast cancer, and it is administered [...] ## The Beach Boys Summer III: Dennis Slamon and Herceptin. When I think about Dennis Slamon, I get Good Good Good Good Vibrations (courtesy of the Beach Boys). The HER2 (human epidermal growth factor receptor 2) oncogene is over-expressed in about 20% to 30% of breast cancers with its protein on the cell surface. Its presence in a patient with breast cancer is associated with accelerated growth of the tumor and a worse prognosis. Slamon heard a talk by Ullrich at UCLA around that time and then [...] that time and then teamed up with him to try to develop such a drug. The team, led by Slamon, developed a monoclonal antibody that inhibits the over-expression of the HER2 oncogene protein. For the next 12 years, Slamon took this antibody through the necessary animal studies to demonstrate its efficacy and safety. One of the women who participated, Barbara Bradfield, who was 49 when she entered the trial in 1992 with metastatic breast cancer, is still alive now at 80 and is still cancer-free.",
+      "origins": [
+        {
+          "source": {
+            "name": "Home - The Jewish Link",
+            "url": "https://jewishlink.news/the-beach-boys-summer-iii-dennis-slamon-and-herceptin"
+          },
+          "document": {
+            "name": "The Beach Boys Summer III: Dennis Slamon and Herceptin - The Jewish Link",
+            "url": "https://jewishlink.news/the-beach-boys-summer-iii-dennis-slamon-and-herceptin"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "578e7180-d10a-460d-9c55-2a579223a2ef",
+      "content": "honorarium. Trastuzumab (Herceptin, Genentech) — the first monoclonal antibody that targeted a protein encoded by an oncogene — has become a life-saving therapy for women with HER2-positive breast cancer. Shepard and Ullrich — then both working at Genentech — collaborated with Slamon on research that showed trastuzumab in combination with chemotherapy slowed disease progression and prolonged survival compared with chemotherapy alone. Slamon led the first human clinical trial of trastuzumab at [...] when new content is published.. Three cancer researchers received the Lasker-DeBakey Clinical Medical Research Award for their invention of trastuzumab. Slamon, MD, PhD, director of clinical/translational research at UCLA’s Jonsson Comprehensive Cancer Center and chief of the division of hematology/oncology for UCLA’s department of medicine; and Axel Ullrich, PhD, director of the molecular biology department at Max Planck Institute of Biochemistry in Germany — will share a $250,000 honorarium. [...] of trastuzumab at UCLA in 1990. “There were a lot of preconceived notions that this approach couldn’t work because prior antibody therapies in cancer had failed,” Slamon said in a UCLA-issued press release. The Lasker Awards, given since 1945, recognize outstanding contributions to basic and clinical medical research and public service. This year’s Albert Lasker Basic Medical Research Award was presented to Max D.  Clinical Guidance, Healio CME, FDA news.  Healio's exclusive daily news coverage",
+      "origins": [
+        {
+          "source": {
+            "name": "Daily Medical News, Free CME and Clinical Guidance",
+            "url": "https://www.healio.com/news/hematology-oncology/20190910/cancer-researchers-receive-laskerdebakey-clinical-medical-research-award"
+          },
+          "document": {
+            "name": "Cancer researchers receive Lasker-DeBakey Clinical Medical Research Award",
+            "url": "https://www.healio.com/news/hematology-oncology/20190910/cancer-researchers-receive-laskerdebakey-clinical-medical-research-award"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1e9227ce-9d9c-4411-9e9b-fac97042c425",
+      "content": "## Amgen and Allergan Report Progress in Herceptin® Biosimilar Clinical Trial. GenentechIn the late 1980's, Dennis Slamon discovered a new oncogene, Her2/neu,that was amplified in 25-33% of human breast cancers. Slamon et al., \"Studies of the HER2/neu ProtoOncogene in Human Breast and Ovarian Cancer,\" Science 244: 707-12 (1989). Following up on this discovery, Dr. Slamon and his collaborators found that a monoclonal antibody against the protein product of this gene, an epidermal growth factor [...] growth factor receptor (EGFR) expressed on the cell surface of breast cancer cells, could be used to reduce proliferation of breast cancer cells in vitro and in vivo. This further discovery led to the development of one of the first therapeutic monoclonal antibody therapies, marketed by Genentech as Herceptin® (trastuzumab). Shepard et al., \"Monoclonal antibody therapy of human cancer: Taking the HER2 protooncogene to the clinic,\" J. Trastuzumab is approved for treatment of epidermal growth [...] Amgen and Allergan Report Progress in Herceptin® Biosimilar Clinical Trial – Patent Docs",
+      "origins": [
+        {
+          "source": {
+            "name": "Patent Docs",
+            "url": "https://patentdocs.org/2016/07/21/amgen-and-allergan-report-progress-in-herceptin-biosimilar-clinical-trial"
+          },
+          "document": {
+            "name": "Amgen and Allergan Report Progress in Herceptin® Biosimilar Clinical Trial – Patent Docs",
+            "url": "https://patentdocs.org/2016/07/21/amgen-and-allergan-report-progress-in-herceptin-biosimilar-clinical-trial"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c12a3ee4-de4a-435e-a049-91bd581a05c5",
+      "content": "for women with HER2-positive breast cancer. Michael Shepard, an American cancer researcher honored for work he completed at biotechnology company Genentech; and Axel Ullrich, a German cancer researcher from the Max Planck Institute of Biochemistry. The Albert and Mary Lasker Foundation honored Slamon and colleagues for demonstrating that monoclonal antibodies — proteins that bind to specific invader organisms or abnormal (e.g., cancerous) cells — were a viable and effective strategy to treat [...] # UCLA oncologist Dennis Slamon wins 2019 Lasker Award for clinical medical research. Cancer researcher honored for invention of breast cancer drug Herceptin. Physician-scientist Dr. Dennis Slamon, member of the Eli and Edythe Broad Center of Regenerative Medicine and Stem Cell Research at UCLA, has been awarded the 2019 Lasker-DeBakey Clinical Medical Research Award for the groundbreaking development of breast cancer drug Herceptin (trastuzumab), a life-saving therapy for women with [...] strategy to treat solid tumors, opening a new path to develop and deploy antibodies to treat cancer. “Dr. Slamon is a scientific pioneer whose research has benefited countless patients and families,” said Dr. Kelsey Martin, dean of the Geffen School of Medicine. “Everyone at UCLA is extremely proud that his accomplishments are being recognized by the Lasker committee.”. In the early 1980s, Slamon first identified an aggressive subtype of breast cancer called HER2-positive or HER2+. “There were",
+      "origins": [
+        {
+          "source": {
+            "name": "stemcell.ucla.edu",
+            "url": "https://stemcell.ucla.edu/news/ucla-oncologist-dennis-slamon-wins-2019-lasker-award-clinical-medical-research"
+          },
+          "document": {
+            "name": "UCLA oncologist Dennis Slamon wins 2019 Lasker Award for clinical medical research",
+            "url": "https://stemcell.ucla.edu/news/ucla-oncologist-dennis-slamon-wins-2019-lasker-award-clinical-medical-research"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "56c512a4-94a8-4ba7-842e-a91442ef82a9",
+      "name": "trastuzumab",
+      "entity_type": "Product",
+      "mentions": [
+        "Herceptin (trastuzumab)"
+      ]
+    },
+    {
+      "id": "4f0ecbb6-463a-4582-8aea-f44b2ef66a73",
+      "name": "Axel Ullrich",
+      "entity_type": "Person",
+      "mentions": [
+        "Axel Ullrich"
+      ]
+    },
+    {
+      "id": "b51c171a-4f0e-43ad-b717-4ab82dcca1c5",
+      "name": "H. Michael Shepard",
+      "entity_type": "Person",
+      "mentions": [
+        "H. Michael Shepard"
+      ]
+    },
+    {
+      "id": "4fb9bcfa-bd22-4386-a435-947536272ab2",
+      "name": "Dennis Slamon",
+      "entity_type": "Person",
+      "mentions": [
+        "Dennis Slamon"
+      ]
+    },
+    {
+      "id": "6eb28507-4e5a-48e5-ad6b-eb9a8dbcc7d9",
+      "name": "UCLA",
+      "entity_type": "Organization",
+      "mentions": [
+        "UCLA"
+      ]
+    },
+    {
+      "id": "d556ebea-395e-45ed-a894-e2a7eb0105ea",
+      "name": "University of Chicago",
+      "entity_type": "EducationalInstitution",
+      "mentions": [
+        "University of Chicago"
+      ]
+    },
+    {
+      "id": "247699e6-094a-464d-b016-a945b6f1598d",
+      "name": "U.S. FDA",
+      "entity_type": "Company",
+      "mentions": [
+        "FDA"
+      ]
+    },
+    {
+      "id": "80b10c74-1e09-4769-aa55-e6c1f52037bf",
+      "name": "Genentech",
+      "entity_type": "Company",
+      "mentions": [
+        "Genentech"
+      ]
+    },
+    {
+      "id": "ad1081b5-f565-5608-b494-9d84bac665cb",
+      "name": "South San Francisco",
+      "entity_type": "Municipality",
+      "mentions": [
+        "South San Francisco"
+      ]
+    },
+    {
+      "id": "4a3dc3fb-78bb-4eac-8621-1620d06fba8c",
+      "name": "4D5",
+      "entity_type": "Product",
+      "mentions": [
+        "4D5"
+      ]
+    },
+    {
+      "id": "5ca31300-a46d-41a1-bd38-05f5276537e1",
+      "name": "Lasker–DeBakey Clinical Medical Research Award",
+      "entity_type": "Award",
+      "mentions": [
+        "Lasker–DeBakey Clinical Medical Research Award"
+      ]
+    }
+  ]
+}

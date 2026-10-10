@@ -1,0 +1,7 @@
+# secrets
+.env
+
+# local only
+CLAUDE.md
+*.pdf
+.DS_Store

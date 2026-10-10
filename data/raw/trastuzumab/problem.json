@@ -1,0 +1,329 @@
+{
+  "content": "## Why HER2-Positive Breast Cancer Was Considered Especially Aggressive Before Herceptin\n\nHER2-positive breast cancer accounts for roughly 15–20% of all breast cancers. In these tumours, the cancer cells overexpress the HER2 (Human Epidermal Growth Factor Receptor 2) protein — a transmembrane receptor with tyrosine kinase activity that is embedded in the cell membrane and stimulates cell proliferation. When HER2 is overexpressed, it drives uncontrolled cell reproduction, leading to aggressive tumour growth.\n\nBefore the introduction of trastuzumab (Herceptin), overexpression of HER2 was associated with:\n\n- **Shorter disease-free and overall survival** compared to patients with HER2-negative disease.\n- **High recurrence rates** and increased mortality.\n- **Poor prognosis** — HER2 amplification correlated with an unfavourable natural history, and the cancer was harder to treat with traditional chemotherapy methods alone.\n\nIn short, a HER2-positive diagnosis was one of the worst prognostic markers a breast cancer patient could receive. With the introduction of trastuzumab into routine practice, outcomes for patients with advanced HER2-positive breast cancer improved to a level at least equivalent to those of their HER2-negative counterparts, and cancer mortality in HER2-overexpressing tumours was reduced by approximately 33%.\n\n---\n\n## Why the Mouse Antibody Behind Trastuzumab Had to Be Humanized\n\nTrastuzumab traces its origin to a mouse monoclonal antibody called **muMAb 4D5**, which was generated in mice immunized with cells expressing high levels of HER2. While 4D5 could bind the HER2 receptor effectively, it could not be given directly to patients because of a fundamental immunological problem:\n\n1. **Human Anti-Mouse Antibody (HAMA) response.** Antibodies derived entirely from mice are recognized as foreign by the human immune system. Patients mount an immune reaction — the HAMA response — against the mouse protein sequences, which can cause allergic reactions and other adverse effects.\n\n2. **Rapid clearance and loss of efficacy.** The HAMA response leads to rapid clearance of the mouse antibody from the patient's bloodstream before it can reach and bind its target, drastically reducing therapeutic benefit.\n\n3. **Inability to sustain repeated dosing.** Cancer treatment typically requires multiple infusions over months. With each successive dose of a fully murine antibody, the HAMA response intensifies, making continued therapy impractical.\n\n### The humanization solution\n\nScientists at Genentech solved this by **CDR grafting**: they took only the small antigen-binding loops (Complementarity-Determining Regions, or CDRs) from the mouse 4D5 antibody — the parts responsible for recognizing and binding HER2 — and grafted them onto the framework of a human IgG1 heavy chain and human kappa light chain. The resulting humanized antibody (designated huMAb 4D5-8, later named trastuzumab) retained the HER2-binding specificity of the original mouse antibody while being composed of more than 90% human sequences. This dramatically reduced immunogenicity, allowed the antibody to persist in the bloodstream long enough to exert its anti-tumour effects, and made repeated dosing safe and practical for patients.\n\nTrastuzumab was subsequently approved and became the first targeted therapy for HER2-positive breast cancer, transforming what had been one of the most aggressive subtypes into a treatable disease.",
+  "explainability": [
+    {
+      "content": "HER2-positive breast cancers overexpress the HER2 receptor, a tyrosine‑kinase transmembrane protein that drives uncontrolled cell proliferation, making the disease biologically more aggressive than HER2‑negative tumors.",
+      "references": [
+        "9077b8e1-8aa2-46c2-a97b-865e3adca15a"
+      ]
+    },
+    {
+      "content": "Before trastuzumab, HER2 overexpression was linked to shorter disease‑free and overall survival, high recurrence rates, and increased mortality, indicating a poor prognosis.",
+      "references": [
+        "6c6720a9-0fb1-45b0-a4db-da3e1cbdbc4c",
+        "475d79b7-1b26-46ae-ae14-893f424a2dd3"
+      ]
+    },
+    {
+      "content": "Trastuzumab (Herceptin) dramatically improved outcomes, reducing mortality in HER2‑positive tumors by about 33 % and bringing survival to levels comparable with HER2‑negative disease.",
+      "references": [
+        "c8ad7df8-3b6a-479b-8e79-6c7b077092ad",
+        "9077b8e1-8aa2-46c2-a97b-865e3adca15a"
+      ]
+    },
+    {
+      "content": "The original antibody that binds HER2, muMAb 4D5, was generated in mice; fully murine antibodies are recognized as foreign by the human immune system, provoking a Human Anti‑Mouse Antibody (HAMA) response.",
+      "references": [
+        "df3ad95f-838a-4f6b-8f55-22b62d14180d",
+        "efe16bf5-cdb4-4f98-adbc-bbd8594ef36f"
+      ]
+    },
+    {
+      "content": "The HAMA response leads to rapid clearance of the mouse antibody and can cause allergic or other adverse reactions, preventing effective repeated dosing.",
+      "references": [
+        "1c6d90cf-5de2-4d61-8a75-101aed0e909a",
+        "8f6339d3-7d53-4d63-85cb-523da08c53b9"
+      ]
+    },
+    {
+      "content": "To overcome immunogenicity, scientists performed CDR grafting: they transferred the mouse antibody’s complementarity‑determining regions (the antigen‑binding loops) onto a human IgG1 heavy‑chain and kappa light‑chain framework, creating a >90 % humanized antibody (huMAb 4D5‑8, later trastuzumab).",
+      "references": [
+        "df3ad95f-838a-4f6b-8f55-22b62d14180d",
+        "1c6d90cf-5de2-4d61-8a75-101aed0e909a",
+        "8f6339d3-7d53-4d63-85cb-523da08c53b9"
+      ]
+    }
+  ],
+  "context": [
+    {
+      "id": "c8ad7df8-3b6a-479b-8e79-6c7b077092ad",
+      "content": "Trastuzumab is a monoclonal IgG1 humanized murine antibody that binds to the HER2 receptor at a single extracellular domain. Regimens with trastuzumab are standard of care for HER2-positive breast and gastric cancer, and it is being tested for other HER2-positive histologies, including colorectal, biliary tract, lung and bladder tumors (Oh and Bang, 2019). Efficacy of trastuzumab in patients with NSCLC was reported in the retrospective EUHER2 cohort (Mazières et al., 2016), including the [...] has dramatically improved outcomes for patients with HER2 overexpressing (HER2-positive) breast cancer,1 a disease renowned for its unfavourable natural history.2–5 With the introduction of trastuzumab into routine practice, outcomes for patients with advanced HER2-positive breast cancer have improved to a level at least equivalent to those of their HER2-negative counterparts.6. Trastuzumab is a recombinant humanized anti-HER2 monoclonal antibody (mAb) which is approved for clinical use in [...] (13%) and even more when concomitantly administered with anthracyclines and/or cyclophosphamide (27%). Trastuzumab is a humanized anti-HER2 monoclonal antibody targeting the extracellular domain of HER2 oncoprotein. Trastuzumab is a humanized mAb that selectively binds to the extracellular domain of the human epidermal growth factor receptor 2 protein, HER2 (ErbB2). Trastuzumab, a humanized monoclonal antibody directed against an extracellular domain of the HER2 receptor, has dramatically",
+      "origins": [
+        {
+          "source": {
+            "name": "sciencedirect.com",
+            "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/trastuzumab"
+          },
+          "document": {
+            "name": "Trastuzumab - an overview | ScienceDirect Topics",
+            "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/trastuzumab"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9077b8e1-8aa2-46c2-a97b-865e3adca15a",
+      "content": "mortality. HER2- positive breast cancers are more biologically aggressive compared to other breast cancer subtypes. The introduction of Trastuzumab to treat HER 2- positive disease has been a true success of targeted therapy. Trastuzumab has improved cancer mortality in HER2-overexpressing tumors by 33 percent and it has also significantly reduced local recurrence. The use of Herceptin in HER-2 positive early stage and metastatic breast cancer has had major impact on survival and response [...] it causes cancer cells to reproduce uncontrollably. Patients that have HER-2 positive breast cancer should be offered Herceptin as it will improve survival and reduce the risk of breast cancer recurrence. It has a risk of associated heart problems in approximately 2% of patients and patients routinely undergo ultrasounds of the heart during treatment with the drug. Before the widespread use of Herceptin overexpression of HER2 was associated with high recurrence rates and increased mortality. [...] URGENT APPOINTMENTS WITHIN 24 HOURS. # Targeted Cancer Therapies. Patients who have HER2 -positive cancer will be offered the monoclonal antibody, Trastuzumab (Herceptin). Herceptin interferes with the HER-2/neu receptor. HER-2 receptors are proteins or transmembrane receptors with tyrosine kinase activity and are overexpressed in approximately 20 percent of breast cancers. They are embedded in the cell membrane. The Protein stimulates cell proliferation. When HER-2 is over-expressed it causes",
+      "origins": [
+        {
+          "source": {
+            "name": "breastcancerspecialist.com.au",
+            "url": "https://www.breastcancerspecialist.com.au/surgical-procedures/targeted-cancer-therapies"
+          },
+          "document": {
+            "name": "Dr Chantel Thornton > Breast Cancer Management > Targeted Cancer Therapies",
+            "url": "https://www.breastcancerspecialist.com.au/surgical-procedures/targeted-cancer-therapies"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6c6720a9-0fb1-45b0-a4db-da3e1cbdbc4c",
+      "content": "activity in vivo and in vitro, and additive or synergistic enhancement of anti-tumor activity of the antibody was observed in combination with various anti-tumor agents in mouse models. In clinical studies, apparent extension of overall survival was observed in HER2 overexpressing MBC patients. Herceptin is the first anticancer drug whose use as a treatment for MBC patients is decided based on the status of the HER2 gene amplification/HER2 protein over-expression. The development and [...] cancer and (2) amplification of HER2/neu correlated with poor prognosis, including shorter disease-free and overall survival. These evidences suggested HER2 was a promising candidate for novel molecular targets of breast cancer therapy. Herceptin is a recombinant humanized monoclonal antibody generated by Genentech, Inc. for the treatment of HER2 over-expressed/HER2 gene amplified metastatic breast cancer (MBC). Preclinical studies demonstrated that the antibody had anti-tumor activity in vivo [...] The development and standardization of HER2 test were a key strategy in clinical development of this drug, since appropriate selection of patients with HER2 over-expression was the essential point for success. ## Journal. :   Folia Pharmacologica Japonica 122 (6), 504-514, 2003. ## Citations (1)\\help. ## References(41)\\help. ## Keywords. ## Details 詳細情報について. ## Export. ## Report a problem. At this time, the person search is available for approximately 300,000 researchers whose researcher",
+      "origins": [
+        {
+          "source": {
+            "name": "cir.nii.ac.jp",
+            "url": "https://cir.nii.ac.jp/crid/1390001204273749120"
+          },
+          "document": {
+            "name": "Development of HER2-specific humanized antibody Herceptin (trastuzumab). | CiNii Research",
+            "url": "https://cir.nii.ac.jp/crid/1390001204273749120"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1e7ad7e-51f0-4354-a892-b7931c2ccf6b",
+      "content": "The market is growing rapidly, stimulated by some major growth factors. One of the key catalyst is the increasing number of HER2-positive breast cancer cases. This type of breast cancer occurs when the tumor cells produce too much of a protein called HER2 (Human Epidermal growth factor Receptor 2). Having more HER2 makes the cancer more aggressive and harder to treat with traditional methods. Because of this, there has been a growing need for targeted therapies such as Herceptin (trastuzumab). [...] For instance, in February 2024, the World Health Organization (WHO) reported that in 2022, around 2.3 million women worldwide were diagnosed with breast cancer, making it the most common cancer among women, of these diagnosed cases, 15-20% are HER2-positive, a more aggressive type of breast cancer wherein the cancer cells produce too much of the HER2 protein. This makes the cancer harder to treat, underlining the urgent need for treatments that are specifically designed to target this more [...] In January 2025, AstraZeneca announced that its drug Enhertu (trastuzumab deruxtecan) was approved by the U.S. Food and Drug Administration (FDA) for the treatment of HER2-positive breast cancer following prior treatment with trastuzumab-based therapy. This approval enhanced AstraZeneca's portfolio in oncology, providing a critical treatment option for patients and strengthened the company's competitive position in the breast cancer therapeutics market.",
+      "origins": [
+        {
+          "source": {
+            "name": "Global Market Insights Inc. | Actionable Data for Smart Business Decisions",
+            "url": "https://www.gminsights.com/industry-analysis/herceptin-market"
+          },
+          "document": {
+            "name": "Herceptin Market Statistics, Growth & Forecast Report, 2034",
+            "url": "https://www.gminsights.com/industry-analysis/herceptin-market"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e4277ad5-ee56-4414-8631-4a4d941eb249",
+      "content": "to Herceptin and chemotherapy alone. PERJETA is an example of Roche’s Personalised Healthcare Approach as it targets the HER2 receptor, a protein found in high quantities on the outside of HER2-positive breast cancer cells. Before Herceptin treatment, shorter survival outcomes were expected for patients diagnosed with HER2-positive breast cancer, compared to patients with HER2-negative disease.1 In the CLEOPATRA study, PERJETA in combination with Herceptin and chemotherapy has shown the [...] has shown the extension of survival times for patients with this aggressive disease even further than Herceptin. CLEOPATRA (CLinical Evaluation Of Pertuzumab And TRAstuzumab) is an international, phase III, randomised, double-blind, placebo-controlled study.2 The study evaluated the efficacy and safety profile of PERJETA combined with Herceptin and docetaxel chemotherapy compared to Herceptin and chemotherapy plus placebo in 808 people with previously untreated HER2-positive mBC or that had",
+      "origins": [
+        {
+          "source": {
+            "name": "European Pharmaceutical Review",
+            "url": "https://www.europeanpharmaceuticalreview.com/news/17532/roche-obtains-eu-approval-for-perjeta"
+          },
+          "document": {
+            "name": "Roche obtains EU approval for PERJETA - European Pharmaceutical Review",
+            "url": "https://www.europeanpharmaceuticalreview.com/news/17532/roche-obtains-eu-approval-for-perjeta"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1af3b10c-daad-4cfa-986f-142ae45a602f",
+      "content": "About Herceptin HylectaHerceptin Hylecta (subcutaneous Herceptin) is a combination of trastuzumab and Halozyme Therapeutics' Enhanze® drug delivery technology. Trastuzumab is the same monoclonal antibody in intravenous Herceptin that targets the HER2 receptor, a protein found on the outside of many normal cells and in high quantities on the outside of cancer cells in HER2-positive cancers.3 Herceptin is designed to block HER2 signalling that is believed to play a role in tumour growth and [...] The subcutaneous formulation of Herceptin was first approved in Europe in 2013 and is now approved in 100 countries worldwide.About Roche's medicines for HER2-positive breast cancer Roche has been leading research into the HER2 pathway for over 30 years and is committed to improving the health, quality of life and survival of people with both early and advanced HER2-positive disease. HER2-positive breast cancer is a particularly aggressive form of the disease that affects approximately 15-20% [...] tumour growth and survival.4 Binding of Herceptin to HER2 may also signal the body's immune system to destroy the cancer cells.4 Halozyme's Enhanze technology is based on a proprietary recombinant human hyaluronidase PH20 (rHuPH20), an enzyme that temporarily degrades hyaluronan, a glycosaminoglycan or chain of natural sugars in the body, to aid in the dispersion and absorption of other injected therapeutic drugs.",
+      "origins": [
+        {
+          "source": {
+            "name": "Roche - Doing now what patients need next",
+            "url": "https://www.roche.com/media/releases/med-cor-2019-02-28"
+          },
+          "document": {
+            "name": "FDA approves Herceptin Hylecta for subcutaneous injection in certain HER2-positive breast cancers",
+            "url": "https://www.roche.com/media/releases/med-cor-2019-02-28"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "475d79b7-1b26-46ae-ae14-893f424a2dd3",
+      "content": "# Long-Term Data Show The Impact of Herceptin On Treating HER2-Positive Breast Cancer. The combination treatment of Herceptin (trastuzumab) and chemotherapy for early-stage, HER2-positive breast cancer may reduce the recur- rence of — and mortality from — the disease by a third, according to study results. “It’s really important because when a patient gets a diagnosis of HER2-positive breast cancer, immediately the first thought is, ‘This is so bad.’ This is one of the more aggressive cancers. [...] aggressive cancers. I believe this is why it’s so important to understand that trastuzumab has changed the way we think about HER2-positive breast cancer. This study showed the significant positive impact trastuzumab has had on outcomes in HER2-positive breast cancer,” said Dr. Zahi Mitri, an assistant professor of medicine in the Division of Hematology and Medical Oncology at OHSU Knight Cancer Institute in Portland, Oregon, in an interview with CURE®. “Patients can actually be confident that [...] said. Researchers reported that the risks of breast cancer recurrence, as well as death from breast cancer, were lower with the group treated with Herceptin plus chemotherapy. “It is as clear as it can be that adding the anti-HER2 treatment trastuzumab to chemotherapy and other strategies definitely improved survival for patients with early-stage breast cancer,” said Dr. Edith Perez, a professor of medicine at Mayo Clinic in Jacksonville, Florida, and chief medical officer at Bolt",
+      "origins": [
+        {
+          "source": {
+            "name": "curetoday.com",
+            "url": "https://www.curetoday.com/view/long-term-data-show-the-impact-of-herceptin-on-treating-her2-positive-breast-cancer"
+          },
+          "document": {
+            "name": "Long-Term Data Show The Impact of Herceptin On Treating HER2-Positive Breast Cancer | CURE",
+            "url": "https://www.curetoday.com/view/long-term-data-show-the-impact-of-herceptin-on-treating-her2-positive-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "df3ad95f-838a-4f6b-8f55-22b62d14180d",
+      "content": "| Abstract | Trastuzumab and pertuzumab are monoclonal antibodies that bind to distinct subdomains of the extracellular domain of human epidermal growth factor receptor 2 (HER2). | Immunization Comments | The monoclonal antibody Herceptin (trastuzumab) is commercially produced (Genentech). The parent monoclonal antibody 4D5 was generated in mice immunized with the mouse fibroblast cell line NIH 3T3/HER2-3(400), expressing high levels of HER2, as described in the reference: Hudziak et al. The [...] Hudziak et al. The antibody was humanized by fusing the antibody binding regions to the framework regions of human IgG1 heavy and kappa light chains to generate Herceptin (trastuzumab) as described in the reference: Carter et al. | Assayed Antibody Immunoglobulin Domain | Fab |  |. | Assayed Antibody Heavy Chain Type | IgG1 |  |. | Assayed Antibody Light Chain Type | Kappa |  |. | Assay Comments by IEDB Curator | The epitope-specific trastuzumab Fab formed a complex with HER2, as shown by size",
+      "origins": [
+        {
+          "source": {
+            "name": "IEDB.org: Free epitope database and prediction resource",
+            "url": "https://www.iedb.org/details_v3.php?type=assay&id=5566741"
+          },
+          "document": {
+            "name": "Immune Epitope Database (IEDB)",
+            "url": "https://www.iedb.org/details_v3.php?type=assay&id=5566741"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "efe16bf5-cdb4-4f98-adbc-bbd8594ef36f",
+      "content": "Cytotoxicity (CDC), leading to cell lysis. The primary challenge of early therapeutic antibodies was immunogenicity. Antibodies derived from mice (murine) were recognized as foreign by the human immune system, triggering a Human Anti-Mouse Antibody (HAMA) response. | -omab | Murine (100% Mouse) | The original mAbs. They are highly immunogenic and rarely used therapeutically today. | -ximab | Chimeric (~70% Human) | Mouse variable regions (Fv) are \"stitched\" onto a human constant region (Fc) [...] region (Fc) framework (e.g., Rituximab). | -zumab | Humanized (>90% Human) | Only the mouse hypervariable loops—the Complementarity-Determining Regions (CDRs)—are grafted onto a human framework (e.g., Trastuzumab). | -umab | Fully Human (100% Human) | Produced via phage display or transgenic mice with a human immune repertoire, offering the lowest possible immunogenicity (e.g., Adalimumab). In basic and translational research, \"humanized antibodies\" often refer to research-grade biosimilars. [...] its receptor; anti-PD-1 blocking the immune checkpoint). 2. Agonism: The mAb binds and activates a receptor, mimicking the natural ligand to stimulate a desired signaling pathway. In Antibody-Drug Conjugates (ADCs), the mAb is linked to a potent cytotoxic payload, which it delivers specifically to antigen-expressing cells (e.g., tumor cells). This includes Antibody-Dependent Cell-mediated Cytotoxicity (ADCC), where NK cells kill targeted cells, and Complement-Dependent Cytotoxicity (CDC),",
+      "origins": [
+        {
+          "source": {
+            "name": "biorbyt.com.cn",
+            "url": "http://www.biorbyt.com.cn/monoclonal-antibody-drug"
+          },
+          "document": {
+            "name": "Monoclonal Antibody Drug",
+            "url": "http://www.biorbyt.com.cn/monoclonal-antibody-drug"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1c6d90cf-5de2-4d61-8a75-101aed0e909a",
+      "content": "The HAMA response in turn can result in the rapid clearance of such antibodies from a patient’s blood, before reaching the target antigen, and therefore reducing their ther-apeutic benefit. Following advances in genetic engineering, the immunogenicity of mouse antibodies was reduced by producing various human recombinant forms of such antibodies. In some cases, chimeric or humanized versions of mouse antibodies have been developed by transferring the VL and VL regions or three stretches of [...] three stretches of amino acids in the variable region of mouse antibodies (i.e. CDR grafting) into the human IgG framework, respectively (18-22). As the chimeric and humanized forms of such antibodies contain more than 70% and 90% human sequences, such antibodies may be less likely to trigger an immunogenic response than the parent mouse antibod-ies. All chimeric and humanized antibodies that have been approved for the manage-ment of human cancers are IgG1 antibodies due to their superiority in [...] On 26th of February 2004, the first angiogenesis inhibitor (i.e. bevacizumab, Avastin) was approved by the FDA as the first line treatment for patients with metastatic col-orectal cancer in combination with standard cytotoxic drugs [(i.e. irinotecan, 5-fluro-rouracil (5FU) and leucovorin) (106,107). Bevacizumab is a humanized version of a mouse anti-human VEGF antibody (i.e. mAb A.4.6.1). As mAb A.4.6.1 was found to be a potent inhibitor of angiogenesis and the growth of several human tumour",
+      "origins": [
+        {
+          "source": {
+            "name": "EMRO Dashboards",
+            "url": "https://applications.emro.who.int/imemrf/Iran_J_Immunol/Iran_J_Immunol_2005_2_1_3_20.pdf"
+          },
+          "document": {
+            "name": "Monoclonal Antibodies as Therapeutic Agents",
+            "url": "https://applications.emro.who.int/imemrf/Iran_J_Immunol/Iran_J_Immunol_2005_2_1_3_20.pdf"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8f6339d3-7d53-4d63-85cb-523da08c53b9",
+      "content": "During clinical applications, mouse antibodies prepared by hybridoma technology can trigger human anti-mouse antibody (HAMA) reactions in patients. To address this problem, researchers have used various genetic engineering techniques and computer-aided simulations to optimize the sequence and structure of non-human antibodies to make them more similar to human antibodies. Humanized antibodies can avoid recognition by the immune system, thereby reducing the risk of triggering an immune response [...] monoclonal antibody: chimeric antibodies retain entire mouse variable regions (both framework and CDRs), while humanized antibodies have only the antigen-binding CDRs (or even smaller specificity-determining regions) grafted onto human frameworks, resulting in much lower immunogenicity. [...] researchers have incorporated mouse CDRs into the variable region of human immunoglobulin molecules. This allows the humanized antibodies to retain the antigen-binding specificity of mouse monoclonal antibodies while reducing the variability of mouse antibodies. However, this CDR-grafting method can sometimes diminish the antibody's affinity or specificity for the target antigen.",
+      "origins": [
+        {
+          "source": {
+            "name": "Synthetic Biology Company of Gene Synthesis Solution",
+            "url": "https://synbio-tech.com/humanization-techniques-to-enhance-antibody-development"
+          },
+          "document": {
+            "name": "Humanization Techniques to Enhance Antibody Discovery_Synbio Technologies",
+            "url": "https://synbio-tech.com/humanization-techniques-to-enhance-antibody-development"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1ad92db-f697-41bd-8fd7-003bbffd2d6e",
+      "content": "protein is for research use only (RUO). Recombinant human IgG1 isotype controls are available. Trastuzumab biosimilar (clone huMAb 4D5-8) is the humanized anti-human HER2 mouse monoclonal antibody (clone muMAb 4D5). ### C009P: Trastuzumab Biosimilar, HER2/ErbB-2/c-neu Monoclonal Antibody. Recombinant Humanized IgG1 Monoclonal Antibody. Source: The monoclonal antibody trastuzumab biosimilar was produced in the trastuzumab biosimilar CHO stable cell line, which is available for licensing to [...] :   Mouse Monoclonal Antibody Production Services. :   Recombinant Antibody(IgG) Production Services Production Services\"). :   Recombinant Antibody(scFv) Production Services Production Services\"). :   Recombinant Human IgG1 Fc Protein. + Anti-Human Antibodies (in vivo)\"). + Anti-Human Antibodies for Flow Cytometry. :   Anti-human CD3 Antibodies (UCHT1)\"). :   Anti-mouse PD-L1 Antibodies (10F.9G2)\"). :   Anti-mouse CD3 Antibodies (17A2)\"). :   Mouse Monoclonal Antibody Production Services. : [...] EGFR monoclonal antibody. :   Mouse Monoclonal Antibody Production Services. :   Recombinant Antibody (IgG) Production Services. :   Recombinant Antibody (scFv) Production Services.",
+      "origins": [
+        {
+          "source": {
+            "name": "sydlabs.com",
+            "url": "https://www.sydlabs.com/trastuzumab-biosimilar-her2-monoclonal-antibody-p15840.htm"
+          },
+          "document": {
+            "name": "Trastuzumab Biosimilar, Research Grade, Human HER2 Monoclonal Antibody - Syd Labs",
+            "url": "https://www.sydlabs.com/trastuzumab-biosimilar-her2-monoclonal-antibody-p15840.htm"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "f281bb56-9790-4948-b0ec-10c346cc21bd",
+      "name": "Human Epidermal Growth Factor Receptor 2",
+      "entity_type": "Product",
+      "mentions": [
+        "Human Epidermal Growth Factor Receptor 2",
+        "HER2"
+      ]
+    },
+    {
+      "id": "a9a04198-4429-4edf-be76-a4dd4ff30e81",
+      "name": "Herceptin",
+      "entity_type": "Product",
+      "mentions": [
+        "Herceptin"
+      ]
+    },
+    {
+      "id": "56c512a4-94a8-4ba7-842e-a91442ef82a9",
+      "name": "trastuzumab",
+      "entity_type": "Product",
+      "mentions": [
+        "trastuzumab"
+      ]
+    },
+    {
+      "id": "4a3dc3fb-78bb-4eac-8621-1620d06fba8c",
+      "name": "4D5",
+      "entity_type": "Product",
+      "mentions": [
+        "muMAb 4D5"
+      ]
+    },
+    {
+      "id": "3ac7d79f-f211-430f-ad8b-943aa3dd73bb",
+      "name": "GENENTECH INC",
+      "entity_type": "Company",
+      "mentions": [
+        "Genentech"
+      ]
+    },
+    {
+      "id": "8d1dbc63-7504-4c0d-ae44-e43aef62dbba",
+      "name": "huMAb 4D5-8",
+      "entity_type": "Product",
+      "mentions": [
+        "huMAb 4D5-8"
+      ]
+    }
+  ],
+  "_query": "Why was HER2-positive breast cancer considered especially aggressive before Herceptin, and why did the mouse antibody behind trastuzumab need to be humanized before it could be used in patients?"
+}

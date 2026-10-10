@@ -1,0 +1,471 @@
+{
+  "content": "## Adjuvant Trastuzumab Trials in Early-Stage HER2-Positive Breast Cancer\n\n### Overview\n\nIn 2005, the simultaneous publication of results from three landmark phase III trials — **HERA**, **NSABP B-31**, and **NCCTG N9831** — transformed the treatment of early-stage HER2-positive breast cancer. All three demonstrated that adding one year of adjuvant trastuzumab to standard chemotherapy produced large, durable improvements in both disease-free survival (DFS) and overall survival (OS).\n\n---\n\n### NSABP B-31 and NCCTG N9831 (Joint Analysis)\n\nThese two US-based trials enrolled a combined **4,046 patients** with HER2-positive operable breast cancer. Both used a backbone of doxorubicin and cyclophosphamide followed by paclitaxel (AC→T), with or without trastuzumab.\n\n- **NSABP B-31** enrolled only node-positive patients.\n- **NCCTG N9831** enrolled node-positive and high-risk node-negative patients and also included an arm evaluating sequential (rather than concurrent) trastuzumab.\n\nAt the **planned definitive analysis** (median follow-up 8.4 years):\n\n| Endpoint | Chemo + Trastuzumab | Chemo Alone | Hazard Ratio | p-value |\n|---|---|---|---|---|\n| **10-year OS** | 84% | 75.2% | 0.63 (95% CI 0.54–0.73) | < 0.001 |\n| **10-year DFS** | 73.7% | 62.2% | 0.60 (95% CI 0.53–0.68) | < 0.001 |\n\nAdding trastuzumab produced a **37% relative reduction in the risk of death** and a **40% relative reduction in the risk of recurrence**. All patient subgroups benefited.\n\n---\n\n### HERA (HERceptin Adjuvant) Trial\n\nHERA was an international trial that enrolled **5,102 women** with HER2-positive early breast cancer and randomized them to observation, 1 year of trastuzumab, or 2 years of trastuzumab, given after completion of adjuvant chemotherapy.\n\nAt the **final analysis** (median follow-up 11 years):\n\n- **1 year of trastuzumab vs. observation:**\n  - DFS: HR 0.76 (95% CI 0.68–0.86) — a **24% relative reduction** in recurrence risk\n  - OS: HR 0.74 (95% CI 0.64–0.86) — a **26% relative reduction** in death risk\n  - 10-year DFS: **69%** (trastuzumab) vs. **63%** (observation)\n  - 12-year OS: **79%** (trastuzumab) vs. **73%** (observation)\n\n- **2 years vs. 1 year of trastuzumab:** No additional benefit was seen (HR 1.02), confirming **1 year as the standard duration**.\n\nNotably, 52% of patients in the observation arm crossed over to receive trastuzumab after the initial positive results were published, which likely diluted the observed benefit. Cardiac toxicity remained low across all groups.\n\n---\n\n### FDA Approval of Herceptin for Early-Stage Disease\n\n- Herceptin (trastuzumab) was first approved by the FDA in **September 1998** for metastatic HER2-positive breast cancer.\n- On **November 16, 2006**, the FDA approved Herceptin for the **adjuvant treatment of HER2-positive, node-positive early-stage breast cancer**, in combination with doxorubicin, cyclophosphamide, and paclitaxel (AC→TH), based on the combined interim analysis of NSABP B-31 and NCCTG N9831.\n- In **January 2008**, the FDA expanded the approval to include trastuzumab as a single agent following multi-modality anthracycline-based therapy, and to cover node-negative disease (ER/PR-negative or with one high-risk feature).\n- In **May 2008**, two additional trastuzumab-containing regimens were approved, including the non-anthracycline TCH regimen (docetaxel, carboplatin, and trastuzumab).\n\n---\n\n### Impact\n\nThese trials collectively established one year of adjuvant trastuzumab as the standard of care for HER2-positive early breast cancer, roughly halving the relative risk of recurrence and reducing the risk of death by approximately one-quarter to one-third. They transformed HER2-positive disease from one of the most aggressive breast cancer subtypes into a highly treatable one.",
+  "explainability": [
+    {
+      "content": "The combined interim analysis of NSABP B‑31 and NCCTG N9831 demonstrated that adding one year of trastuzumab to AC→T chemotherapy significantly improved 10‑year overall survival (84% vs 75.2%) and disease‑free survival (73.7% vs 62.2%) with hazard ratios of 0.63 for OS and 0.60 for DFS, indicating a 37% reduction in death risk and a 40% reduction in recurrence risk.",
+      "references": [
+        "b1bc81fc-ac08-4a73-a7aa-42d8e2372a77",
+        "0910f4f0-206c-4486-b07c-a4d3a4b01c0c"
+      ]
+    },
+    {
+      "content": "The HERA trial, which enrolled 5,102 women, showed that one year of trastuzumab after chemotherapy reduced the risk of a disease‑free survival event by 24% (HR 0.76) and the risk of death by 26% (HR 0.74) compared with observation, confirming the durability of benefit over a median 11‑year follow‑up.",
+      "references": [
+        "1029c984-48db-450c-a49a-29cfce53b82c",
+        "73e4b369-06f1-4aed-aca2-9edbf0709ccb"
+      ]
+    },
+    {
+      "content": "These trial results established one year of adjuvant trastuzumab as the new standard of care for HER2‑positive early‑stage breast cancer, providing large, durable improvements in both DFS and OS.",
+      "references": [
+        "8a5f4bd6-1278-4a95-b0ac-afe6e4326c11"
+      ]
+    },
+    {
+      "content": "Based on the interim analysis of NSABP B‑31 and NCCTG N9831, the FDA granted its first adjuvant approval for Herceptin on November 16 2006 for HER2‑positive, node‑positive early‑stage breast cancer in combination with AC→TH chemotherapy.",
+      "references": [
+        "bc8680f9-e30c-426e-a56f-ed7f0034eda6",
+        "cd38b274-b6c3-4482-86b7-383df82cf642",
+        "de2ee721-bb2f-4180-bdf2-1c7568a13dad"
+      ]
+    }
+  ],
+  "context": [
+    {
+      "id": "b1bc81fc-ac08-4a73-a7aa-42d8e2372a77",
+      "content": "the management of node-positive and high-risk node-negative HER2-positive breast cancer. The final analysis of B-31/N9831, which confirmed and extended these results, was presented at the 2012 San Antonio Breast Cancer Symposium. At a median follow-up of 8.4 years, adding adjuvant trastuzumab to chemotherapy resulted in significant and substantial improvement in 10-year DFS (74% vs 62%; hazard ratio [HR] = 0.60; P < .0001) and OS (84% vs 75.2%; HR = 0.63; P < .0001). As detailed in the [...] joint analysis of overall survival (OS) from NSABP B-31 and NCCTG N9831. Adjuvant trastuzumab in HER2- positive breast cancer. Efficacy and safety of neoadjuvant pertuzumab and trastuzumab in women with locally advanced, inflammatory, or early HER2-positive breast cancer (NeoSphere): a randomised multicentre, open-label, phase 2 trial. Pertuzumab plus trastuzumab in combination with standard neoadjuvant anthracycline-containing and anthracycline-free chemotherapy regimens in patients with [...] The simultaneous publication in 2005 of the first interim analysis of the combined National Surgical Adjuvant Breast and Bowel Project (NSABP) B-31/ North Central Cancer Treatment Group (NCCTG) N9831 trials and the HERA trial, both of which had demonstrated significant improvements in disease-free survival (DFS) and overall survival (OS) of trastuzumab added to an anthracycline-paclitaxel adjuvant regimen, was met with enthusiasm and established this regimen as an option in the management of",
+      "origins": [
+        {
+          "source": {
+            "name": "pmc.ncbi.nlm.nih.gov",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4489560"
+          },
+          "document": {
+            "name": "HER2 Targeting in Early Breast Cancer: More Options and More Questions - PMC",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4489560"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0910f4f0-206c-4486-b07c-a4d3a4b01c0c",
+      "content": "### Conclusion\n\nThe addition of trastuzumab to paclitaxel after doxorubicin and cyclophosphamide in early-stage HER2-positive breast cancer results in a substantial and durable improvement in survival as a result of a sustained marked reduction in cancer recurrence. [...] Positive interim analysis findings from four large adjuvant trials evaluating trastuzumab in patients with early-stage human epidermal growth factor receptor 2 (HER2) –positive breast cancer were first reported in 2005. One of these reports, the joint analysis of North Central Cancer Treatment Group NCCTG N9831 (Combination Chemotherapy With or Without Trastuzumab in Treating Women With HER2-Overexpressing Breast Cancer) and the National Surgical Adjuvant Breast and Bowel Project NSABP B-31 [...] ### Results\n\nMedian time on study was 8.4 years. Adding trastuzumab to chemotherapy led to a 37% relative improvement in OS (hazard ratio [HR], 0.63; 95% CI, 0.54 to 0.73; P < .001) and an increase in 10-year OS rate from 75.2% to 84%. These results were accompanied by an improvement in DFS of 40% (HR, 0.60; 95% CI, 0.53 to 0.68; P < .001) and increase in 10-year DFS rate from 62.2% to 73.7%. All patient subgroups benefited from addition of this targeted anti-HER2 agent.\n\n### Conclusion",
+      "origins": [
+        {
+          "source": {
+            "name": "pmc.ncbi.nlm.nih.gov",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4226805"
+          },
+          "document": {
+            "name": "Trastuzumab Plus Adjuvant Chemotherapy for Human Epidermal Growth Factor Receptor 2–Positive Breast Cancer: Planned Joint Analysis of Overall Survival From NSABP B-31 and NCCTG N9831",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4226805"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4e526cf5-260e-450c-95e0-bfbc9156dd85",
+      "content": "and NCCTG N9831. # Trastuzumab plus adjuvant chemotherapy for human epidermal growth factor receptor 2-positive breast cancer: planned joint analysis of overall survival from NSABP B-31 and NCCTG N9831. Positive interim analysis findings from four large adjuvant trials evaluating trastuzumab in patients with early-stage human epidermal growth factor receptor 2 (HER2) -positive breast cancer were first reported in 2005. One of these reports, the joint analysis of North Central Cancer Treatment [...] analysis along with updates on the disease-free survival (DFS) end point. In all, 4,046 patients with HER2-positive operable breast cancer were enrolled to receive doxorubicin and cyclophosphamide followed by paclitaxel with or without trastuzumab in both trials. Adding trastuzumab to chemotherapy led to a 37% relative improvement in OS (hazard ratio [HR], 0.63; 95% CI, 0.54 to 0.73; P < .001) and an increase in 10-year OS rate from 75.2% to 84%. The addition of trastuzumab to paclitaxel after [...] to paclitaxel after doxorubicin and cyclophosphamide in early-stage HER2-positive breast cancer results in a substantial and durable improvement in survival as a result of a sustained marked reduction in cancer recurrence. Authors' disclosures of potential conflicts of interest and author contributions are found at the end of this article. (A) Overall survival and (B) disease-free survival from combined data analysis for North…. AC, doxorubicin and cyclophosphamide; H, trastuzumab; HT, hormonal",
+      "origins": [
+        {
+          "source": {
+            "name": "NCBI",
+            "url": "http://www.ncbi.nlm.nih.gov/pubmed/25332249"
+          },
+          "document": {
+            "name": "Trastuzumab plus adjuvant chemotherapy for human epidermal growth factor receptor 2-positive breast cancer: planned joint analysis of overall survival from NSABP B-31 and NCCTG N9831 - PubMed",
+            "url": "http://www.ncbi.nlm.nih.gov/pubmed/25332249"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8a5f4bd6-1278-4a95-b0ac-afe6e4326c11",
+      "content": "HERA, NSABP B-31 and NCCTG N9831, led by trial NCT00045032 and sponsored by BIG, NSABP and NCCTG, were three adjuvant trials reported together in 2005 that showed a year of trastuzumab after surgery cuts the risk of dying from HER2-positive breast cancer by about a third. Across roughly 9,000 women the joint B-31 and N9831 analysis and the HERA trial both showed large, durable improvements in disease-free and overall survival at ten and eleven years despite heavy crossover in HERA, turning the [...] Setting\n\nAdjuvant HER2+ early breast cancer: one year of trastuzumab with or after chemotherapy vs chemotherapy alone\n\nPhase\n\nPhase 3\n\nSponsor\n\nBIG / NSABP / NCCTG\n\nRegistry\n\nNCT00045032\n\nHeadline result\n\nB-31/N9831 10-year OS 84% vs 75.2%, HR 0.63.\n\nReported\n\n2005\n\nEnrolled\n\n9000\n\nReplication\n\nFour independent adjuvant trials (HERA, B-31, N9831, BCIRG 006) all positive.\n\n## Outcomes\n\n2top ↑\n\nIn plain words\n\nWhat these results mean for people, not percentages\n\n9,000 people took part [...] Overall survival counts deaths from any cause, so it is the most direct measure of whether a treatment helps people live longer.\n\nCaveats\n\n These results apply to the people the trial enrolled: Adjuvant HER2+ early breast cancer: one year of trastuzumab with or after chemotherapy vs chemotherapy alone. People in a different situation may not see the same effect.\n The trial selected people by a biomarker (HER2); the result should not be assumed for people whose cancer does not have it.",
+      "origins": [
+        {
+          "source": {
+            "name": "OnCo",
+            "url": "https://onco.cc/trials/hera-b31-n9831"
+          },
+          "document": {
+            "name": "HERA, NSABP B-31 & NCCTG N9831… · NCT00045032 · OnCo",
+            "url": "https://onco.cc/trials/hera-b31-n9831"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c837109c-840e-4beb-9214-f0290c99b44d",
+      "content": "HERA, NSABP B-31 and NCCTG N9831, led by trial NCT00045032 and sponsored by BIG, NSABP and NCCTG, were three adjuvant trials reported together in 2005 that showed a year of trastuzumab after surgery cuts the risk of dying from HER2-positive breast cancer by about a third. Across roughly 9,000 women the joint B-31 and N9831 analysis and the HERA trial both showed large, durable improvements in disease-free and overall survival at ten and eleven years despite heavy crossover in HERA, turning the [...] Download\n\nSource\n\n| Endpoint | Arm | n | Value | HR (95% CI) | p | Source |\n ---  ---  --- \n| 10-year overall survival (B-31/N9831) | Chemotherapy + trastuzumab | 2,028 | 84% | 0.63 (0.54 to 0.73)  link |\n| Chemotherapy alone | 2,018 | 75.2% |\n| Disease-free survival (B-31/N9831)primary | Chemotherapy + trastuzumab  - | 0.6 (0.53 to 0.68)  link |\n| Chemotherapy alone  - |\n\nReplication\n\nFour independent adjuvant trials (HERA, B-31, N9831, BCIRG 006) all positive.\n\n## Connected\n\n11top ↑ [...] Overall survival counts deaths from any cause, so it is the most direct measure of whether a treatment helps people live longer.\n\nCaveats\n\n These results apply to the people the trial enrolled: Adjuvant HER2+ early breast cancer: one year of trastuzumab with or after chemotherapy vs chemotherapy alone. People in a different situation may not see the same effect.\n The trial selected people by a biomarker (HER2); the result should not be assumed for people whose cancer does not have it.",
+      "origins": [
+        {
+          "source": {
+            "name": "OnCo",
+            "url": "https://onco.cc/trials/hera-b31-n9831"
+          },
+          "document": {
+            "name": "HERA, NSABP B-31 & NCCTG N9831… · NCT00045032 · OnCo",
+            "url": "https://onco.cc/trials/hera-b31-n9831"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1029c984-48db-450c-a49a-29cfce53b82c",
+      "content": "## Background\n\nClinical trials have shown that trastuzumab, a recombinant monoclonal antibody against HER2 receptor, significantly improves overall survival and disease-free survival in women with HER2-positive early breast cancer, but long-term follow-up data are needed. We report the results of comparing observation with two durations of trastuzumab treatment at a median follow-up of 11 years, for patients enrolled in the HERA (HERceptin Adjuvant) trial.\n\n## Methods [...] CI 0·68-0·86) and death (0·74, 0·64-0·86) compared with observation. 2 years of adjuvant trastuzumab did not improve disease free-survival outcomes compared with 1 year of this drug (HR 1·02, 95% CI 0·89-1·17). Estimates of 10-year disease-free survival were 63% for observation, 69% for 1 year of trastuzumab, and 69% for 2 years of trastuzumab. 884 (52%) patients assigned to the observation group selectively crossed over to receive trastuzumab. Cardiac toxicity remained low in all groups and [...] Of the 5102 women randomly assigned in the HERA trial, three patients had no evidence of having provided written informed consent to participate. We followed up the intention-to-treat population of 5099 patients (1697 in observation, 1702 in 1-year trastuzumab, and 1700 in 2-years trastuzumab groups). After a median follow-up of 11 years (IQR 10·09-11·53), random assignment to 1 year of trastuzumab significantly reduced the risk of a disease-free survival event (HR 0·76, 95% CI 0·68-0·86) and",
+      "origins": [
+        {
+          "source": {
+            "name": "pubmed.ncbi.nlm.nih.gov",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28215665"
+          },
+          "document": {
+            "name": "11 years' follow-up of trastuzumab after adjuvant chemotherapy in HER2-positive early breast cancer: final analysis of the HERceptin Adjuvant (HERA) trial.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28215665"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "73e4b369-06f1-4aed-aca2-9edbf0709ccb",
+      "content": "median follow-up of 11 years (IQR 10·09-11·53), random assignment to 1 year of trastuzumab significantly reduced the risk of a disease-free survival event (HR 0·76, 95% CI 0·68-0·86) and death (0·74, 0·64-0·86) compared with observation. 2 years of adjuvant trastuzumab did not improve disease free-survival outcomes compared with 1 year of this drug (HR 1·02, 95% CI 0·89-1·17). Estimates of 10-year disease-free survival were 63% for observation, 69% for 1 year of trastuzumab, and 69% for 2 years [...] survival and disease-free survival in women with HER2-positive early breast cancer, but long-term follow-up data are needed. We report the results of comparing observation with two durations of trastuzumab treatment at a median follow-up of 11 years, for patients enrolled in the HERA (HERceptin Adjuvant) trial. We followed up the intention-to-treat population of 5099 patients (1697 in observation, 1702 in 1-year trastuzumab, and 1700 in 2-years trastuzumab groups). After a median follow-up of [...] and 69% for 2 years of trastuzumab. 1 year of adjuvant trastuzumab after chemotherapy for patients with HER2-positive early breast cancer significantly improves long-term disease-free survival, compared with observation. RDG reports grants as support for his academic salary from the Breast International Group (BIG) and F Hoffman-La Roche Ltd (Roche) during the conduct of the study; and grants as support for his academic salary from GlaxoSmithKline (GSK), Pfizer, Merck, Celgene, and Novartis,",
+      "origins": [
+        {
+          "source": {
+            "name": "NCBI",
+            "url": "http://www.ncbi.nlm.nih.gov/pubmed/28215665"
+          },
+          "document": {
+            "name": "11 years' follow-up of trastuzumab after adjuvant chemotherapy in HER2-positive early breast cancer: final analysis of the HERceptin Adjuvant (HERA) trial - PubMed",
+            "url": "http://www.ncbi.nlm.nih.gov/pubmed/28215665"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "77b81994-04f4-44e2-8c70-014b8004916a",
+      "content": "As with disease-free survival, the results for overall survival also showed a robust and persistent improvement despite the effect of selective crossover (figure 3). The HR (1-year trastuzumab vs observation) for overall survival at 11 years of median follow-up was 0.74 (95% CI 0.64–0.86). At 12 years, the overall survival was 73% in the observation group, 79% in the 1-year trastuzumab group, and 80% in the 2-years trastuzumab group. The absolute benefit in 12-year overall survival was 6.5% for [...] In this final report, results for 1 year of trastuzumab (median of 18 cycles of once every 3 weeks [one cycle]) versus observation were based on 1113 disease-free survival events (1103 [99%] satisfied the STEEP criteria for IDFS events) and 725 patients deaths (an overall survival event). 884 (52%) patients in the observation group received trastuzumab before a disease-free survival event due to selective crossover after publication of the initial trial results. Despite this selective [...] In the hormone-receptor-positive cohort, the HR (1-year trastuzumab vs observation) was 0.80 (95% CI 0.68–0.96) and the absolute benefit in 10-year disease-free survival rate was 5.6%. The 10-year disease-free survival was 66% in the observation group, compared with 72% in the 1-year trastuzumab and 70% in the 2-years trastuzmab groups (figure 2C). In the hormone-receptor-negative cohort, the 10-year disease-free survival rates were lower; 59% for the observation group, 67% for 1-year",
+      "origins": [
+        {
+          "source": {
+            "name": "pmc.ncbi.nlm.nih.gov",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5465633"
+          },
+          "document": {
+            "name": "11 years’ follow-up of trastuzumab after adjuvant chemotherapy in HER2-positive early breast cancer: final analysis of the HERceptin Adjuvant (HERA) trial",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5465633"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "24ba9f89-0c8a-43eb-b23b-2000ee615ffb",
+      "content": "2 years of adjuvant trastuzumab did not improve disease free-survival outcomes compared with 1 year of this drug (HR 1·02). Figure 1:  Estimates of 10-year disease-free survival.  24% relative reduction in risk of a disease-free survival event, and a 26% relative reduction in risk of death was observed with the addition of 1 year of adjuvant trastuzumab in women with HER2-positive early breast cancer.  Secondary cardiac endpoints occurred more frequently in the 2-years trastuzumab group than in [...] # HERA Trial: Long-term Results of 1 year of Trastuzumab verses 2 years of Trastuzumab Treatment in HER2-positive Early Breast Cancer. It significantly improves overall survival and disease-free survival in women with HER2-positive early breast cancer. ## Aim. HERA (HERceptin Adjuvant) trial compared the year of trastuzumab, and 2 years of trastuzumab treatment at a median follow-up of 11 years in HER2-positive early breast cancer.  Women with HER2-positive early breast cancer.  Primary [...] group than in the 1-year trastuzumab group and the observation group. | Primary Cardiac endpoints | 1% | 1% | 0.1% |.  Subgroup analysis of disease-free survival by nodal status showed the 10-year disease-free survival in.  HRs (1-year trastuzumab vs observation) were 0.78 for the node-negative cohort, 0.64 for those with one to three positive nodes, and 0.82 in those with four or more positive nodes.  The HERA trial demonstrated that the addition of 1 year of adjuvant trastuzumab in women with",
+      "origins": [
+        {
+          "source": {
+            "name": "ciplamed.com",
+            "url": "https://www.ciplamed.com/explore/key-trials/hera-trial-long-term-results-of-1-year-of-trastuzumab-verses-2-years-of-trastuzumab"
+          },
+          "document": {
+            "name": "HERA Trial: Long-term Results of 1 year of Trastuzumab verses 2 years of Trastuzumab Treatment in HER2-positive Early Breast Cancer",
+            "url": "https://www.ciplamed.com/explore/key-trials/hera-trial-long-term-results-of-1-year-of-trastuzumab-verses-2-years-of-trastuzumab"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "958e4846-bb08-4e79-a299-02217fc47754",
+      "content": "breast cancer. 5102 women were enrolled into the HERA trial, and a planned interim analysis at a median follow-up of 1 year showed that the addition of trastuzumab to standard adjuvant chemotherapy significantly improved disease-free survival compared with chemotherapy alone (hazard ratio [HR] 0·54; 95% CI 0·43–0·67).9 These results led to a protocol amendment, which allowed patients in the observation group with left ventricular ejection fraction (LVEF) of 55% or greater who had not relapsed [...] # Fast track — Articles Treatment with trastuzumab for 1 year after adjuvant chemotherapy in patients with HER2-positive early breast cancer: a 4-year follow-up of a randomised controlled trial. Treatment with adjuvant trastuzumab for 1 year improves disease-free survival and overall survival in patients with human epidermal growth factor receptor 2 (HER2)-positive early breast cancer. The HERA trial is an international, multicentre, randomised, open-label, phase 3 trial comparing treatment [...] group.  ### 11 years' follow-up of trastuzumab after adjuvant chemotherapy in HER2-positive early breast cancer: final analysis of the HERceptin Adjuvant (HERA) trial. Clinical trials have shown that trastuzumab, a recombinant monoclonal antibody against HER2 receptor, significantly improves overall survival and disease-free survival in women with HER2-positive early breast cancer, but long-term follow-up data are needed. 1 year of adjuvant trastuzumab after chemotherapy for patients with",
+      "origins": [
+        {
+          "source": {
+            "name": "sciencedirect.com",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S147020451170033X"
+          },
+          "document": {
+            "name": "Treatment with trastuzumab for 1 year after adjuvant chemotherapy in patients with HER2-positive early breast cancer: a 4-year follow-up of a randomised controlled trial - ScienceDirect",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S147020451170033X"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cd38b274-b6c3-4482-86b7-383df82cf642",
+      "content": "and paclitaxel (AC→P) for the adjuvant treatment of HER2-positive, node-positive early-stage breast cancer.    In January 2008, FDA granted marketing approval for trastuzumab as a single agent for the adjuvant treatment of early-stage HER2-positive node-positive breast cancer or node-negative (ER/PR-negative or with one high-risk feature) disease following multi-modality, anthracycline-based therapy. Trastuzumab also was approved to be administered as a single agent in an every-3-week dosing [...] domain of HER2. Trastuzumab has received FDA marketing approval for treatment of HER2-positive breast cancer in both the adjuvant and metastatic settings. It first received FDA approval in September 1998 for use in metastatic breast cancer, as a first-line therapy in combination with paclitaxel and as a single agent in second- and third-line therapy.    In November 2006, trastuzumab received FDA marketing approval as part of a treatment regimen containing doxorubicin, cyclophosphamide, and [...] every-3-week dosing schedule for 1 year.    In May 2008, the FDA approved two new trastuzumab-containing regimens for the adjuvant treatment of early-stage HER2-positive node-positive or node-negative (ER/PR-negative or with one high-risk feature) breast cancer. The first regimen is in combination with docetaxel and carboplatin (also known as TCH for Taxotere®, carboplatin, and Herceptin®), which does not contain an anthracycline (doxorubicin) component. The second is part of a treatment",
+      "origins": [
+        {
+          "source": {
+            "name": "secure.arkansasbluecross.com",
+            "url": "https://secure.arkansasbluecross.com/members/report.aspx?policyNumber=1998158"
+          },
+          "document": {
+            "name": "Coverage Policy Manual - Arkansas Blue Cross and Blue Shield",
+            "url": "https://secure.arkansasbluecross.com/members/report.aspx?policyNumber=1998158"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de2ee721-bb2f-4180-bdf2-1c7568a13dad",
+      "content": "domain of HER2. Trastuzumab has received FDA marketing approval for treatment of HER2-positive breast cancer in both the adjuvant and metastatic settings. It first received FDA approval in September 1998 for use in metastatic breast cancer, as a first-line therapy in combination with paclitaxel and as a single agent in second- and third-line therapy.    In November 2006, trastuzumab received FDA marketing approval as part of a treatment regimen containing doxorubicin, cyclophosphamide, and [...] (n=232) but longest follow-up (median, 36 months) among the 5 reports. In November 2006 the FDA added adjuvant therapy with AC--> paclitaxel plus trastuzumab as an approved indication for patients with HER2-overexpressing node-positive breast cancer, based on the combined interim analysis of NSABP B-31 and NCCTG N9831. The discussion below summarizes evidence from the 5 available trials on outcomes of off-label adjuvant trastuzumab: i.e., combined with regimens other than AC-->paclitaxel, or [...] and paclitaxel (AC→P) for the adjuvant treatment of HER2-positive, node-positive early-stage breast cancer.    In January 2008, FDA granted marketing approval for trastuzumab as a single agent for the adjuvant treatment of early-stage HER2-positive node-positive breast cancer or node-negative (ER/PR-negative or with one high-risk feature) disease following multi-modality, anthracycline-based therapy. Trastuzumab also was approved to be administered as a single agent in an every-3-week dosing",
+      "origins": [
+        {
+          "source": {
+            "name": "secure.arkansasbluecross.com",
+            "url": "https://secure.arkansasbluecross.com/members/report.aspx?policyNumber=1998158"
+          },
+          "document": {
+            "name": "Coverage Policy Manual - Arkansas Blue Cross and Blue Shield",
+            "url": "https://secure.arkansasbluecross.com/members/report.aspx?policyNumber=1998158"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bc8680f9-e30c-426e-a56f-ed7f0034eda6",
+      "content": "| Date | Article |\n --- |\n| Aug  1, 2023 | Lunit Presents Groundbreaking Study on Predicting Treatment Response by HER2 Analysis in Colorectal Cancer |\n| Jun  3, 2023 | Trial Shows Potential for Chemotherapy-free Treatment of HER2-positive Early Breast Cancer |\n| Oct 20, 2010 | Approval FDA Approves Herceptin For HER2-Positive Metastatic Stomach Cancer |\n| Nov 16, 2006 | Approval FDA Approves Herceptin for the Adjuvant Treatment of HER2-Positive Node-Positive Breast Cancer | [...] Herceptin (trastuzumab) is a HER2/neu receptor antagonist indicated for the treatment of HER2 overexpressing breast cancer and for the treatment of HER2-overexpressing metastatic gastric or\ngastroesophageal junction adenocarcinoma.\n\n## Development timeline for Herceptin [...] Certified by TRUSTe\nVerified by TAG\nThis website is certified by AACI. Click to verify.\nAdChoices - Ad privacy information",
+      "origins": [
+        {
+          "source": {
+            "name": "drugs.com",
+            "url": "https://drugs.com/history/herceptin.html"
+          },
+          "document": {
+            "name": "Herceptin (trastuzumab) FDA Approval History - Drugs.com",
+            "url": "https://drugs.com/history/herceptin.html"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ac45fbee-56fe-4a1c-8f01-e334ccc76393",
+      "content": "| Date | Article |\n --- |\n| Aug  1, 2023 | Lunit Presents Groundbreaking Study on Predicting Treatment Response by HER2 Analysis in Colorectal Cancer |\n| Jun  3, 2023 | Trial Shows Potential for Chemotherapy-free Treatment of HER2-positive Early Breast Cancer |\n| Oct 20, 2010 | Approval FDA Approves Herceptin For HER2-Positive Metastatic Stomach Cancer |\n| Nov 16, 2006 | Approval FDA Approves Herceptin for the Adjuvant Treatment of HER2-Positive Node-Positive Breast Cancer | [...] Herceptin (trastuzumab) is a HER2/neu receptor antagonist indicated for the treatment of HER2 overexpressing breast cancer and for the treatment of HER2-overexpressing metastatic gastric or\ngastroesophageal junction adenocarcinoma.\n\n## Development timeline for Herceptin [...] Certified by TRUSTe\nVerified by TAG\nThis website is certified by AACI. Click to verify.\nAdChoices - Ad privacy information",
+      "origins": [
+        {
+          "source": {
+            "name": "drugs.com",
+            "url": "https://www.drugs.com/history/herceptin.html"
+          },
+          "document": {
+            "name": "Herceptin (trastuzumab) FDA Approval History - Drugs.com",
+            "url": "https://www.drugs.com/history/herceptin.html"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dc0b2085-6f25-459c-858a-6fe54e512233",
+      "content": "# Herceptin Approved for Early-Stage Breast Cancer. Herceptin Approved for Early-Stage Breast Cancer. The biologic therapy was approved for use as an adjuvant in combination with doxorubicin, cyclophosphamide, and paclitaxel for treatment of early HER-2 node-positive breast cancer. Herceptin (trastuzumab), manufactured by Genentech Inc., was first approved by the FDA in 1998 for metastatic breast cancer. “For women with early-stage HER-2-positive breast cancer, the addition of Herceptin to [...] and paclitaxel for treatment of early HER-2 node-positive breast cancer. Herceptin (trastuzumab), manufactured by Genentech Inc., was first approved by the FDA in 1998 for metastatic breast cancer. “For women with early-stage HER-2-positive breast cancer, the addition of Herceptin to chemotherapy reduces the relative risk of breast cancer recurrence by approximately half,” Dr. Edward Romond, a professor of medicine in hematology/oncology at the University of Kentucky, Lexington, said in a [...] typically has a poor prognosis,” Dr. Steven Galson, director of the FDA's Center for Drug Evaluation and Research, said in a statement. The biologic therapy was approved for use as an adjuvant in combination with doxorubicin, cyclophosphamide, and paclitaxel for treatment of early HER-2 node-positive breast cancer. Herceptin (trastuzumab), manufactured by Genentech Inc., was first approved by the FDA in 1998 for metastatic breast cancer. “For women with early-stage HER-2-positive breast cancer,",
+      "origins": [
+        {
+          "source": {
+            "name": "ma1.mdedge.com",
+            "url": "https://ma1.mdedge.com/content/herceptin-approved-early-stage-breast-cancer"
+          },
+          "document": {
+            "name": "Herceptin Approved for Early-Stage Breast Cancer | MDedge",
+            "url": "https://ma1.mdedge.com/content/herceptin-approved-early-stage-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "367d2c01-b64b-41cf-a43b-b7fa1ccf75b0",
+      "content": "# Herceptin Approved for Early-Stage Breast Cancer. Herceptin Approved for Early-Stage Breast Cancer. The biologic therapy was approved for use as an adjuvant in combination with doxorubicin, cyclophosphamide, and paclitaxel for treatment of early HER-2 node-positive breast cancer. Herceptin (trastuzumab), manufactured by Genentech Inc., was first approved by the FDA in 1998 for metastatic breast cancer. “For women with early-stage HER-2-positive breast cancer, the addition of Herceptin to [...] typically has a poor prognosis,” Dr. Steven Galson, director of the FDA's Center for Drug Evaluation and Research, said in a statement. The biologic therapy was approved for use as an adjuvant in combination with doxorubicin, cyclophosphamide, and paclitaxel for treatment of early HER-2 node-positive breast cancer. Herceptin (trastuzumab), manufactured by Genentech Inc., was first approved by the FDA in 1998 for metastatic breast cancer. “For women with early-stage HER-2-positive breast cancer, [...] and paclitaxel for treatment of early HER-2 node-positive breast cancer. Herceptin (trastuzumab), manufactured by Genentech Inc., was first approved by the FDA in 1998 for metastatic breast cancer. “For women with early-stage HER-2-positive breast cancer, the addition of Herceptin to chemotherapy reduces the relative risk of breast cancer recurrence by approximately half,” Dr. Edward Romond, a professor of medicine in hematology/oncology at the University of Kentucky, Lexington, said in a",
+      "origins": [
+        {
+          "source": {
+            "name": "ma1.mdedge.com",
+            "url": "https://ma1.mdedge.com/content/herceptin-approved-early-stage-breast-cancer"
+          },
+          "document": {
+            "name": "Herceptin Approved for Early-Stage Breast Cancer | MDedge",
+            "url": "https://ma1.mdedge.com/content/herceptin-approved-early-stage-breast-cancer"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d4656adb-4939-43bc-a050-67b93f90304a",
+      "content": "her2-positive breast cancer; nsabp B-31 enrolled only node-positive patients (Table II)56–60. Most of the adjuvant trastuzumab trials had cardiac eligibility criteria that required a lvef of more than 50% and that excluded patients with a history of cardiac disease or cardiac risk factors (Table III)56,58,59,61,64. In the combined analysis of nsabp B-31 and ncctg N9831, patients were excluded from trastuzumab initiation if their lvef after anthracycline therapy was below the lower limit of [...] breast cancer: the ncctg Intergroup trial N9831, the National Surgical Adjuvant Breast and Bowel Project (nsabp) trial B-31 (which led to a combined analysis with ncctg N9831), the Herceptin Adjuvant (hera) trial, the Breast Cancer International Research Group (bcirg) trial 006, and the Finland Herceptin (Finher) trial. The ncctg N9831, hera, bcirg 006, and Finher trials evaluated the addition of trastuzumab to adjuvant chemotherapy for node-positive or high-risk node-negative her2-positive [...] Similarly, the North Central Cancer Treatment Group (ncctg) N9831 Intergroup Adjuvant Trial, which used doxorubicin and cyclophosphamide (ac) followed by paclitaxel (t) as a backbone for the addition of trastuzumab therapy in women with human epidermal growth factor receptor type-2 (her2) overexpression, reported that 23.4% of patients experienced a 10% or greater decline in lvef following 4 cycles of ac29. To date, five phase iii trials have studied trastuzumab in early-stage breast cancer:",
+      "origins": [
+        {
+          "source": {
+            "name": "pmc.ncbi.nlm.nih.gov",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2216425"
+          },
+          "document": {
+            "name": "Matters of the heart: cardiac toxicity of adjuvant systemic therapy for early-stage breast cancer - PMC",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2216425"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7df84232-ec0a-464d-bdb9-03a7f46b5c01",
+      "content": "for Herceptin as Adjuvant therapy with Reduced Exposure (PHARE) [17, 18], the Finland Herceptin (FinHer) trial , and the Protocol Adjuvant dans le Cancer du Sein (PACS-04) . As shown in table 1, HERA, the combined analysis (henceforth ‘Joint Analysis’) of the NSABP-B31 and NCCTG N9831 trials, NCCTG N9831, and BCIRG 006 were positive for their primary endpoint, demonstrating a statistically significant improvement in DFS. Trial designs of of the pivotal adjuvant trials in HER2/neu-positive early [...] HER2/neu-positive early breast cancer (EBC), some controversial issues prevail: When should trastuzumab and chemotherapy be administrated? These trials include the Herceptin Adjuvant (HERA) trial [2, 8, 9, 10], the National Surgical Adjuvant Breast and Bowel Project B-31 (NSABP B-31) trial [3, 11, 12, 13], the North Central Cancer Treatment Group N9831 (NCCTG N9831) trial [11, 12, 14], the Breast Cancer International Research Group (BCIRG 006) trial [15, 16], the Protocol for Herceptin as",
+      "origins": [
+        {
+          "source": {
+            "name": "pmc.ncbi.nlm.nih.gov",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3808227"
+          },
+          "document": {
+            "name": "How Long is Enough – Optimal Timing of Anti-HER2/neu Therapy in the Adjuvant Setting in Early Breast Cancer - PMC",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3808227"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b0417bbd-bdb4-457e-a628-e7153344b162",
+      "content": "improvement in disease-free survival (DFS) and overall survival (OS) was observed for 1 year of trastuzumab despite the fact that 50% of patients in the observation arm crossed over to trastuzumab. HERA was a one of the pivotal trials for registration of trastuzumab for 1 year as part of adjuvant therapy for HER2+ early breast cancer. This is the only trial to compare 1 year versus 2 years of trastuzumab, Gelber noted. The data presented October 1 at the 2012 ESMO Congress in Vienna is a second [...] # One Year of Adjuvant Trastuzumab Remains Standard of Care.     One year of adjuvant trastuzumab remains the standard for HER2-positive early breast cancer, with no added benefit from extending to 2 years.     At 8 years, significant improvements in disease-free and overall survival were observed with 1 year of trastuzumab, despite crossover in the observation group.     The HERA trial's findings are supported by the PHARE trial, reinforcing 1 year of trastuzumab as the standard of care in the [...] of care in the adjuvant setting. Long-term follow-up of the HERA trial confirms that 1 year of adjuvant therapy with trastuzumab should remain the standard of care for treatment of women with HER2-positive invasive early breast cancer. HERA compared 1 year versus 2 years of trastuzumab versus observation alone in the adjuvant setting, and updated results failed to show a benefit for an additional year of therapy. At a median follow-up of 8 years, sustained and significant improvement in",
+      "origins": [
+        {
+          "source": {
+            "name": "onclive.com",
+            "url": "https://www.onclive.com/view/one-year-of-adjuvant-trastuzumab-remains-standard-of-care"
+          },
+          "document": {
+            "name": "One Year of Adjuvant Trastuzumab Remains Standard of Care",
+            "url": "https://www.onclive.com/view/one-year-of-adjuvant-trastuzumab-remains-standard-of-care"
+          },
+          "breadcrumb": [
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "247699e6-094a-464d-b016-a945b6f1598d",
+      "name": "U.S. FDA",
+      "entity_type": "Company",
+      "mentions": [
+        "FDA"
+      ]
+    },
+    {
+      "id": "a9a04198-4429-4edf-be76-a4dd4ff30e81",
+      "name": "Herceptin",
+      "entity_type": "Product",
+      "mentions": [
+        "Herceptin"
+      ]
+    },
+    {
+      "id": "e7068b20-14c1-429b-9b18-14cf2a704e75",
+      "name": "AC→TH",
+      "entity_type": "Product",
+      "mentions": [
+        "AC→TH"
+      ]
+    },
+    {
+      "id": "867d32e4-3e0c-407e-b1dd-28105b01f4b5",
+      "name": "TCH regimen",
+      "entity_type": "Product",
+      "mentions": [
+        "TCH regimen"
+      ]
+    },
+    {
+      "id": "c0717740-6090-4bb4-b101-b59df3280802",
+      "name": "doxorubicin",
+      "entity_type": "Product",
+      "mentions": [
+        "doxorubicin"
+      ]
+    },
+    {
+      "id": "941b29b8-006a-45e0-b470-53d4c2655985",
+      "name": "Cyclophosphamide",
+      "entity_type": "Product",
+      "mentions": [
+        "cyclophosphamide"
+      ]
+    },
+    {
+      "id": "f702e36f-9fb1-4e6e-a1fe-65a0efc9d78a",
+      "name": "paclitaxel",
+      "entity_type": "Product",
+      "mentions": [
+        "paclitaxel"
+      ]
+    },
+    {
+      "id": "67a238c1-fd94-45af-9465-52132dde6580",
+      "name": "Docetaxel",
+      "entity_type": "Product",
+      "mentions": [
+        "docetaxel"
+      ]
+    },
+    {
+      "id": "59ff4efd-34d3-40f5-a367-f74739842513",
+      "name": "Carboplatin",
+      "entity_type": "Product",
+      "mentions": [
+        "carboplatin"
+      ]
+    }
+  ],
+  "_query": "What did the adjuvant trastuzumab trials (HERA, NSABP B-31, NCCTG N9831) show for early-stage HER2-positive breast cancer, and when did the FDA approve Herceptin for early-stage disease?"
+}

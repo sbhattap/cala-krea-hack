@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Drug Biography</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout follows reference/semaglutide.html: hero, year lifeline, chapters on a left spine.
+   All content comes from biographies/<id>.json. Images come from assets/<id>/ when present. */
+:root{
+  --paper:#F5F2F1;      /* warm paper, faint rose */
+  --card:#FCFAF9;
+  --ink:#1B1F2E;        /* deep navy ink */
+  --muted:#5E6270;
+  --rule:#DDD5D3;
+  --accent:#C2456A;     /* ribbon rose */
+  --accent-2:#E2A04A;   /* amber */
+  --night:#151827;      /* hero and film ground */
+  --display:"Young Serif", Georgia, "Times New Roman", serif;
+  --body:"Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#12141C; --card:#191C26; --ink:#ECE8E7; --muted:#A09CA6; --rule:#2B2E3A;
+    --accent:#E7708F; --accent-2:#F0B460; --night:#0B0D14; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#12141C; --card:#191C26; --ink:#ECE8E7; --muted:#A09CA6; --rule:#2B2E3A;
+  --accent:#E7708F; --accent-2:#F0B460; --night:#0B0D14; color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6}
+.wrap{max-width:880px;margin:0 auto;padding:0 16px 64px}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+
+/* Hero */
+.hero{position:relative;overflow:hidden;background:var(--night);color:#F6EFEE;min-height:440px}
+.hero .art{position:absolute;inset:0;width:100%;height:100%;display:block;object-fit:cover}
+.hero .shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,9,16,.85) 0%,rgba(8,9,16,.45) 55%,rgba(8,9,16,.1) 100%)}
+.hero-inner{position:relative;max-width:880px;margin:0 auto;padding:64px 16px 56px}
+.back{display:inline-block;margin-bottom:18px;font-family:var(--mono);font-size:12px;color:#E9DCDA;text-decoration:none;letter-spacing:.06em}
+.back:hover{text-decoration:underline}
+.hero-label{display:inline-block;font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;background:#F6EFEE;color:#1B1F2E;padding:4px 10px;border-radius:2px}
+.hero h1{font-family:var(--display);font-weight:400;font-size:clamp(44px,9vw,92px);line-height:1;margin:18px 0 6px;text-wrap:balance}
+.hero .brands{font-family:var(--display);font-size:clamp(20px,3vw,26px);color:#F2C9D3;margin:0 0 14px}
+.hero p.line{max-width:38ch;font-size:clamp(17px,2.4vw,21px);margin:0}
+.hero .spec{margin-top:20px;font-family:var(--mono);font-size:13px;color:#EADDDB;background:rgba(10,10,16,.62);display:inline-block;padding:6px 10px;border-radius:2px}
+.play{display:inline-flex;align-items:center;gap:10px;margin-top:26px;font:600 16px var(--body);color:#1B1F2E;background:#F6EFEE;border:0;border-radius:999px;padding:12px 22px 12px 16px;cursor:pointer}
+.play:hover{background:#fff}
+.play .tri{width:0;height:0;border-left:12px solid var(--accent);border-top:8px solid transparent;border-bottom:8px solid transparent}
+
+/* Lifeline */
+.lifeline{margin:36px 0 8px}
+.section-label{font-family:var(--mono);font-size:12px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+.line-scroll{overflow-x:auto;padding:0 10px}
+.line{position:relative;min-width:640px;height:78px}
+.line .axis{position:absolute;left:0;right:0;top:32px;height:2px;background:var(--rule)}
+.line button{position:absolute;top:24px;transform:translateX(-50%);width:18px;height:18px;border-radius:50%;border:3px solid var(--paper);background:var(--accent);cursor:pointer;padding:0}
+.line button:hover{background:var(--accent-2)}
+.line .yr{position:absolute;top:50px;transform:translateX(-50%);font-family:var(--mono);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.line .yr.up{top:2px}
+
+/* Chapters: picture first, one line, stat, then the full text on request */
+.chapters{position:relative;margin-top:28px;display:grid;gap:56px}
+.chapters::before{content:"";position:absolute;left:11px;top:6px;bottom:6px;width:2px;background:var(--rule)}
+.ch{position:relative;padding-left:44px;scroll-margin-top:24px}
+.ch::before{content:"";position:absolute;left:4px;top:8px;width:16px;height:16px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px var(--paper)}
+.ch .meta{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline;font-family:var(--mono);font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.ch .meta .num{color:var(--accent);font-weight:500}
+.ch h3{font-family:var(--display);font-weight:400;font-size:clamp(26px,4.4vw,36px);line-height:1.15;margin:6px 0 14px;text-wrap:balance}
+.plate{position:relative;margin:0 0 16px;border-radius:4px;overflow:hidden;background:var(--night);aspect-ratio:16/8}
+.plate .art{display:block;width:100%;height:100%;object-fit:cover}
+.plate .stat-over{position:absolute;right:0;bottom:0;background:rgba(10,11,18,.78);color:#F6EFEE;padding:10px 14px 10px;max-width:60%;border-top-left-radius:4px}
+.plate .stat-over b{display:block;font-family:var(--display);font-weight:400;font-size:clamp(24px,4vw,34px);line-height:1.1;font-variant-numeric:tabular-nums}
+.plate .stat-over span{font-size:13px;color:#D9CFCF}
+.ch .lede{font-size:clamp(18px,2.4vw,21px);line-height:1.5;margin:0 0 10px;max-width:56ch}
+details{margin-top:6px}
+summary{cursor:pointer;font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+details p{margin:10px 0 0;max-width:62ch}
+details .prompt{font-size:13px;color:var(--muted);margin-top:12px}
+details .prompt strong{font-family:var(--mono);font-weight:500;font-size:11px;letter-spacing:.12em;text-transform:uppercase}
+.src{font-size:13px;color:var(--muted);margin-top:10px}
+.src a{color:var(--muted);text-decoration-color:var(--accent);text-underline-offset:3px}
+.src .via{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-right:6px}
+@media (max-width:640px){ .ch{padding-left:36px} .plate{aspect-ratio:4/3} }
+
+.error{margin:48px 0;padding:20px;border:1px solid var(--rule);background:var(--card);border-radius:4px}
+footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--rule);font-size:14px;color:var(--muted)}
+footer p{max-width:66ch}
+footer .disclaimer{font-weight:600;color:var(--ink)}
+
+/* Documentary: full-screen film built from the same chapters */
+.film{position:fixed;inset:0;z-index:50;background:#05060A;color:#F6EFEE;overflow:hidden;display:none}
+.film.on{display:block}
+.film .scene{position:absolute;inset:0;opacity:0;transition:opacity 1.2s ease}
+.film .scene.show{opacity:1}
+.film .scene .art{position:absolute;inset:-4%;width:108%;height:108%;object-fit:cover;transform-origin:center}
+.film .scene.show .art{animation:kb var(--dur,7s) linear forwards}
+.film .scene.alt.show .art{animation-name:kb2}
+@keyframes kb{from{transform:scale(1) translate(0,0)}to{transform:scale(1.12) translate(-2%,-1.5%)}}
+@keyframes kb2{from{transform:scale(1.12) translate(2%,1%)}to{transform:scale(1) translate(0,0)}}
+.film .vignette{position:absolute;inset:0;background:radial-gradient(ellipse at 30% 60%,transparent 30%,rgba(0,0,0,.75) 100%),linear-gradient(0deg,rgba(0,0,0,.85) 0%,transparent 55%)}
+.film .bars::before,.film .bars::after{content:"";position:absolute;left:0;right:0;height:7vh;background:#000;z-index:2}
+.film .bars::before{top:0}.film .bars::after{bottom:0}
+.film .cap{position:absolute;left:clamp(16px,6vw,96px);right:clamp(16px,6vw,96px);bottom:calc(7vh + 72px);z-index:3}
+.film .cap > *{opacity:0;transform:translateY(14px);transition:opacity .9s ease,transform .9s ease}
+.film .cap.in > *{opacity:1;transform:none}
+.film .cap.in > :nth-child(2){transition-delay:.25s}.film .cap.in > :nth-child(3){transition-delay:.6s}.film .cap.in > :nth-child(4){transition-delay:1s}
+.film .when{font-family:var(--mono);font-size:clamp(13px,1.6vw,16px);letter-spacing:.16em;text-transform:uppercase;color:var(--accent-2)}
+.film h2{font-family:var(--display);font-weight:400;font-size:clamp(36px,7vw,84px);line-height:1.02;margin:8px 0 12px;max-width:16ch;text-wrap:balance}
+.film .say{font-size:clamp(17px,2.2vw,24px);line-height:1.45;max-width:40ch;margin:0}
+.film .fstat{margin-top:20px;display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.film .fstat b{font-family:var(--display);font-weight:400;font-size:clamp(40px,7vw,80px);line-height:1;color:#fff;font-variant-numeric:tabular-nums}
+.film .fstat span{font-size:clamp(14px,1.6vw,17px);color:#D9CFCF;max-width:26ch}
+.film .fsrc{position:absolute;right:clamp(16px,6vw,96px);bottom:calc(7vh + 52px);z-index:3;font-size:12px;color:#BDB3B5;max-width:46ch;text-align:right}
+.film .fsrc .via{font-family:var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent-2);margin-right:6px}
+.film .track{position:absolute;left:clamp(16px,6vw,96px);right:clamp(16px,6vw,96px);bottom:calc(7vh + 40px);height:2px;background:rgba(255,255,255,.18);z-index:3}
+.film .track i{position:absolute;top:-4px;width:10px;height:10px;margin-left:-5px;border-radius:50%;background:rgba(255,255,255,.35);transition:background .4s,transform .4s}
+.film .track i.done{background:var(--accent)}
+.film .track i.now{background:var(--accent-2);transform:scale(1.5)}
+.film .track .yr{position:absolute;top:10px;transform:translateX(-50%);font-family:var(--mono);font-size:11px;color:#BDB3B5;white-space:nowrap}
+.film .ctrl{position:absolute;top:calc(7vh + 14px);right:16px;z-index:4;display:flex;gap:8px}
+.film .ctrl button{font:500 12px var(--mono);letter-spacing:.06em;color:#F6EFEE;background:rgba(20,20,28,.7);border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:7px 12px;cursor:pointer}
+.film .ctrl button:hover{background:rgba(40,40,56,.9)}
+/* Title and end cards sit left on a dark scrim, so the hero's bright DNA strand stays to the right, clear of the text. */
+.film .card{position:absolute;inset:0;z-index:3;display:grid;align-content:center;justify-items:start;text-align:left;
+  padding-block:16px;padding-inline:clamp(16px,6vw,96px);opacity:0;transition:opacity 1.2s ease;
+  background:linear-gradient(90deg,rgba(5,6,12,.94) 0%,rgba(5,6,12,.82) 38%,rgba(5,6,12,.35) 62%,rgba(5,6,12,0) 80%);
+  text-shadow:0 2px 18px rgba(0,0,0,.7)}
+.film .card.show{opacity:1}
+.film .card h2{margin:10px 0;max-width:12ch}
+.film .card p{max-width:34ch;margin:0;font-size:clamp(16px,2vw,21px);color:#EFE6E6}
+/* Every slide dims its art the same amount, so captions read the same way throughout. */
+.film .scene .art{filter:brightness(.72)}
+.film .scene[data-hero] .art{object-position:85% 50%}
+@media (max-width:640px){ .film .card{background:rgba(5,6,12,.8)} }
+.film .card .small{margin-top:20px;font-size:13px;color:#BDB3B5}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  .film .scene.show .art{animation:none}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <canvas class="art" id="pattern" aria-hidden="true"></canvas>
+  <div class="shade"></div>
+  <div class="hero-inner">
+    <a class="back" href="index.html">← All breast cancer drugs</a><br>
+    <span class="hero-label" id="label">Drug biography</span>
+    <h1 id="name">Loading…</h1>
+    <div class="brands" id="brands"></div>
+    <p class="line" id="tagline"></p>
+    <div class="spec" id="spec" hidden></div>
+    <div><button class="play" id="play" hidden><span class="tri"></span>Play the documentary</button></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="lifeline" aria-label="Lifeline">
+    <h2 class="section-label" id="lifeline-label">Lifeline</h2>
+    <div class="line-scroll"><div class="line" id="line"><div class="axis"></div></div></div>
+  </section>
+
+  <section class="chapters" id="chapters"></section>
+
+  <footer>
+    <p class="disclaimer">For learning only. Talk to an oncologist about treatment.</p>
+    <p>Every chapter is built from facts returned by Cala's knowledge search, each with its source shown. Images are generated with Krea from the prompt in each chapter.</p>
+  </footer>
+</main>
+
+<div class="film" id="film" role="dialog" aria-label="Documentary" aria-modal="true">
+  <div id="scenes"></div>
+  <div class="vignette"></div>
+  <div class="bars"></div>
+  <div class="card" id="card"></div>
+  <div class="cap" id="cap"></div>
+  <div class="track" id="track"></div>
+  <div class="fsrc" id="fsrc"></div>
+  <div class="ctrl">
+    <button id="f-pause">Pause</button>
+    <button id="f-close">Close ✕</button>
+  </div>
+</div>
+
+<script>
+const params = new URLSearchParams(location.search);
+const drugId = (params.get("drug") || "trastuzumab").replace(/[^a-z0-9_-]/gi, "");
+
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const yearOf = c => c.year || +(String(c.date).match(/\d{4}/) || [new Date().getFullYear()])[0];
+const tok = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const chId = (c, i) => c.id || `ch${i+1}`;
+
+/* Seeded random */
+function rng(seed){ let s=seed*9301+49297; return ()=>((s=(s*9301+49297)%233280)/233280); }
+
+/* Fallback art until Krea images exist: a field of cells, some studded with Y-shaped receptors. */
+function cells(canvas, seed){
+  const dpr = Math.min(window.devicePixelRatio||1, 2);
+  const w = canvas.clientWidth, h = canvas.clientHeight;
+  if(!w || !h) return;
+  canvas.width = w*dpr; canvas.height = h*dpr;
+  const g = canvas.getContext("2d"); g.scale(dpr,dpr);
+  const a = tok("--accent"), b = tok("--accent-2");
+  g.fillStyle = tok("--night"); g.fillRect(0,0,w,h);
+  const rand = rng(seed);
+  const n = Math.round(w*h/9000);
+  for(let i=0;i<n;i++){
+    const x = rand()*w, y = rand()*h, r = 10 + rand()*34, hot = rand() < .3;
+    g.beginPath(); g.arc(x,y,r,0,Math.PI*2);
+    g.fillStyle = hot ? a : "#2A2D40"; g.globalAlpha = hot ? .55 : .7; g.fill();
+    g.globalAlpha = hot ? .9 : .35; g.strokeStyle = hot ? b : "#3A3E55"; g.lineWidth = 1.2; g.stroke();
+    if(hot){ // receptors around the membrane
+      const k = 6 + Math.floor(rand()*6);
+      for(let j=0;j<k;j++){
+        const t = j/k*Math.PI*2 + rand()*.3, x1 = x+Math.cos(t)*(r+6), y1 = y+Math.sin(t)*(r+6);
+        g.beginPath(); g.moveTo(x+Math.cos(t)*r, y+Math.sin(t)*r); g.lineTo(x1,y1);
+        g.moveTo(x1,y1); g.lineTo(x+Math.cos(t-.12)*(r+10), y+Math.sin(t-.12)*(r+10));
+        g.moveTo(x1,y1); g.lineTo(x+Math.cos(t+.12)*(r+10), y+Math.sin(t+.12)*(r+10));
+        g.strokeStyle = b; g.globalAlpha = .85; g.lineWidth = 1.4; g.stroke();
+      }
+    }
+  }
+  g.globalAlpha = 1;
+}
+
+/* Plate scenes for chapters without a Krea image, drawn flat in the Krea hero's style:
+   ink outlines, navy, cream, one rose accent. Fixed colors so they match the hero in both themes.
+   Drawn in a 220 x 140 box, scaled to the plate's height and centered; grounds run wide to fill any aspect. */
+const P = {bg:"#1F2742", bg2:"#161C33", cream:"#F2E8D0", line:"#11152A", rose:"#C9737F", amber:"#A5652C", slate:"#5E6E86", slate2:"#3A4763", glass:"#C9D3DE"};
+const WIDE = [-600, 1420];
+function ink(g, path, fill, lw){ g.beginPath(); path(); if(fill){ g.fillStyle = fill; g.fill(); } g.lineWidth = lw || 1.6; g.strokeStyle = P.line; g.lineJoin = "round"; g.stroke(); }
+function rr(g,x,y,w,h,r){ if (g.roundRect) g.roundRect(x,y,w,h,r); else g.rect(x,y,w,h); }
+function band(g, y, h, col){ g.fillStyle = col; g.fillRect(WIDE[0], y, WIDE[1], h); }
+function room(g, deskY){ band(g,-200,500,P.bg); band(g,deskY-6,6,P.slate2); ink(g,()=>{g.moveTo(WIDE[0],deskY-6);g.lineTo(WIDE[1],deskY-6);}); band(g,deskY,300,P.bg2); }
+function thick(g, x1,y1,x2,y2, w, col){ g.lineCap="round"; g.strokeStyle=P.line; g.lineWidth=w+3; g.beginPath(); g.moveTo(x1,y1); g.lineTo(x2,y2); g.stroke(); g.strokeStyle=col; g.lineWidth=w; g.stroke(); }
+const SCENES = {
+  aggressive(g, rand){
+    band(g,-200,500,P.bg);
+    ink(g,()=>g.arc(110,70,52,0,Math.PI*2), P.cream, 2);
+    ink(g,()=>g.arc(110,70,46,0,Math.PI*2), "#E9DDBF");
+    for(let i=0;i<70;i++){ const a=rand()*Math.PI*2, d=Math.sqrt(rand())*40, x=110+Math.cos(a)*d, y=70+Math.sin(a)*d;
+      ink(g,()=>g.arc(x,y,2.6+rand()*1.6,0,Math.PI*2), P.glass, 1); }
+    for(let i=0;i<16;i++){ const a=rand()*Math.PI*2, d=Math.sqrt(rand())*13, x=128+Math.cos(a)*d, y=60+Math.sin(a)*d;
+      ink(g,()=>g.arc(x,y,3.6+rand()*1.6,0,Math.PI*2), P.rose, 1.2); }
+  },
+  abandoned(g){
+    room(g, 104);
+    g.fillStyle = "rgba(242,232,208,.18)"; g.beginPath(); g.moveTo(140,46); g.lineTo(100,98); g.lineTo(178,98); g.closePath(); g.fill();
+    ink(g,()=>{g.moveTo(84,96);g.lineTo(130,96);g.lineTo(124,90);g.lineTo(90,90);g.closePath();}, P.amber);
+    ink(g,()=>g.ellipse(168,96,14,3.5,0,0,Math.PI*2), P.slate2);
+    ink(g,()=>{g.moveTo(168,94);g.lineTo(176,62);g.lineTo(152,40);}, null, 3);
+    ink(g,()=>{g.moveTo(152,30);g.lineTo(134,44);g.lineTo(146,54);g.closePath();}, P.slate2);
+  },
+  patron(g){
+    room(g, 108);
+    ink(g,()=>rr(g,62,64,26,40,2), P.slate2);
+    ink(g,()=>rr(g,62,64,26,8,1), P.amber);
+    ink(g,()=>{g.moveTo(66,64);g.lineTo(66,42);g.lineTo(84,34);g.lineTo(84,64);g.closePath();}, P.rose);
+    ink(g,()=>{g.moveTo(132,40);g.lineTo(146,40);g.lineTo(146,62);g.lineTo(168,102);g.lineTo(110,102);g.lineTo(132,62);g.closePath();}, P.cream, 1.8);
+    ink(g,()=>{g.moveTo(121,82);g.lineTo(157,82);g.lineTo(168,102);g.lineTo(110,102);g.closePath();}, P.rose);
+  },
+  patients(g){
+    band(g,-200,500,P.bg);
+    g.fillStyle = "rgba(242,232,208,.12)";
+    [20,70].forEach(x=>{ g.beginPath(); g.moveTo(x,0); g.lineTo(x+40,0); g.lineTo(x+110,140); g.lineTo(x+70,140); g.closePath(); g.fill(); });
+    ink(g,()=>g.ellipse(110,70,46,26,0,0,Math.PI*2), P.amber, 2);
+    for(let i=0;i<8;i++){ const a=i/8*Math.PI*2, x=110+Math.cos(a)*68, y=70+Math.sin(a)*44;
+      g.save(); g.translate(x,y); g.rotate(a+Math.PI/2); ink(g,()=>rr(g,-9,-7,18,14,3), P.cream); ink(g,()=>rr(g,-9,5,18,5,2), P.slate); g.restore(); }
+  },
+  approval(g){
+    band(g,-200,500,P.bg);
+    ink(g,()=>rr(g,118,12,84,100,2), P.cream, 2);
+    ink(g,()=>{g.moveTo(160,12);g.lineTo(160,112);g.moveTo(118,62);g.lineTo(202,62);}, null, 3);
+    band(g,120,200,P.slate2); ink(g,()=>{g.moveTo(WIDE[0],120);g.lineTo(WIDE[1],120);});
+    ink(g,()=>{g.moveTo(78,10);g.lineTo(78,132);}, null, 2.4);
+    ink(g,()=>{g.moveTo(62,16);g.lineTo(94,16);}, null, 2.4);
+    ink(g,()=>rr(g,64,22,28,42,6), P.glass);
+    ink(g,()=>rr(g,64,44,28,20,[0,0,6,6]), "#E7D7DA");
+    ink(g,()=>rr(g,75,64,6,9,1), P.glass);
+    ink(g,()=>{g.moveTo(78,73);g.bezierCurveTo(78,100,100,96,104,132);}, null, 1.4);
+  },
+  early(g){
+    band(g,-200,240,"#B46A75"); band(g,40,30,P.rose);
+    ink(g,()=>g.arc(110,70,16,Math.PI,0), P.cream);
+    ink(g,()=>rr(g,WIDE[0],70,WIDE[1],300,0), P.slate2);
+    ink(g,()=>{g.moveTo(-60,108);g.lineTo(90,78);}, null, 1.2); ink(g,()=>{g.moveTo(280,110);g.lineTo(132,78);}, null, 1.2);
+    ink(g,()=>{g.moveTo(104,70);g.lineTo(116,70);g.lineTo(184,140);g.lineTo(36,140);g.closePath();}, P.cream, 1.8);
+    g.fillStyle = P.bg; [[108,78,4,4],[106,92,8,7],[103,112,14,12]].forEach(([x,y,w,h])=>g.fillRect(x,y,w,h));
+  },
+  biosimilar(g){
+    room(g, 100);
+    [72,124].forEach(x=>{
+      g.save(); g.globalAlpha = .22; g.translate(0,200); g.scale(1,-1);
+      ink(g,()=>rr(g,x,48,28,52,4), P.glass); g.restore();
+      ink(g,()=>rr(g,x,48,28,52,4), P.glass);
+      ink(g,()=>rr(g,x,74,28,26,[0,0,4,4]), P.rose);
+      ink(g,()=>rr(g,x+5,40,18,8,1), P.cream);
+      ink(g,()=>rr(g,x+2,30,24,11,2), P.amber);
+    });
+  },
+  hylecta(g){
+    room(g, 104);
+    ink(g,()=>{g.moveTo(30,98);g.lineTo(190,98);g.lineTo(184,112);g.lineTo(24,112);g.closePath();}, P.cream);
+    ink(g,()=>{g.moveTo(70,98);g.lineTo(64,112);g.moveTo(140,98);g.lineTo(134,112);}, null, 1);
+    ink(g,()=>{g.moveTo(42,88);g.lineTo(42,96);}, null, 2);
+    ink(g,()=>{g.moveTo(42,92);g.lineTo(58,92);}, null, 2);
+    ink(g,()=>rr(g,58,86,58,11,2), P.glass);
+    ink(g,()=>rr(g,82,87,34,9,1), P.rose);
+    ink(g,()=>{g.moveTo(116,91.5);g.lineTo(140,91.5);}, null, 1.2);
+    ink(g,()=>{g.moveTo(158,44);g.lineTo(170,70);g.lineTo(178,44);g.closePath();}, P.rose);
+    ink(g,()=>{g.moveTo(176,44);g.lineTo(170,70);g.lineTo(188,44);g.closePath();}, "#B46A75");
+    ink(g,()=>g.arc(170,78,15,0,Math.PI*2), P.amber, 1.8);
+    ink(g,()=>g.arc(170,78,9,0,Math.PI*2), "#C07D3C");
+  },
+  family(g){
+    band(g,-200,500,P.bg); band(g,124,200,P.bg2);
+    const Y = (x,y,ang,len,depth)=>{
+      const jx = x + Math.cos(ang)*len, jy = y + Math.sin(ang)*len;
+      thick(g,x,y,jx,jy, Math.max(2.5,depth*2.2), depth===1 ? P.rose : P.cream);
+      if (depth===1){ ink(g,()=>g.arc(jx,jy,3,0,Math.PI*2), P.rose, 1.2); return; }
+      Y(jx,jy,ang-0.55,len*0.72,depth-1); Y(jx,jy,ang+0.55,len*0.72,depth-1);
+    };
+    Y(110,126,-Math.PI/2,36,4);
+  }
+};
+
+/* Draw a canvas: its chapter scene if one exists, otherwise the cell field. */
+function art(canvas){
+  const scene = SCENES[canvas.dataset.scene];
+  if(!scene) return cells(canvas, +canvas.dataset.seed || 11);
+  const dpr = Math.min(window.devicePixelRatio||1, 2);
+  const w = canvas.clientWidth, h = canvas.clientHeight;
+  if(!w || !h) return;
+  canvas.width = w*dpr; canvas.height = h*dpr;
+  const g = canvas.getContext("2d"); g.scale(dpr,dpr);
+  const s = Math.min(h/140, w/220*1.15);
+  g.translate((w - 220*s)/2, (h - 140*s)/2); g.scale(s,s);
+  scene(g, rng(+canvas.dataset.seed || 11));
+}
+
+/* Krea images: assets/<drug>/<chapter-id>.jpg (and hero.jpg). Found ones are remembered for the film. */
+const images = {};
+function tryImage(canvas, key, alt){
+  const img = new Image();
+  img.onload = () => { images[key] = img.src; img.className = "art"; img.alt = alt || ""; canvas.replaceWith(img); };
+  img.src = `assets/${drugId}/${key}.jpg`;
+}
+
+let BIO = null;
+
+function render(bio){
+  BIO = bio;
+  document.title = `Biography of ${bio.name}`;
+  document.getElementById("name").textContent = bio.name;
+  document.getElementById("brands").textContent = (bio.brands || []).join(" · ");
+  const hero = bio.hero || {};
+  if(hero.label) document.getElementById("label").textContent = hero.label;
+  document.getElementById("tagline").textContent = hero.line || "";
+  if(hero.spec){ const s = document.getElementById("spec"); s.textContent = hero.spec; s.hidden = false; }
+  document.getElementById("play").hidden = false;
+
+  const chapters = bio.chapters || [];
+  const wrap = document.getElementById("chapters");
+  chapters.forEach((c, i) => {
+    const extra = (c.extra_sources || []).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a>`).join(" · ");
+    const el = document.createElement("article");
+    el.className = "ch"; el.id = chId(c, i);
+    el.innerHTML = `
+      <div class="meta"><span class="num">Ch. ${String(i+1).padStart(2,"0")}</span><span>${esc(c.date)}</span></div>
+      <h3>${esc(c.title)}</h3>
+      <figure class="plate">
+        <canvas class="art" data-scene="${esc(chId(c, i))}" data-seed="${i+3}" aria-hidden="true"></canvas>
+        ${c.stat ? `<figcaption class="stat-over"><b>${esc(c.stat[0])}</b><span>${esc(c.stat[1])}</span></figcaption>` : ""}
+      </figure>
+      <p class="lede">${esc(c.line || (c.body || [])[0])}</p>
+      <details>
+        <summary>Read the full chapter</summary>
+        ${(c.body || []).map(p => `<p>${esc(p)}</p>`).join("")}
+        ${c.krea_prompt ? `<p class="prompt"><strong>Krea prompt · </strong>${esc(c.krea_prompt)}</p>` : ""}
+      </details>
+      <div class="src"><span class="via">via Cala</span>Source: <a href="${esc(c.source?.url)}" target="_blank" rel="noopener">${esc(c.source?.label)}</a>${extra ? `<br>Also: ${extra}` : ""}</div>`;
+    wrap.appendChild(el);
+  });
+
+  // Lifeline: one dot per chapter, nudged apart when two share a year
+  const years = chapters.map(yearOf);
+  document.getElementById("lifeline-label").textContent = `Lifeline ${Math.min(...years)} to ${Math.max(...years)} · tap a year`;
+  const line = document.getElementById("line");
+  lifelineX(chapters).forEach((x, i) => {
+    const c = chapters[i];
+    const b = document.createElement("button");
+    b.style.left = x + "%";
+    b.setAttribute("aria-label", `${c.date}: ${c.title}`); b.title = `${c.date} · ${c.title}`;
+    b.addEventListener("click", () => document.getElementById(chId(c, i)).scrollIntoView({block:"start"}));
+    const t = document.createElement("span");
+    t.className = "yr" + (i%2 ? " up" : ""); t.style.left = x + "%";
+    t.textContent = c.date === "Today" ? "Today" : years[i];
+    line.append(b, t);
+  });
+
+  paint();
+  tryImage(document.getElementById("pattern"), "hero", "");
+  chapters.forEach((c, i) => {
+    const cv = document.querySelector(`#${CSS.escape(chId(c, i))} canvas`);
+    if(cv) tryImage(cv, chId(c, i), c.title);
+  });
+}
+
+function lifelineX(chapters){
+  const years = chapters.map(yearOf);
+  const y0 = Math.min(...years) - 2, y1 = Math.max(...years) + 2;
+  let last = -10;
+  return years.map(y => { let x = (y-y0)/(y1-y0)*100; if(x - last < 3) x = last + 3; return last = x; });
+}
+
+function paint(){
+  document.querySelectorAll("canvas.art").forEach(art);
+}
+
+/* ---------- Documentary ---------- */
+const film = document.getElementById("film");
+const scenesEl = document.getElementById("scenes"), cap = document.getElementById("cap"),
+      card = document.getElementById("card"), fsrc = document.getElementById("fsrc"), track = document.getElementById("track");
+let step = -1, timer = null, paused = false, voice = false, steps = [];
+const CHAPTER_MS = 7000, CARD_MS = 5000;
+
+function pickVoice(){
+  const vs = speechSynthesis.getVoices().filter(v => /^en/i.test(v.lang));
+  return vs.find(v => /Samantha|Daniel|Karen|Google UK English Female|Google US English/i.test(v.name)) || vs[0];
+}
+
+function say(text, onEnd){
+  if(!voice || !("speechSynthesis" in window)){ onEnd && onEnd(); return; }
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  const v = pickVoice(); if(v) u.voice = v;
+  u.rate = .95; u.pitch = 1;
+  u.onend = () => onEnd && onEnd();
+  speechSynthesis.speak(u);
+}
+
+/* Count every number in a stat up from zero, keeping its decimals and surrounding text. */
+function countUp(el, text){
+  const parts = String(text).split(/(\d[\d,]*\.?\d*)/);
+  if(parts.length === 1){ el.textContent = text; return; }
+  const t0 = performance.now(), dur = 1400;
+  (function frame(now){
+    const k = Math.min(1, (now - t0)/dur), e = 1 - Math.pow(1-k, 3);
+    el.textContent = parts.map((p, i) => {
+      if(i % 2 === 0) return p;
+      const n = parseFloat(p.replace(/,/g, "")), dec = (p.split(".")[1] || "").length;
+      return (n*e).toLocaleString("en-US", {minimumFractionDigits:dec, maximumFractionDigits:dec, useGrouping:p.includes(",")});
+    }).join("");
+    if(k < 1 && film.classList.contains("on")) requestAnimationFrame(frame);
+  })(t0);
+}
+
+function buildFilm(){
+  const chapters = BIO.chapters;
+  steps = [{type:"title"}, ...chapters.map((c, i) => ({type:"chapter", c, i})), {type:"end"}];
+  scenesEl.innerHTML = "";
+  chapters.forEach((c, i) => {
+    const s = document.createElement("div");
+    s.className = "scene" + (i % 2 ? " alt" : "");
+    s.style.setProperty("--dur", (CHAPTER_MS + 2000) + "ms");
+    const src = images[chId(c, i)];
+    s.innerHTML = src ? `<img class="art" src="${esc(src)}" alt="">` : `<canvas class="art" data-scene="${esc(chId(c, i))}" data-seed="${i+3}"></canvas>`;
+    scenesEl.appendChild(s);
+  });
+  const hs = document.createElement("div"); hs.className = "scene"; hs.dataset.hero = "1";
+  hs.innerHTML = images.hero ? `<img class="art" src="${esc(images.hero)}" alt="">` : `<canvas class="art" data-seed="11"></canvas>`;
+  scenesEl.appendChild(hs);
+  track.innerHTML = "";
+  lifelineX(chapters).forEach((x, i) => {
+    const pos = Math.max(0, Math.min(100, (x - 4) / 92 * 100));
+    track.insertAdjacentHTML("beforeend", `<i style="left:${pos}%"></i>${i === 0 || i === chapters.length-1 ? `<span class="yr" style="left:${pos}%">${chapters[i].date === "Today" ? "Today" : yearOf(chapters[i])}</span>` : ""}`);
+  });
+}
+
+function show(n){
+  clearTimeout(timer);
+  step = n;
+  const st = steps[n];
+  if(!st){ closeFilm(); return; }
+  const scenes = [...scenesEl.children];
+  scenes.forEach(s => s.classList.remove("show"));
+  cap.classList.remove("in"); card.classList.remove("show");
+  [...track.querySelectorAll("i")].forEach((d, i) => {
+    d.className = st.type === "chapter" ? (i < st.i ? "done" : i === st.i ? "now" : "") : st.type === "end" ? "done" : "";
+  });
+
+  if(st.type === "title" || st.type === "end"){
+    scenes[scenes.length-1].classList.add("show");
+    fsrc.innerHTML = "";
+    const h = BIO.hero || {};
+    card.innerHTML = st.type === "title"
+      ? `<div class="when">${esc(h.label || "Drug biography")}</div><h2>${esc(BIO.name)}</h2><p>${esc(h.line || "")}</p>`
+      : `<div class="when">${esc(BIO.name)}</div><h2>The story continues</h2><p>Every fact in this film came from Cala, with its source. Hero image by Krea.</p><p class="small">For learning only. Talk to an oncologist about treatment.</p>`;
+    requestAnimationFrame(() => card.classList.add("show"));
+    const text = st.type === "title" ? `${BIO.name}. ${h.line || ""}` : "Every fact in this film came with a source.";
+    const t0 = Date.now();
+    say(text, () => { const wait = Math.max(0, CARD_MS - (Date.now() - t0)); timer = setTimeout(() => !paused && show(step + 1), wait); });
+    return;
+  }
+
+  const c = st.c;
+  scenes[st.i].classList.add("show");
+  cap.innerHTML = `<div class="when">${esc(c.date)}</div><h2>${esc(c.title)}</h2><p class="say">${esc(c.line || "")}</p>${c.stat ? `<div class="fstat"><b></b><span>${esc(c.stat[1])}</span></div>` : ""}`;
+  fsrc.innerHTML = `<span class="via">via Cala</span>${esc(c.source?.label || "")}`;
+  requestAnimationFrame(() => {
+    cap.classList.add("in");
+    if(c.stat) setTimeout(() => countUp(cap.querySelector(".fstat b"), c.stat[0]), 1000);
+  });
+  const t0 = Date.now();
+  if(voice){
+    say(`${c.date === "Today" ? "Today" : c.date}. ${c.title}. ${c.line || ""}`, () => {
+      const wait = Math.max(1500, CHAPTER_MS - (Date.now() - t0));
+      timer = setTimeout(() => !paused && show(step + 1), wait);
+    });
+  } else {
+    timer = setTimeout(() => !paused && show(step + 1), CHAPTER_MS);
+  }
+}
+
+function openFilm(){
+  buildFilm();
+  film.classList.add("on");
+  document.body.style.overflow = "hidden";
+  scenesEl.querySelectorAll("canvas").forEach(art);
+  paused = false; document.getElementById("f-pause").textContent = "Pause";
+  try{ film.requestFullscreen && film.requestFullscreen().catch(()=>{}); }catch(e){}
+  show(0);
+}
+function closeFilm(){
+  clearTimeout(timer);
+  if("speechSynthesis" in window) speechSynthesis.cancel();
+  film.classList.remove("on");
+  document.body.style.overflow = "";
+  if(document.fullscreenElement) document.exitFullscreen().catch(()=>{});
+}
+function togglePause(){
+  paused = !paused;
+  document.getElementById("f-pause").textContent = paused ? "Resume" : "Pause";
+  if(paused){ clearTimeout(timer); if("speechSynthesis" in window) speechSynthesis.cancel(); }
+  else show(step);
+}
+
+document.getElementById("play").addEventListener("click", openFilm);
+document.getElementById("f-close").addEventListener("click", closeFilm);
+document.getElementById("f-pause").addEventListener("click", togglePause);
+document.addEventListener("keydown", e => {
+  if(!film.classList.contains("on")) return;
+  if(e.key === "Escape") closeFilm();
+  else if(e.key === " "){ e.preventDefault(); togglePause(); }
+  else if(e.key === "ArrowRight") show(Math.min(step + 1, steps.length - 1));
+  else if(e.key === "ArrowLeft") show(Math.max(step - 1, 0));
+});
+document.addEventListener("fullscreenchange", () => { if(!document.fullscreenElement && film.classList.contains("on")) closeFilm(); });
+if("speechSynthesis" in window) speechSynthesis.getVoices();
+
+fetch(`biographies/${drugId}.json`)
+  .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
+  .then(render)
+  .catch(() => {
+    document.getElementById("name").textContent = "Not found";
+    document.getElementById("chapters").innerHTML = `<div class="error">No biography for <code>${esc(drugId)}</code> yet. If you opened this file directly, serve the folder instead: <code>python3 -m http.server 8000</code>, then open <code>localhost:8000/biography.html?drug=${esc(drugId)}</code>.</div>`;
+    paint();
+  });
+
+let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(paint, 150); });
+try{ matchMedia("(prefers-color-scheme: dark)").addEventListener("change", paint); }catch(e){}
+new MutationObserver(paint).observe(document.documentElement, {attributes:true, attributeFilter:["data-theme"]});
+</script>
+</body>
+</html>
