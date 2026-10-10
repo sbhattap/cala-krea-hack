@@ -5,3 +5,6 @@
 CLAUDE.md
 *.pdf
 .DS_Store
+
+# design reference, kept local
+reference/
